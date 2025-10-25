@@ -34,6 +34,11 @@ export async function middleware(request: NextRequest) {
     })
   }
 
+  // Set default sales channel if not present
+  if (!request.cookies.has("sales_channel_id")) {
+    response.cookies.set("sales_channel_id", "sc_01HCFM5K3Z7J4V6V6S5V5Z5Z5Z"); // Default sales channel
+  }
+
   // 2. A/B Experiment Bucket Assignment (50/50)
   if (!request.cookies.has(EXP_BUCKET_COOKIE)) {
     const bucket = Math.random() < 0.5 ? 'A' : 'B'

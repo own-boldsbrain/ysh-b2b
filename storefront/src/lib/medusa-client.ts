@@ -100,7 +100,16 @@ export class MedusaClient {
 
     // Convenience methods for common operations
     async get<T = any>(endpoint: string, options: Omit<MedusaClientOptions, "method"> = {}): Promise<T> {
-        return this.fetch<T>(endpoint, { ...options, method: "GET" })
+        const defaultNextOptions = {
+            revalidate: 3600, // Default to cache for 1 hour
+        };
+
+        const mergedOptions = {
+            ...options,
+            next: { ...defaultNextOptions, ...options.next },
+        };
+
+        return this.fetch<T>(endpoint, { ...mergedOptions, method: "GET" });
     }
 
     async post<T = any>(endpoint: string, options: Omit<MedusaClientOptions, "method"> = {}): Promise<T> {
