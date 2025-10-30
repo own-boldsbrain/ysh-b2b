@@ -62,11 +62,9 @@
 | 9 | PERFIL SUPORTE SMART 2,40M... | SMA | structures | 70.8 | 73.5 | 67.0 | R$ 6.13 |
 | 10 | GRAMPO TERMINAL SMART... | SMA | structures | 70.8 | 73.5 | 67.0 | R$ 6.13 |
 
-
 ---
 
 ## 📈 Análise por Categoria
-
 
 ### Batteries
 

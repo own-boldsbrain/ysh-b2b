@@ -32,7 +32,8 @@ Successfully implemented complete integration with EPE consumption data, adding 
 - **Consumption Classes**: Residential, Industrial, Commercial, Rural, Public Service, Public Lighting
 - **Contracting Environments**: Captive vs. Free Market (ACL)
 - **Industrial Subsectors**: 9+ energy-intensive sectors
-- **Key Metrics**: 
+
+- **Key Metrics**:
   - Consumption (GWh, MWh, kWh)
   - Number of consumers
   - Average consumption per consumer
@@ -40,6 +41,7 @@ Successfully implemented complete integration with EPE consumption data, adding 
   - Market share (%)
 
 **Data Quality Indicators**:
+
 - Completeness percentage
 - Missing data tracking
 - Estimated data flagging

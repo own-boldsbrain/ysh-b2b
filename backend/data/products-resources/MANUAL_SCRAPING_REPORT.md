@@ -8,11 +8,13 @@
 ## 📊 Resumo Executivo
 
 ### Arquivos Processados
+
 - **Total de HTMLs:** 14 arquivos
 - **Fabricantes cobertos:** 6 (Sungrow, Deye, Growatt, Huawei, APsystems, Unknown)
 - **Período de coleta:** 21/10/2025 02:52 - 03:16
 
 ### Recursos Extraídos dos HTMLs
+
 | Fabricante | PDFs Únicos | Imagens | Arquivos HTML |
 |------------|------------|---------|---------------|
 | **Deye** | 27 | 0 | 3 |
@@ -24,6 +26,7 @@
 | **TOTAL** | **54** | **0** | **14** |
 
 ### Mapeamento aos Produtos do Inventário
+
 | Fabricante | Produtos no Inventário | Produtos Enriquecidos | Taxa de Cobertura | Recursos Mapeados |
 |------------|------------------------|----------------------|-------------------|-------------------|
 | **Huawei** | 12 | 4 | 33.3% | 4 PDFs |
@@ -40,12 +43,15 @@
 ### ✅ Sucessos
 
 #### 1. Extração de PDFs - Deye (27 únicos)
+
 **Arquivos fonte:**
+
 - `Manual do produto- NingBo Deye Inverter Technology Co.,Ltd (21_10_2025 03：00：43).html`
 - `Deye Melhor produto inversor (21_10_2025 02：52：58).html`
 - `Sistemas de armazenamento de energia residencial- NingBo Deye Inverter Technology Co.,Ltd (21_10_2025 02：54：10).html`
 
 **Tipos de PDFs capturados:**
+
 - Manuais de produtos (10 únicos): `manual_sun-*.pdf`
   - Exemplos: SUN-29.9-50K, SUN-60-80K, SUN-3.6-6K, SUN-7.5K, SUN-5-12K, SUN-10K
 - Manuais de software (5): DeyeCloud App, WiFi Configuration, User Manual
@@ -61,11 +67,13 @@
 - `Lista de Produtos Comerciais e Industriais ｜ HUAWEI Smart PV Brasil (21_10_2025 03：01：30).html`
 
 **Estrutura das URLs:**
+
 ```
 https://solar.huawei.com/admin/asset/v1/pro/view/{UUID}.pdf
 ```
 
 **Mapeamento realizado:**
+
 | Produto | Modelo | Recursos Adicionados |
 |---------|--------|---------------------|
 | HW-002 | SUN2000-50KTL-BRM3 | 1 PDF (datasheet) |
@@ -74,6 +82,7 @@ https://solar.huawei.com/admin/asset/v1/pro/view/{UUID}.pdf
 | HW-012 | SUN2000-100KTL-M2 | 1 PDF (datasheet) |
 
 **Exemplo de enriquecimento:**
+
 ```json
 {
   "id": "HW-002",
@@ -90,11 +99,14 @@ https://solar.huawei.com/admin/asset/v1/pro/view/{UUID}.pdf
 ---
 
 #### 3. Extração de PDFs - Growatt (7 únicos)
+
 **Arquivos fonte:**
+
 - `Download ｜ Baixar recursos úteis ｜ Growatt (21_10_2025 02：57：43).html`
 - `Produtos ｜ Os diferentes produtos Growatt (21_10_2025 02：56：15).html`
 
 **URLs capturadas:**
+
 - Página principal de downloads: `https://br.growatt.com/support/download`
 - Categorias de recursos:
   - Certificados: `/download/certificate`

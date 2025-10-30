@@ -9,11 +9,13 @@
 ## 📈 RESUMO EXECUTIVO
 
 ### Estatísticas Gerais
+
 - **Total de Fabricantes:** 32 únicos
 - **Total de Modelos/SKUs:** 142
 - **Categorias:** 4 (Painéis, Inversores, Baterias, Controladores)
 
 ### Distribuição por Categoria
+
 | Categoria | Fabricantes | Modelos | % do Total |
 |-----------|-------------|---------|------------|
 | **Painéis Solares** | 14 | 62 | 43.7% |
@@ -26,6 +28,7 @@
 ## 🌞 PAINÉIS SOLARES (62 Modelos)
 
 ### 1. SOLAR N PLUS
+
 **Modelos:** 1  
 **Série Principal:** PLUS N-Type
 
@@ -34,12 +37,14 @@
 | PLUS | 570W | N-Type | 22.1% | ✅ Sim |
 
 **Queries de Busca:**
+
 - Datasheet: `SOLAR N PLUS PLUS solar panel datasheet`
 - Certificação: `SOLAR N PLUS PLUS INMETRO certification`
 
 ---
 
 ### 2. TRINA
+
 **Modelos:** 1  
 **Série Principal:** TRINA N-Type
 
@@ -48,6 +53,7 @@
 | TRINA | 710W | N-Type | - | ✅ Sim |
 
 **Queries de Busca:**
+
 - Datasheet: `TRINA TRINA solar panel datasheet`
 - Certificação: `TRINA TRINA INMETRO certification`
 

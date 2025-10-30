@@ -376,7 +376,7 @@ Este agente é especializado em **estruturas de fixação e montagem** para pain
 
 ## Hierarquia de Categorias
 
-```
+```tsx
 cat_structures (Estruturas de Fixação)
 │
 ├── Por Tipo de Telhado

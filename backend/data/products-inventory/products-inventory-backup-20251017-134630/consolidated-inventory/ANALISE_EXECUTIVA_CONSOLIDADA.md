@@ -31,7 +31,7 @@
 
 ### 1. Domínio de Kits Solares (96.1% do inventário)
 
-**🎁 15.882 Kits Disponíveis**
+#### **🎁 15.882 Kits Disponíveis**
 
 | Distribuidor | Kits | Valor Total | Participação |
 |--------------|------|-------------|--------------|
@@ -39,7 +39,7 @@
 | **FortLev** | 1.321 | R$ 3.536.517 | 8.3% |
 | **FOTUS** | 1.008 | R$ 4.673.248 | 6.3% |
 
-**Análise:**
+#### **Análise:**
 
 - ✅ NeoSolar domina com **13.553 kits** - maior distribuidor B2B
 - ✅ FOTUS oferece kits premium com preço médio de **R$ 4.636**
@@ -47,7 +47,7 @@
 
 ### 2. Componentes Individuais (3.9% do inventário)
 
-**650 Componentes Disponíveis**
+#### **650 Componentes Disponíveis**
 
 ```tsx
 Inversores:   59 produtos (R$ 337.521 - média R$ 5.721)
@@ -59,7 +59,7 @@ Cabos:        20 produtos (R$ 2.893 - média R$ 145)
 Baterias:     6 produtos (R$ 33.902 - média R$ 5.650)
 ```
 
-**Insights Críticos:**
+#### **Insights Críticos:**
 
 - 🔴 **Acessórios tem preço médio ALTÍSSIMO** (R$ 10.435) - possível erro de classificação ou produtos premium
 - ✅ Inversores bem precificados (R$ 5.721) alinhado com mercado

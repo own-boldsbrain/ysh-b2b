@@ -142,7 +142,7 @@ Successfully implemented a complete **real-time data processing pipeline** for B
 
 ## 📈 System Architecture
 
-```
+```tsx
 ┌─────────────────────────────────────────────────────────────┐
 │                      DATA SOURCES                            │
 ├──────────────────┬──────────────────┬──────────────────────┤

@@ -18,7 +18,7 @@
 
 ### Distribuição por Tier
 
-```
+```tsx
 Tier 1 (Top Global):      3.050 SKUs (67.8%)
 Tier 2 (Alta Qualidade):  1.177 SKUs (26.2%)
 Tier 3 (Entry-Level):       273 SKUs (6.0%)
@@ -31,30 +31,35 @@ Tier 3 (Entry-Level):       273 SKUs (6.0%)
 ### Tier 1 - Líderes Globais
 
 #### [Canadian Solar](./PAINEIS_SOLARES_CONSOLIDADO_360.md#1-canadian-solar-) 🇨🇳🇨🇦
+
 - **SKUs:** 800+ | **Participação:** 17.8%
 - **Tecnologias:** PERC, N-Type TOPCon, Bifacial
 - **Séries:** HiKu7, HiHero, BiHiKu, CS3
 - **Preço:** R$ 0.85-1.10/Wp
 
 #### [JA Solar](./PAINEIS_SOLARES_CONSOLIDADO_360.md#2-ja-solar-) 🇨🇳
+
 - **SKUs:** 650+ | **Participação:** 14.4%
 - **Tecnologias:** PERC Bifacial, Deep Blue
 - **Séries:** JAM72S30, JAM78D40, DeepBlue 3.0
 - **Preço:** R$ 0.82-1.05/Wp
 
 #### [Jinko Solar](./PAINEIS_SOLARES_CONSOLIDADO_360.md#3-jinko-solar-) 🇨🇳 ⭐ #1 Global
+
 - **SKUs:** 720+ | **Participação:** 16.0%
 - **Tecnologias:** N-Type TOPCon, PERC
 - **Séries:** Tiger Neo, Tiger Pro, Cheetah Plus
 - **Preço:** R$ 0.83-1.08/Wp
 
 #### [Trina Solar](./PAINEIS_SOLARES_CONSOLIDADO_360.md#4-trina-solar-) 🇨🇳
+
 - **SKUs:** 580+ | **Participação:** 12.9%
 - **Tecnologias:** N-Type TOPCon, PERC, Bifacial
 - **Séries:** Vertex S+, Vertex, Tallmax, Duomax
 - **Preço:** R$ 0.88-1.12/Wp
 
 #### [LONGi Solar](./PAINEIS_SOLARES_CONSOLIDADO_360.md#5-longi-solar-) 🇨🇳
+
 - **SKUs:** 450+ | **Participação:** 10.0%
 - **Tecnologias:** N-Type TOPCon, Bifacial PERC
 - **Séries:** Hi-MO 6, Hi-MO 5, LR7-72HTH
@@ -83,30 +88,35 @@ Tier 3 (Entry-Level):       273 SKUs (6.0%)
 ## 🔬 TECNOLOGIAS
 
 ### [1. Monocristalino PERC](./PAINEIS_SOLARES_CONSOLIDADO_360.md#1-monocristalino-perc-passivated-emitter-rear-cell)
+
 - **Participação:** 62.2%
 - **Eficiência:** 20.5-21.8%
 - **Preço:** R$ 0.75-0.95/Wp
 - **Status:** ✅ Tecnologia madura e consolidada
 
 ### [2. N-Type TOPCon](./PAINEIS_SOLARES_CONSOLIDADO_360.md#2-n-type-topcon-tunnel-oxide-passivated-contact)
+
 - **Participação:** 18.9% (crescimento rápido)
 - **Eficiência:** 21.8-23.2%
 - **Preço:** R$ 0.90-1.15/Wp
 - **Status:** 🚀 Tecnologia emergente premium
 
 ### [3. Bifacial](./PAINEIS_SOLARES_CONSOLIDADO_360.md#3-bifacial-dupla-face)
+
 - **Participação:** 13.8%
 - **Eficiência:** 21.0-22.8%
 - **Ganho:** +10-30% (dependendo albedo)
 - **Preço:** R$ 0.85-1.10/Wp
 
 ### [4. HJT (Heterojunction)](./PAINEIS_SOLARES_CONSOLIDADO_360.md#4-hjt-heterojunction-technology)
+
 - **Participação:** 4.0%
 - **Eficiência:** 22.0-23.5%
 - **Preço:** R$ 1.15-1.45/Wp
 - **Status:** 💎 Premium nicho
 
 ### [5. Policristalino](./PAINEIS_SOLARES_CONSOLIDADO_360.md#5-policristalino-legacy)
+
 - **Participação:** 1.1%
 - **Eficiência:** 16.5-18.5%
 - **Preço:** R$ 0.48-0.65/Wp
@@ -127,7 +137,7 @@ Tier 3 (Entry-Level):       273 SKUs (6.0%)
 
 ### [ROI por Tecnologia](./PAINEIS_SOLARES_CONSOLIDADO_360.md#roi-return-on-investment)
 
-```
+```tsx
 Melhor ROI 25 anos:
 1. Bifacial (solo)........365% ⭐
 2. PERC Standard..........340%
@@ -201,20 +211,24 @@ HJT Premium:      R$ 1.15 - 1.45
 ### Tendências 2025-2026
 
 #### 1️⃣ Transição N-Type TOPCon
+
 - **Atual:** 18.9% → **2026:** 35-40%
 - **Ação:** ✅ Aumentar estoque em 60%
 
 #### 2️⃣ Descontinuação Policristalino
+
 - **Status:** 1.1% (descontinuado)
 - **Ação:** 🔴 Zerar estoque
 
 #### 3️⃣ Crescimento Bifacial
+
 - **Crescimento:** +28% a/a
 - **Ação:** ✅ Expandir linha em 40%
 
 ### Gaps de Inventário
 
 **Faltando:**
+
 - ❌ REC Solar (HJT) - 30 SKUs
 - ❌ SunPower (IBC) - 20 SKUs
 - ❌ All-Black premium - 100 SKUs

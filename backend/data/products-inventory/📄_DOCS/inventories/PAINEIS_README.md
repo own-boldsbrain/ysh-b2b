@@ -11,6 +11,7 @@
 **[`PAINEIS_SOLARES_CONSOLIDADO_360.md`](./PAINEIS_SOLARES_CONSOLIDADO_360.md)**
 
 Documento técnico completo com análise detalhada de:
+
 - ✅ 14 fabricantes principais (Tier 1, 2 e 3)
 - ✅ 5 tecnologias (PERC, N-Type, Bifacial, HJT, Poly)
 - ✅ 4.500+ SKUs catalogados
