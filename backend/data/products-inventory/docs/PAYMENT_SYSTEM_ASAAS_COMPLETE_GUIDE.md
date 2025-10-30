@@ -62,7 +62,7 @@ Sistema completo de **payment gateway integrado com Asaas** para plataforma B2B 
 
 ## 🏗️ ARCHITECTURE
 
-```
+```tsx
 ┌─────────────────────────────────────────────────────────────────┐
 │                         MEDUSA.JS CORE                          │
 │                 (Products, Orders, Payments)                    │
@@ -342,7 +342,7 @@ Extensão para armazenar custos detalhados do JSON.
 
 **Total Calculation:**
 
-```
+```tsx
 total_with_fees_brl = subtotal_brl + gateway_fee + notification_fee + advance_fee
 ```
 

@@ -1,0 +1,473 @@
+{
+  "distributor": "edeltec",
+  "extractedAt": "2025-10-21T14:01:36.120Z",
+  "totalLinksFound": 15,
+  "totalProductsExtracted": 15,
+  "products": [
+    {
+      "id": "348173NCM",
+      "sku": "348173NCM",
+      "title": "Gerador edeltec solar micro deye 1,76 kwp mon. 220v s/estrutura (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=d6144824-e877-457e-a21f-4467f1f72fb8-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=d6144824-e877-457e-a21f-4467f1f72fb8-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "25256": "2",
+        "222130": "1",
+        "250582": "3",
+        "286844": "1",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/348173/gerador-edeltec-solar-micro-deye-1-76-kwp-mon-220-v-s-estrutura-2-25-k-585-w-bifacial-348173",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:00:25.833Z"
+    },
+    {
+      "id": "350888NCM",
+      "sku": "350888NCM",
+      "title": "Gerador edeltec solar micro deye 1,76 kwp mon. 220v metalico (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=d6d9d8e8-c35e-493c-bd03-185ca21c119e-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=d6d9d8e8-c35e-493c-bd03-185ca21c119e-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1294": "1",
+        "25159": "10",
+        "25256": "2",
+        "222130": "1",
+        "250582": "3",
+        "286844": "1",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/350888/gerador-edeltec-solar-micro-deye-1-76-kwp-mon-220-v-metalico-2-25-k-585-w-bifacial-350888",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:00:33.319Z"
+    },
+    {
+      "id": "348207NCM",
+      "sku": "348207NCM",
+      "title": "Gerador edeltec solar micro saj 1,76 kwp mon. 220v s/estrutura (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=dcdd7bf2-7101-4a39-9350-3bef5de821b0-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=dcdd7bf2-7101-4a39-9350-3bef5de821b0-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "25256": "2",
+        "248791": "1",
+        "250582": "3",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "[Ano] 15 Padrão aplicável EN62109-1/2, EN61000-6-1/2/3/4, EN50438, EN50549, C10/11, IEC62116, IEC61727, RD1699,CEI 0-16, CEI O-021, AS4777.2, NBR16149, NBR 16150, VDE-AR-N 4015, VDE 0126-1-1,RoSH",
+      "url": "https://edeltecsolar.com.br/produtos/348207/gerador-edeltec-solar-micro-saj-1-76-kwp-mon-220-v-s-estrutura-2-25-k-585-w-bifacial-348207",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:00:37.983Z"
+    },
+    {
+      "id": "345458NCM",
+      "sku": "345458NCM",
+      "title": "Gerador edeltec solar micro deye 1,76 kwp mon. 220v fibrometal (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=9efbf1cd-04d5-44e7-927b-121f71d72bad-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=9efbf1cd-04d5-44e7-927b-121f71d72bad-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1292": "1",
+        "25256": "2",
+        "222130": "1",
+        "250582": "3",
+        "286844": "1",
+        "286853": "4",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/345458/gerador-edeltec-solar-micro-deye-1-76-kwp-mon-220-v-fibrometal-2-25-k-585-w-bifacial-345458",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:00:42.631Z"
+    },
+    {
+      "id": "346363NCM",
+      "sku": "346363NCM",
+      "title": "Gerador edeltec solar micro deye 1,76 kwp mon. 220v fibromadeira (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=09026008-8f83-4f12-85d1-59e792ece75f-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=09026008-8f83-4f12-85d1-59e792ece75f-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1291": "1",
+        "25256": "2",
+        "222130": "1",
+        "250582": "3",
+        "286844": "1",
+        "286853": "4",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/346363/gerador-edeltec-solar-micro-deye-1-76-kwp-mon-220-v-fibromadeira-2-25-k-585-w-bifacial-346363",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:00:47.306Z"
+    },
+    {
+      "id": "347268NCM",
+      "sku": "347268NCM",
+      "title": "Gerador edeltec solar micro deye 1,76 kwp mon. 220v colonial (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=6c7ca723-d26f-4426-8fda-9c7f2874e6f4-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=6c7ca723-d26f-4426-8fda-9c7f2874e6f4-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1289": "1",
+        "25256": "2",
+        "222130": "1",
+        "250582": "3",
+        "286844": "1",
+        "286853": "4",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/347268/gerador-edeltec-solar-micro-deye-1-76-kwp-mon-220-v-colonial-2-25-k-585-w-bifacial-347268",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:00:52.091Z"
+    },
+    {
+      "id": "441431NCM",
+      "sku": "441431NCM",
+      "title": "Gerador edeltec solar micro deye 2,10 kwp mon. 220v s/estrutura (2,25k/700w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=d9ceac4b-ab77-4de7-9623-297273a26ebf-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=d9ceac4b-ab77-4de7-9623-297273a26ebf-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "25256": "2",
+        "222130": "1",
+        "286844": "1",
+        "398073": "3",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/441431/gerador-edeltec-solar-micro-deye-2-10-kwp-mon-220-v-s-estrutura-2-25-k-700-w-bifacial-441431",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:00:56.686Z"
+    },
+    {
+      "id": "348174NCM",
+      "sku": "348174NCM",
+      "title": "Gerador edeltec solar micro deye 2,34 kwp mon. 220v s/estrutura (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=4bb5c144-2bfb-4433-9ade-b6f2a3491016-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=4bb5c144-2bfb-4433-9ade-b6f2a3491016-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "25256": "2",
+        "222130": "1",
+        "250582": "4",
+        "286844": "1",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/348174/gerador-edeltec-solar-micro-deye-2-34-kwp-mon-220-v-s-estrutura-2-25-k-585-w-bifacial-348174",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:01:01.312Z"
+    },
+    {
+      "id": "350922NCM",
+      "sku": "350922NCM",
+      "title": "Gerador edeltec solar micro saj 1,76 kwp mon. 220v metalico (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=bc943e96-7aac-4833-9da6-4a0d3e71a9c6-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=bc943e96-7aac-4833-9da6-4a0d3e71a9c6-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1294": "1",
+        "25159": "10",
+        "25256": "2",
+        "248791": "1",
+        "250582": "3",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "[Ano] 15 Padrão aplicável EN62109-1/2, EN61000-6-1/2/3/4, EN50438, EN50549, C10/11, IEC62116, IEC61727, RD1699,CEI 0-16, CEI O-021, AS4777.2, NBR16149, NBR 16150, VDE-AR-N 4015, VDE 0126-1-1,RoSH",
+      "url": "https://edeltecsolar.com.br/produtos/350922/gerador-edeltec-solar-micro-saj-1-76-kwp-mon-220-v-metalico-2-25-k-585-w-bifacial-350922",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:01:06.045Z"
+    },
+    {
+      "id": "345492NCM",
+      "sku": "345492NCM",
+      "title": "Gerador edeltec solar micro saj 1,76 kwp mon. 220v fibrometal (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=0275fe99-bb9d-4760-97fa-2d1f37f86b73-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=0275fe99-bb9d-4760-97fa-2d1f37f86b73-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1292": "1",
+        "25256": "2",
+        "248791": "1",
+        "250582": "3",
+        "286853": "4",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "[Ano] 15 Padrão aplicável EN62109-1/2, EN61000-6-1/2/3/4, EN50438, EN50549, C10/11, IEC62116, IEC61727, RD1699,CEI 0-16, CEI O-021, AS4777.2, NBR16149, NBR 16150, VDE-AR-N 4015, VDE 0126-1-1,RoSH",
+      "url": "https://edeltecsolar.com.br/produtos/345492/gerador-edeltec-solar-micro-saj-1-76-kwp-mon-220-v-fibrometal-2-25-k-585-w-bifacial-345492",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:01:10.939Z"
+    },
+    {
+      "id": "432713NCM",
+      "sku": "432713NCM",
+      "title": "Gerador edeltec solar micro deye 2,10 kwp mon. 220v s/estrutura (2,25k/700w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=855e69c2-c4e5-4c8c-9da9-af77b55b8297-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=855e69c2-c4e5-4c8c-9da9-af77b55b8297-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "25256": "2",
+        "222130": "1",
+        "286844": "1",
+        "398560": "3",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/432713/gerador-edeltec-solar-micro-deye-2-10-kwp-mon-220-v-s-estrutura-2-25-k-700-w-bifacial-432713",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:01:16.438Z"
+    },
+    {
+      "id": "346397NCM",
+      "sku": "346397NCM",
+      "title": "Gerador edeltec solar micro saj 1,76 kwp mon. 220v fibromadeira (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=3599e32e-01fe-43b7-9ba2-8fa60cf402de-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=3599e32e-01fe-43b7-9ba2-8fa60cf402de-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1291": "1",
+        "25256": "2",
+        "248791": "1",
+        "250582": "3",
+        "286853": "4",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "[Ano] 15 Padrão aplicável EN62109-1/2, EN61000-6-1/2/3/4, EN50438, EN50549, C10/11, IEC62116, IEC61727, RD1699,CEI 0-16, CEI O-021, AS4777.2, NBR16149, NBR 16150, VDE-AR-N 4015, VDE 0126-1-1,RoSH",
+      "url": "https://edeltecsolar.com.br/produtos/346397/gerador-edeltec-solar-micro-saj-1-76-kwp-mon-220-v-fibromadeira-2-25-k-585-w-bifacial-346397",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:01:21.058Z"
+    },
+    {
+      "id": "347302NCM",
+      "sku": "347302NCM",
+      "title": "Gerador edeltec solar micro saj 1,76 kwp mon. 220v colonial (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=8425bd3c-e08a-4ce8-8341-599a85ab9a2d-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=8425bd3c-e08a-4ce8-8341-599a85ab9a2d-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1289": "1",
+        "25256": "2",
+        "248791": "1",
+        "250582": "3",
+        "286853": "4",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "[Ano] 15 Padrão aplicável EN62109-1/2, EN61000-6-1/2/3/4, EN50438, EN50549, C10/11, IEC62116, IEC61727, RD1699,CEI 0-16, CEI O-021, AS4777.2, NBR16149, NBR 16150, VDE-AR-N 4015, VDE 0126-1-1,RoSH",
+      "url": "https://edeltecsolar.com.br/produtos/347302/gerador-edeltec-solar-micro-saj-1-76-kwp-mon-220-v-colonial-2-25-k-585-w-bifacial-347302",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:01:25.697Z"
+    },
+    {
+      "id": "443732NCM",
+      "sku": "443732NCM",
+      "title": "Gerador edeltec solar micro deye 2,10 kwp mon. 220v metalico (2,25k/700w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=adced992-538e-46f7-ad91-002cd914763d-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=adced992-538e-46f7-ad91-002cd914763d-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1294": "1",
+        "25159": "10",
+        "25256": "2",
+        "222130": "1",
+        "286844": "1",
+        "398073": "3",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/443732/gerador-edeltec-solar-micro-deye-2-10-kwp-mon-220-v-metalico-2-25-k-700-w-bifacial-443732",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:01:30.454Z"
+    },
+    {
+      "id": "350889NCM",
+      "sku": "350889NCM",
+      "title": "Gerador edeltec solar micro deye 2,34 kwp mon. 220v metalico (2,25k/585w bifacial)",
+      "description": "",
+      "price": 0,
+      "currency": "BRL",
+      "stock": {
+        "available": false,
+        "status": "indisponível"
+      },
+      "images": [
+        "https://api.edeltecsolar.com.br/imagens?key=d1ea9df6-ecc4-466e-9ffe-1277697c3bbb-medium&bucket=produtos",
+        "https://api.edeltecsolar.com.br/imagens?key=d1ea9df6-ecc4-466e-9ffe-1277697c3bbb-thumbnail&bucket=produtos"
+      ],
+      "specifications": {
+        "1294": "1",
+        "25159": "10",
+        "25256": "2",
+        "222130": "1",
+        "250582": "4",
+        "286844": "1",
+        "Sku": "Quantidade"
+      },
+      "category": "bomba",
+      "brand": "gigante da categoria",
+      "model": "ideal para diferentes projetos de gera",
+      "warranty": "15 anos Registro Inmetro: 001070/2024 Data Concessão 31/01/2024** ATENÇÃO! **SE ADQUIRIDO DE FORMA AVULSA, A EDELTEC INDICA A COMPRA DO CONECTOR DEYE MICROINVERSOR MACHO - AC TRUNK NEW (SKU: 286844) PARA LIGAÇÃO DA ALIMENTAÇÃO CA COM O CABO TRONCO DO MICRO INVERSOR. ITEM VENDIDO SEPARADAMENTE. **",
+      "url": "https://edeltecsolar.com.br/produtos/350889/gerador-edeltec-solar-micro-deye-2-34-kwp-mon-220-v-metalico-2-25-k-585-w-bifacial-350889",
+      "distributor": "edeltec",
+      "extractedAt": "2025-10-21T14:01:35.106Z"
+    }
+  ]
+}

@@ -1,0 +1,1504 @@
+{
+  "summary": {
+    "totalProducts": 103,
+    "byCategory": {
+      "outros": 71,
+      "bateria": 4,
+      "painel": 1,
+      "cabo": 12,
+      "estrutura": 1,
+      "bomba": 6,
+      "carregador": 1,
+      "inversor": 7
+    },
+    "byDistributor": {
+      "edeltec": 504,
+      "undefined": 80,
+      "neosolar": 26,
+      "odex": 7,
+      "fortlev": 15
+    },
+    "byBrand": {
+      "Heliar": 1,
+      "Fulguris": 1,
+      "Moura": 1,
+      "Anauger": 3,
+      "Epever": 1,
+      "Deye": 3
+    },
+    "priceStatistics": {
+      "averageLowest": 5.73,
+      "averageHighest": 7145.56,
+      "averageAverage": 2850.258
+    }
+  },
+  "products": [
+    {
+      "title": "Geradores",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Inversores e bateria solar",
+      "category": "bateria",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Módulos",
+      "category": "painel",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Transformadores",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "String Box",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Cabos e Conectores",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Estruturas",
+      "category": "estrutura",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-7",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-8",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 1",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 2",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-11",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-12",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-13",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444243",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444242",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444241",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444240",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444239",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444238",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444237",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444236",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444235",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444234",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 362580",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 361412",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 361409",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 361406",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 361404",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 361402",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 361397",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 360848",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 360702",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 360701",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 398560",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 398073",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 250582",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 444627",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 183246",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 183240",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 337558",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 183250",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 183249",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 183248",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 183243",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 25492",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 25491",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-80",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Saiba mais",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-82",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-84",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product 3",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-88",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-90",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-92",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-94",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-98",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-100",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-102",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-104",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Product edeltec-108",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Bateria Solar Estacionária Heliar Freedom DF700 (50Ah / 45Ah) / 1500 Ciclos",
+      "brand": "Heliar",
+      "category": "bateria",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        "neosolar",
+        "neosolar",
+        "neosolar",
+        null,
+        null,
+        null,
+        "neosolar",
+        "neosolar",
+        "neosolar",
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Bateria Estacionária Fulguris FGCL150 (150Ah)",
+      "brand": "Fulguris",
+      "category": "bateria",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Bateria Solar Estacionária Moura 12MS234 (220Ah) / 1800 Ciclos",
+      "brand": "Moura",
+      "category": "bateria",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Bóia de Nível Anauger SensorControl 15A - 3,5m",
+      "brand": "Anauger",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Bomba Solar Anauger P100 - até 40m ou 8.600 L/dia",
+      "brand": "Anauger",
+      "category": "bomba",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Bomba Solar Anauger R100 - até 40m ou 8.600 L/dia",
+      "brand": "Anauger",
+      "category": "bomba",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Bomba Solar Superfície 12V Shurflo 2088 - até 35m ou 4.750 L/dia",
+      "category": "bomba",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Bomba Solar Superfície 12V Shurflo 8000 - até 42m ou 2.940 L/dia",
+      "category": "bomba",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Bomba Solar Submersa 24V Shurflo 9325- até 70m",
+      "category": "bomba",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo Adaptador para Carro Elétrico NeoCharge NCXGB até 7,4 kW T2-GB/T 32A",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo Adaptador de Carro Elétrico NeoCharge NCX1 até 7,4kW - T2-T1 32A",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo Epever OTG para comunicação celular Android",
+      "brand": "Epever",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo Lafeber 6mm² - Preto 1,8 kV (metro)",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo Lafeber 6mm² - Vermelho 1,8 kV (metro)",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo para Carro Elétrico NeoCharge NCGB até 7,4kW - T2-GB/T 32A",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo para Carro Elétrico NeoCharge NCT1 até 7,4 kW T2/T1 32A",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo para Carro Elétrico NeoCharge NCT2-3F até 22kW - T2-T2 32A 3F",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo para Carro Elétrico EVlink até 7,4 kW - T2-T1 32A",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Cabo para Carro Elétrico EVlink até 7,4 kW - T2-T2 32A",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Carregador Solar Portátil 5W Monocristalina - NeoSolar",
+      "category": "carregador",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        null,
+        null,
+        null,
+        null,
+        "neosolar"
+      ]
+    },
+    {
+      "title": "Produtos",
+      "category": "outros",
+      "lowestPrice": 5.73,
+      "highestPrice": 7145.56,
+      "availableIn": [
+        "odex",
+        "odex",
+        "odex",
+        "fortlev",
+        "fortlev",
+        "fortlev",
+        "fortlev",
+        "fortlev",
+        "fortlev",
+        "fortlev",
+        "fortlev",
+        "fortlev",
+        "odex",
+        "odex",
+        "odex",
+        "odex"
+      ]
+    },
+    {
+      "title": "Produto Avulso",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "fortlev",
+        "fortlev",
+        "fortlev",
+        "fortlev"
+      ]
+    },
+    {
+      "title": "Ver mais",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "fortlev",
+        "fortlev"
+      ]
+    },
+    {
+      "title": "Gerador de Energia Solar",
+      "category": "bomba",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Inversores",
+      "category": "inversor",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec",
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Clip de drenagem pv clip para frame de 30mm",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Clip de drenagem pv clip para frame de 35mm",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "End clamp sks (c/ parafuso)",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Mid clamp sks (c/ parafuso)",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Grampo de aterramento sks",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Conector sc6 macho/femea 1500v proauto",
+      "category": "cabo",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Suporte vertical sks l para microinversor",
+      "category": "inversor",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Emenda p/ perfil sks (c/ parafuso)",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Perfil de aluminio sks 55cm baixo",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Conector deye microinversor macho - ac trunk new",
+      "brand": "Deye",
+      "category": "inversor",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Conector deye microinversor femea - ac trunk new",
+      "brand": "Deye",
+      "category": "inversor",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Perfil de aluminio sks 55cm alto",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Ferramenta microinversor hoymiles para desbloqueio do conector tronco ca tipo h - trunk unlock",
+      "category": "inversor",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Ferramenta microinversor hoymiles para desbloqueio ca/cc - trunk disconnect",
+      "category": "inversor",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Conector deye microinversor tipo t - ac trunk new",
+      "brand": "Deye",
+      "category": "inversor",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    },
+    {
+      "title": "Página não encontrada",
+      "category": "outros",
+      "lowestPrice": 0,
+      "highestPrice": 0,
+      "availableIn": [
+        "edeltec"
+      ]
+    }
+  ],
+  "generatedAt": "2025-10-21T13:41:02.634Z"
+}

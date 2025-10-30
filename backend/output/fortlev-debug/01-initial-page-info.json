@@ -1,0 +1,110 @@
+{
+  "url": "https://fortlevsolar.app/login",
+  "title": "Fortlev Solar",
+  "inputs": [
+    {
+      "index": 0,
+      "type": "email",
+      "name": "username",
+      "id": "email",
+      "placeholder": "nome@dominio.com",
+      "value": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "password",
+      "name": "password",
+      "id": "password",
+      "placeholder": "senha",
+      "value": "",
+      "visible": true,
+      "disabled": false
+    }
+  ],
+  "buttons": [
+    {
+      "index": 0,
+      "type": "submit",
+      "text": "Login",
+      "className": "btn btn-contained",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "submit",
+      "text": "",
+      "className": "active",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 2,
+      "type": "submit",
+      "text": "",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 3,
+      "type": "submit",
+      "text": "",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 4,
+      "type": "submit",
+      "text": "",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 5,
+      "type": "submit",
+      "text": "",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 6,
+      "type": "button",
+      "text": "",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 7,
+      "type": "button",
+      "text": "Cancelar",
+      "className": "btn btn-default",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 8,
+      "type": "button",
+      "text": "Confirmar",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    }
+  ],
+  "links": [],
+  "forms": [
+    {
+      "index": 0,
+      "action": "https://fortlevsolar.app/login",
+      "method": "get",
+      "inputCount": 2
+    }
+  ],
+  "bodyTextSample": "Faça login na plataforma com seu email e senha\nEmail:\nSenha:\nLogin\nNão possui uma conta? Cadastre-se Aqui.\nEsqueci minha senha.\nINOVADORA POR NATUREZA\nA melhor plataforma do Brasil\n\nFaça seu pedido em poucos segundos, com estoque em tempo real para montar o seu kit.\n\nConheça nossos produtos\nINOVAÇÃO\nLastro Solar\nQUALIDADE\nCondufort\nPRATICIDADE\nCaixa de passagem"
+}

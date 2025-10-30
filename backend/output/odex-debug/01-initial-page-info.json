@@ -1,0 +1,54 @@
+{
+  "url": "https://plataforma.odex.com.br/auth/login",
+  "title": "Plataforma Solar",
+  "inputs": [
+    {
+      "index": 0,
+      "type": "text",
+      "name": "",
+      "id": "email",
+      "placeholder": "",
+      "value": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "password",
+      "name": "",
+      "id": "password",
+      "placeholder": "",
+      "value": "",
+      "visible": true,
+      "disabled": false
+    }
+  ],
+  "buttons": [
+    {
+      "index": 0,
+      "type": "button",
+      "text": "",
+      "className": "input-group-text border-left-0",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "submit",
+      "text": "Entrar",
+      "className": "btn btn-primary btn-lg col-12 col-lg-6 rounded-1 border-0",
+      "visible": true,
+      "disabled": false
+    }
+  ],
+  "links": [],
+  "forms": [
+    {
+      "index": 0,
+      "action": "https://plataforma.odex.com.br/auth/login",
+      "method": "get",
+      "inputCount": 2
+    }
+  ],
+  "bodyTextSample": "Faça login\nE-mail ou CNPJ\nSenha\nEsqueceu seu email ou senha?\nEntrar\nAinda não possui cadastro?\nCadastrar"
+}

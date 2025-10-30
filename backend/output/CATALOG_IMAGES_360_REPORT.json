@@ -1,0 +1,168 @@
+{
+  "generated_at": "2025-10-21T13:50:07.491Z",
+  "stats": {
+    "totalProducts": 2,
+    "withImages": 0,
+    "withoutImages": 2,
+    "byManufacturer": {
+      "UNKNOWN": 2
+    },
+    "bySource": {
+      "none": 2
+    },
+    "byCategory": {
+      "other": 2
+    },
+    "namingCompliance": 0
+  },
+  "manufacturer_metrics": [
+    {
+      "name": "LONGi Solar",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Growatt",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Sungrow",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Risen Energy",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "JinkoSolar",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Trina Solar",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Canadian Solar",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "BYD",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Fronius",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Deye",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Solis",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Huawei",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Pylontech",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Dyness",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Enphase Energy",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 1,
+      "coverage": 0
+    },
+    {
+      "name": "Fortlev Solar",
+      "totalProducts": 0,
+      "withOfficialImages": 0,
+      "withDistributorImages": 0,
+      "withPlaceholder": 0,
+      "priority": 2,
+      "coverage": 0
+    }
+  ],
+  "catalog_summary": {
+    "total_manufacturers": 16,
+    "active_manufacturers": 16
+  }
+}

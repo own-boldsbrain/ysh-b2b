@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "execution_date": "2025-10-21T13:58:48.812Z",
+    "duration_seconds": 29,
+    "total_products": 306,
+    "with_manufacturers": 3
+  },
+  "metrics": {
+    "total": 3,
+    "successful": 3,
+    "failed": 0,
+    "from_official": 3,
+    "from_cdn": 0,
+    "from_distributor": 0,
+    "placeholders": 0,
+    "duration_ms": 29080,
+    "average_size_kb": 22.61328125
+  },
+  "results": [
+    {
+      "sku": "286844",
+      "manufacturer": "DEYE",
+      "source": "official",
+      "original_url": "https://www.deyeinverter.com/deyeinverter/2025/05/29/8-15-8.png",
+      "local_path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products-official\\DEYE\\DEYE-286844.png",
+      "standardized_filename": "DEYE-286844.png",
+      "success": true,
+      "filesize_bytes": 23156,
+      "timestamp": "2025-10-21T13:58:30.750Z"
+    },
+    {
+      "sku": "222133",
+      "manufacturer": "DEYE",
+      "source": "official",
+      "original_url": "https://www.deyeinverter.com/deyeinverter/2025/05/29/8-15-8.png",
+      "local_path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products-official\\DEYE\\DEYE-222133.png",
+      "standardized_filename": "DEYE-222133.png",
+      "success": true,
+      "filesize_bytes": 23156,
+      "timestamp": "2025-10-21T13:58:38.734Z"
+    },
+    {
+      "sku": "222132",
+      "manufacturer": "DEYE",
+      "source": "official",
+      "original_url": "https://www.deyeinverter.com/deyeinverter/2025/05/29/8-15-8.png",
+      "local_path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products-official\\DEYE\\DEYE-222132.png",
+      "standardized_filename": "DEYE-222132.png",
+      "success": true,
+      "filesize_bytes": 23156,
+      "timestamp": "2025-10-21T13:58:46.756Z"
+    }
+  ],
+  "manufacturers_used": [
+    "DEYE"
+  ]
+}

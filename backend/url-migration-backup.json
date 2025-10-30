@@ -1,0 +1,6 @@
+{
+  "s3BucketUrl": "https://ysh-b2b-products.s3.us-east-1.amazonaws.com/images",
+  "cloudfrontUrl": "https://cdn.yellosolarhub.com",
+  "updatedAt": "2025-10-21T17:16:08.221Z",
+  "note": "Backup of URL migration. S3 URLs still work as fallback."
+}

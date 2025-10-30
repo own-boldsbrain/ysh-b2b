@@ -11,7 +11,7 @@ from typing import cast
 from .crawler import CrawlResult, InmetroCrawler
 from .llm import LLMExtractionError, LLMInterface
 from .models import EquipmentBatch, EquipmentRecord, ReferenceInfo
-from .repository import InmetroRepository
+from .database_repository import DatabaseInmetroRepository
 from .validator import DatasheetValidationError, RecordValidator
 
 logger = logging.getLogger(__name__)
@@ -257,12 +257,12 @@ class InmetroPipeline:
         extractor: InmetroExtractor,
         validator: RecordValidator,
         *,
-        repository: InmetroRepository | None = None,
+        repository: DatabaseInmetroRepository | None = None,
     ) -> None:
         self._crawler: InmetroCrawler = crawler
         self._extractor: InmetroExtractor = extractor
         self._validator: RecordValidator = validator
-        self._repository: InmetroRepository | None = repository
+        self._repository: DatabaseInmetroRepository | None = repository
 
     def process_equipment(self, request: EquipmentRequest) -> EquipmentRecord:
         """Executa o pipeline completo para um único equipamento."""

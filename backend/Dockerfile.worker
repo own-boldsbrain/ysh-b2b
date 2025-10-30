@@ -1,0 +1,37 @@
+# Dockerfile.worker
+# Worker otimizado para agents (catalog-extractor, price-intelligence, etc)
+
+FROM node:20-alpine
+
+# Install dumb-init
+RUN apk add --no-cache dumb-init
+
+# Create non-root user
+RUN addgroup -g 1001 -S worker && \
+      adduser -S worker -u 1001
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install production dependencies only
+RUN npm install --omit=dev --legacy-peer-deps && \
+      npm cache clean --force
+
+# Copy worker code
+COPY --chown=worker:worker src/workers ./workers
+COPY --chown=worker:worker src/lib ./lib
+
+# Switch to non-root user
+USER worker
+
+# Environment variables
+ENV WORKER_TYPE=catalog-extractor
+ENV NODE_ENV=production
+
+# Use dumb-init
+ENTRYPOINT ["dumb-init", "--"]
+
+# Start worker
+CMD ["node", "workers/${WORKER_TYPE}/index.js"]

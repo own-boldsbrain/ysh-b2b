@@ -10,9 +10,9 @@ services:
       dockerfile: Dockerfile.dev
     container_name: haas-api-dev
     ports:
-      - "${HAAS_API_PORT:-8000}:8000"
+      - "${HAAS_API_PORT:-8004}:8000"
     volumes:
-      - ./app:/app/app
+      - .:/app
       - ./logs:/app/logs
       - ./uploads:/app/uploads
       - ./data:/app/data
@@ -22,13 +22,13 @@ services:
       - REDIS_URL=redis://redis:6379
       - SECRET_KEY=dev-secret-key-change-in-production
       - LOG_LEVEL=DEBUG
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
+    # depends_on:
+    #   postgres:
+    #     condition: service_healthy
+    #   redis:
+    #     condition: service_healthy
     networks:
-      - haas-network
+      - haas-network-dev
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
@@ -39,10 +39,10 @@ services:
 
   # Banco de dados PostgreSQL
   postgres:
-    image: postgres:15-alpine
+    image: pgvector/pgvector:pg15
     container_name: haas-postgres
     ports:
-      - "${POSTGRES_PORT:-5432}:5432"
+      - "${POSTGRES_PORT:-5433}:5432"
     environment:
       - POSTGRES_DB=haas_db
       - POSTGRES_USER=haas_user
@@ -52,7 +52,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
       - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
     networks:
-      - haas-network
+      - haas-network-dev
     restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U haas_user -d haas_db"]
@@ -65,12 +65,12 @@ services:
     image: redis:7-alpine
     container_name: haas-redis
     ports:
-      - "${REDIS_PORT:-6379}:6379"
+      - "${REDIS_PORT:-6380}:6379"
     command: redis-server --appendonly yes --requirepass redis_password
     volumes:
       - redis_data:/data
     networks:
-      - haas-network
+      - haas-network-dev
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
@@ -89,7 +89,7 @@ services:
     depends_on:
       - postgres
     networks:
-      - haas-network
+      - haas-network-dev
     restart: unless-stopped
 
   # Redis Commander para gerenciamento do Redis
@@ -103,8 +103,81 @@ services:
     depends_on:
       - redis
     networks:
-      - haas-network
+      - haas-network-dev
     restart: unless-stopped
+
+  # Huginn - Automação de Agentes e Workflows
+  # ATUALIZADO: Docker Hub → GitHub Container Registry (GHCR)
+  huginn:
+    image: ghcr.io/huginn/huginn:latest
+    container_name: haas-huginn
+    ports:
+      - "${HUGINN_PORT:-3000}:3000"
+    environment:
+      # Configuração básica
+      - HUGINN_DATABASE_ADAPTER=postgresql
+      - DATABASE_HOST=postgres
+      - DATABASE_PORT=5432
+      - DATABASE_NAME=huginn_production
+      - DATABASE_USERNAME=haas_user
+      - DATABASE_PASSWORD=haas_password
+      - DATABASE_ENCODING=utf8mb4
+      
+      # Domínio e protocolo
+      - DOMAIN=${HUGINN_DOMAIN:-localhost:3000}
+      - PROTOCOL=${HUGINN_PROTOCOL:-http}
+      
+      # Credenciais de convite (primeiro acesso)
+      - INVITATION_CODE=${HUGINN_INVITATION_CODE:-try-huginn}
+      - SEED_USERNAME=${HUGINN_SEED_USERNAME:-admin}
+      - SEED_PASSWORD=${HUGINN_SEED_PASSWORD:-password}
+      - SEED_EMAIL=${HUGINN_SEED_EMAIL:-admin@example.com}
+      
+      # Configurações de email (SMTP)
+      - SMTP_DOMAIN=${HUGINN_SMTP_DOMAIN:-your-domain.com}
+      - SMTP_USER_NAME=${HUGINN_SMTP_USER:-}
+      - SMTP_PASSWORD=${HUGINN_SMTP_PASSWORD:-}
+      - SMTP_SERVER=${HUGINN_SMTP_SERVER:-smtp.gmail.com}
+      - SMTP_PORT=${HUGINN_SMTP_PORT:-587}
+      - SMTP_AUTHENTICATION=${HUGINN_SMTP_AUTHENTICATION:-plain}
+      - SMTP_ENABLE_STARTTLS_AUTO=${HUGINN_SMTP_ENABLE_STARTTLS:-true}
+      - EMAIL_FROM_ADDRESS=${HUGINN_EMAIL_FROM:-huginn@example.com}
+      
+      # Timezone
+      - TIMEZONE=${HUGINN_TIMEZONE:-America/Sao_Paulo}
+      
+      # Workers e scheduler
+      - DELAYED_JOB_SLEEP_DELAY=10
+      - DELAYED_JOB_MAX_RUNTIME=300
+      
+      # Segurança
+      - RAILS_ENV=production
+      - SECRET_KEY_BASE=${HUGINN_SECRET_KEY_BASE:-$(openssl rand -hex 64)}
+      
+      # Integração com HaaS API
+      - HAAS_API_URL=http://haas-api:8000
+      - HAAS_WEBHOOK_BASE_URL=http://huginn:3000/users/1/web_requests
+      
+    volumes:
+      - huginn_data:/var/lib/huginn
+      - ./huginn/scenarios:/huginn-scenarios
+      - ./logs/huginn:/var/log/huginn
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      haas-api:
+        condition: service_healthy
+    networks:
+      - haas-network-dev
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/users/sign_in"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
   # Nginx como proxy reverso (opcional)
   nginx:
@@ -120,7 +193,7 @@ services:
     depends_on:
       - haas-api
     networks:
-      - haas-network
+      - haas-network-dev
     restart: unless-stopped
 
 volumes:
@@ -128,10 +201,12 @@ volumes:
     driver: local
   redis_data:
     driver: local
+  huginn_data:
+    driver: local
 
 networks:
-  haas-network:
+  haas-network-dev:
     driver: bridge
     ipam:
       config:
-        - subnet: 172.20.0.0/16
+        - subnet: 172.25.0.0/16

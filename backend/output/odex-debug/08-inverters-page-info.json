@@ -1,0 +1,29 @@
+{
+  "url": "https://plataforma.odex.com.br/dashboard/shop/view/inverter?q=shop",
+  "title": "Plataforma Solar",
+  "inputs": [
+    {
+      "index": 0,
+      "type": "text",
+      "name": "",
+      "id": "",
+      "placeholder": "Código, nome...",
+      "value": "",
+      "visible": true,
+      "disabled": false
+    }
+  ],
+  "buttons": [
+    {
+      "index": 0,
+      "type": "button",
+      "text": "",
+      "className": "btn border border-start-0",
+      "visible": true,
+      "disabled": false
+    }
+  ],
+  "links": [],
+  "forms": [],
+  "bodyTextSample": "Dashboard\nMonte Seu Kit\nLoja\nOrçamentos\nCalculadora\nPedidos\nClientes\nRelatórios\nPrêmio Venda Direta\nConfigurações\nPerfil\nDesafixar\nLoja / Inversor\nBuscar\n0\nMonte seu gerador\nPainel\nInversor\nString Box\nEstruturas\nAlguma dúvida na escolha do seu produto? Clique aqui"
+}

@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ysh.dev/schemas/actions/browser_step.schema.json",
+  "title": "Schema de ação para BrowserController via TypeAgent",
+  "description": "Payload utilizado pelo TypeAgent Bridge para executar ações de browser no BrowserController",
+  "type": "object",
+  "required": [
+    "subtask_id",
+    "agent_type",
+    "parameters"
+  ],
+  "properties": {
+    "subtask_id": {
+      "type": "string",
+      "description": "Identificador da subtarefa vinda do TaskOrchestrator"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descrição textual da ação"
+    },
+    "agent_type": {
+      "type": "string",
+      "const": "BrowserController",
+      "description": "Tipo de agente que deve processar a ação"
+    },
+    "parameters": {
+      "type": "object",
+      "required": [
+        "actions"
+      ],
+      "properties": {
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "type"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "Tipo de ação Playwright (NAVIGATE, CLICK, TYPE, etc.)"
+              },
+              "selector": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Seletor CSS/DOM alvo"
+              },
+              "url": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "uri",
+                "description": "URL para ações de navegação"
+              },
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Texto a ser digitado em ações TYPE"
+              },
+              "value": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Valor selecionado em ações SELECT"
+              },
+              "timeout_ms": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0,
+                "description": "Timeout em milissegundos"
+              }
+            },
+            "additionalProperties": true
+          },
+          "minItems": 1,
+          "description": "Sequência de ações a serem executadas"
+        }
+      },
+      "additionalProperties": true
+    },
+    "context": {
+      "type": "object",
+      "description": "Contexto adicional herdado do TypeAgent",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

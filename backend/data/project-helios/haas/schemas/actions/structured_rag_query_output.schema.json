@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ysh.dev/schemas/actions/structured_rag_query_output.schema.json",
+  "title": "Resultado de consulta Structured RAG",
+  "type": "object",
+  "required": [
+    "results"
+  ],
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "dataset_id",
+          "path"
+        ],
+        "properties": {
+          "dataset_id": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "columns": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sample_rows": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "metadata": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "matched": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

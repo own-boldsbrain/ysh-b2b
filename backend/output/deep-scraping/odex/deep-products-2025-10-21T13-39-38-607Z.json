@@ -1,0 +1,38 @@
+[
+  {
+    "id": "odex-1761053978092",
+    "sku": "odex-1761053978092",
+    "title": "Produtos",
+    "description": "Painéis modernos e eficientes para todos os tipos de projetos",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://odex.com.br/media/logo/stores/3/logo-odex.png",
+      "https://odex.com.br/media/logo/stores/2/logo.png",
+      "https://odex.com.br/media/mageplaza/bannerslider/banner/image/b/a/banner-produtos.png",
+      "https://odex.com.br/media/wysiwyg/modulos_1_1.png",
+      "https://odex.com.br/media/wysiwyg/inversores_1_1.png"
+    ],
+    "specifications": {
+      "spec_1": "Home",
+      "spec_2": "Quem Somos",
+      "spec_3": "Financiamento",
+      "spec_4": "Produtos\n              \n              \n\n\n\n\n\n\n\n\n\n              \n                Painéis Solares\n                Inversores\n                Stringbox\n                Estruturas\n                Cabos e Conectores",
+      "spec_5": "Painéis Solares",
+      "spec_6": "Inversores",
+      "spec_7": "Stringbox",
+      "spec_8": "Estruturas",
+      "spec_9": "Cabos e Conectores",
+      "spec_10": "Blog",
+      "spec_11": "Marcas"
+    },
+    "category": "outros",
+    "url": "https://odex.com.br/produtos",
+    "distributor": "odex",
+    "extractedAt": "2025-10-21T13:39:38.092Z"
+  }
+]

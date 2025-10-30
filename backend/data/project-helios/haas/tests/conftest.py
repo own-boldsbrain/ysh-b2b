@@ -13,6 +13,7 @@ from sqlalchemy.pool import StaticPool
 import fakeredis
 import redis
 
+# Import app without triggering database table creation
 from app.main import app
 from app.services.auth_service import (
     create_access_token,
@@ -113,21 +114,27 @@ def test_user_data():
 
 
 @pytest.fixture(scope="function")
-def test_user_hashed(test_user_data):
+def test_user_hashed(test_user_data, db_session):
     """Test user with hashed password."""
+    from app.database.models import User as UserDB
+
     data = test_user_data.copy()
     data["hashed_password"] = get_password_hash(data["password"])
 
-    # Ensure user exists in auth_service fake DB for auth flows
-    import app.services.auth_service as auth_service
-    auth_service.fake_users_db[data["email"]] = {
-        "id": 999,
-        "email": data["email"],
-        "full_name": data["full_name"],
-        "hashed_password": data["hashed_password"],
-        "role": data["role"],
-        "is_active": data["is_active"],
-    }
+    # Create user in database for testing
+    user_db = UserDB(
+        username=data["email"].split("@")[0],  # Use email prefix as username
+        email=data["email"],
+        hashed_password=data["hashed_password"],
+        role=data["role"],
+        is_active=data["is_active"],
+    )
+    db_session.add(user_db)
+    db_session.commit()
+    db_session.refresh(user_db)
+
+    # Add database ID to the data
+    data["id"] = user_db.id
     return data
 
 

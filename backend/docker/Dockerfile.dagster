@@ -1,0 +1,37 @@
+# Dockerfile para Dagster (Pipeline Orchestration)
+FROM python:3.11-slim
+
+WORKDIR /opt/dagster/app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+      gcc \
+      g++ \
+      postgresql-client \
+      && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+RUN pip install --no-cache-dir \
+      dagster \
+      dagster-webserver \
+      dagster-postgres \
+      dagster-docker \
+      requests \
+      pandas \
+      sqlalchemy \
+      psycopg2-binary
+
+# Create dagster home directory
+RUN mkdir -p /opt/dagster/dagster_home
+
+# Set environment variables
+ENV DAGSTER_HOME=/opt/dagster/dagster_home
+
+# Copy dagster configuration
+COPY ./data-platform/dagster /opt/dagster/app
+
+# Expose ports
+EXPOSE 3000
+
+# Default command (will be overridden in docker-compose)
+CMD ["dagster-webserver", "-h", "0.0.0.0", "-p", "3000"]

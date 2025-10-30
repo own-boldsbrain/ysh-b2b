@@ -1,0 +1,6 @@
+﻿distributor,id,name,manufacturer,model,sku,category,type,price_brl,power_kw,power_w,voltage_v,current_a,efficiency_percent,certifications,currency,description,height_mm,image_url,length_mm,price_per_unit,stock_available,stock_quantity,tags,voltage_range,warranty_years,weight_kg,width_mm
+Fortlev,fortlev_boxes_ICP00005,"CAIXA DE PASSAGEM PRFV D 0,8 H 0,8",Unknown,,,boxes,,,,,,,,,BRL,"CAIXA DE PASSAGEM PRFV D 0,8 H 0,8",,,,,,,,,,,
+Fortlev,fortlev_boxes_ICP00004,"CAIXA DE PASSAGEM PRFV D 1,2 H 1,2",Unknown,,,boxes,,,,,,,,,BRL,"CAIXA DE PASSAGEM PRFV D 1,2 H 1,2",,,,,,,,,,,
+Fortlev,fortlev_boxes_ICP00003,"CAIXA DE PASSAGEM PRFV D 1,2 H 1,0",Unknown,,,boxes,,,,,,,,,BRL,"CAIXA DE PASSAGEM PRFV D 1,2 H 1,0",,,,,,,,,,,
+Fortlev,fortlev_boxes_ICP00002,"CAIXA DE PASSAGEM PRFV D 0,6 H 0,8",Unknown,,,boxes,,,,,,,,,BRL,"CAIXA DE PASSAGEM PRFV D 0,6 H 0,8",,,,,,,,,,,
+Fortlev,fortlev_boxes_ICP00001,"CAIXA DE PASSAGEM PRFV D 0,3M H 0,3M",Unknown,,,boxes,,,,,,,,,BRL,"CAIXA DE PASSAGEM PRFV D 0,3M H 0,3M",,,,,,,,,,,

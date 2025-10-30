@@ -1,0 +1,494 @@
+================================================================================
+RELATÓRIO 360º - FABRICANTES, MODELOS E SÉRIES
+================================================================================
+
+
+1. GOODWE
+--------------------------------------------------------------------------------
+   Total de Modelos: 40
+   Categorias: panels
+   Tecnologias: Monocrystalline
+   Datasheets: 40/40 (100.0%)
+   Certificações: 40/40 (100.0%)
+
+   Modelos (40):
+      - GW2000-MIS (panels)
+      - GW3300-XS-30 (panels)
+      - GW5000-DNS-30 (panels)
+      - GW8000-MS-C30 (panels)
+      - GW10K-MS-30 (panels)
+      - GW10K-MS-G40 (panels)
+      - GW12KLV-SDT-C30 (panels)
+      - GW20K-SDT-31 (panels)
+      - GW12KLV-SDT-C31 (panels)
+      - GW25K-SDT-P31 (panels)
+      ... e mais 30 modelos
+
+2. Epever
+--------------------------------------------------------------------------------
+   Total de Modelos: 11
+   Categorias: batteries, controllers
+   Datasheets: 11/11 (100.0%)
+   Certificações: 11/11 (100.0%)
+
+   Modelos (11):
+      - 100AH/48V (batteries)
+      - 100AH/6V (batteries)
+      - 100AH/12V (batteries)
+      - PWM-10A (controllers)
+      - MPPT-30A (controllers)
+      - MPPT-40A (controllers)
+      - PWM-20A (controllers)
+      - PWM-60A (controllers)
+      - MPPT-20A (controllers)
+      - PWM-30A (controllers)
+      ... e mais 1 modelos
+
+3. DEYE
+--------------------------------------------------------------------------------
+   Total de Modelos: 9
+   Categorias: inverters, panels
+   Tecnologias: Monocrystalline
+   Faixa de Potência: 2.25 - 2.25
+   Datasheets: 9/9 (100.0%)
+   Certificações: 9/9 (100.0%)
+
+   Modelos (9):
+      - MONO 220V (panels)
+      - KIT 25KW (panels)
+      - KIT 35KW (panels)
+      - EX 35KW (panels)
+      - KIT 50KW (panels)
+      - EX 50KW (panels)
+      - KIT 75KW (panels)
+      - EX 75KW (panels)
+      - SUN-M225G4-EU-Q0-I (inverters)
+
+4. GROWATT
+--------------------------------------------------------------------------------
+   Total de Modelos: 6
+   Categorias: panels
+   Datasheets: 6/6 (100.0%)
+   Certificações: 6/6 (100.0%)
+
+   Modelos (6):
+      - MID 20KTL3 (panels)
+      - MID 25KTL3-X (panels)
+      - MID 50KTL3-X2 (panels)
+      - MAC 36KTL3-XL (panels)
+      - MAX 50KTL3-XL2 (panels)
+      - MAX 60KTL3-XL2 (panels)
+
+5. HUAWEI
+--------------------------------------------------------------------------------
+   Total de Modelos: 5
+   Categorias: panels
+   Tecnologias: Monocrystalline
+   Datasheets: 5/5 (100.0%)
+   Certificações: 5/5 (100.0%)
+
+   Modelos (5):
+      - SUN2000-3KTL-L1 (panels)
+      - SUN2000-4KTL-L1 (panels)
+      - SUN2000-10K-LC0 (panels)
+      - SUN2000-12K-MB0 (panels)
+      - SUN2000-15K-MB0 (panels)
+
+6. Freedom
+--------------------------------------------------------------------------------
+   Total de Modelos: 5
+   Categorias: batteries
+   Datasheets: 5/5 (100.0%)
+   Certificações: 5/5 (100.0%)
+
+   Modelos (5):
+      - 105AH/12V (batteries)
+      - 150AH/12V (batteries)
+      - 45AH/12V (batteries)
+      - 220AH/12V (batteries)
+      - 220AH/48V (batteries)
+
+7. 1X
+--------------------------------------------------------------------------------
+   Total de Modelos: 5
+   Categorias: batteries
+   Datasheets: 5/5 (100.0%)
+   Certificações: 5/5 (100.0%)
+
+   Modelos (5):
+      - 105AH/12V (batteries)
+      - 240AH/12V (batteries)
+      - 165AH/12V (batteries)
+      - 105AH/48V (batteries)
+      - 150AH/12V (batteries)
+
+8. Deye
+--------------------------------------------------------------------------------
+   Total de Modelos: 4
+   Categorias: inverters
+   Datasheets: 4/4 (100.0%)
+   Certificações: 4/4 (100.0%)
+
+   Modelos (4):
+      - DE 2250W (inverters)
+      - BRIDO 12KW (inverters)
+      - DE 2000W (inverters)
+      - BRIDO 12 (inverters)
+
+9. HANERSUN
+--------------------------------------------------------------------------------
+   Total de Modelos: 2
+   Categorias: panels
+   Tecnologias: HJT
+   Datasheets: 2/2 (100.0%)
+   Certificações: 2/2 (100.0%)
+
+   Modelos (2):
+      - HN18N-72H (panels)
+      - HN21H-66HT (panels)
+
+10. SOFAR
+--------------------------------------------------------------------------------
+   Total de Modelos: 2
+   Categorias: panels
+   Tecnologias: Monocrystalline
+   Datasheets: 2/2 (100.0%)
+   Certificações: 2/2 (100.0%)
+
+   Modelos (2):
+      - MONO 220V (panels)
+      - FOTOVOLTAICO 25KTLX-G3-LV (panels)
+
+11. Kit
+--------------------------------------------------------------------------------
+   Total de Modelos: 2
+   Categorias: batteries, inverters
+   Datasheets: 2/2 (100.0%)
+   Certificações: 2/2 (100.0%)
+
+   Modelos (2):
+      - DE 04 (inverters)
+      - 600AH/48V (batteries)
+
+12. Moura
+--------------------------------------------------------------------------------
+   Total de Modelos: 2
+   Categorias: batteries
+   Datasheets: 2/2 (100.0%)
+   Certificações: 2/2 (100.0%)
+
+   Modelos (2):
+      - 220AH/12V (batteries)
+      - 220AH/48V (batteries)
+
+13. Ztroon
+--------------------------------------------------------------------------------
+   Total de Modelos: 2
+   Categorias: batteries
+   Datasheets: 2/2 (100.0%)
+   Certificações: 2/2 (100.0%)
+
+   Modelos (2):
+      - 100AH/48V (batteries)
+      - 105AH/48V (batteries)
+
+14. 2X
+--------------------------------------------------------------------------------
+   Total de Modelos: 2
+   Categorias: batteries
+   Datasheets: 2/2 (100.0%)
+   Certificações: 2/2 (100.0%)
+
+   Modelos (2):
+      - 240AH/12V (batteries)
+      - 105AH/48V (batteries)
+
+15. 3X
+--------------------------------------------------------------------------------
+   Total de Modelos: 2
+   Categorias: batteries
+   Datasheets: 2/2 (100.0%)
+   Certificações: 2/2 (100.0%)
+
+   Modelos (2):
+      - 240AH/12V (batteries)
+      - 105AH/48V (batteries)
+
+16. Composição:
+--------------------------------------------------------------------------------
+   Total de Modelos: 2
+   Categorias: controllers
+   Datasheets: 2/2 (100.0%)
+   Certificações: 2/2 (100.0%)
+
+   Modelos (2):
+      - MPPT-UNKNOWN (controllers)
+      - PWM-UNKNOWN (controllers)
+
+17. SOLAR N PLUS
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: panels
+   Tecnologias: N-Type
+   Faixa de Potência: 570 - 570
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - PLUS (panels)
+
+18. TRINA
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: panels
+   Tecnologias: N-Type
+   Faixa de Potência: 710 - 710
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - TRINA (panels)
+
+19. ASTRONERGY
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: panels
+   Tecnologias: N-Type
+   Faixa de Potência: 600 - 600
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - ASTRONERGY (panels)
+
+20. DAH
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: panels
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - DHN-72X16/DG (panels)
+
+21. MINASOL
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: panels
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MS-545 (panels)
+
+22. ENPHASE
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: panels
+   Tecnologias: Monocrystalline
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MONO 220V (panels)
+
+23. SOLFACIL
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: panels
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - UPLFP48100 (panels)
+
+24. TSUNESS
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: inverters
+   Faixa de Potência: 2.25 - 2.25
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - TSOL-MX2250 (inverters)
+
+25. Inversor
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: inverters
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - INVERSOR 2000W (inverters)
+
+26. Unipower
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: batteries
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - 100AH/48V (batteries)
+
+27. Ucb
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: batteries
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - 100AH/48V (batteries)
+
+28. 220Ah/12V
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: batteries
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - 220AH/12V (batteries)
+
+29. 150Ah/12V
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: batteries
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - 150AH/12V (batteries)
+
+30. 4X
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: batteries
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - 240AH/12V (batteries)
+
+31. Chumbo
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: batteries
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - 150AH/12V (batteries)
+
+32. <Strong>Kit
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: batteries
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - 100AH/48V (batteries)
+
+33. 5Kw
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MPPT-UNKNOWN (controllers)
+
+34. 10,0Kw
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MPPT-UNKNOWN (controllers)
+
+35. 7,5Kw
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MPPT-UNKNOWN (controllers)
+
+36. 10Kw
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MPPT-UNKNOWN (controllers)
+
+37. 6Kw
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MPPT-UNKNOWN (controllers)
+
+38. 20A
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - PWM-20A (controllers)
+
+39. 10A
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - PWM-10A (controllers)
+
+40. 5,0Kw
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MPPT-UNKNOWN (controllers)
+
+41. Sunova
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - SS-550 (controllers)
+
+42. 6,0Kw
+--------------------------------------------------------------------------------
+   Total de Modelos: 1
+   Categorias: controllers
+   Datasheets: 1/1 (100.0%)
+   Certificações: 1/1 (100.0%)
+
+   Modelos (1):
+      - MPPT-UNKNOWN (controllers)

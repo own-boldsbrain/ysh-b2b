@@ -1,0 +1,93 @@
+﻿battery_capacity_kwh,battery_manufacturer,battery_quantity,battery_voltage_v,category,distributor,id,inverter_manufacturer,inverter_power_kw,inverter_quantity,name,panel_manufacturer,panel_power_w,panel_quantity,power_kwp,power_watts,price_brl,price_per_wp,total_batteries,total_inverters,total_panels,type
+,,,,panels,Solfacil,solfacil_panels_1,,,,https://cdn-ecommerce.solfacil.com.br/contents/products/559375/images/IMAGE_PRODUCT_559375.jpeg HANERSUN,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_panels_2,,,,HANERSUN,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_panels_3,,,,DAH,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_panels_4,,,,https://cdn-ecommerce.solfacil.com.br/contents/products/559381/images/IMAGE_PRODUCT_559381.png OSDA,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_panels_5,,,,https://cdn-ecommerce.solfacil.com.br/contents/products/573429/images/IMAGE_PRODUCT_573429.png HANERSUN,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_panels_6,,,,https://cdn-ecommerce.solfacil.com.br/contents/products/550010/images/image.png MINASOL,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_1,,,,ENPHASE IQ8P-72-2-BR,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_2,,,,GOODWE EZLOGGER PRO,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_3,,,,GOODWE GW2000-MIS,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_4,,,,DEYE SUN-5K-G,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_5,,,,GOODWE GW 3300-XS-30 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_6,,,,SOFAR 5KTLM-G3 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_7,,,,HUAWEI SUN2000-3KTL-L1 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_8,,,,DEYE SUN-8K-G,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_9,,,,GOODWE GW 5000-DNS-30 (16A) - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_10,,,,HUAWEI SUN2000-4KTL-L1 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_11,,,,GOODWE GW8000-MS-C30 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_12,,,,GOODWE GW 10K-MS-30 (20A) - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_13,,,,HUAWEI SUN2000-10K-LC0 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_14,,,,GOODWE GW10K-MS-G40 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_15,,,,GOODWE GW10K-MS-G40 - AFCI C/ RSD,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_16,,,,GROWATT MID 20KTL3 XL2 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_17,,,,GROWATT MID 20KTL3 XL2 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_18,,,,HUAWEI SUN2000-12K-MB0 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_19,,,,GROWATT MID 25KTL3-X,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_21,,,,HUAWEI SUN2000-15K-MB0 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_22,,,,DEYE SUN-25K-G02-LV,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_23,,,,GOODWE GW 12KLV-SDT-C30 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_24,,,,GOODWE GW20K-SDT-31 - AFCI C/ RSD,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_25,,,,GOODWE GW12KLV-SDT-C31 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_26,,,,SOFAR 25KTLX-G3-LV - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_27,,,,GOODWE GW25K-SDT-P31 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_28,,,,GOODWE GW 12KLV-MT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_29,,,,GOODWE GW25K-SDT-P31 - AFCI C/ RSD,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_30,,,,GOODWE GW6000-ES-BR20 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_31,,,,GOODWE GW6000-SBP-20,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_32,,,,GOODWE GW 15KLV-MT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_33,,,,GROWATT MID 50KTL3-X2 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_34,,,,GOODWE GW 30K-SDT-C30 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_35,,,,DEYE SUN-35K-G02-LV,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_36,,,,DEYE SUN-35K-G02-LV,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_37,,,,GOODWE GW3600-ES-BR20 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_38,,,,GOODWE GW 36K-MT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_39,,,,GOODWE GW37K5-SDT-BR30 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_40,,,,GROWATT MAC 36KTL3-XL - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_41,,,,GROWATT MAC 36KTL3-XL,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_42,,,,GROWATT MAC 36KTL3-XL - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_43,,,,GOODWE GW17KLV-SDT-C30 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_44,,,,GOODWE GW6000-ES-BR20 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_45,,,,GOODWE GW6000-ES-BR20 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_46,,,,GOODWE GW3500L-ES-BR20,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_47,,,,GOODWE GW 20KLV-MT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_48,,,,GOODWE GW 50KS-MT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_49,,,,GOODWE GW 30KLS-MT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_50,,,,GOODWE GW23KLV-SDT-BR30 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_51,,,,GOODWE GW 30KLS-MT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_52,,,,GOODWE GW 30KLS-MT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_53,,,,GOODWE GW 30KLS-MT - AFCI RED,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_54,,,,GOODWE GW 60KBF-MT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_55,,,,GOODWE GW 60KS-MT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_56,,,,GOODWE GW 35KLS-MT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_57,,,,GROWATT MAX 50KTL3-XL2,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_58,,,,DEYE SUN-50K-G-LV,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_59,,,,DEYE SUN-50K-G-LV,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_60,,,,DEYE SUN-50K-G-LV,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_61,,,,GOODWE GW10K-BT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_62,,,,DEYE SUN-75K-G01P3-LV,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_63,,,,DEYE SUN-75K-G01P3-LV,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_64,,,,GROWATT MAX 50KTL3-XL2 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_65,,,,GROWATT MAX 50KTL3-XL2 - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_66,,,,GOODWE GW 35KLS-MT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_67,,,,GOODWE GW 35KLS-MT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_68,,,,GOODWE GW 60KS-MT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_69,,,,GROWATT MAX60KTL3-XL 2,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_70,,,,GOODWE GW75K-SMT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_71,,,,GOODWE GW 73KLV-HT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_72,,,,GOODWE GW 73KLV-HT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_73,,,,GOODWE GW20K-ET - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_74,,,,GOODWE GW12KL-ET - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_75,,,,GOODWE GW15K-ET - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_76,,,,GOODWE GW 100K-HT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_77,,,,GOODWE GW100K-HT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_78,,,,GOODWE GW100K-GT - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_79,,,,GOODWE GW 110K-HT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_80,,,,GOODWE GW30K-ET - AFCI,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_81,,,,GOODWE GW250KN-HT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_82,,,,GOODWE GW250KH-UT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_inverters_83,,,,GOODWE GW250K-HT,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_batteries_1,,,,UNIDADE DE CONTROLE [PCU-F52] - PARA BATERIA LX F3.2-20,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_batteries_2,,,,BATERIA LFP LYNX F (G2) LX F3.2-20 - 3.2KWH - GOODWE,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_batteries_3,,,,BATERIA UNIP LFP UPLFP48100 EN - 48V 100AH RACK - LP 5.1KWH - UNIPOWER,,,1,0,0,0,,0,0,1,Solar Panel
+,,,,panels,Solfacil,solfacil_batteries_4,,,,BATERIA LFP LYNX U (G3) LXU 5.0-30 - 5KWH - GOODWE,,,1,0,0,0,,0,0,1,Solar Panel

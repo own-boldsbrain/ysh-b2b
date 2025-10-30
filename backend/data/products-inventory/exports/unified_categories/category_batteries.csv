@@ -1,0 +1,9 @@
+﻿distributor,id,name,manufacturer,model,sku,category,type,price_brl,power_kw,power_w,voltage_v,current_a,efficiency_percent,certifications,currency,description,height_mm,image_url,length_mm,price_per_unit,stock_available,stock_quantity,tags,voltage_range,warranty_years,weight_kg,width_mm
+Fortlev,fortlev_batteries_IBT00004,BATERIA FOXESS EP11,Foxess,,,batteries,,,,,,,,,BRL,BATERIA FOXESS EP11,,,,,,,,,,,
+Fortlev,fortlev_batteries_IBT00003,BASE P/ BATERIA AXE,Unknown,,,batteries,,,,,,,,,BRL,BASE P/ BATERIA AXE,,,,,,,,,,,
+Fortlev,fortlev_batteries_IBT00002,CABO P/ BATERIA AXE,Unknown,,,batteries,,,,,,,,,BRL,CABO P/ BATERIA AXE,,,,,,,,,,,
+Fortlev,fortlev_batteries_IBT00001,BATERIA GROWATT AXE 5.0L,Growatt,,,batteries,,,,,,,,,BRL,BATERIA GROWATT AXE 5.0L,,,,,,,,,,,
+Solfacil,solfacil_batteries_1,UNIDADE DE CONTROLE [PCU-F52] - PARA BATERIA LX F3.2-20,SOLFACIL,,,batteries,,,,,,,,,BRL,UNIDADE DE CONTROLE [PCU-F52] - PARA BATERIA LX F3.2-20,,,,,,,,,,,
+Solfacil,solfacil_batteries_2,BATERIA LFP LYNX F (G2) LX F3.2-20 - 3.2KWH - GOODWE,GOODWE,,,batteries,,,,,,,,,BRL,BATERIA LFP LYNX F (G2) LX F3.2-20 - 3.2KWH - GOODWE,,,,,,,,,,,
+Solfacil,solfacil_batteries_3,BATERIA UNIP LFP UPLFP48100 EN - 48V 100AH RACK - LP 5.1KWH - UNIPOWER,SOLFACIL,,,batteries,,,,,,,,,BRL,BATERIA UNIP LFP UPLFP48100 EN - 48V 100AH RACK - LP 5.1KWH - UNIPOWER,,,,,,,,,,,
+Solfacil,solfacil_batteries_4,BATERIA LFP LYNX U (G3) LXU 5.0-30 - 5KWH - GOODWE,GOODWE,,,batteries,,,,,,,,,BRL,BATERIA LFP LYNX U (G3) LXU 5.0-30 - 5KWH - GOODWE,,,,,,,,,,,

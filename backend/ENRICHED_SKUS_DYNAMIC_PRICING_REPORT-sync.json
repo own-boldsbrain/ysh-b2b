@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-10-30T01:12:15.177Z",
+  "totalInput": 1138,
+  "matched": 86,
+  "unmatched": 1052,
+  "missingSummary": {
+    "images": 1138,
+    "manufacturer": 1052
+  },
+  "samples": [
+    {
+      "sku": "FOTUSKP021704KWPCERAMICOKITS",
+      "missing": [
+        "images",
+        "manufacturer"
+      ],
+      "matchScore": 0,
+      "source": null
+    },
+    {
+      "sku": "FOTUSKP021704KWPFIBROCIMENTOKITS",
+      "missing": [
+        "images",
+        "manufacturer"
+      ],
+      "matchScore": 0,
+      "source": null
+    },
+    {
+      "sku": "FOTUSKP021704KWPMINITRILHOKITS",
+      "missing": [
+        "images",
+        "manufacturer"
+      ],
+      "matchScore": 0,
+      "source": null
+    },
+    {
+      "sku": "FOTUSKP041596KWPCERAMICOKITS",
+      "missing": [
+        "images",
+        "manufacturer"
+      ],
+      "matchScore": 0,
+      "source": null
+    },
+    {
+      "sku": "FOTUSKP041596KWPFIBROCIMENTOKITS",
+      "missing": [
+        "images",
+        "manufacturer"
+      ],
+      "matchScore": 0,
+      "source": null
+    }
+  ]
+}

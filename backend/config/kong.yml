@@ -1,0 +1,51 @@
+_format_version: "1.1"
+
+services:
+  - name: supabase-rest
+    url: http://supabase-db:5432
+    routes:
+      - name: rest
+        paths:
+          - /rest/v1/
+
+  - name: supabase-auth
+    url: http://supabase-db:5432
+    routes:
+      - name: auth
+        paths:
+          - /auth/v1/
+
+  - name: supabase-storage
+    url: http://supabase-db:5432
+    routes:
+      - name: storage
+        paths:
+          - /storage/v1/
+
+plugins:
+  - name: cors
+    config:
+      origins:
+        - "*"
+      methods:
+        - GET
+        - POST
+        - PUT
+        - PATCH
+        - DELETE
+        - OPTIONS
+      headers:
+        - Accept
+        - Authorization
+        - Content-Type
+        - X-Client-Info
+      exposed_headers:
+        - X-Total-Count
+      credentials: true
+      max_age: 3600
+
+  - name: key-auth
+    config:
+      key_names:
+        - apikey
+      hide_credentials: true

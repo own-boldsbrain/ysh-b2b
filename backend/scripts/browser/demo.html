@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Demo DynamoDB Browser</title>
+  </head>
+  <body>
+    <h1>Demo: Acessando DynamoDB direto do Browser</h1>
+
+    <label>Identity Pool ID: <input id="identityPool" placeholder="us-east-1:xxxx-xxxx" /></label>
+    <button id="init">Inicializar Cliente</button>
+
+    <hr />
+    <label>SKU: <input id="sku" /></label>
+    <button id="get">Get SKU</button>
+
+    <pre id="output" style="white-space:pre-wrap;background:#f6f8fa;padding:12px;border-radius:6px;max-width:900px"></pre>
+
+    <script type="module">
+      import { createDynamoClient } from './dynamodb-browser-integration.mjs';
+
+      let client = null;
+
+      document.getElementById('init').addEventListener('click', async () => {
+        const id = document.getElementById('identityPool').value.trim();
+        if (!id) return alert('Informe o Identity Pool ID');
+        try {
+          client = await createDynamoClient({ identityPoolId: id, region: 'us-east-1' });
+          document.getElementById('output').textContent = 'Cliente inicializado com sucesso.';
+        } catch (err) {
+          document.getElementById('output').textContent = 'Erro: ' + err.message;
+        }
+      });
+
+      document.getElementById('get').addEventListener('click', async () => {
+        if (!client) return alert('Inicialize o cliente primeiro');
+        const sku = document.getElementById('sku').value.trim();
+        if (!sku) return alert('Informe o SKU');
+        document.getElementById('output').textContent = 'Consultando...';
+        try {
+          const item = await client.getSKU(sku);
+          document.getElementById('output').textContent = JSON.stringify(item, null, 2);
+        } catch (err) {
+          document.getElementById('output').textContent = 'Erro: ' + err.message;
+        }
+      });
+    </script>
+  </body>
+</html>

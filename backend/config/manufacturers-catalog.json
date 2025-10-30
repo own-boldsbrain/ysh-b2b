@@ -1,0 +1,308 @@
+{
+      "timestamp": "2025-10-21T00:00:00.000Z",
+      "description": "Catálogo de fabricantes com URLs oficiais para extração de imagens",
+      "manufacturers": {
+            "LONGI": {
+                  "name": "LONGi Solar",
+                  "country": "CN",
+                  "official_site": "https://www.longi.com",
+                  "product_pages": {
+                        "panels": "https://www.longi.com/en/products/modules"
+                  },
+                  "image_patterns": [
+                        "https://www.longi.com/uploads/{model}.jpg",
+                        "https://cdn.longi.com/products/{model}.png"
+                  ],
+                  "sku_patterns": [
+                        "LR\\d+-\\d+[A-Z]+",
+                        "Hi-MO \\d+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "GROWATT": {
+                  "name": "Growatt",
+                  "country": "CN",
+                  "official_site": "https://www.growatt.com",
+                  "product_pages": {
+                        "inverters": "https://www.growatt.com/products/inverter",
+                        "batteries": "https://www.growatt.com/products/storage"
+                  },
+                  "image_patterns": [
+                        "https://www.growatt.com/upload/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "MIN\\d+TL-X",
+                        "MIC\\d+TL-X",
+                        "NEO\\d+M"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "SUNGROW": {
+                  "name": "Sungrow",
+                  "country": "CN",
+                  "official_site": "https://en.sungrowpower.com",
+                  "product_pages": {
+                        "inverters": "https://en.sungrowpower.com/productsList"
+                  },
+                  "image_patterns": [
+                        "https://en.sungrowpower.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "SG\\d+RS",
+                        "SG\\d+RT"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "RISEN": {
+                  "name": "Risen Energy",
+                  "country": "CN",
+                  "official_site": "https://www.risenenergy.com",
+                  "product_pages": {
+                        "panels": "https://www.risenenergy.com/en/products"
+                  },
+                  "image_patterns": [
+                        "https://www.risenenergy.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "RSM\\d+-\\d+[A-Z]+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "JINKO": {
+                  "name": "JinkoSolar",
+                  "country": "CN",
+                  "official_site": "https://www.jinkosolar.com",
+                  "product_pages": {
+                        "panels": "https://www.jinkosolar.com/en/products"
+                  },
+                  "image_patterns": [
+                        "https://www.jinkosolar.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "JKM\\d+-\\d+[A-Z]+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "TRINA": {
+                  "name": "Trina Solar",
+                  "country": "CN",
+                  "official_site": "https://www.trinasolar.com",
+                  "product_pages": {
+                        "panels": "https://www.trinasolar.com/en-glb/product"
+                  },
+                  "image_patterns": [
+                        "https://www.trinasolar.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "TSM-\\d+[A-Z]+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "CANADIAN-SOLAR": {
+                  "name": "Canadian Solar",
+                  "country": "CA",
+                  "official_site": "https://www.canadiansolar.com",
+                  "product_pages": {
+                        "panels": "https://www.canadiansolar.com/products"
+                  },
+                  "image_patterns": [
+                        "https://www.canadiansolar.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "CS\\d+[A-Z]+-\\d+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "BYD": {
+                  "name": "BYD",
+                  "country": "CN",
+                  "official_site": "https://www.bydbatterybox.com",
+                  "product_pages": {
+                        "batteries": "https://www.bydbatterybox.com/products"
+                  },
+                  "image_patterns": [
+                        "https://www.bydbatterybox.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "Battery-Box [A-Z]+",
+                        "HV[SM]"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "FRONIUS": {
+                  "name": "Fronius",
+                  "country": "AT",
+                  "official_site": "https://www.fronius.com",
+                  "product_pages": {
+                        "inverters": "https://www.fronius.com/en/solar-energy/products/all-products"
+                  },
+                  "image_patterns": [
+                        "https://www.fronius.com/-/media/products/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "Primo \\d+\\.\\d+",
+                        "Symo \\d+\\.\\d+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "DEYE": {
+                  "name": "Deye",
+                  "country": "CN",
+                  "official_site": "https://www.deyeinverter.com",
+                  "product_pages": {
+                        "inverters": "https://www.deyeinverter.com/product"
+                  },
+                  "image_patterns": [
+                        "https://www.deyeinverter.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "SUN-\\d+K-G\\d+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "SOLIS": {
+                  "name": "Solis",
+                  "country": "CN",
+                  "official_site": "https://www.solisinverters.com",
+                  "product_pages": {
+                        "inverters": "https://www.solisinverters.com/products"
+                  },
+                  "image_patterns": [
+                        "https://www.solisinverters.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "S\\d+-\\d+K-\\d+MPPT"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "HUAWEI": {
+                  "name": "Huawei",
+                  "country": "CN",
+                  "official_site": "https://solar.huawei.com",
+                  "product_pages": {
+                        "inverters": "https://solar.huawei.com/en/products",
+                        "batteries": "https://solar.huawei.com/en/products/residential-energy-storage"
+                  },
+                  "image_patterns": [
+                        "https://solar.huawei.com/-/media/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "SUN\\d+K",
+                        "LUNA\\d+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "PYLONTECH": {
+                  "name": "Pylontech",
+                  "country": "CN",
+                  "official_site": "https://www.pylontech.com",
+                  "product_pages": {
+                        "batteries": "https://www.pylontech.com/product"
+                  },
+                  "image_patterns": [
+                        "https://www.pylontech.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "US\\d+[A-Z]?",
+                        "Force [LH]\\d+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "DYNESS": {
+                  "name": "Dyness",
+                  "country": "CN",
+                  "official_site": "https://www.dyness.com",
+                  "product_pages": {
+                        "batteries": "https://www.dyness.com/products"
+                  },
+                  "image_patterns": [
+                        "https://www.dyness.com/uploads/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "PowerBox [A-Z]\\d+",
+                        "Tower [HT]\\d+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "ENPHASE": {
+                  "name": "Enphase Energy",
+                  "country": "US",
+                  "official_site": "https://enphase.com",
+                  "product_pages": {
+                        "microinverters": "https://enphase.com/products",
+                        "batteries": "https://enphase.com/products/encharge-battery"
+                  },
+                  "image_patterns": [
+                        "https://enphase.com/sites/default/files/{model}.jpg"
+                  ],
+                  "sku_patterns": [
+                        "IQ\\d+[A-Z]?",
+                        "Encharge \\d+"
+                  ],
+                  "priority": 1,
+                  "active": true
+            },
+            "FORTLEV": {
+                  "name": "Fortlev Solar",
+                  "country": "BR",
+                  "official_site": "https://fortlevsolar.com.br",
+                  "product_pages": {
+                        "kits": "https://fortlevsolar.app/produto-avulso"
+                  },
+                  "image_patterns": [
+                        "https://prod-platform-api.s3.amazonaws.com/components/{id}/{filename}"
+                  ],
+                  "sku_patterns": [
+                        "IIN\\d+",
+                        "IMO\\d+"
+                  ],
+                  "priority": 2,
+                  "active": true,
+                  "notes": "Distribuidor brasileiro - usar apenas como fallback"
+            }
+      },
+      "fallback_strategy": {
+            "order": [
+                  "manufacturer_official",
+                  "manufacturer_cdn",
+                  "distributor_primary",
+                  "distributor_secondary",
+                  "placeholder"
+            ],
+            "placeholder": {
+                  "panels": "/static/placeholders/panel-placeholder.png",
+                  "inverters": "/static/placeholders/inverter-placeholder.png",
+                  "batteries": "/static/placeholders/battery-placeholder.png",
+                  "default": "/static/placeholders/product-placeholder.png"
+            }
+      },
+      "naming_convention": {
+            "pattern": "{MANUFACTURER}-{MODEL}-{POWER}.{ext}",
+            "examples": [
+                  "LONGI-LR5-72HPH-585M.png",
+                  "GROWATT-MIN-3000TL-X.jpg",
+                  "SUNGROW-SG3.0RS.jpg",
+                  "BYD-HVM-13.8.png"
+            ],
+            "normalization_rules": {
+                  "manufacturer": "UPPERCASE",
+                  "model": "preserve-case",
+                  "power": "extract-numeric",
+                  "extension": "prefer-png-over-jpg"
+            }
+      }
+}

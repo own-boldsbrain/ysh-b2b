@@ -1,0 +1,348 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'YSH B2B - Complete AWS Free Tier Stack - Simple'
+
+Parameters:
+  KeyPairName:
+    Type: AWS::EC2::KeyPair::KeyName
+    Description: EC2 KeyPair for SSH access
+  
+  DBPassword:
+    Type: String
+    NoEcho: true
+    MinLength: 8
+    Description: Master password for RDS databases
+
+Resources:
+  # NETWORK
+  YshVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/16
+      EnableDnsHostnames: true
+      EnableDnsSupport: true
+      Tags:
+        - Key: Name
+          Value: ysh-vpc
+
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: ysh-igw
+
+  AttachGateway:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref YshVPC
+      InternetGatewayId: !Ref InternetGateway
+
+  PublicSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref YshVPC
+      CidrBlock: 10.0.1.0/24
+      AvailabilityZone: !Select [0, !GetAZs '']
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: ysh-public-subnet-1
+
+  PublicSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref YshVPC
+      CidrBlock: 10.0.2.0/24
+      AvailabilityZone: !Select [1, !GetAZs '']
+      MapPublicIpOnLaunch: true
+      Tags:
+        - Key: Name
+          Value: ysh-public-subnet-2
+
+  PrivateSubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref YshVPC
+      CidrBlock: 10.0.10.0/24
+      AvailabilityZone: !Select [0, !GetAZs '']
+      Tags:
+        - Key: Name
+          Value: ysh-private-subnet-1
+
+  PrivateSubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref YshVPC
+      CidrBlock: 10.0.11.0/24
+      AvailabilityZone: !Select [1, !GetAZs '']
+      Tags:
+        - Key: Name
+          Value: ysh-private-subnet-2
+
+  PublicRouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref YshVPC
+      Tags:
+        - Key: Name
+          Value: ysh-public-rt
+
+  DefaultPublicRoute:
+    Type: AWS::EC2::Route
+    DependsOn: AttachGateway
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref InternetGateway
+
+  PublicSubnet1RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      SubnetId: !Ref PublicSubnet1
+
+  PublicSubnet2RouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      SubnetId: !Ref PublicSubnet2
+
+  # SECURITY GROUPS
+  BackendSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Security group for backend EC2 instances
+      VpcId: !Ref YshVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+          Description: SSH access
+        - IpProtocol: tcp
+          FromPort: 8000
+          ToPort: 8000
+          CidrIp: 0.0.0.0/0
+          Description: Backend API
+      SecurityGroupEgress:
+        - IpProtocol: -1
+          CidrIp: 0.0.0.0/0
+      Tags:
+        - Key: Name
+          Value: ysh-backend-sg
+
+  DatabaseSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Security group for RDS databases
+      VpcId: !Ref YshVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 5432
+          ToPort: 5432
+          SourceSecurityGroupId: !Ref BackendSecurityGroup
+          Description: PostgreSQL from backend
+      Tags:
+        - Key: Name
+          Value: ysh-db-sg
+
+  CacheSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Security group for ElastiCache Redis
+      VpcId: !Ref YshVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 6379
+          ToPort: 6379
+          SourceSecurityGroupId: !Ref BackendSecurityGroup
+          Description: Redis from backend
+      Tags:
+        - Key: Name
+          Value: ysh-cache-sg
+
+  # IAM ROLES
+  EC2Role:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: ec2.amazonaws.com
+            Action: 'sts:AssumeRole'
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly
+        - arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
+
+  EC2InstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Roles:
+        - !Ref EC2Role
+
+  # EC2 INSTANCES
+  BackendInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0c02fb55956c7d316  # Amazon Linux 2023 us-east-1
+      KeyName: !Ref KeyPairName
+      SubnetId: !Ref PublicSubnet1
+      SecurityGroupIds:
+        - !Ref BackendSecurityGroup
+      IamInstanceProfile: !Ref EC2InstanceProfile
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          yum update -y
+          yum install -y docker
+          systemctl start docker
+          systemctl enable docker
+          usermod -a -G docker ec2-user
+          
+          # Install AWS CLI v2
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          ./aws/install
+          
+          # Login to ECR
+          aws ecr get-login-password --region ${AWS::Region} | \
+            docker login --username AWS --password-stdin ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com
+          
+          # Pull and run backend
+          docker pull ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/ysh/backend:latest || echo "ECR image not found, continuing..."
+          
+          # Create startup script for when image is ready
+          cat > /home/ec2-user/start-backend.sh << 'EOF'
+          #!/bin/bash
+          aws ecr get-login-password --region ${AWS::Region} | \
+            docker login --username AWS --password-stdin ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com
+          docker pull ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/ysh/backend:latest
+          docker run -d -p 8000:8000 \
+            --name ysh-backend \
+            --restart unless-stopped \
+            ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/ysh/backend:latest
+          EOF
+          chmod +x /home/ec2-user/start-backend.sh
+          chown ec2-user:ec2-user /home/ec2-user/start-backend.sh
+          
+      Tags:
+        - Key: Name
+          Value: ysh-backend
+        - Key: Role
+          Value: backend-server
+
+  # RDS DATABASES
+  DBSubnetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+    Properties:
+      DBSubnetGroupDescription: Subnet group for RDS databases
+      SubnetIds:
+        - !Ref PrivateSubnet1
+        - !Ref PrivateSubnet2
+      Tags:
+        - Key: Name
+          Value: ysh-db-subnet-group
+
+  SupabaseDB:
+    Type: AWS::RDS::DBInstance
+    Properties:
+      DBInstanceIdentifier: ysh-supabase-db
+      DBInstanceClass: db.t3.micro
+      Engine: postgres
+      EngineVersion: '15.8'
+      MasterUsername: supabase_admin
+      MasterUserPassword: !Ref DBPassword
+      AllocatedStorage: 20
+      StorageType: gp2
+      PubliclyAccessible: false
+      VPCSecurityGroups:
+        - !Ref DatabaseSecurityGroup
+      DBSubnetGroupName: !Ref DBSubnetGroup
+      BackupRetentionPeriod: 7
+      PreferredBackupWindow: "03:00-04:00"
+      PreferredMaintenanceWindow: "sun:04:00-sun:05:00"
+      Tags:
+        - Key: Name
+          Value: ysh-supabase-db
+
+  # ELASTICACHE REDIS
+  CacheSubnetGroup:
+    Type: AWS::ElastiCache::SubnetGroup
+    Properties:
+      Description: Subnet group for ElastiCache Redis
+      SubnetIds:
+        - !Ref PrivateSubnet1
+        - !Ref PrivateSubnet2
+
+  RedisCache:
+    Type: AWS::ElastiCache::CacheCluster
+    Properties:
+      CacheNodeType: cache.t3.micro
+      Engine: redis
+      EngineVersion: 7.0
+      NumCacheNodes: 1
+      VpcSecurityGroupIds:
+        - !Ref CacheSecurityGroup
+      CacheSubnetGroupName: !Ref CacheSubnetGroup
+      Tags:
+        - Key: Name
+          Value: ysh-redis-cache
+
+  # SQS QUEUE
+  MessageQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: ysh-message-queue
+      VisibilityTimeout: 300
+      MessageRetentionPeriod: 1209600  # 14 dias
+      ReceiveMessageWaitTimeSeconds: 20  # Long polling
+
+  # S3 BUCKET
+  LogsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'ysh-logs-${AWS::AccountId}'
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteOldLogs
+            Status: Enabled
+            ExpirationInDays: 30
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+Outputs:
+  BackendURL:
+    Description: Backend API endpoint
+    Value: !Sub 'http://${BackendInstance.PublicIp}:8000'
+    Export:
+      Name: !Sub '${AWS::StackName}-BackendURL'
+
+  SupabaseDBEndpoint:
+    Description: Supabase database endpoint
+    Value: !GetAtt SupabaseDB.Endpoint.Address
+    Export:
+      Name: !Sub '${AWS::StackName}-SupabaseDBEndpoint'
+
+  RedisEndpoint:
+    Description: Redis cache endpoint
+    Value: !GetAtt RedisCache.RedisEndpoint.Address
+    Export:
+      Name: !Sub '${AWS::StackName}-RedisEndpoint'
+
+  SQSQueueURL:
+    Description: SQS queue URL
+    Value: !Ref MessageQueue
+    Export:
+      Name: !Sub '${AWS::StackName}-SQSQueueURL'
+
+  LogsBucketName:
+    Description: S3 logs bucket name
+    Value: !Ref LogsBucket
+    Export:
+      Name: !Sub '${AWS::StackName}-LogsBucketName'

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ document_title }}</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2.5cm 2cm 2cm 2cm;
+            @top-center {
+                content: "{{ project_name }} - Memorial Descritivo";
+                font-size: 10pt;
+                color: #666;
+            }
+            @bottom-center {
+                content: "Página " counter(page) " de " counter(pages);
+                font-size: 9pt;
+                color: #666;
+            }
+            @bottom-right {
+                content: "Documento gerado em {{ generation_date|format_date('%d/%m/%Y') }}";
+                font-size: 8pt;
+                color: #999;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .no-break {
+            page-break-inside: avoid;
+        }
+
+        /* Header Styles */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #2c5f8d;
+            padding-bottom: 20px;
+        }
+
+        .header h1 {
+            color: #2c5f8d;
+            font-size: 20pt;
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+
+        .header .subtitle {
+            font-size: 14pt;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .header .document-info {
+            font-size: 10pt;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        /* Section Headers */
+        h2 {
+            color: #2c5f8d;
+            font-size: 14pt;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #2c5f8d;
+            padding-bottom: 5px;
+            font-weight: bold;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 12pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            page-break-after: avoid;
+        }
+
+        h4 {
+            color: #555;
+            font-size: 11pt;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        /* Info Box */
+        .info-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-left: 4px solid #2c5f8d;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .info-box strong {
+            color: #2c5f8d;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 10pt;
+        }
+
+        table th {
+            background: linear-gradient(135deg, #2c5f8d 0%, #1e3f5a 100%);
+            color: white;
+            padding: 8px 10px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #ddd;
+        }
+
+        table td {
+            padding: 6px 10px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        table tr:hover {
+            background: #e3f2fd;
+        }
+
+        /* Status indicators */
+        .status-approved {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .status-pending {
+            color: #ffc107;
+            font-weight: bold;
+        }
+
+        .status-rejected {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        /* Equipment list */
+        .equipment-grid {
+            display: table;
+            width: 100%;
+        }
+
+        .equipment-item {
+            display: table-row;
+        }
+
+        .equipment-item > div {
+            display: table-cell;
+            padding: 5px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .equipment-header {
+            font-weight: bold;
+            background: #f8f9fa;
+        }
+
+        /* Technical specifications */
+        .tech-specs {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .tech-specs dl {
+            margin: 0;
+        }
+
+        .tech-specs dt {
+            font-weight: bold;
+            color: #2c5f8d;
+            margin-top: 10px;
+        }
+
+        .tech-specs dd {
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* Compliance section */
+        .compliance-item {
+            margin: 8px 0;
+            padding: 8px;
+            background: #f8f9fa;
+            border-left: 3px solid #28a745;
+        }
+
+        .compliance-item.incorrect {
+            border-left-color: #dc3545;
+            background: #fff5f5;
+        }
+
+        /* Signature section */
+        .signature-section {
+            margin-top: 40px;
+            text-align: center;
+            page-break-inside: avoid;
+        }
+
+        .signature-box {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #2c5f8d;
+            border-radius: 5px;
+            background: #f8f9fa;
+        }
+
+        .signature-line {
+            border-top: 1px solid #333;
+            width: 250px;
+            margin: 40px auto 10px;
+            position: relative;
+        }
+
+        .signature-line::after {
+            content: "Assinatura do Responsável Técnico";
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            padding: 0 10px;
+            font-size: 9pt;
+            color: #666;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 2px solid #2c5f8d;
+            text-align: center;
+            font-size: 9pt;
+            color: #666;
+            page-break-inside: avoid;
+        }
+
+        /* Print optimizations */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .info-box, table th, .signature-box {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .page-break {
+                page-break-before: always;
+            }
+
+            .no-break {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Responsive adjustments for very long content */
+        .content-wrapper {
+            max-width: 100%;
+            overflow-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <!-- Header -->
+        <div class="header">
+            <h1>{{ document_title }}</h1>
+            <div class="subtitle">Sistema Fotovoltaico - {{ installation_type|title }}</div>
+            <div class="document-info">
+                <strong>Versão:</strong> {{ document_version }} |
+                <strong>Data de Emissão:</strong> {{ generation_date|format_date('%d/%m/%Y às %H:%M') }}
+            </div>
+        </div>
+
+        <!-- 1. IDENTIFICAÇÃO DO PROJETO -->
+        <h2>1. IDENTIFICAÇÃO DO PROJETO</h2>
+        <div class="info-box">
+            <p><strong>Nome do Projeto:</strong> {{ project_name }}</p>
+            <p><strong>Cliente:</strong> {{ client_name }}</p>
+            <p><strong>CPF/CNPJ:</strong> {{ client_cpf_cnpj }}</p>
+            <p><strong>Endereço de Instalação:</strong> {{ location.address }}, {{ location.city }} - {{ location.state }}</p>
+            <p><strong>CEP:</strong> {{ location.zip_code }}</p>
+            <p><strong>Concessionária de Energia:</strong> {{ location.distributor }}</p>
+            <p><strong>Tipo de Instalação:</strong> {{ installation_type|title }}</p>
+            <p><strong>Tipo de Conexão:</strong> {{ connection_type|title }}</p>
+        </div>
+
+        <!-- 2. CARACTERÍSTICAS TÉCNICAS DO SISTEMA -->
+        <h2>2. CARACTERÍSTICAS TÉCNICAS DO SISTEMA</h2>
+        <div class="tech-specs">
+            <dl>
+                <dt>Potência Instalada Total</dt>
+                <dd>{{ total_power_kwp|format_power }} ({{ equipments|selectattr('type', 'equalto', 'panel')|sum(attribute='quantity') }} módulos fotovoltaicos)</dd>
+
+                <dt>Geração Estimada Mensal</dt>
+                <dd>{{ estimated_generation_kwh_month|format_power('kWh/mês') }}</dd>
+
+                <dt>Área de Instalação Estimada</dt>
+                <dd>{{ "%.1f"|format(equipments|selectattr('type', 'equalto', 'panel')|sum(attribute='quantity') * 2.0) }} m² (considerando {{ "%.1f"|format(2.0) }} m² por módulo)</dd>
+
+                <dt>Orientação dos Módulos</dt>
+                <dd>Norte (Azimute: 0°) - Inclinção: {{ location.latitude|default(20)|string ~ "°" }}</dd>
+
+                <dt>Temperatura Ambiente Média</dt>
+                <dd>{{ location.city }}: {{ "%.1f"|format(25.0) }}°C (dados históricos)</dd>
+            </dl>
+        </div>
+
+        <!-- 3. RELAÇÃO DE EQUIPAMENTOS -->
+        <h2>3. RELAÇÃO DE EQUIPAMENTOS</h2>
+
+        <h3>3.1 Módulos Fotovoltaicos</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fabricante</th>
+                    <th>Modelo</th>
+                    <th>Potência (Wp)</th>
+                    <th>Quantidade</th>
+                    <th>Potência Total (Wp)</th>
+                    <th>Certificação INMETRO</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for eq in equipments %}
+                {% if eq.type == 'panel' %}
+                <tr>
+                    <td>{{ eq.manufacturer }}</td>
+                    <td>{{ eq.model }}</td>
+                    <td>{{ eq.power_w|format_power('Wp') }}</td>
+                    <td>{{ eq.quantity }}</td>
+                    <td>{{ (eq.power_w * eq.quantity)|format_power('Wp') }}</td>
+                    <td class="{% if eq.inmetro_certified %}status-approved{% else %}status-rejected{% endif %}">
+                        {% if eq.inmetro_certified %}✓ Certificado{% else %}✗ Não certificado{% endif %}
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h3>3.2 Inversores</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fabricante</th>
+                    <th>Modelo</th>
+                    <th>Potência (W)</th>
+                    <th>Quantidade</th>
+                    <th>Potência Total (W)</th>
+                    <th>Certificação INMETRO</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for eq in equipments %}
+                {% if eq.type == 'inverter' %}
+                <tr>
+                    <td>{{ eq.manufacturer }}</td>
+                    <td>{{ eq.model }}</td>
+                    <td>{{ eq.power_w|format_power('W') }}</td>
+                    <td>{{ eq.quantity }}</td>
+                    <td>{{ (eq.power_w * eq.quantity)|format_power('W') }}</td>
+                    <td class="{% if eq.inmetro_certified %}status-approved{% else %}status-rejected{% endif %}">
+                        {% if eq.inmetro_certified %}✓ Certificado{% else %}✗ Não certificado{% endif %}
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {% if equipments|selectattr('type', 'equalto', 'battery')|list|length > 0 %}
+        <h3>3.3 Sistema de Armazenamento (Baterias)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fabricante</th>
+                    <th>Modelo</th>
+                    <th>Capacidade (Wh)</th>
+                    <th>Quantidade</th>
+                    <th>Capacidade Total (Wh)</th>
+                    <th>Certificação INMETRO</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for eq in equipments %}
+                {% if eq.type == 'battery' %}
+                <tr>
+                    <td>{{ eq.manufacturer }}</td>
+                    <td>{{ eq.model }}</td>
+                    <td>{{ eq.power_w|format_power('Wh') }}</td>
+                    <td>{{ eq.quantity }}</td>
+                    <td>{{ (eq.power_w * eq.quantity)|format_power('Wh') }}</td>
+                    <td class="{% if eq.inmetro_certified %}status-approved{% else %}status-rejected{% endif %}">
+                        {% if eq.inmetro_certified %}✓ Certificado{% else %}✗ Não certificado{% endif %}
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+
+        <!-- 4. DIMENSIONAMENTO ELÉTRICO -->
+        <h2>4. DIMENSIONAMENTO ELÉTRICO</h2>
+        <div class="tech-specs">
+            <h4>4.1 Cálculo de Geração</h4>
+            <p>Com base na irradiação solar média de {{ location.city }} ({{ "%.1f"|format(5.2) }} kWh/m²/dia) e eficiência do sistema:</p>
+            <ul>
+                <li><strong>Geração Diária Estimada:</strong> {{ "%.1f"|format(estimated_generation_kwh_month / 30) }} kWh</li>
+                <li><strong>Fator de Performance:</strong> {{ "%.1f"|format(0.85) }} (perdas por temperatura, sujeira, etc.)</li>
+                <li><strong>Payback Estimado:</strong> {{ "%.1f"|format(6.5) }} anos (investimento de {{ "R$ %.2f"|format(total_power_kwp * 5000) }})</li>
+            </ul>
+
+            <h4>4.2 Dimensionamento de Cabos</h4>
+            <p>Calculado conforme NBR 5410 para corrente máxima de {{ "%.1f"|format(total_power_kwp * 1.25) }}A:</p>
+            <ul>
+                <li><strong>Cabo CC (Módulos → Inversor):</strong> 6mm² (cobre isolado)</li>
+                <li><strong>Cabo CA (Inversor → Quadra):</strong> 10mm² (cobre)</li>
+                <li><strong>Comprimento Total Estimado:</strong> {{ "%.1f"|format(50.0) }} metros</li>
+            </ul>
+
+            <h4>4.3 Dispositivos de Proteção</h4>
+            <ul>
+                <li><strong>Disjuntor Principal:</strong> {{ "%.1f"|format(total_power_kwp * 1.5) }}A</li>
+                <li><strong>DPS (CC):</strong> {{ total_power_kwp|int // 5 + 1 }} dispositivos</li>
+                <li><strong>Para-raios:</strong> Tipo 1 (conforme NBR 5410)</li>
+            </ul>
+        </div>
+
+        <!-- 5. NORMAS E REGULAMENTAÇÕES -->
+        <h2>5. NORMAS E REGULAMENTAÇÕES APLICÁVEIS</h2>
+        <p>Este projeto foi elaborado em conformidade com as seguintes normas técnicas e regulamentos:</p>
+
+        <div class="compliance-item">
+            <strong>NBR 5410:2004</strong> - Instalações elétricas de baixa tensão<br>
+            <small>Dimensionamento e proteção de circuitos elétricos</small>
+        </div>
+
+        <div class="compliance-item">
+            <strong>NBR 16274:2014</strong> - Sistemas fotovoltaicos conectados à rede<br>
+            <small>Requisitos para conexão à rede elétrica</small>
+        </div>
+
+        <div class="compliance-item">
+            <strong>NBR 16690:2019</strong> - Instalações elétricas de arranjos fotovoltaicos<br>
+            <small>Proteção contra choques elétricos e incêndios</small>
+        </div>
+
+        <div class="compliance-item">
+            <strong>Resolução Normativa ANEEL nº 1.000/2021</strong><br>
+            <small>Procedimentos de distribuição de energia elétrica</small>
+        </div>
+
+        <div class="compliance-item">
+            <strong>Procedimentos de Conexão - {{ location.distributor }}</strong><br>
+            <small>Requisitos específicos da concessionária</small>
+        </div>
+
+        <!-- 6. CERTIFICAÇÕES E HOMOLOGAÇÕES -->
+        <h2>6. CERTIFICAÇÕES E HOMOLOGAÇÕES</h2>
+        <div class="info-box">
+            <h4>Equipamentos Certificados INMETRO</h4>
+            <p>
+                {% set certified_count = equipments|selectattr('inmetro_certified')|list|length %}
+                {% set total_count = equipments|length %}
+                {{ certified_count }} de {{ total_count }} equipamentos possuem certificação INMETRO válida
+                ({{ "%.1f"|format(certified_count / total_count * 100) }}% de conformidade).
+            </p>
+
+            <h4>Responsável Técnico</h4>
+            <p><strong>{{ responsible_engineer }}</strong></p>
+            <p>Engenheiro Eletricista - CREA: {{ crea_number }}</p>
+            <p>Especialista em Sistemas Fotovoltaicos</p>
+        </div>
+
+        <!-- 7. CONSIDERAÇÕES FINAIS -->
+        <h2>7. CONSIDERAÇÕES FINAIS</h2>
+        <p>
+            O sistema fotovoltaico descrito neste memorial foi dimensionado para atender à demanda energética
+            do cliente, considerando os padrões de qualidade e segurança exigidos pelas normas técnicas brasileiras
+            e pelos procedimentos da concessionária {{ location.distributor }}.
+        </p>
+        <p>
+            Todos os equipamentos especificados possuem certificação INMETRO válida, garantindo a conformidade
+            com os padrões de qualidade estabelecidos pelo Programa Brasileiro de Etiquetagem (PBE).
+        </p>
+        <p>
+            Este memorial descritivo serve como documento técnico para subsidiar o processo de homologação
+            junto à concessionária de energia elétrica e demais órgãos competentes.
+        </p>
+
+        <!-- Signature Section -->
+        <div class="signature-section">
+            <div class="signature-box">
+                <div class="signature-line"></div>
+                <p><strong>{{ responsible_engineer }}</strong></p>
+                <p>Engenheiro Eletricista</p>
+                <p>CREA: {{ crea_number }}</p>
+                <p>{{ location.city }}, {{ generation_date|format_date('%d/%m/%Y') }}</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>{{ document_title }}</strong> - Versão {{ document_version }}</p>
+            <p>Projeto: {{ project_name }} | Cliente: {{ client_name }}</p>
+            <p>Gerado automaticamente pelo Sistema HaaS Platform</p>
+            <p>Documento confidencial - Uso restrito ao processo de homologação</p>
+        </div>
+    </div>
+</body>
+</html>

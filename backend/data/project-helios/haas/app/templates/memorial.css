@@ -1,0 +1,291 @@
+/* Memorial Descritivo CSS - Professional styling */
+
+/* Page setup */
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2cm 2cm;
+}
+
+/* Print-specific styles */
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .info-box, table th {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+
+/* Avoid page breaks inside important blocks */
+.info-box,
+table,
+.signature-box,
+.tech-specs,
+.compliance-item {
+    page-break-inside: avoid;
+}
+
+h2 {
+    page-break-after: avoid;
+}
+
+h3 {
+    page-break-after: avoid;
+}
+
+/* Professional color scheme */
+:root {
+    --primary-color: #2c5f8d;
+    --secondary-color: #4a90e2;
+    --accent-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+/* Enhanced table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 10pt;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table th {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 10px 8px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 9pt;
+}
+
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+table tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+table tr:hover {
+    background: #e3f2fd;
+    transition: background-color 0.2s ease;
+}
+
+/* Status indicators with icons */
+.status-approved {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.status-approved::before {
+    content: "✓ ";
+}
+
+.status-pending {
+    color: var(--warning-color);
+    font-weight: bold;
+}
+
+.status-pending::before {
+    content: "⏳ ";
+}
+
+.status-rejected {
+    color: var(--danger-color);
+    font-weight: bold;
+}
+
+.status-rejected::before {
+    content: "✗ ";
+}
+
+/* Enhanced info boxes */
+.info-box {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-left: 4px solid var(--primary-color);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.info-box strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Technical specifications styling */
+.tech-specs {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tech-specs h4 {
+    color: var(--primary-color);
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+.tech-specs dl {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.tech-specs dt {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 12px;
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tech-specs dd {
+    margin-left: 0;
+    margin-bottom: 8px;
+    font-size: 10pt;
+    padding-left: 10px;
+    border-left: 2px solid var(--secondary-color);
+}
+
+/* Compliance items */
+.compliance-item {
+    margin: 8px 0;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+
+.compliance-item:hover {
+    transform: translateX(2px);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.compliance-item.incorrect {
+    border-left-color: var(--danger-color);
+    background: linear-gradient(135deg, #fff5f5 0%, #ffeaea 100%);
+}
+
+/* Enhanced signature section */
+.signature-box {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 25px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.signature-line {
+    border-top: 2px solid var(--text-color);
+    width: 280px;
+    margin: 50px auto 15px;
+    position: relative;
+    border-radius: 1px;
+}
+
+.signature-line::after {
+    content: "Assinatura do Responsável Técnico";
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 15px;
+    font-size: 9pt;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 3px solid var(--primary-color);
+    text-align: center;
+    font-size: 9pt;
+    color: #666;
+    page-break-inside: avoid;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Section numbering */
+body {
+    counter-reset: section-counter;
+}
+
+h2 {
+    counter-increment: section-counter;
+}
+
+h2::before {
+    content: counter(section-counter) ". ";
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .tech-specs dl {
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        font-size: 9pt;
+    }
+
+    table th,
+    table td {
+        padding: 6px 4px;
+    }
+}
+
+/* Print optimizations */
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .compliance-item:hover {
+        transform: none;
+    }
+
+    .info-box,
+    .tech-specs,
+    .compliance-item,
+    .signature-box {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}

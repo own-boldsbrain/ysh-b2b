@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2025-10-21T13:41:08.366Z",
+  "summary": {
+    "totalDistributors": 7,
+    "successfulDistributors": 1,
+    "partialDistributors": 3,
+    "failedDistributors": 3,
+    "totalProducts": 332,
+    "coveragePercentage": 35.714285714285715
+  },
+  "distributors": [
+    {
+      "name": "Edeltec",
+      "status": "success",
+      "productsExtracted": 237,
+      "loginMethod": "Standard form authentication",
+      "issues": [],
+      "lastAttempt": "2025-10-21T13:41:08.364Z"
+    },
+    {
+      "name": "Neosolar",
+      "status": "partial",
+      "productsExtracted": 83,
+      "loginMethod": "Standard form authentication",
+      "issues": [
+        "Limited catalog access",
+        "Awaiting support response"
+      ],
+      "lastAttempt": "2025-10-21T13:41:08.365Z"
+    },
+    {
+      "name": "Odex",
+      "status": "partial",
+      "productsExtracted": 3,
+      "loginMethod": "Standard form authentication",
+      "issues": [
+        "Returns category links only",
+        "Needs deep category navigation"
+      ],
+      "lastAttempt": "2025-10-21T13:41:08.365Z"
+    },
+    {
+      "name": "Fortlev",
+      "status": "partial",
+      "productsExtracted": 9,
+      "loginMethod": "Standard form authentication",
+      "issues": [
+        "Returns category links only",
+        "Needs deep category navigation"
+      ],
+      "lastAttempt": "2025-10-21T13:41:08.366Z"
+    },
+    {
+      "name": "Solfácil",
+      "status": "failed",
+      "productsExtracted": 0,
+      "loginMethod": "Keycloak SSO (OpenID Connect)",
+      "issues": [
+        "Complex SSO authentication",
+        "Requires OAuth2/OpenID Connect flow",
+        "Script created but needs manual debugging"
+      ],
+      "lastAttempt": "2025-10-21T13:41:08.366Z"
+    },
+    {
+      "name": "Fotus",
+      "status": "failed",
+      "productsExtracted": 0,
+      "loginMethod": "React SPA custom authentication",
+      "issues": [
+        "Custom SPA authentication",
+        "Login form detection failed",
+        "Script created but needs manual debugging"
+      ],
+      "lastAttempt": "2025-10-21T13:41:08.366Z"
+    },
+    {
+      "name": "Dynamis",
+      "status": "failed",
+      "productsExtracted": 0,
+      "loginMethod": "Custom SPA authentication",
+      "issues": [
+        "Custom SPA authentication",
+        "Login form not detected",
+        "Script created but needs manual debugging"
+      ],
+      "lastAttempt": "2025-10-21T13:41:08.366Z"
+    }
+  ],
+  "recommendations": [
+    "🔴 **3 distribuidores com falha total**: Solfácil, Fotus, Dynamis",
+    "💡 **Ação recomendada**: Debug manual com browser visível usando os scripts customizados criados",
+    "🟡 **3 distribuidores com extração parcial**: Neosolar, Odex, Fortlev",
+    "💡 **Ação recomendada**: Implementar navegação profunda por categorias para extrair catálogo completo",
+    "✅ **332 produtos já extraídos** - Base inicial estabelecida com sucesso"
+  ],
+  "nextSteps": [
+    "**PRIORIDADE 1**: Resolver autenticações complexas",
+    "  - Solfácil: Keycloak SSO (OpenID Connect)",
+    "    Script: scripts/extract-solfácil-custom.ts",
+    "  - Fotus: React SPA custom authentication",
+    "    Script: scripts/extract-fotus-custom.ts",
+    "  - Dynamis: Custom SPA authentication",
+    "    Script: scripts/extract-dynamis-custom.ts",
+    "**PRIORIDADE 2**: Implementar deep scraping para distribuidores parciais",
+    "  - Odex: Criar navegador de categorias",
+    "  - Fortlev: Criar navegador de categorias",
+    "**PRIORIDADE 3**: Aprimorar extração dos distribuidores funcionais",
+    "  - Edeltec: Extrair especificações técnicas completas",
+    "**PRIORIDADE 4**: Consolidar dados em schema unificado",
+    "  - Normalizar títulos de produtos",
+    "  - Dedplicar produtos entre distribuidores",
+    "  - Comparar preços entre distribuidores",
+    "**PRIORIDADE 5**: Implementar automação",
+    "  - Criar workflow Temporal para sync diário",
+    "  - Configurar alertas de falhas",
+    "  - Implementar dashboard de monitoramento"
+  ]
+}

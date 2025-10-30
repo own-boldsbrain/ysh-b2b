@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-10-30T00:21:19.403Z",
+  "total_skus": 1138,
+  "valid_skus": 1127,
+  "skus_with_warnings": 11,
+  "skus_with_errors": 0,
+  "success_rate": "99.03",
+  "validation_status": "PASSED",
+  "error_summary": {
+    "count": 0,
+    "samples": []
+  },
+  "warning_summary": {
+    "count": 11,
+    "samples": [
+      {
+        "index": 28,
+        "sku": "FOTUSKP031136KWPFIBROCIMENTOKITS",
+        "warnings": [
+          "Psychological pricing não aplicado"
+        ]
+      },
+      {
+        "index": 105,
+        "sku": "FOTUSKP04570KWPCERAMICOKITS",
+        "warnings": [
+          "Psychological pricing não aplicado"
+        ]
+      },
+      {
+        "index": 408,
+        "sku": "NEOSOLARINVERTERS22690",
+        "warnings": [
+          "Psychological pricing não aplicado"
+        ]
+      },
+      {
+        "index": 482,
+        "sku": "NEOSOLARINVERTERS27093",
+        "warnings": [
+          "Psychological pricing não aplicado"
+        ]
+      },
+      {
+        "index": 583,
+        "sku": "NEOSOLARKITS26696",
+        "warnings": [
+          "Psychological pricing não aplicado"
+        ]
+      }
+    ]
+  }
+}

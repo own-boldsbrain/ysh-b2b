@@ -1,12 +1,16 @@
 from datetime import datetime, timedelta
-from typing import Optional, Dict, Any
+from typing import Optional
+from jose import jwt
 import redis
-from jose import JWTError, jwt
+from sqlalchemy.orm import Session
 from passlib.context import CryptContext
-from app.models.auth import User, TokenData
-from app.config import settings
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+from app.config import settings
+from app.database import SessionLocal
+from app.database.models import User as UserDB
+from app.models.auth import TokenData, User
+
+pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
 
 # Redis client for token blacklist
 try:
@@ -95,49 +99,44 @@ def verify_token(
         raise credentials_exception
 
 
-# Mock user database - replace with real database later
-fake_users_db: Dict[str, Dict[str, Any]] = {
-    "distributor@haas.com": {
-        "id": 1,
-        "email": "distributor@haas.com",
-        "full_name": "Test Distributor",
-        "hashed_password": get_password_hash("pass123"),
-        "role": "distributor",
-        "is_active": True,
-    }
-}
-
-
 def authenticate_user(email: str, password: str) -> Optional[User]:
     """Authenticate user with email and password."""
-    user = fake_users_db.get(email)
-    if not user:
-        return None
-    if not verify_password(password, user["hashed_password"]):
-        return None
+    db: Session = SessionLocal()
+    try:
+        user_db = db.query(UserDB).filter(UserDB.email == email).first()
+        if not user_db:
+            return None
+        if not verify_password(password, user_db.hashed_password):
+            return None
 
-    return User(
-        id=user["id"],
-        email=user["email"],
-        full_name=user["full_name"],
-        role=user["role"],
-        is_active=user["is_active"]
-    )
+        return User(
+            id=user_db.id,
+            email=user_db.email,
+            full_name=user_db.username,  # Using username as full_name for now
+            role=user_db.role,
+            is_active=user_db.is_active,
+        )
+    finally:
+        db.close()
 
 
 def get_user(email: str) -> Optional[User]:
     """Get user by email."""
-    user = fake_users_db.get(email)
-    if not user:
-        return None
+    db: Session = SessionLocal()
+    try:
+        user_db = db.query(UserDB).filter(UserDB.email == email).first()
+        if not user_db:
+            return None
 
-    return User(
-        id=user["id"],
-        email=user["email"],
-        full_name=user["full_name"],
-        role=user["role"],
-        is_active=user["is_active"]
-    )
+        return User(
+            id=user_db.id,
+            email=user_db.email,
+            full_name=user_db.username,  # Using username as full_name for now
+            role=user_db.role,
+            is_active=user_db.is_active,
+        )
+    finally:
+        db.close()
 
 
 def add_token_to_blacklist(token: str, expires_in: int = 3600) -> bool:

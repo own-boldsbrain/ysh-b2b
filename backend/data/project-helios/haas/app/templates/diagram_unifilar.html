@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ diagram_type }} - {{ project_name or "Sistema Fotovoltaico" }}</title>
+    <link rel="stylesheet" href="diagram.css">
+</head>
+<body>
+    <div class="diagram-container">
+        <div class="diagram-header">
+            <h1>{{ diagram_type }}</h1>
+            <div class="subtitle">
+                {{ project_name or "Sistema Fotovoltaico" }} -
+                Gerado em {{ generation_date | format_date }}
+            </div>
+        </div>
+
+        <!-- SVG Diagram -->
+        <div class="diagram-svg">
+            {{ unifilar_diagram_svg | safe }}
+        </div>
+
+        <!-- Technical Specifications -->
+        <div class="technical-specs">
+            <h2>Especificações Técnicas</h2>
+
+            {% if equipments %}
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Equipamento</th>
+                        <th>Modelo</th>
+                        <th>Quantidade</th>
+                        <th>Potência (W)</th>
+                        <th>Tensão (V)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for eq in equipments %}
+                    <tr>
+                        <td>{{ eq.type | title }}</td>
+                        <td>{{ eq.model or "N/A" }}</td>
+                        <td>{{ eq.quantity or 1 }}</td>
+                        <td>{{ eq.power | default(0) | format_power("W") if eq.power else "N/A" }}</td>
+                        <td>{{ eq.voltage or "N/A" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+
+            {% if location %}
+            <h3>Localização e Concessionária</h3>
+            <table class="specs-table">
+                <tbody>
+                    <tr>
+                        <td><strong>Cidade:</strong></td>
+                        <td>{{ location.city or "N/A" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Estado:</strong></td>
+                        <td>{{ location.state or "N/A" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Concessionária:</strong></td>
+                        <td>{{ location.distributor or "N/A" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Classe de Tensão:</strong></td>
+                        <td>{{ location.voltage_class or "127/220V" }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            {% endif %}
+
+            {% if system_specs %}
+            <h3>Especificações do Sistema</h3>
+            <table class="specs-table">
+                <tbody>
+                    <tr>
+                        <td><strong>Potência Total:</strong></td>
+                        <td>{{ system_specs.total_power | format_power if system_specs.total_power else "N/A" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tipo de Conexão:</strong></td>
+                        <td>{{ system_specs.connection_type or "Monofásico" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Padrão de Referência:</strong></td>
+                        <td>{{ system_specs.standard or "NBR 16149/2013" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Normas Aplicáveis:</strong></td>
+                        <td>{{ system_specs.norms or "INMETRO, ANEEL" }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>Documento Técnico - {{ diagram_type }}</strong></p>
+            <p>Gerado automaticamente pelo Sistema HaaS - Project Helios</p>
+            <p>Data: {{ generation_date | format_date("dd/MM/yyyy HH:mm") }}</p>
+            {% if responsible_engineer %}
+            <p>Responsável Técnico: {{ responsible_engineer }} - CREA: {{ crea_number }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

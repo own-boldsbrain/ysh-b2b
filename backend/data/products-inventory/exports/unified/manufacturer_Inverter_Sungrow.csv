@@ -1,0 +1,25 @@
+﻿battery_capacity_kwh,battery_manufacturer,battery_quantity,battery_voltage_v,category,distributor,id,inverter_manufacturer,inverter_power_kw,inverter_quantity,name,panel_manufacturer,panel_power_w,panel_quantity,power_kwp,power_watts,price_brl,price_per_wp,total_batteries,total_inverters,total_panels,type
+,,,,kits,Fortlev,fortlev_kit_026,Sungrow,,1,Kit 4.09kWp - Longi + Sungrow,Longi,585,7,4.09,4090.0,5636.14,1.38,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_027,Sungrow,,1,Kit 4.27kWp - Panel + Sungrow,,,,4.27,4270.0,5637.77,1.32,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_037,Sungrow,,1,Kit 4.41kWp - Longi + Sungrow,Longi,630,7,4.41,4410.0,6058.03,1.37,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_044,Sungrow,,1,Kit 4.2kWp - Risen + Sungrow,Risen,700,6,4.2,4200.0,6468.29,1.54,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_056,Sungrow,,1,Kit 5.49kWp - Panel + Sungrow,,,,5.49,5490.0,7432.63,1.35,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_059,Sungrow,,1,Kit 4.24kWp - BYD + Sungrow,BYD,530,8,4.24,4240.0,7538.69,1.78,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_067,Sungrow,,1,Kit 5.85kWp - Longi + Sungrow,Longi,585,10,5.85,5850.0,7971.36,1.36,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_068,Sungrow,,1,Kit 5.67kWp - Longi + Sungrow,Longi,630,9,5.67,5670.0,7972.96,1.41,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_074,Sungrow,,1,Kit 4.03kWp - Panel + Sungrow,,,,4.03,4030.0000000000005,8466.55,2.1,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_083,Sungrow,,1,Kit 5.6kWp - Risen + Sungrow,Risen,700,8,5.6,5600.0,8720.34,1.56,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_085,Sungrow,,1,Kit 7.02kWp - Longi + Sungrow,Longi,585,12,7.02,7020.0,8821.14,1.26,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_086,Sungrow,,1,Kit 7.32kWp - Panel + Sungrow,,,,7.32,7320.0,8823.93,1.21,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_092,Sungrow,,1,Kit 6.93kWp - Longi + Sungrow,Longi,630,11,6.93,6930.0,8943.28,1.29,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_101,Sungrow,,1,Kit 7.0kWp - Risen + Sungrow,Risen,700,10,7.0,7000.0,10027.77,1.43,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_106,Sungrow,,1,Kit 5.83kWp - BYD + Sungrow,BYD,530,11,5.83,5830.0,10384.56,1.78,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_118,Sungrow,,1,Kit 5.75kWp - Panel + Sungrow,,,,5.75,5750.0,12014.81,2.09,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_121,Sungrow,,1,Kit 7.42kWp - BYD + Sungrow,BYD,530,14,7.42,7420.0,12285.82,1.66,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_150,Sungrow,,1,Kit 7.47kWp - Panel + Sungrow,,,,7.47,7470.0,14618.45,1.96,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_160,Sungrow,,1,Kit 13.42kWp - Panel + Sungrow,,,,13.42,13420.0,15816.36,1.18,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_165,Sungrow,,1,Kit 13.46kWp - Longi + Sungrow,Longi,585,23,13.46,13460.0,16352.06,1.22,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_170,Sungrow,,1,Kit 13.23kWp - Longi + Sungrow,Longi,630,21,13.23,13230.0,16536.07,1.25,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_191,Sungrow,,1,Kit 13.3kWp - Risen + Sungrow,Risen,700,19,13.3,13300.0,18536.51,1.39,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_206,Sungrow,,1,Kit 13.25kWp - BYD + Sungrow,BYD,530,25,13.25,13250.0,21689.11,1.64,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_215,Sungrow,,1,Kit 13.22kWp - Panel + Sungrow,,,,13.22,13220.0,25652.0,1.94,0,1,1,Solar Kit

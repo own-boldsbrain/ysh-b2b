@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-10-28T19:13:31.361Z",
+  "source": "fernando-bold/ysh-solar-products-brazil",
+  "aws_region": "us-east-1",
+  "dynamodb_table": "ysh-products-catalog",
+  "total_products": 2914,
+  "uploaded_count": 0,
+  "error_count": 2914,
+  "statistics": {
+    "categories": {
+      "kits": 2822,
+      "panels": 92
+    },
+    "manufacturers": {
+      "unknown": 2914
+    },
+    "distributors": {
+      "fortlev": 217,
+      "fotus": 4,
+      "neosolar": 2601,
+      "solfacil": 92
+    }
+  },
+  "sample_items": [
+    {
+      "pk": "SKU#SKU000001",
+      "sk": "PRODUCT#SKU000001",
+      "sku_code": "SKU000001",
+      "name": "Kit 2.44kWp - Panel + Growatt",
+      "manufacturer_id": "unknown",
+      "manufacturer_name": "unknown",
+      "category": "kits",
+      "distributor": "fortlev",
+      "price": 0,
+      "stock": 0,
+      "description": "Complete 2.44kWp solar energy kit for grid-tie residential or commercial installation.\n\n**Components Included:**\n- Solar Panels: Unknown\n- Inverter: Growatt 2.0kW\n\n**Technical Specifications:**\n- System Power: 2.44kWp\n- Configuration: Grid-tie photovoltaic system\n- Estimated Energy Generation: ~329kWh/month (average)\n\n**Pricing:**\n- Total Kit Price: R$ 2,923.56\n- Cost per Watt-peak: R$ 1.20/Wp\n\n**Ideal For:**\n- Residential properties consuming ~329kWh/month\n- Small commercial installations\n- Offsetting electricity bills with clean solar energy\n\n**Installation Notes:**\n- Professional installation recommended\n- Includes all core components (panels + inverter)\n- Mounting structure and cables sold separately\n- Check local regulations for grid connection requirements",
+      "specifications": {},
+      "image_url": "",
+      "url": "",
+      "created_at": 1761678737,
+      "synced_at": null,
+      "ttl": 1793214737,
+      "source_data": {
+        "original_id": "fortlev_kit_001"
+      }
+    },
+    {
+      "pk": "SKU#SKU000002",
+      "sk": "PRODUCT#SKU000002",
+      "sku_code": "SKU000002",
+      "name": "Kit 2.52kWp - Longi + Growatt",
+      "manufacturer_id": "unknown",
+      "manufacturer_name": "unknown",
+      "category": "kits",
+      "distributor": "fortlev",
+      "price": 0,
+      "stock": 0,
+      "description": "Complete 2.52kWp solar energy kit for grid-tie residential or commercial installation.\n\n**Components Included:**\n- Solar Panels: LONGi 630W (Quantity: 4)\n- Inverter: Growatt 2.0kW\n\n**Technical Specifications:**\n- System Power: 2.52kWp\n- Configuration: Grid-tie photovoltaic system\n- Estimated Energy Generation: ~340kWh/month (average)\n\n**Pricing:**\n- Total Kit Price: R$ 3,163.70\n- Cost per Watt-peak: R$ 1.26/Wp\n\n**Ideal For:**\n- Residential properties consuming ~340kWh/month\n- Small commercial installations\n- Offsetting electricity bills with clean solar energy\n\n**Installation Notes:**\n- Professional installation recommended\n- Includes all core components (panels + inverter)\n- Mounting structure and cables sold separately\n- Check local regulations for grid connection requirements",
+      "specifications": {},
+      "image_url": "",
+      "url": "",
+      "created_at": 1761678737,
+      "synced_at": null,
+      "ttl": 1793214737,
+      "source_data": {
+        "original_id": "fortlev_kit_002"
+      }
+    },
+    {
+      "pk": "SKU#SKU000003",
+      "sk": "PRODUCT#SKU000003",
+      "sku_code": "SKU000003",
+      "name": "Kit 2.8kWp - Risen + Growatt",
+      "manufacturer_id": "unknown",
+      "manufacturer_name": "unknown",
+      "category": "kits",
+      "distributor": "fortlev",
+      "price": 0,
+      "stock": 0,
+      "description": "Complete 2.8kWp solar energy kit for grid-tie residential or commercial installation.\n\n**Components Included:**\n- Solar Panels: Risen 700W (Quantity: 4)\n- Inverter: Growatt 2.0kW\n\n**Technical Specifications:**\n- System Power: 2.8kWp\n- Configuration: Grid-tie photovoltaic system\n- Estimated Energy Generation: ~378kWh/month (average)\n\n**Pricing:**\n- Total Kit Price: R$ 3,837.94\n- Cost per Watt-peak: R$ 1.37/Wp\n\n**Ideal For:**\n- Residential properties consuming ~378kWh/month\n- Small commercial installations\n- Offsetting electricity bills with clean solar energy\n\n**Installation Notes:**\n- Professional installation recommended\n- Includes all core components (panels + inverter)\n- Mounting structure and cables sold separately\n- Check local regulations for grid connection requirements",
+      "specifications": {},
+      "image_url": "",
+      "url": "",
+      "created_at": 1761678737,
+      "synced_at": null,
+      "ttl": 1793214737,
+      "source_data": {
+        "original_id": "fortlev_kit_003"
+      }
+    },
+    {
+      "pk": "SKU#SKU000004",
+      "sk": "PRODUCT#SKU000004",
+      "sku_code": "SKU000004",
+      "name": "Kit 2.8kWp - Risen + Growatt",
+      "manufacturer_id": "unknown",
+      "manufacturer_name": "unknown",
+      "category": "kits",
+      "distributor": "fortlev",
+      "price": 0,
+      "stock": 0,
+      "description": "Complete 2.8kWp solar energy kit for grid-tie residential or commercial installation.\n\n**Components Included:**\n- Solar Panels: Risen 700W (Quantity: 4)\n- Inverter: Growatt\n\n**Technical Specifications:**\n- System Power: 2.8kWp\n- Configuration: Grid-tie photovoltaic system\n- Estimated Energy Generation: ~378kWh/month (average)\n\n**Pricing:**\n- Total Kit Price: R$ 3,923.18\n- Cost per Watt-peak: R$ 1.40/Wp\n\n**Ideal For:**\n- Residential properties consuming ~378kWh/month\n- Small commercial installations\n- Offsetting electricity bills with clean solar energy\n\n**Installation Notes:**\n- Professional installation recommended\n- Includes all core components (panels + inverter)\n- Mounting structure and cables sold separately\n- Check local regulations for grid connection requirements",
+      "specifications": {},
+      "image_url": "",
+      "url": "",
+      "created_at": 1761678737,
+      "synced_at": null,
+      "ttl": 1793214737,
+      "source_data": {
+        "original_id": "fortlev_kit_004"
+      }
+    },
+    {
+      "pk": "SKU#SKU000005",
+      "sk": "PRODUCT#SKU000005",
+      "sku_code": "SKU000005",
+      "name": "Kit 2.92kWp - Longi + Growatt",
+      "manufacturer_id": "unknown",
+      "manufacturer_name": "unknown",
+      "category": "kits",
+      "distributor": "fortlev",
+      "price": 0,
+      "stock": 0,
+      "description": "Complete 2.92kWp solar energy kit for grid-tie residential or commercial installation.\n\n**Components Included:**\n- Solar Panels: LONGi 585W (Quantity: 5)\n- Inverter: Growatt 2.0kW\n\n**Technical Specifications:**\n- System Power: 2.92kWp\n- Configuration: Grid-tie photovoltaic system\n- Estimated Energy Generation: ~394kWh/month (average)\n\n**Pricing:**\n- Total Kit Price: R$ 4,222.76\n- Cost per Watt-peak: R$ 1.44/Wp\n\n**Ideal For:**\n- Residential properties consuming ~394kWh/month\n- Small commercial installations\n- Offsetting electricity bills with clean solar energy\n\n**Installation Notes:**\n- Professional installation recommended\n- Includes all core components (panels + inverter)\n- Mounting structure and cables sold separately\n- Check local regulations for grid connection requirements",
+      "specifications": {},
+      "image_url": "",
+      "url": "",
+      "created_at": 1761678737,
+      "synced_at": null,
+      "ttl": 1793214737,
+      "source_data": {
+        "original_id": "fortlev_kit_005"
+      }
+    }
+  ]
+}

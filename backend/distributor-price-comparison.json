@@ -1,0 +1,4511 @@
+{
+  "generated_at": "2025-10-30T01:39:17.888Z",
+  "summary": {
+    "total_products": 1138,
+    "products_with_multiple_prices": 1138,
+    "avg_offers_per_product": "3.00",
+    "avg_price_variation_pct": "688.18"
+  },
+  "products": [
+    {
+      "sku": "FOTUSKP04798KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-798kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 120.22,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 149.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.762934619863593
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 35935,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 29791.033105972383
+        }
+      ],
+      "stats": {
+        "min": 120.22,
+        "max": 35935,
+        "avg": 12068.403333333334,
+        "variation_pct": 29791.033105972383
+      }
+    },
+    {
+      "sku": "FOTUSKP041026KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1026kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 168.47,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 210.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.215171840683798
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 46195,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 27320.31222176055
+        }
+      ],
+      "stats": {
+        "min": 168.47,
+        "max": 46195,
+        "avg": 15524.806666666665,
+        "variation_pct": 27320.31222176055
+      }
+    },
+    {
+      "sku": "GOODWEGW37K5SDTBR30AFCIIMAGEPRODUCT600350",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW37K5-SDT-BR30 - AFCI_IMAGE_PRODUCT_600350.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 171.75,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 214.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.152838427947593
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 28890,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 16720.960698689956
+        }
+      ],
+      "stats": {
+        "min": 171.75,
+        "max": 28890,
+        "avg": 9758.9,
+        "variation_pct": 16720.960698689956
+      }
+    },
+    {
+      "sku": "FOTUSKP021278KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1278kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 527.11,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 659,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.021342793724266
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 57535,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 10815.178994896702
+        }
+      ],
+      "stats": {
+        "min": 527.11,
+        "max": 57535,
+        "avg": 19573.703333333335,
+        "variation_pct": 10815.178994896702
+      }
+    },
+    {
+      "sku": "GOODWEGW75KSMTAFCIIMAGEPRODUCT600328",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW75K-SMT - AFCI_IMAGE_PRODUCT_600328.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 571.42,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 713.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.95012425186379
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 56250,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 9743.897658464879
+        }
+      ],
+      "stats": {
+        "min": 571.42,
+        "max": 56250,
+        "avg": 19178.47,
+        "variation_pct": 9743.897658464879
+      }
+    },
+    {
+      "sku": "GOODWEGW35KLSMTIMAGEPRODUCT600109",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW 35KLS-MT_IMAGE_PRODUCT_600109.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 291.07,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 364,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.05582849486378
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 27450,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 9330.721132373657
+        }
+      ],
+      "stats": {
+        "min": 291.07,
+        "max": 27450,
+        "avg": 9368.356666666667,
+        "variation_pct": 9330.721132373657
+      }
+    },
+    {
+      "sku": "FOTUSKP03710KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP03-710kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 366.4,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 457.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.997270742358086
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 31975,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 8626.801310043667
+        }
+      ],
+      "stats": {
+        "min": 366.4,
+        "max": 31975,
+        "avg": 10933.13,
+        "variation_pct": 8626.801310043667
+      }
+    },
+    {
+      "sku": "FOTUSKP041482KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1482kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 801.68,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1001.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.98627881448958
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 66715,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 8221.899012074644
+        }
+      ],
+      "stats": {
+        "min": 801.68,
+        "max": 66715,
+        "avg": 22839.556666666667,
+        "variation_pct": 8221.899012074644
+      }
+    },
+    {
+      "sku": "GOODWEGW35KLSMTAFCIIMAGE",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW 35KLS-MT - AFCI_image.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 331.17,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 414,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.011323489446504
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 27450,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 8188.794274843735
+        }
+      ],
+      "stats": {
+        "min": 331.17,
+        "max": 27450,
+        "avg": 9398.39,
+        "variation_pct": 8188.794274843735
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES25205",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_25205.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 10076.56,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 5498.0888888888885
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 12595.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 6897.750000000001
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 12595.95,
+        "avg": 7617.503333333334,
+        "variation_pct": 6897.750000000001
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20128",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_20128.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 9945.25,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 5425.138888888889
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 12431.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 6806.63888888889
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 12431.95,
+        "avg": 7519.066666666667,
+        "variation_pct": 6806.63888888889
+      }
+    },
+    {
+      "sku": "FOTUSKP021065KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1065kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 697.41,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 872,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.034054573349973
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 47950,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 6775.439124761619
+        }
+      ],
+      "stats": {
+        "min": 697.41,
+        "max": 47950,
+        "avg": 16506.47,
+        "variation_pct": 6775.439124761619
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052128",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052128.png",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 9672.81,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 5273.783333333333
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 12090.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 6617.216666666667
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 12090.99,
+        "avg": 7314.599999999999,
+        "variation_pct": 6617.216666666667
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES23503",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_23503.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 9371.31,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 5106.283333333333
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 11713.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 6407.772222222222
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 11713.99,
+        "avg": 7088.433333333333,
+        "variation_pct": 6407.772222222222
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20122",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_20122.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 9322.7,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 5079.277777777778
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 11652.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 6373.883333333333
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 11652.99,
+        "avg": 7051.896666666667,
+        "variation_pct": 6373.883333333333
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20142",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_20142.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 8694.91,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4730.5055555555555
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 10868.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5938.305555555556
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 10868.95,
+        "avg": 6581.286666666667,
+        "variation_pct": 5938.305555555556
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052117",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052117.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 8691.51,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4728.616666666667
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 10863.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5935.55
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 10863.99,
+        "avg": 6578.5,
+        "variation_pct": 5935.55
+      }
+    },
+    {
+      "sku": "FOTUSKP041026KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1026kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 783.78,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 979.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.028707035137423
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 46195,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5793.873280767562
+        }
+      ],
+      "stats": {
+        "min": 783.78,
+        "max": 46195,
+        "avg": 15986.243333333334,
+        "variation_pct": 5793.873280767562
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES21998",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_21998.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 8459.92,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4599.955555555555
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 10575,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5775
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 10575,
+        "avg": 6404.973333333332,
+        "variation_pct": 5775
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20121",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_20121.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 8309.98,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4516.655555555555
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 10387.49,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5670.827777777778
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 10387.49,
+        "avg": 6292.490000000001,
+        "variation_pct": 5670.827777777778
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052127",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052127.png",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 8297.29,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4509.605555555556
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 10371.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5662.194444444445
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 10371.95,
+        "avg": 6283.080000000001,
+        "variation_pct": 5662.194444444445
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20286",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_20286.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 8255.71,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4486.505555555555
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 10319.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5633.305555555556
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 10319.95,
+        "avg": 6251.886666666666,
+        "variation_pct": 5633.305555555556
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052121",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052121.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 8188.44,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4449.133333333333
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 10235.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5586.63888888889
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 10235.95,
+        "avg": 6201.463333333333,
+        "variation_pct": 5586.63888888889
+      }
+    },
+    {
+      "sku": "FOTUSKP02568KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-568kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 451.2,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 563.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.99778368794327
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 25585,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5570.434397163121
+        }
+      ],
+      "stats": {
+        "min": 451.2,
+        "max": 25585,
+        "avg": 8866.73,
+        "variation_pct": 5570.434397163121
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052124",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052124.png",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 7857.38,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4265.211111111111
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 9821.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5356.63888888889
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 9821.95,
+        "avg": 5953.110000000001,
+        "variation_pct": 5356.63888888889
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20131",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_20131.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 7623.42,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4135.233333333334
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 9528.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5193.883333333333
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 9528.99,
+        "avg": 5777.47,
+        "variation_pct": 5193.883333333333
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES21771",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_21771.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 7521.48,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 4078.5999999999995
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 9402,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5123.333333333333
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 9402,
+        "avg": 5701.16,
+        "variation_pct": 5123.333333333333
+      }
+    },
+    {
+      "sku": "FOTUSKP04684KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-684kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 598.11,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 747.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.052247914263265
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 30805,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 5050.390396415375
+        }
+      ],
+      "stats": {
+        "min": 598.11,
+        "max": 30805,
+        "avg": 10717.02,
+        "variation_pct": 5050.390396415375
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052113",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052113.png",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 7312.65,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3962.583333333333
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 9141,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 4978.333333333333
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 9141,
+        "avg": 5544.55,
+        "variation_pct": 4978.333333333333
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES23054",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_23054.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 7083.74,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3835.411111111111
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 8854.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 4819.416666666667
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 8854.95,
+        "avg": 5372.8966666666665,
+        "variation_pct": 4819.416666666667
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES23504",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_23504.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 7034.02,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3807.7888888888892
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 8792.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 4784.972222222223
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 8792.95,
+        "avg": 5335.656666666667,
+        "variation_pct": 4784.972222222223
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES21769",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_21769.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 6895.83,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3731.016666666667
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 8620,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 4688.888888888889
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 8620,
+        "avg": 5231.943333333334,
+        "variation_pct": 4688.888888888889
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20139",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_20139.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 6428.14,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3471.1888888888893
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 8034.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 4363.883333333333
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 8034.99,
+        "avg": 4881.043333333334,
+        "variation_pct": 4363.883333333333
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES23780",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_23780.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 6286.22,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3392.344444444445
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 7858,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 4265.555555555556
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 7858,
+        "avg": 4774.740000000001,
+        "variation_pct": 4265.555555555556
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20078",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_20078.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 6019.72,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3244.288888888889
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 7524.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 4080.5277777777774
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 7524.95,
+        "avg": 4574.89,
+        "variation_pct": 4080.5277777777774
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20925",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_20925.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 5747.66,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3093.1444444444446
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 7184.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3891.6388888888887
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 7184.95,
+        "avg": 4370.87,
+        "variation_pct": 3891.6388888888887
+      }
+    },
+    {
+      "sku": "FOTUSKP041368KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1368kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1556.57,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1945.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.015257906807925
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 61585,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3856.4555400656573
+        }
+      ],
+      "stats": {
+        "min": 1556.57,
+        "max": 61585,
+        "avg": 21695.84,
+        "variation_pct": 3856.4555400656573
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052130",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052130.png",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 5629.97,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 3027.7611111111114
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 7037.49,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3809.7166666666667
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 7037.49,
+        "avg": 4282.486666666667,
+        "variation_pct": 3809.7166666666667
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES23052",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_23052.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 5420.51,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 2911.3944444444446
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 6775.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3664.4166666666665
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 6775.95,
+        "avg": 4125.486666666667,
+        "variation_pct": 3664.4166666666665
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20789",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_20789.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 5415.37,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 2908.538888888889
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 6768.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3660.5499999999997
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 6768.99,
+        "avg": 4121.453333333334,
+        "variation_pct": 3660.5499999999997
+      }
+    },
+    {
+      "sku": "GROWATTMID50KTL3X2AFCIIMAGEPRODUCT600314",
+      "category": "componentes",
+      "manufacturer": "GROWATT",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GROWATT-MID 50KTL3-X2 - AFCI_IMAGE_PRODUCT_600314.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 385.13,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 481.49,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.020123075325216
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "N/A",
+          "price": 14016.63,
+          "type": "catalog",
+          "confidence": 0.7,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3539.4542102666633
+        }
+      ],
+      "stats": {
+        "min": 385.13,
+        "max": 14016.63,
+        "avg": 4961.083333333333,
+        "variation_pct": 3539.4542102666633
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052129",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052129.png",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 5119.44,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 2744.133333333333
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 6398.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3454.994444444444
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 6398.99,
+        "avg": 3899.476666666667,
+        "variation_pct": 3454.994444444444
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20134",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_20134.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4986.77,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 2670.427777777778
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 6233.49,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3363.0499999999997
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 6233.49,
+        "avg": 3800.0866666666666,
+        "variation_pct": 3363.0499999999997
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20135",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_20135.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4963.46,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 2657.477777777778
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 6203.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3346.6611111111106
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 6203.99,
+        "avg": 3782.4833333333336,
+        "variation_pct": 3346.6611111111106
+      }
+    },
+    {
+      "sku": "FOTUSKP04855KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-855kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1152.63,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1441,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.01843609831428
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 38500,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3240.1872240007633
+        }
+      ],
+      "stats": {
+        "min": 1152.63,
+        "max": 38500,
+        "avg": 13697.876666666665,
+        "variation_pct": 3240.1872240007633
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES21772",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_21772.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4640.58,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 2478.1
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 5800.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 3122.75
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 5800.95,
+        "avg": 3540.5099999999998,
+        "variation_pct": 3122.75
+      }
+    },
+    {
+      "sku": "ODEXODEXINVGROWATT6000W1",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/ODEX-ODEX-INV-GROWATT-6000W-1.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 465.94,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 582.49,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.013950294029275
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "N/A",
+          "price": 14016.63,
+          "type": "catalog",
+          "confidence": 0.7,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2908.247843069923
+        }
+      ],
+      "stats": {
+        "min": 465.94,
+        "max": 14016.63,
+        "avg": 5021.6866666666665,
+        "variation_pct": 2908.247843069923
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES23505",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_23505.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4317.58,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 2298.6555555555556
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 5397,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2898.3333333333335
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 5397,
+        "avg": 3298.193333333333,
+        "variation_pct": 2898.3333333333335
+      }
+    },
+    {
+      "sku": "FOTUSKP04720KWPFIBROCIMENTOKITSHIBRIDOS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-720kWp-Fibrocimento-kits-hibridos.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1301.63,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1626.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.996350729469963
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 38910,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2889.328764702719
+        }
+      ],
+      "stats": {
+        "min": 1301.63,
+        "max": 38910,
+        "avg": 13946.206666666667,
+        "variation_pct": 2889.328764702719
+      }
+    },
+    {
+      "sku": "FOTUSKP04912KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-912kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1374.81,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1718.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.031822579120032
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 41065,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2886.958197860068
+        }
+      ],
+      "stats": {
+        "min": 1374.81,
+        "max": 41065,
+        "avg": 14719.586666666668,
+        "variation_pct": 2886.958197860068
+      }
+    },
+    {
+      "sku": "FOTUSKP04570KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-570kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 873.19,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1091.49,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.000286306531216
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 25675,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2840.368075676542
+        }
+      ],
+      "stats": {
+        "min": 873.19,
+        "max": 25675,
+        "avg": 9213.226666666667,
+        "variation_pct": 2840.368075676542
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052125",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052125.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4232.53,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 2251.4055555555556
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 5290.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2839.4166666666665
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 5290.95,
+        "avg": 3234.4933333333333,
+        "variation_pct": 2839.4166666666665
+      }
+    },
+    {
+      "sku": "FOTUSKP02960KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-960kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1520.59,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1900.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.01397483871393
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 43225,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2742.646604278603
+        }
+      ],
+      "stats": {
+        "min": 1520.59,
+        "max": 43225,
+        "avg": 15548.846666666666,
+        "variation_pct": 2742.646604278603
+      }
+    },
+    {
+      "sku": "GOODWEGW100KGTAFCIIMAGEPRODUCT600342",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW100K-GT - AFCI_IMAGE_PRODUCT_600342.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2686.59,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 3357.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.99078757830557
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 74250,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2663.7265083246793
+        }
+      ],
+      "stats": {
+        "min": 2686.59,
+        "max": 74250,
+        "avg": 26764.86,
+        "variation_pct": 2663.7265083246793
+      }
+    },
+    {
+      "sku": "FOTUSKP04600KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-600kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 984.19,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1229.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.97485241670815
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 27025,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2645.912882675093
+        }
+      ],
+      "stats": {
+        "min": 984.19,
+        "max": 27025,
+        "avg": 9746.393333333333,
+        "variation_pct": 2645.912882675093
+      }
+    },
+    {
+      "sku": "FOTUSKP04720KWPMINITRILHOKITSHIBRIDOS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-720kWp-MiniTrilho-kits-hibridos.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1439.19,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1799,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.000868544111615
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 38910,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2603.6041106455714
+        }
+      ],
+      "stats": {
+        "min": 1439.19,
+        "max": 38910,
+        "avg": 14049.396666666667,
+        "variation_pct": 2603.6041106455714
+      }
+    },
+    {
+      "sku": "FOTUSKP041596KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2812.79,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 3516,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.00044439862201
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 71845,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2454.2255198575085
+        }
+      ],
+      "stats": {
+        "min": 2812.79,
+        "max": 71845,
+        "avg": 26057.929999999997,
+        "variation_pct": 2454.2255198575085
+      }
+    },
+    {
+      "sku": "GOODWEGW20KLVMTAFCIIMAGE",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW 20KLV-MT - AFCI_image.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 700.74,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 876,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.010702971144788
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 16650,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2276.059594143334
+        }
+      ],
+      "stats": {
+        "min": 700.74,
+        "max": 16650,
+        "avg": 6075.580000000001,
+        "variation_pct": 2276.059594143334
+      }
+    },
+    {
+      "sku": "FOTUSKP04720KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-720kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1366.25,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1708,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.013723696248856
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 32425,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2273.284537968893
+        }
+      ],
+      "stats": {
+        "min": 1366.25,
+        "max": 32425,
+        "avg": 11833.083333333334,
+        "variation_pct": 2273.284537968893
+      }
+    },
+    {
+      "sku": "NEOSOLARKITS25046",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/neosolar_kits_25046.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 105.72,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 131.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.848656829360586
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 2500,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2264.7370412410146
+        }
+      ],
+      "stats": {
+        "min": 105.72,
+        "max": 2500,
+        "avg": 912.57,
+        "variation_pct": 2264.7370412410146
+      }
+    },
+    {
+      "sku": "FOTUSKP04840KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-840kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1632.51,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2040.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.019142302344243
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 37825,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2216.984275747162
+        }
+      ],
+      "stats": {
+        "min": 1632.51,
+        "max": 37825,
+        "avg": 13832.82,
+        "variation_pct": 2216.984275747162
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20371",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_20371.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3242.6,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 1701.4444444444443
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 4052.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2151.661111111111
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 4052.99,
+        "avg": 2491.8633333333332,
+        "variation_pct": 2151.661111111111
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052122",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052122.png",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3231.92,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 1695.5111111111112
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 4040,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2144.4444444444443
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 4040,
+        "avg": 2483.9733333333334,
+        "variation_pct": 2144.4444444444443
+      }
+    },
+    {
+      "sku": "GROWATTMID20KTL3XL2AFCIIMAGEPRODUCT600308",
+      "category": "componentes",
+      "manufacturer": "GROWATT",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GROWATT-MID 20KTL3 XL2 - AFCI_IMAGE_PRODUCT_600308.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 630.93,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 788.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.04556765409794
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "N/A",
+          "price": 14016.63,
+          "type": "catalog",
+          "confidence": 0.7,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2121.5824259426563
+        }
+      ],
+      "stats": {
+        "min": 630.93,
+        "max": 14016.63,
+        "avg": 5145.503333333333,
+        "variation_pct": 2121.5824259426563
+      }
+    },
+    {
+      "sku": "FOTUSKP03994KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP03-994kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2040.76,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2551,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.00245006762187
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 44755,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2093.055528332582
+        }
+      ],
+      "stats": {
+        "min": 2040.76,
+        "max": 44755,
+        "avg": 16448.920000000002,
+        "variation_pct": 2093.055528332582
+      }
+    },
+    {
+      "sku": "FOTUSKP02994KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-994kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2119.35,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2648.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.99068110505579
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 44755,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 2011.7323707740582
+        }
+      ],
+      "stats": {
+        "min": 2119.35,
+        "max": 44755,
+        "avg": 16507.78,
+        "variation_pct": 2011.7323707740582
+      }
+    },
+    {
+      "sku": "FOTUSKP02426KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-426kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 921.31,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1151.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.033919093464753
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 19195,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1983.4463969782157
+        }
+      ],
+      "stats": {
+        "min": 921.31,
+        "max": 19195,
+        "avg": 7089.420000000001,
+        "variation_pct": 1983.4463969782157
+      }
+    },
+    {
+      "sku": "FOTUSKP041596KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3502.15,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 4377.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.007495395685496
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 71845,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1951.4541067629884
+        }
+      ],
+      "stats": {
+        "min": 3502.15,
+        "max": 71845,
+        "avg": 26575.033333333336,
+        "variation_pct": 1951.4541067629884
+      }
+    },
+    {
+      "sku": "DEYESUN35KG02LVIMAGE",
+      "category": "componentes",
+      "manufacturer": "DEYE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/DEYE-SUN-35K-G02-LV_image.jpeg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1276.62,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1596,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.017624665131372
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 25925,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1930.7530823581021
+        }
+      ],
+      "stats": {
+        "min": 1276.62,
+        "max": 25925,
+        "avg": 9599.206666666667,
+        "variation_pct": 1930.7530823581021
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES20126",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_20126.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2911.87,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 1517.7055555555555
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 3640,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1922.2222222222222
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 3640,
+        "avg": 2243.9566666666665,
+        "variation_pct": 1922.2222222222222
+      }
+    },
+    {
+      "sku": "FOTUSKP041311KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1311kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3168.92,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 3960.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.994950961210748
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 59020,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1762.4641833810888
+        }
+      ],
+      "stats": {
+        "min": 3168.92,
+        "max": 59020,
+        "avg": 22049.97,
+        "variation_pct": 1762.4641833810888
+      }
+    },
+    {
+      "sku": "222132",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/222132.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 134.37,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 168,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.027908015181954
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 2500,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1760.5343454640174
+        }
+      ],
+      "stats": {
+        "min": 134.37,
+        "max": 2500,
+        "avg": 934.1233333333333,
+        "variation_pct": 1760.5343454640174
+      }
+    },
+    {
+      "sku": "FOTUSKP02840KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-840kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2034.16,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2542.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.012290085342336
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 37825,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1759.489912297951
+        }
+      ],
+      "stats": {
+        "min": 2034.16,
+        "max": 37825,
+        "avg": 14134.036666666667,
+        "variation_pct": 1759.489912297951
+      }
+    },
+    {
+      "sku": "FOTUSKP021704KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4228.69,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 5286,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.003251598012632
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 76705,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1713.9187313328716
+        }
+      ],
+      "stats": {
+        "min": 4228.69,
+        "max": 76705,
+        "avg": 28739.896666666667,
+        "variation_pct": 1713.9187313328716
+      }
+    },
+    {
+      "sku": "FOTUSKP021278KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1278kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3215.92,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 4020,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.00310953008781
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 57535,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1689.0681360232843
+        }
+      ],
+      "stats": {
+        "min": 3215.92,
+        "max": 57535,
+        "avg": 21590.306666666667,
+        "variation_pct": 1689.0681360232843
+      }
+    },
+    {
+      "sku": "FOTUSKP04798KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-798kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2010.73,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2513.49,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.003854321564795
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 35935,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1687.1618765324033
+        }
+      ],
+      "stats": {
+        "min": 2010.73,
+        "max": 35935,
+        "avg": 13486.406666666668,
+        "variation_pct": 1687.1618765324033
+      }
+    },
+    {
+      "sku": "NEOSOLARKITS25049",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/neosolar_kits_25049.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 141.17,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 176.49,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.019480059502747
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 2500,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1670.9145002479281
+        }
+      ],
+      "stats": {
+        "min": 141.17,
+        "max": 2500,
+        "avg": 939.2199999999999,
+        "variation_pct": 1670.9145002479281
+      }
+    },
+    {
+      "sku": "FOTUSKP04480KWPMINITRILHOKITSHIBRIDOS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-480kWp-MiniTrilho-kits-hibridos.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1468.01,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1834.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.998467312892966
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 25950,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1667.6991301149176
+        }
+      ],
+      "stats": {
+        "min": 1468.01,
+        "max": 25950,
+        "avg": 9751,
+        "variation_pct": 1667.6991301149176
+      }
+    },
+    {
+      "sku": "FOTUSKP041368KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1368kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3646.55,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 4557.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.994583921789076
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 61585,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1588.8565904759291
+        }
+      ],
+      "stats": {
+        "min": 3646.55,
+        "max": 61585,
+        "avg": 23263.180000000004,
+        "variation_pct": 1588.8565904759291
+      }
+    },
+    {
+      "sku": "FOTUSKP04600KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-600kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1613.72,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2016.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.99008502094539
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 27025,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1574.7019309421707
+        }
+      ],
+      "stats": {
+        "min": 1613.72,
+        "max": 27025,
+        "avg": 10218.57,
+        "variation_pct": 1574.7019309421707
+      }
+    },
+    {
+      "sku": "FOTUSKP04456KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-456kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1232.47,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1540.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.02941248062833
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 20545,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1566.9776951974488
+        }
+      ],
+      "stats": {
+        "min": 1232.47,
+        "max": 20545,
+        "avg": 7772.806666666666,
+        "variation_pct": 1566.9776951974488
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES23053",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/NEOSOLAR_CABLES_23053.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2373.92,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 1218.8444444444444
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2967.49,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1548.6055555555554
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 2967.49,
+        "avg": 1840.47,
+        "variation_pct": 1548.6055555555554
+      }
+    },
+    {
+      "sku": "FOTUSKP04960KWPCERAMICOKITSHIBRIDOS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-960kWp-Ceramico-kits-hibridos.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3146.9,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 3933.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.01032762401092
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 51870,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1548.2887921446502
+        }
+      ],
+      "stats": {
+        "min": 3146.9,
+        "max": 51870,
+        "avg": 19650.283333333333,
+        "variation_pct": 1548.2887921446502
+      }
+    },
+    {
+      "sku": "GOODWEGW100KHTIMAGEPRODUCT600066",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW 100K-HT_IMAGE_PRODUCT_600066.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4522.64,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 5652.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.99314559637732
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 74250,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1541.7402225248968
+        }
+      ],
+      "stats": {
+        "min": 4522.64,
+        "max": 74250,
+        "avg": 28141.876666666667,
+        "variation_pct": 1541.7402225248968
+      }
+    },
+    {
+      "sku": "FOTUSKP041482KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1482kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4065.52,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 5082,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.002459709951
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 66715,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1540.9954938113697
+        }
+      ],
+      "stats": {
+        "min": 4065.52,
+        "max": 66715,
+        "avg": 25287.506666666668,
+        "variation_pct": 1540.9954938113697
+      }
+    },
+    {
+      "sku": "IMAGEPRODUCT052126",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052126.png",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2359.09,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 1210.6055555555556
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2949,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1538.3333333333333
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 2949,
+        "avg": 1829.3633333333335,
+        "variation_pct": 1538.3333333333333
+      }
+    },
+    {
+      "sku": "NEOSOLARCABLES21770",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/neosolar_cables_21770.jpg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 180,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2345.5,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 1203.0555555555554
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 2932,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1528.888888888889
+        }
+      ],
+      "stats": {
+        "min": 180,
+        "max": 2932,
+        "avg": 1819.1666666666667,
+        "variation_pct": 1528.888888888889
+      }
+    },
+    {
+      "sku": "HUAWEISUN200012KMB0AFCIIMAGEPRODUCT600387",
+      "category": "componentes",
+      "manufacturer": "HUAWEI",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/HUAWEI-SUN2000-12K-MB0 - AFCI_IMAGE_PRODUCT_600387.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 1371.28,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1713.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.991978297648913
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "N/A",
+          "price": 20833.33,
+          "type": "catalog",
+          "confidence": 0.7,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1419.2615658362993
+        }
+      ],
+      "stats": {
+        "min": 1371.28,
+        "max": 20833.33,
+        "avg": 7972.866666666668,
+        "variation_pct": 1419.2615658362993
+      }
+    },
+    {
+      "sku": "ODEXODEXINVGROWATT20000W",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/ODEX-ODEX-INV-GROWATT-20000W.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 930.26,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 1163,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.01881194504762
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "N/A",
+          "price": 14016.63,
+          "type": "catalog",
+          "confidence": 0.7,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1406.743276073356
+        }
+      ],
+      "stats": {
+        "min": 930.26,
+        "max": 14016.63,
+        "avg": 5369.963333333333,
+        "variation_pct": 1406.743276073356
+      }
+    },
+    {
+      "sku": "GOODWEGW110KHTIMAGEPRODUCT600023",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW 110K-HT_IMAGE_PRODUCT_600023.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 5441.22,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 6801.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.007810748324815
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 81450,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1396.9069436633695
+        }
+      ],
+      "stats": {
+        "min": 5441.22,
+        "max": 81450,
+        "avg": 31231.056666666667,
+        "variation_pct": 1396.9069436633695
+      }
+    },
+    {
+      "sku": "GOODWEGW60KSMTAFCIIMAGE",
+      "category": "componentes",
+      "manufacturer": "GOODWE",
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW 60KS-MT - AFCI_image.png",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3073.39,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 3841.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.006914189217767
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 45450,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1378.8230585770111
+        }
+      ],
+      "stats": {
+        "min": 3073.39,
+        "max": 45450,
+        "avg": 17455.11333333333,
+        "variation_pct": 1378.8230585770111
+      }
+    },
+    {
+      "sku": "SKU192098192098617459006542584963",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/estruturas/sku_192098_192098_6-17459006542584963.jpeg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 850,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 9905.37,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 1065.3376470588237
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 12381.95,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1356.7
+        }
+      ],
+      "stats": {
+        "min": 850,
+        "max": 12381.95,
+        "avg": 7712.44,
+        "variation_pct": 1356.7
+      }
+    },
+    {
+      "sku": "NEOSOLARKITS24175",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/NEOSOLAR_KITS_24175.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 171.98,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 215,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.01453657402024
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 2500,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1353.6574020234912
+        }
+      ],
+      "stats": {
+        "min": 171.98,
+        "max": 2500,
+        "avg": 962.3266666666667,
+        "variation_pct": 1353.6574020234912
+      }
+    },
+    {
+      "sku": "FOTUSKP02852KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-852kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 2649.39,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 3311.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.008020714202132
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 38365,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1348.0691781881867
+        }
+      ],
+      "stats": {
+        "min": 2649.39,
+        "max": 38365,
+        "avg": 14775.446666666665,
+        "variation_pct": 1348.0691781881867
+      }
+    },
+    {
+      "sku": "FOTUSKP021704KWPCERAMICOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Ceramico-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 5324.3,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 6654.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.992769002497973
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 76705,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1340.65886595421
+        }
+      ],
+      "stats": {
+        "min": 5324.3,
+        "max": 76705,
+        "avg": 29561.430000000004,
+        "variation_pct": 1340.65886595421
+      }
+    },
+    {
+      "sku": "FOTUSKP02120KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-120kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 379.65,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 474.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.10206769392862
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 5425,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1328.9477150006587
+        }
+      ],
+      "stats": {
+        "min": 379.65,
+        "max": 5425,
+        "avg": 2093.2000000000003,
+        "variation_pct": 1328.9477150006587
+      }
+    },
+    {
+      "sku": "FOTUSKP041311KWPMINITRILHOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1311kWp-MiniTrilho-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 4131.4,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 5163.99,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 24.993706733794845
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 59020,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1328.5714285714287
+        }
+      ],
+      "stats": {
+        "min": 4131.4,
+        "max": 59020,
+        "avg": 22771.796666666665,
+        "variation_pct": 1328.5714285714287
+      }
+    },
+    {
+      "sku": "SKU342425342425217591697083547384",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/estruturas/sku_342425_342425_2-17591697083547384.jpeg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 850,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 9621.65,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 1031.9588235294118
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 12026.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1314.94
+        }
+      ],
+      "stats": {
+        "min": 850,
+        "max": 12026.99,
+        "avg": 7499.546666666666,
+        "variation_pct": 1314.94
+      }
+    },
+    {
+      "sku": "FOTUSKP02960KWPFIBROCIMENTOKITS",
+      "category": "kits",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-960kWp-Fibrocimento-kits.jpg",
+      "prices": [
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 3078.14,
+          "type": "cost",
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 3847.95,
+          "type": "final",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 25.008933966616205
+        },
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 43225,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1304.2571163104992
+        }
+      ],
+      "stats": {
+        "min": 3078.14,
+        "max": 43225,
+        "avg": 16717.03,
+        "variation_pct": 1304.2571163104992
+      }
+    },
+    {
+      "sku": "SKU31383231383217466237808078788",
+      "category": "componentes",
+      "manufacturer": "unknown",
+      "image_url": "https://cdn.yellosolarhub.com/products/estruturas/sku_313832_313832-17466237808078788.jpeg",
+      "prices": [
+        {
+          "source": "priced_catalog",
+          "distributor": "Estimated",
+          "price": 850,
+          "type": "estimated",
+          "confidence": 0.4,
+          "rank": 1,
+          "is_best": true,
+          "is_worst": false,
+          "diff_from_best_pct": 0
+        },
+        {
+          "source": "internal_cost",
+          "distributor": "YSH Internal",
+          "price": 9275.22,
+          "type": "cost",
+          "rank": 2,
+          "is_best": false,
+          "is_worst": false,
+          "diff_from_best_pct": 991.2023529411764
+        },
+        {
+          "source": "internal_pricing",
+          "distributor": "YSH B2C",
+          "price": 11593.99,
+          "type": "final",
+          "rank": 3,
+          "is_best": false,
+          "is_worst": true,
+          "diff_from_best_pct": 1263.9988235294118
+        }
+      ],
+      "stats": {
+        "min": 850,
+        "max": 11593.99,
+        "avg": 7239.736666666667,
+        "variation_pct": 1263.9988235294118
+      }
+    }
+  ]
+}

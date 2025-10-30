@@ -1,0 +1,45 @@
+{
+  "totalProducts": 60,
+  "totalDuration": 243.25,
+  "byDistributor": [
+    {
+      "name": "edeltec",
+      "count": 30
+    },
+    {
+      "name": "neosolar",
+      "count": 20
+    },
+    {
+      "name": "odex",
+      "count": 1
+    },
+    {
+      "name": "fortlev",
+      "count": 9
+    }
+  ],
+  "byCategory": [
+    {
+      "category": "bomba",
+      "count": 8
+    },
+    {
+      "category": "inversor",
+      "count": 7
+    },
+    {
+      "category": "outros",
+      "count": 31
+    },
+    {
+      "category": "cabo",
+      "count": 11
+    },
+    {
+      "category": "bateria",
+      "count": 3
+    }
+  ],
+  "extractedAt": "2025-10-21T13:40:15.276Z"
+}

@@ -11,6 +11,16 @@ yarn-error.log
 
 .idea
 
+# Python virtual environments
+.venv
+.venv_wsl
+venv
+env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
 coverage
 
 # Development and analysis tools (tracked in repo)

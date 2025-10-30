@@ -1,0 +1,662 @@
+{
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "EPE Consumo de Energia Elétrica",
+      "description": "Schema para dados de consumo mensal de energia elétrica por classe da EPE (Empresa de Pesquisa Energética). Série histórica de 2004 em diante, atualizado mensalmente via SAM e COPAM.",
+      "type": "object",
+      "version": "1.0.0",
+      "metadata": {
+            "data_source": "EPE - Empresa de Pesquisa Energética",
+            "source_url": "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/consumo-de-energia-eletrica",
+            "file_format": "XLSX",
+            "file_url": "https://www.epe.gov.br/_layouts/download.aspx?sourceURL=%2Fsites-pt%2Fpublicacoes-dados-abertos%2Fpublicacoes%2FDocuments%2FCONSUMO%2520MENSAL%2520DE%2520ENERGIA%2520EL%25c3%2589TRICA%2520POR%2520CLASSE.xlsx",
+            "update_frequency": "Mensal",
+            "responsible_team": "Superintendência de Estudos Econômicos e Energéticos / Estatísticas Energéticas",
+            "data_origin": "SAM - Sistema de Acompanhamento do Mercado / COPAM - Comissão Permanente de Análise e Acompanhamento do Mercado",
+            "historical_range": "2004-01-01 até presente",
+            "geographic_coverage": [
+                  "Nacional",
+                  "Regiões (Norte, Nordeste, Sudeste, Sul, Centro-Oeste)",
+                  "Subsistemas (SIN, Sistemas Isolados)",
+                  "Unidades Federativas (27 estados)"
+            ],
+            "energy_classes": [
+                  "Residencial",
+                  "Industrial",
+                  "Comercial",
+                  "Rural",
+                  "Serviço Público",
+                  "Iluminação Pública",
+                  "Outros"
+            ],
+            "consumption_environments": [
+                  "Cativo",
+                  "Livre",
+                  "Total"
+            ],
+            "key_metrics": [
+                  "Consumo Mensal (GWh)",
+                  "Consumo Anual (GWh)",
+                  "Taxa de Variação Interanual (%)",
+                  "Número de Consumidores",
+                  "Consumo Médio por Consumidor (kWh/consumidor)",
+                  "Consumo per Capita (kWh/habitante)"
+            ],
+            "industrial_sectors": [
+                  "Metalurgia",
+                  "Química",
+                  "Alimentos e Bebidas",
+                  "Papel e Celulose",
+                  "Mineração",
+                  "Cimento",
+                  "Ferro-Ligas",
+                  "Soda-Cloro",
+                  "Outros Eletrointensivos"
+            ],
+            "related_publications": [
+                  "Resenha do Mercado de Energia Elétrica",
+                  "Boletim Trimestral de Consumo de Eletricidade",
+                  "Anuário Estatístico de Energia Elétrica"
+            ],
+            "priority": "Core Infrastructure",
+            "use_cases": [
+                  "Análise de mercado regional e nacional",
+                  "Projeções de demanda energética",
+                  "Estudos de tarifa e tarifação",
+                  "Benchmark de consumo por classe",
+                  "Análise de migração ACL (Ambiente de Contratação Livre)",
+                  "Estudos de viabilidade para GD (Geração Distribuída)"
+            ]
+      },
+      "properties": {
+            "dataset_info": {
+                  "type": "object",
+                  "description": "Informações sobre o dataset EPE",
+                  "properties": {
+                        "file_name": {
+                              "type": "string",
+                              "description": "Nome do arquivo XLSX original",
+                              "example": "CONSUMO MENSAL DE ENERGIA ELÉTRICA POR CLASSE.xlsx"
+                        },
+                        "download_date": {
+                              "type": "string",
+                              "format": "date-time",
+                              "description": "Data/hora do download do arquivo"
+                        },
+                        "file_hash": {
+                              "type": "string",
+                              "description": "MD5 hash do arquivo para controle de versão",
+                              "pattern": "^[a-f0-9]{32}$"
+                        },
+                        "sheet_names": {
+                              "type": "array",
+                              "description": "Lista de abas/sheets presentes no XLSX",
+                              "items": {
+                                    "type": "string"
+                              },
+                              "examples": [
+                                    [
+                                          "Nacional",
+                                          "Regiões",
+                                          "Estados",
+                                          "Subsistemas",
+                                          "Classes",
+                                          "Cativo_Livre"
+                                    ]
+                              ]
+                        },
+                        "last_data_month": {
+                              "type": "string",
+                              "format": "date",
+                              "description": "Último mês com dados disponíveis",
+                              "pattern": "^\\d{4}-\\d{2}-01$"
+                        },
+                        "total_records": {
+                              "type": "integer",
+                              "description": "Total de registros processados",
+                              "minimum": 0
+                        }
+                  },
+                  "required": [
+                        "file_name",
+                        "download_date",
+                        "last_data_month"
+                  ]
+            },
+            "consumo_records": {
+                  "type": "array",
+                  "description": "Array com os registros de consumo mensal",
+                  "items": {
+                        "type": "object",
+                        "properties": {
+                              "ano": {
+                                    "type": "integer",
+                                    "description": "Ano de referência",
+                                    "minimum": 2004,
+                                    "maximum": 2100
+                              },
+                              "mes": {
+                                    "type": "integer",
+                                    "description": "Mês de referência (1-12)",
+                                    "minimum": 1,
+                                    "maximum": 12
+                              },
+                              "data_referencia": {
+                                    "type": "string",
+                                    "format": "date",
+                                    "description": "Data de referência no formato YYYY-MM-01",
+                                    "pattern": "^\\d{4}-\\d{2}-01$"
+                              },
+                              "regiao": {
+                                    "type": "string",
+                                    "enum": [
+                                          "Nacional",
+                                          "Norte",
+                                          "Nordeste",
+                                          "Sudeste",
+                                          "Sul",
+                                          "Centro-Oeste"
+                                    ],
+                                    "description": "Região geográfica"
+                              },
+                              "uf": {
+                                    "type": [
+                                          "string",
+                                          "null"
+                                    ],
+                                    "description": "Sigla da Unidade Federativa (AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, PA, PB, PE, PI, PR, RJ, RN, RO, RR, RS, SC, SE, SP, TO)",
+                                    "pattern": "^[A-Z]{2}$"
+                              },
+                              "subsistema": {
+                                    "type": "string",
+                                    "enum": [
+                                          "SIN",
+                                          "Sistema Isolado",
+                                          "Sudeste/Centro-Oeste",
+                                          "Sul",
+                                          "Nordeste",
+                                          "Norte"
+                                    ],
+                                    "description": "Subsistema elétrico"
+                              },
+                              "classe_consumo": {
+                                    "type": "string",
+                                    "enum": [
+                                          "Total",
+                                          "Residencial",
+                                          "Industrial",
+                                          "Comercial",
+                                          "Rural",
+                                          "Serviço Público",
+                                          "Iluminação Pública",
+                                          "Outros"
+                                    ],
+                                    "description": "Classe de consumo"
+                              },
+                              "subclasse_industrial": {
+                                    "type": [
+                                          "string",
+                                          "null"
+                                    ],
+                                    "enum": [
+                                          null,
+                                          "Metalurgia",
+                                          "Química",
+                                          "Alimentos e Bebidas",
+                                          "Papel e Celulose",
+                                          "Mineração",
+                                          "Cimento",
+                                          "Ferro-Ligas",
+                                          "Soda-Cloro",
+                                          "Outros Eletrointensivos"
+                                    ],
+                                    "description": "Subclasse industrial (apenas para classe Industrial)"
+                              },
+                              "ambiente_contratacao": {
+                                    "type": "string",
+                                    "enum": [
+                                          "Total",
+                                          "Cativo",
+                                          "Livre"
+                                    ],
+                                    "description": "Ambiente de contratação de energia"
+                              },
+                              "consumo_gwh": {
+                                    "type": "number",
+                                    "description": "Consumo em GigaWatt-hora (GWh)",
+                                    "minimum": 0
+                              },
+                              "consumo_mwh": {
+                                    "type": "number",
+                                    "description": "Consumo em MegaWatt-hora (MWh)",
+                                    "minimum": 0
+                              },
+                              "consumo_kwh": {
+                                    "type": "number",
+                                    "description": "Consumo em KiloWatt-hora (kWh)",
+                                    "minimum": 0
+                              },
+                              "numero_consumidores": {
+                                    "type": [
+                                          "integer",
+                                          "null"
+                                    ],
+                                    "description": "Número de consumidores no período",
+                                    "minimum": 0
+                              },
+                              "consumo_medio_kwh_consumidor": {
+                                    "type": [
+                                          "number",
+                                          "null"
+                                    ],
+                                    "description": "Consumo médio por consumidor (kWh/consumidor)",
+                                    "minimum": 0
+                              },
+                              "variacao_interanual_percentual": {
+                                    "type": [
+                                          "number",
+                                          "null"
+                                    ],
+                                    "description": "Variação percentual em relação ao mesmo mês do ano anterior",
+                                    "minimum": -100
+                              },
+                              "participacao_percentual_total": {
+                                    "type": [
+                                          "number",
+                                          "null"
+                                    ],
+                                    "description": "Participação percentual no consumo total",
+                                    "minimum": 0,
+                                    "maximum": 100
+                              },
+                              "metadata": {
+                                    "type": "object",
+                                    "description": "Metadados adicionais do registro",
+                                    "properties": {
+                                          "fonte_dado": {
+                                                "type": "string",
+                                                "enum": [
+                                                      "SAM",
+                                                      "COPAM",
+                                                      "Estimativa EPE"
+                                                ],
+                                                "description": "Fonte do dado"
+                                          },
+                                          "status_dado": {
+                                                "type": "string",
+                                                "enum": [
+                                                      "Consolidado",
+                                                      "Preliminar",
+                                                      "Estimado"
+                                                ],
+                                                "description": "Status de consolidação do dado"
+                                          },
+                                          "revisao": {
+                                                "type": [
+                                                      "integer",
+                                                      "null"
+                                                ],
+                                                "description": "Número da revisão (se dado foi revisado)",
+                                                "minimum": 0
+                                          },
+                                          "observacoes": {
+                                                "type": [
+                                                      "string",
+                                                      "null"
+                                                ],
+                                                "description": "Observações ou notas sobre o dado"
+                                          }
+                                    }
+                              }
+                        },
+                        "required": [
+                              "ano",
+                              "mes",
+                              "data_referencia",
+                              "regiao",
+                              "classe_consumo",
+                              "ambiente_contratacao",
+                              "consumo_gwh"
+                        ]
+                  }
+            },
+            "aggregations": {
+                  "type": "object",
+                  "description": "Agregações e estatísticas calculadas",
+                  "properties": {
+                        "consumo_total_nacional_gwh": {
+                              "type": "number",
+                              "description": "Consumo total nacional no período (GWh)",
+                              "minimum": 0
+                        },
+                        "consumo_total_por_regiao": {
+                              "type": "object",
+                              "description": "Consumo total por região (GWh)",
+                              "properties": {
+                                    "Norte": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Nordeste": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Sudeste": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Sul": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Centro-Oeste": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    }
+                              }
+                        },
+                        "consumo_total_por_classe": {
+                              "type": "object",
+                              "description": "Consumo total por classe (GWh)",
+                              "properties": {
+                                    "Residencial": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Industrial": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Comercial": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Rural": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Serviço Público": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Iluminação Pública": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    },
+                                    "Outros": {
+                                          "type": "number",
+                                          "minimum": 0
+                                    }
+                              }
+                        },
+                        "participacao_acl_percentual": {
+                              "type": "number",
+                              "description": "Participação do Ambiente de Contratação Livre (%) no total",
+                              "minimum": 0,
+                              "maximum": 100
+                        },
+                        "taxa_crescimento_anual_media": {
+                              "type": "number",
+                              "description": "Taxa de crescimento anual média no período histórico (%)"
+                        },
+                        "top_estados_consumo": {
+                              "type": "array",
+                              "description": "Top 10 estados por consumo",
+                              "items": {
+                                    "type": "object",
+                                    "properties": {
+                                          "uf": {
+                                                "type": "string",
+                                                "pattern": "^[A-Z]{2}$"
+                                          },
+                                          "consumo_gwh": {
+                                                "type": "number",
+                                                "minimum": 0
+                                          },
+                                          "participacao_percentual": {
+                                                "type": "number",
+                                                "minimum": 0,
+                                                "maximum": 100
+                                          }
+                                    }
+                              },
+                              "maxItems": 10
+                        }
+                  }
+            },
+            "time_series_analysis": {
+                  "type": "object",
+                  "description": "Análise de séries temporais",
+                  "properties": {
+                        "tendencia": {
+                              "type": "string",
+                              "enum": [
+                                    "Crescimento",
+                                    "Estável",
+                                    "Queda"
+                              ],
+                              "description": "Tendência geral do consumo"
+                        },
+                        "sazonalidade": {
+                              "type": "object",
+                              "description": "Padrão de sazonalidade identificado",
+                              "properties": {
+                                    "presente": {
+                                          "type": "boolean"
+                                    },
+                                    "meses_pico": {
+                                          "type": "array",
+                                          "items": {
+                                                "type": "integer",
+                                                "minimum": 1,
+                                                "maximum": 12
+                                          }
+                                    },
+                                    "meses_vale": {
+                                          "type": "array",
+                                          "items": {
+                                                "type": "integer",
+                                                "minimum": 1,
+                                                "maximum": 12
+                                          }
+                                    }
+                              }
+                        },
+                        "variabilidade_percentual": {
+                              "type": "number",
+                              "description": "Coeficiente de variação percentual da série",
+                              "minimum": 0
+                        }
+                  }
+            },
+            "quality_indicators": {
+                  "type": "object",
+                  "description": "Indicadores de qualidade dos dados",
+                  "properties": {
+                        "completeness_percentual": {
+                              "type": "number",
+                              "description": "Percentual de completude dos dados (campos preenchidos)",
+                              "minimum": 0,
+                              "maximum": 100
+                        },
+                        "records_with_missing_data": {
+                              "type": "integer",
+                              "description": "Número de registros com dados faltantes",
+                              "minimum": 0
+                        },
+                        "records_with_estimated_data": {
+                              "type": "integer",
+                              "description": "Número de registros com dados estimados",
+                              "minimum": 0
+                        },
+                        "last_validation_date": {
+                              "type": "string",
+                              "format": "date-time",
+                              "description": "Data da última validação de qualidade"
+                        },
+                        "validation_issues": {
+                              "type": "array",
+                              "description": "Lista de issues de validação encontrados",
+                              "items": {
+                                    "type": "object",
+                                    "properties": {
+                                          "severity": {
+                                                "type": "string",
+                                                "enum": [
+                                                      "error",
+                                                      "warning",
+                                                      "info"
+                                                ]
+                                          },
+                                          "message": {
+                                                "type": "string"
+                                          },
+                                          "record_count": {
+                                                "type": "integer",
+                                                "minimum": 0
+                                          }
+                                    }
+                              }
+                        }
+                  }
+            }
+      },
+      "required": [
+            "dataset_info",
+            "consumo_records"
+      ],
+      "examples": [
+            {
+                  "dataset_info": {
+                        "file_name": "CONSUMO MENSAL DE ENERGIA ELÉTRICA POR CLASSE.xlsx",
+                        "download_date": "2025-10-20T10:30:00Z",
+                        "file_hash": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+                        "sheet_names": [
+                              "Nacional",
+                              "Regiões",
+                              "Estados",
+                              "Classes"
+                        ],
+                        "last_data_month": "2025-09-01",
+                        "total_records": 125430
+                  },
+                  "consumo_records": [
+                        {
+                              "ano": 2025,
+                              "mes": 9,
+                              "data_referencia": "2025-09-01",
+                              "regiao": "Sudeste",
+                              "uf": "SP",
+                              "subsistema": "Sudeste/Centro-Oeste",
+                              "classe_consumo": "Residencial",
+                              "subclasse_industrial": null,
+                              "ambiente_contratacao": "Cativo",
+                              "consumo_gwh": 4523.5,
+                              "consumo_mwh": 4523500,
+                              "consumo_kwh": 4523500000,
+                              "numero_consumidores": 18500000,
+                              "consumo_medio_kwh_consumidor": 244.5,
+                              "variacao_interanual_percentual": 3.2,
+                              "participacao_percentual_total": 8.5,
+                              "metadata": {
+                                    "fonte_dado": "SAM",
+                                    "status_dado": "Consolidado",
+                                    "revisao": 0,
+                                    "observacoes": null
+                              }
+                        },
+                        {
+                              "ano": 2025,
+                              "mes": 9,
+                              "data_referencia": "2025-09-01",
+                              "regiao": "Sudeste",
+                              "uf": "MG",
+                              "subsistema": "Sudeste/Centro-Oeste",
+                              "classe_consumo": "Industrial",
+                              "subclasse_industrial": "Metalurgia",
+                              "ambiente_contratacao": "Livre",
+                              "consumo_gwh": 1850.3,
+                              "consumo_mwh": 1850300,
+                              "consumo_kwh": 1850300000,
+                              "numero_consumidores": 450,
+                              "consumo_medio_kwh_consumidor": 4111777.78,
+                              "variacao_interanual_percentual": -2.1,
+                              "participacao_percentual_total": 3.5,
+                              "metadata": {
+                                    "fonte_dado": "COPAM",
+                                    "status_dado": "Consolidado",
+                                    "revisao": 0,
+                                    "observacoes": "Setor metalúrgico em retração devido a mercado internacional"
+                              }
+                        }
+                  ],
+                  "aggregations": {
+                        "consumo_total_nacional_gwh": 53287.4,
+                        "consumo_total_por_regiao": {
+                              "Norte": 4123.5,
+                              "Nordeste": 8976.2,
+                              "Sudeste": 28456.7,
+                              "Sul": 7834.1,
+                              "Centro-Oeste": 3896.9
+                        },
+                        "consumo_total_por_classe": {
+                              "Residencial": 18765.3,
+                              "Industrial": 19234.8,
+                              "Comercial": 10456.2,
+                              "Rural": 2876.5,
+                              "Serviço Público": 1234.7,
+                              "Iluminação Pública": 567.3,
+                              "Outros": 152.6
+                        },
+                        "participacao_acl_percentual": 38.5,
+                        "taxa_crescimento_anual_media": 2.8,
+                        "top_estados_consumo": [
+                              {
+                                    "uf": "SP",
+                                    "consumo_gwh": 15234.7,
+                                    "participacao_percentual": 28.6
+                              },
+                              {
+                                    "uf": "MG",
+                                    "consumo_gwh": 6789.4,
+                                    "participacao_percentual": 12.7
+                              },
+                              {
+                                    "uf": "RJ",
+                                    "consumo_gwh": 4567.3,
+                                    "participacao_percentual": 8.6
+                              }
+                        ]
+                  },
+                  "time_series_analysis": {
+                        "tendencia": "Crescimento",
+                        "sazonalidade": {
+                              "presente": true,
+                              "meses_pico": [
+                                    1,
+                                    2,
+                                    12
+                              ],
+                              "meses_vale": [
+                                    5,
+                                    6,
+                                    7
+                              ]
+                        },
+                        "variabilidade_percentual": 4.5
+                  },
+                  "quality_indicators": {
+                        "completeness_percentual": 98.7,
+                        "records_with_missing_data": 156,
+                        "records_with_estimated_data": 42,
+                        "last_validation_date": "2025-10-20T10:45:00Z",
+                        "validation_issues": [
+                              {
+                                    "severity": "warning",
+                                    "message": "Dados de número de consumidores ausentes para 3 registros",
+                                    "record_count": 3
+                              }
+                        ]
+                  }
+            }
+      ]
+}

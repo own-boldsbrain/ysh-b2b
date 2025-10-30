@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ysh.dev/schemas/actions/storage_persist.schema.json",
+  "title": "Schema de persistência de arquivos via FileSystemManager",
+  "type": "object",
+  "required": [
+    "subtask_id",
+    "agent_type",
+    "parameters"
+  ],
+  "properties": {
+    "subtask_id": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "agent_type": {
+      "type": "string",
+      "const": "FileSystemManager"
+    },
+    "parameters": {
+      "type": "object",
+      "required": [
+        "documents"
+      ],
+      "properties": {
+        "documents": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "filename",
+              "content"
+            ],
+            "properties": {
+              "filename": {
+                "type": "string"
+              },
+              "content": {
+                "type": "string",
+                "contentEncoding": "base64"
+              },
+              "content_type": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

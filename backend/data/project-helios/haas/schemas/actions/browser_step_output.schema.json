@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ysh.dev/schemas/actions/browser_step_output.schema.json",
+  "title": "Resposta padrão de BrowserController",
+  "description": "Formato padronizado das respostas emitidas pelo BrowserController via TypeAgentBridge",
+  "type": "object",
+  "required": [
+    "status"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "ok",
+        "simulated",
+        "failed"
+      ],
+      "description": "Status final da execução"
+    },
+    "details": {
+      "type": "object",
+      "description": "Detalhes adicionais por ação",
+      "additionalProperties": true
+    },
+    "action": {
+      "type": "string",
+      "description": "Tipo da última ação processada"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadados retornados pelo controlador",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

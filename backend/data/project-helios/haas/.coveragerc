@@ -1,0 +1,92 @@
+[run]
+# Source code directories
+source = app, core, validators, schemas
+omit =
+    */tests/*
+    */test_*
+    */migrations/*
+    */alembic/*
+    */__pycache__/*
+    */venv/*
+    */.venv/*
+    */node_modules/*
+    */.git/*
+    */build/*
+    */dist/*
+    */htmlcov/*
+    */.pytest_cache/*
+    */.mypy_cache/*
+    */.tox/*
+
+# Plugins for different languages/frameworks
+plugins =
+    django_coverage_plugin
+    coverage_jinja_plugin
+    coverage_sh
+    hy_coverage
+
+[report]
+# Coverage reporting configuration
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if self.debug:
+    if settings.DEBUG
+    raise AssertionError
+    raise NotImplementedError
+    if 0:
+    if __name__ == .__main__.:
+    class .*\bProtocol\):
+    @(abc\.)?abstractmethod
+    if TYPE_CHECKING:
+
+# Minimum coverage threshold
+fail_under = 80
+
+# Show missing lines
+show_missing = True
+
+# Precision for percentage display
+precision = 2
+
+[html]
+# HTML report configuration
+directory = htmlcov
+title = HaaS Platform Coverage Report
+
+[xml]
+# XML report for CI/CD integration
+output = coverage.xml
+
+[json]
+# JSON report for programmatic access
+output = coverage.json
+
+[paths]
+# Path mapping for different environments
+source =
+    src/
+    */site-packages/
+
+[coverage:run]
+# Additional run configuration
+branch = True
+parallel = True
+sigterm = True
+
+# Conditional coverage based on environment
+[coverage:report]
+# Conditional excludes based on Python version
+exclude_lines =
+    # Python 3.8+ only
+    if sys.version_info >= (3, 8):
+    # Python 3.9+ only
+    if sys.version_info >= (3, 9):
+    # Python 3.10+ only
+    if sys.version_info >= (3, 10):
+    # Python 3.11+ only
+    if sys.version_info >= (3, 11):
+
+# Skip covered lines for cleaner reports
+skip_covered = False
+skip_empty = False

@@ -1,0 +1,58 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    cluster: 'ysh-agents'
+    environment: 'production'
+
+scrape_configs:
+  # Temporal Metrics
+  - job_name: 'temporal'
+    static_configs:
+      - targets: ['temporal-server:7233']
+    metrics_path: /metrics
+
+  # Worker Metrics
+  - job_name: 'catalog-extractor'
+    static_configs:
+      - targets: ['catalog-extractor-worker:9464']
+    metrics_path: /metrics
+
+  - job_name: 'price-intelligence'
+    static_configs:
+      - targets: ['price-intelligence-worker:9464']
+    metrics_path: /metrics
+
+  - job_name: 'product-enricher'
+    static_configs:
+      - targets: ['product-enricher-worker:9464']
+    metrics_path: /metrics
+
+  - job_name: 'sku-governor'
+    static_configs:
+      - targets: ['sku-governor-worker:9464']
+    metrics_path: /metrics
+
+  # Redis Metrics
+  - job_name: 'redis'
+    static_configs:
+      - targets: ['redis:6379']
+
+  # Redpanda Metrics
+  - job_name: 'redpanda'
+    static_configs:
+      - targets: ['redpanda:9644']
+    metrics_path: /metrics
+
+  # Node Exporter (if available)
+  - job_name: 'node'
+    static_configs:
+      - targets: ['localhost:9100']
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: []
+
+rule_files:
+  - "alerts.yml"

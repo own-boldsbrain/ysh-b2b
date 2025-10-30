@@ -1,4 +1,15 @@
 
+Hugging Face MCP
+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
+
+{
+  "servers": {
+    "hf-mcp-server": {
+      "url": "https://huggingface.co/mcp?login"
+    }
+  }
+}
+
 Cielo API Gateway
 Merchant ID
 0a30c1b0-472a-472f-bf70-5250e1f1006b
@@ -7,5 +18,7 @@ Merchant Key
 nvnQqx3clFFY86dtD9PimFHDfgROh7zkEpXe6BGS
 
 ---
+
+Asaas API
 
 $aact_hmlg_000MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmMyYzc3ZGI0LWVlMTctNDA5MC1iMTU3LWVlYjgyYjI1MWY4MDo6JGFhY2hfNmNiZTBkNTctNTBhZS00NmM0LTgyMTgtY2I5NGUwYTNiYjJi

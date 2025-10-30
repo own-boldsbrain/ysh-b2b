@@ -1,0 +1,36 @@
+# SWE-agent configuration for Project Helios
+# Minimal config so researchers/developers can run SWE-agent locally.
+# This file is intentionally minimal and safe to commit.
+
+project:
+  name: project-helios
+  root: .
+  workspace: .
+
+agent:
+  name: helios-agent
+  model: qwen3-coder
+  max_steps: 50
+  allow_network: false
+
+runners:
+  default:
+    type: local
+    python: .venv/Scripts/python.exe
+
+tasks:
+  - id: lint
+    run: |
+      {python} -m ruff .
+  - id: tests
+    run: |
+      {python} -m pytest -q
+
+artifacts:
+  output_dir: .swe
+  cache_dir: .swe/cache
+
+# Safety: do not enable destructive defaults (e.g. git push) without review
+safety:
+  allow_git_push: false
+  allow_secrets_exfiltration: false

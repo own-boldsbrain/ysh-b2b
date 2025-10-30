@@ -1,0 +1,123 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- Title -->
+    <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+        Diagrama de Layout - Sistema Fotovoltaico
+    </text>
+
+    <!-- Building -->
+    <g id="building">
+        <rect x="300" y="200" width="200" height="120" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+        <polygon points="300,200 400,150 500,200" fill="#654321" stroke="#654321" stroke-width="2"/>
+        <text x="400" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+            RESIDÊNCIA
+        </text>
+        <text x="400" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+            Área Útil: ~180m²
+        </text>
+    </g>
+
+    <!-- Solar Panel Arrays -->
+    <g id="panel-arrays">
+        <text x="50" y="80" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Arranjos de Painéis Solares</text>
+
+        <!-- South Array -->
+        <g id="south-array">
+            <text x="100" y="120" font-family="Arial, sans-serif" font-size="10" font-weight="bold">String Sul (180°)</text>
+
+            <rect x="80" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="82" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="105" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="107" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="130" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="132" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="155" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="157" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="80" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="82" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="105" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="107" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="130" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="132" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="155" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="157" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+        </g>
+
+        <!-- East Array -->
+        <g id="east-array">
+            <text x="300" y="120" font-family="Arial, sans-serif" font-size="10" font-weight="bold">String Leste (90°)</text>
+
+            <rect x="280" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="282" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="305" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="307" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="330" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="332" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="355" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="357" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="280" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="282" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="305" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="307" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="330" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="332" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+            <rect x="355" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+            <rect x="357" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+        </g>
+
+            <!-- West Array -->
+            <g id="west-array">
+                <text x="500" y="120" font-family="Arial, sans-serif" font-size="10" font-weight="bold">String Oeste (270°)</text>
+
+                <rect x="480" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+                <rect x="482" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+                <rect x="505" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+                <rect x="507" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+                <rect x="530" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+                <rect x="532" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+                <rect x="555" y="130" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+                <rect x="557" y="132" width="16" height="11" fill="#FFA500" stroke="none"/>
+                <rect x="480" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+                <rect x="482" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+                <rect x="505" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+                <rect x="507" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+                <rect x="530" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+                <rect x="532" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+                <rect x="555" y="150" width="20" height="15" fill="#FFD700" stroke="#000" stroke-width="0.5"/>
+                <rect x="557" y="152" width="16" height="11" fill="#FFA500" stroke="none"/>
+            </g>
+
+    </g>
+
+    <!-- Compass Rose -->
+    <g id="compass" transform="translate(650, 100)">
+        <circle cx="0" cy="0" r="25" fill="none" stroke="#000" stroke-width="1"/>
+        <line x1="0" y1="-20" x2="0" y2="20" stroke="#000" stroke-width="2"/>
+        <line x1="-20" y1="0" x2="20" y2="0" stroke="#000" stroke-width="2"/>
+        <text x="0" y="-15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold">N</text>
+        <text x="15" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">E</text>
+        <text x="-5" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">S</text>
+        <text x="-18" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">W</text>
+    </g>
+
+    <!-- Scale -->
+    <g id="scale">
+        <text x="50" y="400" font-family="Arial, sans-serif" font-size="10">Escala: 1:100</text>
+        <line x1="50" y1="410" x2="150" y2="410" stroke="#000" stroke-width="2"/>
+        <line x1="50" y1="405" x2="50" y2="415" stroke="#000" stroke-width="1"/>
+        <line x1="150" y1="405" x2="150" y2="415" stroke="#000" stroke-width="1"/>
+        <text x="50" y="425" font-family="Arial, sans-serif" font-size="9">0</text>
+        <text x="150" y="425" font-family="Arial, sans-serif" font-size="9">10m</text>
+    </g>
+
+    <!-- Technical Specs -->
+    <g id="layout-specs">
+        <rect x="50" y="450" width="700" height="120" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1" rx="5"/>
+        <text x="60" y="470" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Especificações de Layout:</text>
+        <text x="60" y="485" font-family="Arial, sans-serif" font-size="9">• Área Total Ocupada: {total_panels * 2} m²</text>
+        <text x="60" y="500" font-family="Arial, sans-serif" font-size="9">• Número de Strings: {num_strings}</text>
+        <text x="60" y="515" font-family="Arial, sans-serif" font-size="9">• Módulos por String: 8</text>
+        <text x="400" y="485" font-family="Arial, sans-serif" font-size="9">• Inclinação dos Módulos: 30°</text>
+        <text x="400" y="500" font-family="Arial, sans-serif" font-size="9">• Distância ao Telhado: 0.3m</text>
+        <text x="400" y="515" font-family="Arial, sans-serif" font-size="9">• Tipo de Fixação: Perfil Z + Clips</text>
+    </g>
+</svg>

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ysh.dev/schemas/actions/data_validation.schema.json",
+  "title": "Schema de validação de dados com DataExtractor",
+  "description": "Entrada tipada para o DataExtractor validar dados contra JSON Schema do HaaS",
+  "type": "object",
+  "required": [
+    "subtask_id",
+    "agent_type",
+    "parameters"
+  ],
+  "properties": {
+    "subtask_id": {
+      "type": "string",
+      "description": "Identificador da subtarefa"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descrição da ação de validação"
+    },
+    "agent_type": {
+      "type": "string",
+      "const": "DataExtractor",
+      "description": "Tipo de agente que deve realizar a validação"
+    },
+    "parameters": {
+      "type": "object",
+      "required": [
+        "method",
+        "data"
+      ],
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "validate",
+            "extract_from_html",
+            "extract_from_pdf"
+          ],
+          "description": "Método do DataExtractor"
+        },
+        "data": {
+          "type": "object",
+          "description": "Dados a serem validados",
+          "properties": {
+            "form_data": {
+              "$ref": "../formulario_prodist.schema.json"
+            }
+          },
+          "additionalProperties": true
+        },
+        "schema": {
+          "type": [
+            "object",
+            "string"
+          ],
+          "description": "Schema explícito ou caminho para schema adicional"
+        }
+      },
+      "additionalProperties": true
+    },
+    "context": {
+      "type": "object",
+      "description": "Contexto adicional compartilhado",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

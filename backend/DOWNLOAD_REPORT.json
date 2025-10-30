@@ -1,0 +1,1556 @@
+{
+  "timestamp": "2025-10-21T13:30:49.275Z",
+  "statistics": {
+    "total_urls": 254,
+    "already_downloaded": 0,
+    "attempted": 254,
+    "success": 253,
+    "failed": 1
+  },
+  "downloads_by_manufacturer": {
+    "UNKNOWN-MANUFACTURER": 89,
+    "GROWATT": 9,
+    "FORTLEV": 124,
+    "SUNGROW": 8,
+    "RISEN": 1,
+    "ENPHASE": 2,
+    "HUAWEI": 1,
+    "BYD": 1,
+    "LONGI": 2,
+    "GENERIC-COMPONENTS": 16
+  },
+  "downloads_by_category": {
+    "OUTROS": 226,
+    "INVERSORES": 12,
+    "PAINEIS": 2,
+    "ESTRUTURAS": 13
+  },
+  "success": [
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7d9/IBT00003.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IBT00003.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7db/ICA00008.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ICA00008.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7d7/IBT00001.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IBT00001.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7d8/IBT00002.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IBT00002.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7dc/ICA00009.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ICA00009.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7dd/ICA00010.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ICA00010.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7e6/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7e1/ICO00001.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ICO00001.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7de/ICA00011.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ICA00011.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7e7/caixa%20de%20passagem.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\caixa%20de%20passagem.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7e8/caixa%20de%20passagem.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\caixa%20de%20passagem.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7ea/caixa%20de%20passagem.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\caixa%20de%20passagem.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7ec/ICV00002%20CARREGADOR%20VEICULAR%20WALLBOX%20GROWATT%20THOR07AS-P%20THO.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\ICV00002%20CARREGADOR%20VEICULAR%20WALLBOX%20GROWATT%20THOR07AS-P%20THO.png",
+      "manufacturer": "GROWATT",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7e9/caixa%20de%20passagem.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\caixa%20de%20passagem.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7f3/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7ef/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7ee/ICV00004%20CARREGADOR%20VEICULAR%20FOXESS%20A022KP1-E-2-22KW.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ICV00004%20CARREGADOR%20VEICULAR%20FOXESS%20A022KP1-E-2-22KW.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7f4/IEF00168.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00168.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7ed/ICV00003%20CARREGADOR%20VEICULAR%20FOXESS%20A7300P1-E-2%20-%207,3%20KW.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ICV00003%20CARREGADOR%20VEICULAR%20FOXESS%20A7300P1-E-2%20-%207,3%20KW.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7f6/ILS00009.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ILS00009.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7fd/IEF00090.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00090.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7fe/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c802/IEF00096.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00096.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c804/IEF00098.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00098.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c805/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c80b/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c80c/IEF00163.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00163.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c806/IEF00100.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00100.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c813/IEF00127.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00127.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c82f/IEF00131.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00131.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c815/IEF00129.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00129.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c831/IEF00133.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00133.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c830/IEF00132.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00132.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c819/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c834/IEF00154.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00154.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c836/IEF00016.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00016.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c839/IEF00045.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00045.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c838/IEF00044.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00044.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c833/IEF00144.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00144.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c83a/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c842/IEF00040.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00040.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c83d/IEF00173.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00173.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c844/IEF00023.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00023.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c840/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c849/IEF00073.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00073.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c84b/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c84d/IEF00009.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00009.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c84a/IEF00166.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00166.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c859/IIN00033.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00033.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c85d/GROWATT%20MIC3000TL-X%20-220V%20-%201MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\GROWATT%20MIC3000TL-X%20-220V%20-%201MPPT.png",
+      "manufacturer": "GROWATT",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c85e/IIN00079.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00079.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c860/IIN00081.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00081.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c861/IIN00082.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00082.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c85a/IIN00034.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00034.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c888/IIN00180.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00180.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c862/IIN00083.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00083.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c887/IIN00144.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00144.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c88b/IIN00169.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00169.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c878/IIN00110.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00110.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c88f/IIN00184.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00184.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c890/IIN00185.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00185.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c88c/IIN00170.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00170.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c893/IIN00189.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00189.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c892/IIN00188.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00188.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c898/IIN00194.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00194.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c89a/IIN00196.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00196.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c894/IIN00190.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00190.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c897/IIN00193.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00193.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c899/IIN00195.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00195.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8a0/IIN00216.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00216.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c89c/IIN00210.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00210.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c89d/IIN00211.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00211.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c89f/IIN00215.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00215.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c89e/IIN00212.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00212.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8a1/IIN00217.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00217.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8a2/IIN00218.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00218.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8a4/IIN00221.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00221.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8a5/SUNGROW-SG9.0RS-220V-3MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\SUNGROW\\SUNGROW-SG9.0RS-220V-3MPPT.png",
+      "manufacturer": "SUNGROW",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8a3/SUNGROW-SG5.0RS-220V-2MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\SUNGROW\\SUNGROW-SG5.0RS-220V-2MPPT.png",
+      "manufacturer": "SUNGROW",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8a6/IIN00225.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00225.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8be/IIN00071.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00071.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8bc/IIN00182.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00182.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8a8/IIN00236.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00236.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8b9/IIN00021.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00021.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8cf/IIN00174.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00174.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8c7/IIN00126.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00126.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8d7/IIN00040.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00040.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8d2/IIN00168.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00168.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8c5/IIN00148.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00148.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8e5/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8e9/ILS00003.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ILS00003.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8de/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8e3/IIN00162.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00162.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8e2/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8eb/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8ea/ILS00004.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ILS00004.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8ec/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8ed/ILS00008.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ILS00008.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8ee/ILS00010.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ILS00010.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c937/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c939/ISB00007.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ISB00007.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c936/ISB00004.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ISB00004.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c8f2/IIN00158.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00158.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c938/ISB00006.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ISB00006.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c93d/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c941/ITF00002.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ITF00002.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c966/ITR00056.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ITR00056.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c942/ITF00005.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ITF00005.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c93e/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5aed/IEF00203.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00203.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c976/ITR00085.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ITR00085.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af0/SUNGROW-SG4.0RS-220V-2MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\SUNGROW\\SUNGROW-SG4.0RS-220V-2MPPT.png",
+      "manufacturer": "SUNGROW",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5aee/IEF00127.webp",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00127.webp",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5aef/SUNGROW-SG3.0RS-220V-1MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\SUNGROW\\SUNGROW-SG3.0RS-220V-1MPPT.png",
+      "manufacturer": "SUNGROW",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af2/IIN00256.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00256.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af5/IIN00259.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00259.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af4/IIN00258.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00258.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af3/IIN00257.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00257.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af6/IIN00260.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00260.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af7/IIN00261.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00261.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af9/IIN00263.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00263.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5afb/IIN00265.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00265.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5afa/IIN00264.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00264.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66880a777bc71b60358a5af8/IIN00262.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00262.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6691a7697f99e1700d66acbb/IIN00242.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00242.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6691a7697f99e1700d66acb9/IIN00237.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00237.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6691a7697f99e1700d66acba/IIN00239.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00239.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6691a7697f99e1700d66acbc/IIN00250.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00250.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/668ec5203185c4c727e4776d/IIN00235.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00235.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66966ed99afa5f57231d619e/caixa%20de%20passagem.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\caixa%20de%20passagem.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6691ae707f99e1700d66acbf/IIN00238.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00238.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6691a7697f99e1700d66acbd/IIN00251.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00251.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66966ed99afa5f57231d61a7/IMS00004.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IMS00004.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66966ed99afa5f57231d61a6/IMS00003.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IMS00003.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66b3b62951d7cf33a7085c13/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66b0f709cd109c6b7bfd3254/IIN00241.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00241.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66aa4a70582ee86e8d985fc8/IIN00271.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00271.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6697b950a74567546c0c9740/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66966ed99afa5f57231d61a8/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66b3b62951d7cf33a7085c16/GROWATT-NEO-2000M-X-2000W-220V.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\GROWATT-NEO-2000M-X-2000W-220V.png",
+      "manufacturer": "GROWATT",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66b3b62951d7cf33a7085c17/IIN00230.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00230.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66bb66e80ea330bc9d038f66/ILS00019.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ILS00019.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66b3b62a51d7cf33a7085c19/ILS00012.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ILS00012.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66b3b62951d7cf33a7085c18/IIN00231.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00231.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66e18d699c244f941a6ed2eb/IIN00282%20NEP%20RAPID%20SHUTDOWN%2020A%20(MC4)_v2.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00282%20NEP%20RAPID%20SHUTDOWN%2020A%20(MC4)_v2.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66fd43d9af4b1447310ffa6b/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66f16d6de17cfb2151922a1a/ISB00004.webp",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\ISB00004.webp",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66fd43d9af4b1447310ffa6c/IIN00214.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00214.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/66d778fb02c2dc75cdab12df/IMO00093.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IMO00093.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67180b5173efb62298e53def/IIN00288.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00288.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67180b5173efb62298e53df1/IIN00291.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00291.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/670fc6f49a0e5984389e13ea/GROWATT-MOD15KTL3-X2-380V-2-MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\GROWATT-MOD15KTL3-X2-380V-2-MPPT.png",
+      "manufacturer": "GROWATT",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67180b5173efb62298e53df0/IIN00289.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00289.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/670d5c35dac72e01f686b281/GROWATT-MIC-3000TL-X2-220V-1MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\GROWATT-MIC-3000TL-X2-220V-1MPPT.png",
+      "manufacturer": "GROWATT",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67180b5173efb62298e53df2/IIN00292.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00292.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6740c6aa9efcab954c86d5d0/SUNGROW-SG20RT-P2-(AFCI)-380V-2MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\SUNGROW\\SUNGROW-SG20RT-P2-(AFCI)-380V-2MPPT.png",
+      "manufacturer": "SUNGROW",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6734f73da95edd542d6b34eb/Perfil-refor%C3%A7ado-smart-2,40.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\Perfil-refor%C3%A7ado-smart-2,40.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67476c3f43ccb8eece3afa30/IEF00129.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IEF00129.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/671fe64111d826f8e99a58e4/RISEN-700W.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\RISEN\\RISEN-700W.png",
+      "manufacturer": "RISEN",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/674a012f1db1856141bd4ddd/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/674e1fe18b02c0d00962193d/ENPHASE-IQ-RELAY-LL-BR.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\ENPHASE\\ENPHASE-IQ-RELAY-LL-BR.png",
+      "manufacturer": "ENPHASE",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/675350c6345ed96c35daa5cd/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/674e1fe18b02c0d00962193f/DISPOSITIVO-DE-DESCONEXAO-IQ-RELAY-LN-BR.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\DISPOSITIVO-DE-DESCONEXAO-IQ-RELAY-LN-BR.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/674e1fe18b02c0d00962193e/Enphase-IQB.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\ENPHASE\\Enphase-IQB.png",
+      "manufacturer": "ENPHASE",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67589dcea8c9296f8520a301/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6776d42cb9c09ac542e3c577/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67818a5fc57f3b2021da959f/IIN00301_v2.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00301_v2.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67818a5fc57f3b2021da95a0/IIN00302.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00302.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6769b33d181ccb51be062efe/SUNGROW-SG75CX-LV.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\SUNGROW\\SUNGROW-SG75CX-LV.png",
+      "manufacturer": "SUNGROW",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67818a5fc57f3b2021da95a1/IIN00303.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00303.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67818a5fc57f3b2021da95a2/IIN00304.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00304.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/678191649fe6a400e32b7dab/IIN00318.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00318.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/678191649fe6a400e32b7da9/IIN00305.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00305.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/678950349ecacc7047df66f4/IBT00004.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\IBT00004.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/678950349ecacc7047df66f5/IIN00319.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00319.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/679a4072b7bda88112c6c7c3/IIN00224.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00224.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67b340f26f3f323bd316cad1/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/678a707b43420463fe47040b/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67a367e3cbd28e9ff22dad4f/SUNGROW-SG15RT-P2-(AFCI)---380V---2MPPT%201.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\SUNGROW\\SUNGROW-SG15RT-P2-(AFCI)---380V---2MPPT%201.png",
+      "manufacturer": "SUNGROW",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2ab8/IIN00296.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00296.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2ab7/IIN00290.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00290.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67b340f26f3f323bd316cad2/icon-318x647.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\UNKNOWN-MANUFACTURER\\icon-318x647.png",
+      "manufacturer": "UNKNOWN-MANUFACTURER",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67cb2d267e905e34fc09a42c/IIN00316-HUAWEI-SUN2000-100KTL-M2-380V-10MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\HUAWEI\\IIN00316-HUAWEI-SUN2000-100KTL-M2-380V-10MPPT.png",
+      "manufacturer": "HUAWEI",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d03ae46d8235c7d26a0333/IIN00232-GROWATT-MAX-75KTL3-XL2-220V-8MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\IIN00232-GROWATT-MAX-75KTL3-XL2-220V-8MPPT.png",
+      "manufacturer": "GROWATT",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2ab9/IIN00335.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00335.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2aba/IIN00336.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00336.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2abb/IIN00337.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00337.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2abc/IIN00338.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00338.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2abd/IIN00339.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00339.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2abf/IIN00341.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00341.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2abe/IIN00340.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00340.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2ac0/IIN00342%20(1).png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00342%20(1).png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d831f583e66579a98c2ac1/IIN00345.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00345.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d8358356a5a649cb66cef8/IIN00344.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00344.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67ddb73ef3d04489ac03019f/IIN00313.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00313.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67d9594a76d2130bb9003087/GROWATT-NEO-2,25.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\GROWATT-NEO-2,25.png",
+      "manufacturer": "GROWATT",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67e1656fcfccf55357e79428/IIN00308.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00308.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67ddb73ef3d04489ac0301a0/IIN00343.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00343.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67e1656fcfccf55357e79427/IIN00307.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00307.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67ea9ff61f900e79abe3b916/IIN00347.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00347.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67e1656fcfccf55357e79429/IIN00311.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00311.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/681dee4f2e12924e80076519/IIN00309.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00309.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/681dee4f2e12924e8007651a/IIN00310.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00310.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/67e1656fcfccf55357e7942a/IIN00312.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00312.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/681df55a2e12924e800765b9/IIN00325.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00325.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/681df55a2e12924e800765ba/IIN00326.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00326.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68275a028d3cd4ac4215d6cf/IIN00349.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00349.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/682e22bca14a42eee678f83a/IIN00352.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00352.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68232d495b841b183f6d54de/GROWATT-MIN7500TL-X2-220V-2MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\GROWATT-MIN7500TL-X2-220V-2MPPT.png",
+      "manufacturer": "GROWATT",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68500752d2d60d325a684b95/IIN00350.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00350.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68402e4a01caf92f5b9b739d/IIN00348.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00348.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68654277371780ce1447985b/IIN00364.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00364.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68654277371780ce1447985c/IIN00365.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00365.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68500752d2d60d325a684b96/PAINEL-BYD-BYD-530W-MLK-36---530W.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\BYD\\PAINEL-BYD-BYD-530W-MLK-36---530W.png",
+      "manufacturer": "BYD",
+      "category": "PAINEIS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68654277371780ce1447985d/IIN00366.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00366.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68654277371780ce1447985e/IIN00367.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00367.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6865497d9f791c3bb354c6f0/IIN00370.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00370.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6865497d9f791c3bb354c6ef/IIN00369.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00369.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6865497d9f791c3bb354c6ee/IIN00368.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00368.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6865497d9f791c3bb354c6f1/IIN00371.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00371.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6899db4ee0816a394c66c167/IIN00357.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00357.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/686f9d3f373d34397bc3e950/SUNGROW%20SG12RT%20-%20380V%20-%202MPPT.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\SUNGROW\\SUNGROW%20SG12RT%20-%20380V%20-%202MPPT.png",
+      "manufacturer": "SUNGROW",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/686f9d3f373d34397bc3e951/GROWATT-MID40KTL3-X2---380V---4MPPT_v2.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GROWATT\\GROWATT-MID40KTL3-X2---380V---4MPPT_v2.png",
+      "manufacturer": "GROWATT",
+      "category": "INVERSORES"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6888f711d571954b7ff6effc/LONGI-585W.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\LONGI\\LONGI-585W.png",
+      "manufacturer": "LONGI",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6899db4ee0816a394c66c168/IIN00358.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00358.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689b56fef47155b8ccc92776/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689b56fef47155b8ccc92775/duto_corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\duto_corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689b56fef47155b8ccc92778/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689b56fef47155b8ccc92777/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689f6ea9d447e33526100c74/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689b56fef47155b8ccc9277a/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689f98d8e9d290fe9bda50bb/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689b56fef47155b8ccc92779/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689f6ea9d447e33526100c73/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fa2/IIN00376_v2.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00376_v2.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68acb2cead4b34e67bf2e282/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/689f98d8e9d290fe9bda50bc/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68a7034539f8f3cdba522730/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68a8e16a2935473cc0199d97/corrugado.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\corrugado.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "ESTRUTURAS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fa3/IIN00377.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00377.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fa4/IIN00378.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00378.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fa7/IIN00381.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00381.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fa6/IIN00380.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00380.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fa5/IIN00379.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00379.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fa8/IIN00382.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00382.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fa9/IIN00383.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00383.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130fab/IIN00386.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00386.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c008be7a9dce9e6f130faa/IIN00384.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IIN00384.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c16f5a854b7b00f456a4b7/imagem.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\imagem.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68cbfb5b8434a2f72c363a4f/LONGI-630Wp_v2.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\LONGI\\LONGI-630Wp_v2.png",
+      "manufacturer": "LONGI",
+      "category": "PAINEIS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c4044876fc8cff81c3e9f6/imagem.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\imagem.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68dbedcc54fa3ed05329e145/IMO00135.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\FORTLEV\\IMO00135.png",
+      "manufacturer": "FORTLEV",
+      "category": "OUTROS"
+    },
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/68c4044876fc8cff81c3e9f5/imagem.png",
+      "path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products\\GENERIC-COMPONENTS\\imagem.png",
+      "manufacturer": "GENERIC-COMPONENTS",
+      "category": "OUTROS"
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c792/logo.png",
+      "error": "HTTP 403",
+      "manufacturer": "UNKNOWN-MANUFACTURER"
+    }
+  ],
+  "skipped": []
+}

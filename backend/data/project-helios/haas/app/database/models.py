@@ -1,9 +1,17 @@
 """Database models for HaaS Platform."""
 
-from datetime import datetime
+from datetime import datetime, date
 from typing import Optional, List, Dict, Any
 from sqlalchemy import (
-    Integer, String, Float, DateTime, Text, ForeignKey, JSON, Boolean
+    Integer,
+    String,
+    Float,
+    DateTime,
+    Date,
+    Text,
+    ForeignKey,
+    JSON,
+    Boolean,
 )
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from geoalchemy2 import Geometry
@@ -205,3 +213,123 @@ class WebhookDelivery(Base):
     config: Mapped[WebhookConfig] = relationship(
         "WebhookConfig", back_populates="deliveries"
     )
+
+
+class EquipmentRecord(Base):
+    """Database model for INMETRO equipment records."""
+
+    __tablename__ = "equipment_records"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    categoria: Mapped[str] = mapped_column(String(255), nullable=False, index=True)
+    fabricante: Mapped[str] = mapped_column(String(255), nullable=False, index=True)
+    modelo: Mapped[str] = mapped_column(String(255), nullable=False, index=True)
+    familia: Mapped[Optional[str]] = mapped_column(String(255))
+
+    # Certification info
+    normas_ensaios: Mapped[Optional[List[str]]] = mapped_column(JSON)
+    ocp: Mapped[Optional[str]] = mapped_column(String(255))
+    certificado_numero: Mapped[Optional[str]] = mapped_column(String(255), index=True)
+    registro_inmetro: Mapped[Optional[str]] = mapped_column(String(255), index=True)
+    laboratorio_ensaio: Mapped[Optional[str]] = mapped_column(String(255))
+    data_emissao: Mapped[Optional[date]] = mapped_column(Date)
+    data_validade: Mapped[Optional[date]] = mapped_column(Date)
+
+    # Datasheet info
+    atributos_tecnicos: Mapped[Optional[Dict[str, Any]]] = mapped_column(JSON)
+    arquivos_datasheet: Mapped[Optional[List[str]]] = mapped_column(JSON)
+
+    # Raw data
+    raw_payload: Mapped[Optional[Dict[str, Any]]] = mapped_column(JSON)
+
+    # Metadata
+    fonte: Mapped[str] = mapped_column(String(50), default="INMETRO")
+    ultima_atualizacao: Mapped[datetime] = mapped_column(
+        DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
+    )
+    responsavel: Mapped[Optional[str]] = mapped_column(String(255))
+    extra_metadata: Mapped[Optional[Dict[str, Any]]] = mapped_column(JSON)
+
+    # Timestamps
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
+    )
+
+    def is_valid(self, as_of: Optional[date] = None) -> bool:
+        """Check if certification is valid on given date."""
+        check_date = as_of or date.today()
+        if not self.data_validade:
+            return False
+        return self.data_validade >= check_date
+
+
+class DataRecord(Base):
+    """Database model for general data provider records."""
+
+    __tablename__ = "data_records"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    record_id: Mapped[str] = mapped_column(
+        String(255), unique=True, nullable=False, index=True
+    )
+    data_type: Mapped[str] = mapped_column(String(50), nullable=False, index=True)
+    data: Mapped[Dict[str, Any]] = mapped_column(JSON, nullable=False)
+
+    # Metadata
+    timestamp: Mapped[datetime] = mapped_column(DateTime, nullable=False, index=True)
+    source: Mapped[str] = mapped_column(String(255), nullable=False)
+    record_metadata: Mapped[Optional[Dict[str, Any]]] = mapped_column(JSON)
+
+    # Processing status
+    processed: Mapped[bool] = mapped_column(Boolean, default=False)
+    processing_attempts: Mapped[int] = mapped_column(Integer, default=0)
+    last_error: Mapped[Optional[str]] = mapped_column(Text)
+
+    # Timestamps
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
+    )
+
+
+class CrawlerData(Base):
+    """Database model for crawler-collected data (ANEEL datasets, etc.)."""
+
+    __tablename__ = "crawler_data"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    source: Mapped[str] = mapped_column(
+        String(50), nullable=False, index=True
+    )  # 'aneel', 'bacen', etc.
+    dataset_name: Mapped[str] = mapped_column(String(255), nullable=False, index=True)
+    data: Mapped[Dict[str, Any]] = mapped_column(JSON, nullable=False)
+
+    # Metadata
+    collection_date: Mapped[datetime] = mapped_column(
+        DateTime, nullable=False, index=True
+    )
+    url: Mapped[Optional[str]] = mapped_column(String(500))
+    file_path: Mapped[Optional[str]] = mapped_column(
+        String(500)
+    )  # Local file path if downloaded
+    file_size: Mapped[Optional[int]] = mapped_column(Integer)  # Size in bytes
+
+    # Processing status
+    processed: Mapped[bool] = mapped_column(Boolean, default=False)
+    processing_status: Mapped[str] = mapped_column(
+        String(20), default="pending"
+    )  # pending, processing, completed, failed
+    processing_attempts: Mapped[int] = mapped_column(Integer, default=0)
+    last_error: Mapped[Optional[str]] = mapped_column(Text)
+
+    # Data quality
+    record_count: Mapped[Optional[int]] = mapped_column(Integer)
+    data_quality_score: Mapped[Optional[float]] = mapped_column(Float)
+
+    # Timestamps
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
+    )
+    processed_at: Mapped[Optional[datetime]] = mapped_column(DateTime)

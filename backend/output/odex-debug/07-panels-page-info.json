@@ -1,0 +1,124 @@
+{
+  "url": "https://plataforma.odex.com.br/dashboard/shop/view/panel",
+  "title": "Plataforma Solar",
+  "inputs": [
+    {
+      "index": 0,
+      "type": "text",
+      "name": "",
+      "id": "",
+      "placeholder": "Código, nome...",
+      "value": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "number",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 2,
+      "type": "number",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 3,
+      "type": "number",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 4,
+      "type": "number",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": true,
+      "disabled": false
+    }
+  ],
+  "buttons": [
+    {
+      "index": 0,
+      "type": "button",
+      "text": "",
+      "className": "btn border border-start-0",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "submit",
+      "text": "Filtrar",
+      "className": "btn btn-primary border-0 btn-potencia d-flex fw-normal justify-content-center align-items-center my-3",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 2,
+      "type": "submit",
+      "text": "-",
+      "className": "btn border-0 btn-input-quantity",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 3,
+      "type": "submit",
+      "text": "+",
+      "className": "btn border-0 btn-input-quantity",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 4,
+      "type": "submit",
+      "text": "-",
+      "className": "btn border-0 btn-input-quantity",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 5,
+      "type": "submit",
+      "text": "+",
+      "className": "btn border-0 btn-input-quantity",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 6,
+      "type": "submit",
+      "text": "1",
+      "className": "page-link",
+      "visible": true,
+      "disabled": false
+    }
+  ],
+  "links": [],
+  "forms": [
+    {
+      "index": 0,
+      "action": "https://plataforma.odex.com.br/dashboard/shop/view/panel",
+      "method": "get",
+      "inputCount": 2
+    }
+  ],
+  "bodyTextSample": "Dashboard\nMonte Seu Kit\nLoja\nOrçamentos\nCalculadora\nPedidos\nClientes\nRelatórios\nPrêmio Venda Direta\nConfigurações\nPerfil\nDesafixar\nLoja / Painel\nBuscar\n0\nMonte seu gerador\nPainel\nInversor\nString Box\nEstruturas\nAlguma dúvida na escolha do seu produto? Clique aqui\nFiltrar Por\nPreço (R$)\n-\nFiltrar\nExibindo 9 itens de 9 encontrados.\nOrdenar por\nPreço\nMarca\nSKU#: 289244\nPAINEL SOLAR FOTOVOLTAICO ODEX 585W BIFACIAL N-TYPE 144 CELULAS ODE04122024\nR$ 490,00\nCom IPI e ST\n-\n+\nSKU#: 280440\nPAINEL SOLAR FOT"
+}

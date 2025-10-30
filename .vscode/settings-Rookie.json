@@ -1,0 +1,7 @@
+{
+      "inlineChat.lineEmptyHint": true,
+      "inlineChat.notebookAgent": true,
+      "inlineChat.enableV2": true,
+      "chat.useNestedAgentsMdFiles": true,
+      "python.analysis.typeCheckingMode": "off"
+}

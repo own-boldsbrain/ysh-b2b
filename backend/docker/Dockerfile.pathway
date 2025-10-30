@@ -1,0 +1,28 @@
+# Dockerfile para Pathway (Real-Time Processing)
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+      gcc \
+      g++ \
+      && rm -rf /var/lib/apt/lists/*
+
+# Install Pathway and dependencies
+RUN pip install --no-cache-dir \
+      pathway \
+      pandas \
+      sqlalchemy \
+      psycopg2-binary \
+      redis \
+      python-dotenv
+
+# Copy application code
+COPY ./data-platform/pathway /app
+
+# Expose monitoring port
+EXPOSE 8080
+
+# Run Pathway processor
+CMD ["python", "product_stream_processor.py"]

@@ -6,6 +6,7 @@
       {
         "id": "2c681528ff074b93",
         "type": "tabs",
+        "dimension": 35.8148893360161,
         "children": [
           {
             "id": "69a517d9a1b85fb0",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/apis_sandboxes.md.md",
+                "file": "backend/docs/GeoNode-Integrated AI Chatbot Framework.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +29,69 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "apis_sandboxes.md"
+              "title": "GeoNode-Integrated AI Chatbot Framework"
+            }
+          }
+        ]
+      },
+      {
+        "id": "6fe87fe502a70b0c",
+        "type": "tabs",
+        "dimension": 30.85177733065057,
+        "children": [
+          {
+            "id": "601adee896b27dd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/data/products-inventory-backup-20251017-134630/docs/YSH-SOLAR-360-SPLITS-STRUCTURE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "YSH-SOLAR-360-SPLITS-STRUCTURE"
+            }
+          }
+        ]
+      },
+      {
+        "id": "67339ba13b917bcc",
+        "type": "tabs",
+        "dimension": 33.33333333333333,
+        "children": [
+          {
+            "id": "a276aa2a15a125fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/docs/API_CREDENTIALS_UPDATE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "API_CREDENTIALS_UPDATE"
             }
           }
         ]
@@ -63,7 +126,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pric",
+                "query": "pricing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,11 +147,12 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 444.5
   },
   "right": {
     "id": "720e1a436747fb9a",
@@ -208,43 +272,53 @@
       "markdown-importer:Abrir importador Markdown": false
     }
   },
-  "active": "69a517d9a1b85fb0",
+  "active": "a276aa2a15a125fb",
   "lastOpenFiles": [
-    "backend/data/products-inventory/INDEX.md",
-    "backend/data/products-inventory/REVIEW_SUMMARY.md",
-    "backend/data/products-inventory/START_HERE.md",
-    "backend/data/products-inventory/REORGANIZATION_SUMMARY.md",
-    "backend/data/products-inventory/NEW_README.md",
-    "backend/data/products-inventory/scripts/migration/reorganize.ps1",
-    "backend/data/products-inventory/scripts/migration",
-    "backend/data/products-inventory/REORGANIZATION_PLAN.md",
-    "E2E_TESTS_360_COVERAGE.md",
-    "foss-stack-manifest.json",
-    "FOSS_STACK_README.md",
-    "FOSS_STACK_INDEX.md",
-    "FOSS_STACK_VISUAL_GUIDE.md",
-    "FOSS_STACK_IMPLEMENTATION.md",
-    "FOSS_STACK_SUMMARY.md",
-    "FOSS_STACK_COMPLETE.md",
-    "backend/docs/PRICING_STRATEGY_YSH.md",
+    "backend/docs/INTELLIGENT_QUOTATION_SYSTEM_IMPLEMENTATION.md",
+    "backend/docs/API_CREDENTIALS_UPDATE.md",
+    "backend/docs/API_CREDENTIALS_VALIDATION.md",
+    "backend/docs/API_STATUS_REPORT.md",
+    "backend/docs/GeoNode-Integrated AI Chatbot Framework.md",
+    "backend/data/project-helios/business-model/KIT_SOLARES/Custos Totais de Projetos Solares por Categoria, Região e Tier de Geração.md",
     "docs/apis_sandboxes.md.md",
-    "backend/data/products-inventory/SKU-GOVERNOR-README.md",
-    "backend/data/products-inventory/run-governor-pipeline.py",
-    "backend/data/products-inventory/test-sku-governor.ps1",
-    "backend/data/products-inventory/examples/fotus-batteries-sample.json",
-    "backend/data/products-inventory/examples/fortlev-inverters-sample.json",
-    "backend/data/products-inventory/examples/neosolar-panels-sample.json",
-    "backend/data/products-inventory/examples",
-    "backend/data/products-inventory/SKU-GOVERNOR-USAGE.md",
-    "backend/data/products-inventory/sku-governor.py",
-    "docs/YSH_PRICING_IMPLEMENTATION.md",
-    "backend/data/products-inventory/docs/PAYMENT_SYSTEM_ASAAS_COMPLETE_GUIDE.md",
-    "docs/status-reports/ADMIN_REVIEW_2025-10-13.md",
-    "backend/data/products-inventory/docs/YSH-SOLAR-360-SPLITS-STRUCTURE.md",
-    "backend/data/products-inventory/INVENTORY_BLUEPRINT_360.md",
-    "backend/data/products-inventory/docs/PAYMENT_SYSTEM_DIAGRAMS.md",
-    "backend/data/products-inventory/EXECUTIVE-IMPLEMENTATION-REPORT.md",
-    "backend/data/products-inventory/ENRICHMENT_COMPLETE_SUMMARY.md",
-    "backend/data/products-inventory/CATALOG_GENERATION_SUMMARY.md"
+    "backend/data/project-helios/business-model/KIT_SOLARES/APIs Keys 🗝.md",
+    "backend/data/products-inventory/REORGANIZATION_COMPLETE.md",
+    "backend/CATALOG_CDN_INTEGRATION_READY.md",
+    "backend/FACEBOOK_IMAGES_REQUIREMENTS.md",
+    "backend/data/products-inventory-backup-20251017-134630/enriched-schemas/COMPARATIVE_PRICING_ANALYSIS.md",
+    "backend/node_modules/vite/node_modules/@esbuild/linux-ppc64",
+    "backend/node_modules/vite/node_modules/@esbuild/linux-arm64",
+    "backend/node_modules/vite/node_modules/@esbuild/linux-mips64el",
+    "backend/node_modules/vite/node_modules/@esbuild/linux-arm",
+    "backend/node_modules/vite/node_modules/@esbuild/linux-ia32",
+    "backend/node_modules/vite/node_modules/@esbuild/freebsd-x64",
+    "backend/node_modules/vite/node_modules/@esbuild/darwin-arm64",
+    "backend/node_modules/vite/node_modules/@esbuild/freebsd-arm64",
+    "backend/node_modules/vite/node_modules/@esbuild/darwin-x64",
+    "backend/data/project-helios/haas/test_inmetro_endpoints.py",
+    "backend/data/project-helios/PROJECT_STATUS_360_FINAL.md",
+    "backend/data/project-helios/huginn-scenarios/ANEEL_MCP_SETUP_GUIDE.md",
+    "backend/data/project-helios/distribuitors/SUMARIO_EXECUTIVO_REVISAO.md",
+    "backend/data/project-helios/distribuitors/RELATORIO_QUALIDADE_DADOS.md",
+    "backend/data/project-helios/distribuitors/SUMARIO_COBERTURA_360.md",
+    "backend/data/project-helios/distribuitors/ANEEL_DISTRIBUIDORAS_360_REPORT.md",
+    "backend/data/project-helios/INDEX_360_MASTER.md",
+    "backend/data/project-helios/COBERTURA_360_COMPLETE.md",
+    "backend/data/project-helios/EPE_INTEGRATION_SUMMARY.md",
+    "backend/node_modules/@prisma/get-platform/README.md",
+    "backend/node_modules/@prisma/fetch-engine/README.md",
+    "backend/node_modules/@prisma/engines-version/README.md",
+    "backend/node_modules/@prisma/engines/README.md",
+    "backend/node_modules/@prisma/debug/README.md",
+    "backend/node_modules/prisma/build/public/assets/tick.8cbb6a93.svg",
+    "backend/node_modules/prisma/build/public/assets/tick-indeterminate.aec8a44d.svg",
+    "backend/node_modules/prisma/build/public/assets/sun.89774753.svg",
+    "backend/node_modules/prisma/build/public/assets/string.ea615a24.svg",
+    "backend/node_modules/prisma/build/public/assets/settings.5ad25af2.svg",
+    "backend/node_modules/prisma/build/public/assets/search.2ed766ce.svg",
+    "backend/node_modules/prisma/build/public/assets/refresh.d5448ccc.svg",
+    "backend/node_modules/prisma/build/public/assets/plus.8fbf7ad3.svg",
+    "backend/node_modules/prisma/build/public/assets/play.8811691e.svg",
+    "backend/node_modules/prisma/build/public/assets/panel-left.a81e4b97.svg"
   ]
 }

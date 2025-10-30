@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-10-30T01:21:26.304Z",
+  "total": 1138,
+  "imagesAdded": 1138,
+  "stillMissing": 0,
+  "samples": [
+    {
+      "sku": "FOTUSKP021704KWPCERAMICOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Ceramico-kits.jpg",
+        "FOTUS-KP02-1704kWp-Ceramico-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Ceramico-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP021704KWPFIBROCIMENTOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Fibrocimento-kits.jpg",
+        "FOTUS-KP02-1704kWp-Fibrocimento-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Fibrocimento-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP021704KWPMINITRILHOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-MiniTrilho-kits.jpg",
+        "FOTUS-KP02-1704kWp-MiniTrilho-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-MiniTrilho-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP041596KWPCERAMICOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-Ceramico-kits.jpg",
+        "FOTUS-KP04-1596kWp-Ceramico-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-Ceramico-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP041596KWPFIBROCIMENTOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-Fibrocimento-kits.jpg",
+        "FOTUS-KP04-1596kWp-Fibrocimento-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-Fibrocimento-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP041596KWPMINITRILHOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-MiniTrilho-kits.jpg",
+        "FOTUS-KP04-1596kWp-MiniTrilho-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-MiniTrilho-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP041482KWPCERAMICOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1482kWp-Ceramico-kits.jpg",
+        "FOTUS-KP04-1482kWp-Ceramico-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1482kWp-Ceramico-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP041482KWPFIBROCIMENTOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1482kWp-Fibrocimento-kits.jpg",
+        "FOTUS-KP04-1482kWp-Fibrocimento-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1482kWp-Fibrocimento-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP041482KWPMINITRILHOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1482kWp-MiniTrilho-kits.jpg",
+        "FOTUS-KP04-1482kWp-MiniTrilho-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1482kWp-MiniTrilho-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP041368KWPCERAMICOKITS",
+      "images": [
+        "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1368kWp-Ceramico-kits.jpg",
+        "FOTUS-KP04-1368kWp-Ceramico-kits.jpg"
+      ],
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1368kWp-Ceramico-kits.jpg"
+    }
+  ]
+}

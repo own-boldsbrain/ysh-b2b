@@ -1,0 +1,6 @@
+﻿distributor,id,name,manufacturer,model,sku,category,type,price_brl,power_kw,power_w,voltage_v,current_a,efficiency_percent,certifications,currency,description,height_mm,image_url,length_mm,price_per_unit,stock_available,stock_quantity,tags,voltage_range,warranty_years,weight_kg,width_mm
+Fortlev,fortlev_microinverters_IIN00352,MICROINVERSOR FOXESS Q1-2400-E - 2400W - 220V,Foxess,,,microinverters,,,,,,,,,BRL,MICROINVERSOR FOXESS Q1-2400-E - 2400W - 220V,,,,,,,,,,,
+Fortlev,fortlev_microinverters_IIN00349,MICROINVERSOR NEP BDM-2250 COM WIFI E CABO TRONCO,Nep,,,microinverters,,,,,,,,,BRL,MICROINVERSOR NEP BDM-2250 COM WIFI E CABO TRONCO,,,,,,,,,,,
+Fortlev,fortlev_microinverters_IIN00299,"ENPHASE MICROINVERSOR 0,475KW - 220V - AFCI (IQ8P-72-2-BR)",Enphase,,,microinverters,,,,,,,,,BRL,"ENPHASE MICROINVERSOR 0,475KW - 220V - AFCI (IQ8P-72-2-BR)",,,,,,,,,,,
+Fortlev,fortlev_microinverters_IIN00126,"ENPHASE MICROINVERSOR 0,335KW - 220V - AFCI (IQ7AM-72-2-US)",Enphase,,,microinverters,,,,,,,,,BRL,"ENPHASE MICROINVERSOR 0,335KW - 220V - AFCI (IQ7AM-72-2-US)",,,,,,,,,,,
+Fortlev,fortlev_microinverters_IIN00225,MICROINVERSOR FOXESS M1 - 1000W - 220V,Foxess,,,microinverters,,,,,,,,,BRL,MICROINVERSOR FOXESS M1 - 1000W - 220V,,,,,,,,,,,

@@ -1,0 +1,86 @@
+{
+  "dashboard": {
+    "title": "YSH Solar - Image Scraping System",
+    "uid": "ysh-scraping-overview",
+    "timezone": "browser",
+    "editable": true,
+    "panels": [
+      {
+        "id": 1,
+        "title": "Scraping Success Rate (24h)",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "rate(scraping_jobs_success_total[24h]) / rate(scraping_jobs_total[24h]) * 100"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 6, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "Images Downloaded per Hour",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "rate(images_downloaded_total[1h])"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 6, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "API Quota Usage",
+        "type": "gauge",
+        "targets": [
+          {
+            "expr": "gemini_api_calls_total",
+            "legendFormat": "Gemini"
+          },
+          {
+            "expr": "openai_api_calls_total",
+            "legendFormat": "OpenAI"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 6, "x": 18, "y": 0}
+      },
+      {
+        "id": 4,
+        "title": "Products by Manufacturer",
+        "type": "bargauge",
+        "targets": [
+          {
+            "expr": "sum by (manufacturer) (products_total)"
+          }
+        ],
+        "gridPos": {"h": 10, "w": 12, "x": 0, "y": 8}
+      },
+      {
+        "id": 5,
+        "title": "Error Log (Last 100)",
+        "type": "table",
+        "targets": [
+          {
+            "expr": "scraping_errors_total"
+          }
+        ],
+        "gridPos": {"h": 10, "w": 12, "x": 12, "y": 8}
+      },
+      {
+        "id": 6,
+        "title": "Pathway Processing Lag",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "pathway_processing_lag_seconds"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 18}
+      }
+    ],
+    "refresh": "30s",
+    "time": {
+      "from": "now-24h",
+      "to": "now"
+    }
+  }
+}

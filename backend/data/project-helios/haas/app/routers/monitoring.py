@@ -130,13 +130,92 @@ class Alert(BaseModel):
     acknowledged_by: Optional[str] = None
 
 
-class AlertsResponse(BaseModel):
-    """Resposta de alertas."""
+class ProjectStatus(str, Enum):
+    """Status de projetos."""
+
+    DRAFT = "draft"
+    SUBMITTED = "submitted"
+    UNDER_REVIEW = "under_review"
+    APPROVED = "approved"
+    REJECTED = "rejected"
+    INSTALLED = "installed"
+
+
+class ProjectMetrics(BaseModel):
+    """Métricas de um projeto."""
+
+    total_power_kwp: float
+    estimated_generation_kwh_month: float
+    equipment_count: int
+    inmetro_certified_equipment_pct: float
+    validation_score: Optional[float] = None
+    last_updated: datetime
+
+
+class ProjectSummary(BaseModel):
+    """Resumo de projeto para listagem."""
+
+    id: str
+    name: str
+    client_name: str
+    status: ProjectStatus
+    location: str
+    distributor: str
+    created_at: datetime
+    updated_at: datetime
+    metrics: ProjectMetrics
+
+
+class ProjectDetail(BaseModel):
+    """Detalhes completos de um projeto."""
+
+    id: str
+    name: str
+    client_name: str
+    client_cpf_cnpj: str
+    status: ProjectStatus
+    location: Dict[str, str]  # address, city, state, zip_code
+    distributor: str
+    installation_type: str
+    connection_type: str
+    created_at: datetime
+    updated_at: datetime
+    created_by: str
+    metrics: ProjectMetrics
+    equipments: List[Dict]  # Lista simplificada de equipamentos
+    documents_generated: int
+    last_document_generated: Optional[datetime] = None
+
+
+class ProjectsListResponse(BaseModel):
+    """Resposta paginada de projetos."""
+
     total: int
-    critical: int
-    warning: int
-    info: int
-    alerts: List[Alert]
+    page: int
+    page_size: int
+    total_pages: int
+    projects: List[ProjectSummary]
+    filters_applied: Dict[str, str]
+
+
+class SystemStatistics(BaseModel):
+    """Estatísticas abrangentes do sistema."""
+
+    total_projects: int
+    projects_by_status: Dict[str, int]
+    total_power_installed_kwp: float
+    avg_project_power_kwp: float
+    total_users: int
+    active_users_today: int
+    documents_generated_today: int
+    documents_generated_month: int
+    inmetro_validations_today: int
+    inmetro_validations_month: int
+    avg_response_time_ms: float
+    error_rate_pct: float
+    top_distributors: List[Dict[str, Union[str, int]]]
+    equipment_stats: Dict[str, int]
+    generated_at: datetime
 
 
 # ==================== HELPER FUNCTIONS ====================
@@ -211,36 +290,200 @@ def check_service_health(
     )
 
 
-def generate_mock_alerts() -> List[Alert]:
-    """Gera alertas mock (substituir por dados reais)."""
+def generate_mock_projects() -> List[ProjectSummary]:
+    """Gera projetos mock para demonstração."""
     now = datetime.utcnow()
 
-    return [
-        Alert(
-            id="alert_001",
-            severity=AlertSeverity.WARNING,
-            title="High Error Rate",
-            description="Error rate exceeded 5% threshold",
-            service="INMETRO API",
-            metric="error_rate",
-            threshold=5.0,
-            current_value=6.2,
-            triggered_at=now - timedelta(minutes=15),
-            acknowledged=False
+    projects = [
+        ProjectSummary(
+            id="proj_001",
+            name="Sistema Solar Residencial 8kWp",
+            client_name="João Silva",
+            status=ProjectStatus.APPROVED,
+            location="Belo Horizonte, MG",
+            distributor="CEMIG",
+            created_at=now - timedelta(days=30),
+            updated_at=now - timedelta(days=2),
+            metrics=ProjectMetrics(
+                total_power_kwp=8.0,
+                estimated_generation_kwh_month=960,
+                equipment_count=18,
+                inmetro_certified_equipment_pct=100.0,
+                validation_score=95.5,
+                last_updated=now - timedelta(days=2),
+            ),
         ),
-        Alert(
-            id="alert_002",
-            severity=AlertSeverity.CRITICAL,
-            title="Database Connection Pool Exhausted",
-            description="All database connections in use",
-            service="PostgreSQL",
-            metric="connection_pool_usage",
-            threshold=90.0,
-            current_value=98.5,
-            triggered_at=now - timedelta(minutes=5),
-            acknowledged=False
-        )
+        ProjectSummary(
+            id="proj_002",
+            name="Instalação Comercial 25kWp",
+            client_name="Empresa XYZ Ltda",
+            status=ProjectStatus.UNDER_REVIEW,
+            location="São Paulo, SP",
+            distributor="CPFL",
+            created_at=now - timedelta(days=15),
+            updated_at=now - timedelta(hours=6),
+            metrics=ProjectMetrics(
+                total_power_kwp=25.0,
+                estimated_generation_kwh_month=3125,
+                equipment_count=55,
+                inmetro_certified_equipment_pct=95.0,
+                validation_score=88.2,
+                last_updated=now - timedelta(hours=6),
+            ),
+        ),
+        ProjectSummary(
+            id="proj_003",
+            name="Sistema Rural 15kWp",
+            client_name="Fazenda ABC",
+            status=ProjectStatus.SUBMITTED,
+            location="Uberlândia, MG",
+            distributor="CEMIG",
+            created_at=now - timedelta(days=7),
+            updated_at=now - timedelta(hours=12),
+            metrics=ProjectMetrics(
+                total_power_kwp=15.0,
+                estimated_generation_kwh_month=1875,
+                equipment_count=33,
+                inmetro_certified_equipment_pct=90.0,
+                validation_score=None,
+                last_updated=now - timedelta(hours=12),
+            ),
+        ),
+        ProjectSummary(
+            id="proj_004",
+            name="Condomínio Solar 50kWp",
+            client_name="Condomínio XYZ",
+            status=ProjectStatus.DRAFT,
+            location="Rio de Janeiro, RJ",
+            distributor="Light",
+            created_at=now - timedelta(days=3),
+            updated_at=now - timedelta(hours=1),
+            metrics=ProjectMetrics(
+                total_power_kwp=50.0,
+                estimated_generation_kwh_month=6250,
+                equipment_count=110,
+                inmetro_certified_equipment_pct=85.0,
+                validation_score=None,
+                last_updated=now - timedelta(hours=1),
+            ),
+        ),
+        ProjectSummary(
+            id="proj_005",
+            name="Microgeração 3kWp",
+            client_name="Maria Santos",
+            status=ProjectStatus.REJECTED,
+            location="Salvador, BA",
+            distributor="Coelba",
+            created_at=now - timedelta(days=45),
+            updated_at=now - timedelta(days=10),
+            metrics=ProjectMetrics(
+                total_power_kwp=3.0,
+                estimated_generation_kwh_month=375,
+                equipment_count=7,
+                inmetro_certified_equipment_pct=100.0,
+                validation_score=78.5,
+                last_updated=now - timedelta(days=10),
+            ),
+        ),
     ]
+
+    return projects
+
+
+def get_mock_project_detail(project_id: str) -> Optional[ProjectDetail]:
+    """Retorna detalhes mock de um projeto específico."""
+    projects = generate_mock_projects()
+    project = next((p for p in projects if p.id == project_id), None)
+
+    if not project:
+        return None
+
+    # Equipamentos mock
+    equipments = [
+        {
+            "type": "panel",
+            "manufacturer": "Canadian Solar",
+            "model": "CS3W-450MS",
+            "quantity": 18,
+            "power_w": 450,
+            "inmetro_certified": True,
+        },
+        {
+            "type": "inverter",
+            "manufacturer": "SMA",
+            "model": "Sunny Tripower 8000TL",
+            "quantity": 1,
+            "power_w": 8000,
+            "inmetro_certified": True,
+        },
+    ]
+
+    return ProjectDetail(
+        id=project.id,
+        name=project.name,
+        client_name=project.client_name,
+        client_cpf_cnpj="123.456.789-00",
+        status=project.status,
+        location={
+            "address": "Rua das Flores, 123",
+            "city": project.location.split(", ")[0],
+            "state": project.location.split(", ")[1],
+            "zip_code": "30000-000",
+        },
+        distributor=project.distributor,
+        installation_type="residencial",
+        connection_type="monofásico",
+        created_at=project.created_at,
+        updated_at=project.updated_at,
+        created_by="user@example.com",
+        metrics=project.metrics,
+        equipments=equipments,
+        documents_generated=2,
+        last_document_generated=datetime.utcnow() - timedelta(days=1),
+    )
+
+
+def generate_mock_statistics() -> SystemStatistics:
+    """Gera estatísticas mock do sistema."""
+    projects = generate_mock_projects()
+
+    # Calcular estatísticas
+    total_projects = len(projects)
+    projects_by_status = {}
+    total_power = 0.0
+
+    for project in projects:
+        status = project.status.value
+        projects_by_status[status] = projects_by_status.get(status, 0) + 1
+        total_power += project.metrics.total_power_kwp
+
+    return SystemStatistics(
+        total_projects=total_projects,
+        projects_by_status=projects_by_status,
+        total_power_installed_kwp=round(total_power, 1),
+        avg_project_power_kwp=round(total_power / total_projects, 1),
+        total_users=45,
+        active_users_today=12,
+        documents_generated_today=8,
+        documents_generated_month=156,
+        inmetro_validations_today=34,
+        inmetro_validations_month=1247,
+        avg_response_time_ms=145.8,
+        error_rate_pct=0.7,
+        top_distributors=[
+            {"name": "CEMIG", "projects": 2, "power_kwp": 23.0},
+            {"name": "CPFL", "projects": 1, "power_kwp": 25.0},
+            {"name": "Light", "projects": 1, "power_kwp": 50.0},
+            {"name": "Coelba", "projects": 1, "power_kwp": 3.0},
+        ],
+        equipment_stats={
+            "panels_validated": 223,
+            "inverters_validated": 45,
+            "certificates_issued": 198,
+            "pending_validations": 12,
+        },
+        generated_at=datetime.utcnow(),
+    )
 
 
 # ==================== ENDPOINTS ====================
@@ -456,31 +699,226 @@ async def get_active_alerts(
     )
 
 
-@router.post(
-    "/alerts/{alert_id}/acknowledge",
-    summary="Reconhecer alerta",
-    description="Marca um alerta como reconhecido pelo operador."
+@router.get(
+    "/projects",
+    response_model=ProjectsListResponse,
+    summary="Listar projetos do usuário",
+    description="""
+    Lista projetos do usuário atual com filtros e paginação.
+
+    **Filtros disponíveis:**
+    - `status`: Filtrar por status (draft, submitted, under_review, approved, rejected, installed)
+    - `distributor`: Filtrar por concessionária
+    - `date_from`: Projetos criados após esta data (YYYY-MM-DD)
+    - `date_to`: Projetos criados antes desta data (YYYY-MM-DD)
+    - `min_power`: Potência mínima em kWp
+    - `max_power`: Potência máxima em kWp
+
+    **Ordenação:**
+    - `created_at`: Data de criação (padrão: desc)
+    - `updated_at`: Data de atualização
+    - `name`: Nome do projeto
+    - `power`: Potência instalada
+
+    **Paginação:**
+    - `page`: Página atual (padrão: 1)
+    - `page_size`: Itens por página (padrão: 20, máximo: 100)
+    """,
 )
-async def acknowledge_alert(
-    alert_id: str,
+async def get_user_projects(
+    status: Optional[ProjectStatus] = Query(None, description="Filtrar por status"),
+    distributor: Optional[str] = Query(None, description="Filtrar por concessionária"),
+    date_from: Optional[str] = Query(None, description="Data inicial (YYYY-MM-DD)"),
+    date_to: Optional[str] = Query(None, description="Data final (YYYY-MM-DD)"),
+    min_power: Optional[float] = Query(None, description="Potência mínima (kWp)"),
+    max_power: Optional[float] = Query(None, description="Potência máxima (kWp)"),
+    sort_by: str = Query("created_at", description="Campo para ordenação"),
+    sort_order: str = Query("desc", description="Ordem: asc ou desc"),
+    page: int = Query(1, ge=1, description="Página atual"),
+    page_size: int = Query(20, ge=1, le=100, description="Itens por página"),
     current_user: User = Depends(get_current_active_user),
-    db: Session = Depends(get_db)
-) -> Dict[str, str]:
+    db: Session = Depends(get_db),
+) -> ProjectsListResponse:
     """
-    Reconhece um alerta.
+    Lista projetos do usuário com filtros e paginação.
 
     Args:
-        alert_id: ID do alerta a reconhecer
+        status: Filtrar por status do projeto
+        distributor: Filtrar por concessionária
+        date_from: Data inicial de criação
+        date_to: Data final de criação
+        min_power: Potência mínima
+        max_power: Potência máxima
+        sort_by: Campo para ordenação
+        sort_order: Ordem da ordenação
+        page: Página atual
+        page_size: Itens por página
     """
-    logger.info(
-        f"Alert {alert_id} acknowledged by {current_user.email}"
+    logger.info(f"Listing projects for user {current_user.email}, page {page}")
+
+    # TODO: Buscar projetos reais do banco
+    # Por enquanto retorna dados mock
+    all_projects = generate_mock_projects()
+
+    # Aplicar filtros
+    filtered_projects = all_projects
+
+    if status:
+        filtered_projects = [p for p in filtered_projects if p.status == status]
+
+    if distributor:
+        filtered_projects = [
+            p for p in filtered_projects if p.distributor == distributor
+        ]
+
+    if date_from:
+        try:
+            from_date = datetime.fromisoformat(date_from)
+            filtered_projects = [
+                p for p in filtered_projects if p.created_at >= from_date
+            ]
+        except ValueError:
+            pass  # Ignorar filtro inválido
+
+    if date_to:
+        try:
+            to_date = datetime.fromisoformat(date_to)
+            filtered_projects = [
+                p for p in filtered_projects if p.created_at <= to_date
+            ]
+        except ValueError:
+            pass  # Ignorar filtro inválido
+
+    if min_power is not None:
+        filtered_projects = [
+            p for p in filtered_projects if p.metrics.total_power_kwp >= min_power
+        ]
+
+    if max_power is not None:
+        filtered_projects = [
+            p for p in filtered_projects if p.metrics.total_power_kwp <= max_power
+        ]
+
+    # Ordenação
+    reverse = sort_order.lower() == "desc"
+    if sort_by == "created_at":
+        filtered_projects.sort(key=lambda p: p.created_at, reverse=reverse)
+    elif sort_by == "updated_at":
+        filtered_projects.sort(key=lambda p: p.updated_at, reverse=reverse)
+    elif sort_by == "name":
+        filtered_projects.sort(key=lambda p: p.name.lower(), reverse=reverse)
+    elif sort_by == "power":
+        filtered_projects.sort(key=lambda p: p.metrics.total_power_kwp, reverse=reverse)
+
+    # Paginação
+    total = len(filtered_projects)
+    start_idx = (page - 1) * page_size
+    end_idx = start_idx + page_size
+    paginated_projects = filtered_projects[start_idx:end_idx]
+
+    total_pages = (total + page_size - 1) // page_size
+
+    # Filtros aplicados
+    filters_applied = {}
+    if status:
+        filters_applied["status"] = status.value
+    if distributor:
+        filters_applied["distributor"] = distributor
+    if date_from:
+        filters_applied["date_from"] = date_from
+    if date_to:
+        filters_applied["date_to"] = date_to
+    if min_power is not None:
+        filters_applied["min_power"] = str(min_power)
+    if max_power is not None:
+        filters_applied["max_power"] = str(max_power)
+
+    return ProjectsListResponse(
+        total=total,
+        page=page,
+        page_size=page_size,
+        total_pages=total_pages,
+        projects=paginated_projects,
+        filters_applied=filters_applied,
     )
 
-    # TODO: Atualizar alerta no banco
-    # Por enquanto retorna confirmação
 
-    return {
-        "message": f"Alert {alert_id} acknowledged",
-        "acknowledged_by": current_user.email,
-        "acknowledged_at": datetime.utcnow().isoformat()
-    }
+@router.get(
+    "/projects/{project_id}",
+    response_model=ProjectDetail,
+    summary="Detalhes de projeto específico",
+    description="""
+    Retorna detalhes completos de um projeto específico.
+
+    **Inclui:**
+    - Informações básicas do projeto
+    - Dados do cliente
+    - Localização e concessionária
+    - Métricas técnicas (potência, geração estimada)
+    - Lista de equipamentos
+    - Status de documentos gerados
+    - Histórico de validações
+
+    **Métricas calculadas:**
+    - Pontuação de validação INMETRO
+    - Percentual de equipamentos certificados
+    - Status de conformidade técnica
+    """,
+)
+async def get_project_detail(
+    project_id: str,
+    current_user: User = Depends(get_current_active_user),
+    db: Session = Depends(get_db),
+) -> ProjectDetail:
+    """
+    Retorna detalhes completos de um projeto.
+
+    Args:
+        project_id: ID único do projeto
+    """
+    logger.info(f"Fetching project detail: {project_id}")
+
+    # TODO: Buscar projeto real do banco
+    # Por enquanto retorna dados mock
+    project_detail = get_mock_project_detail(project_id)
+
+    if not project_detail:
+        from fastapi import HTTPException
+
+        raise HTTPException(
+            status_code=404, detail=f"Projeto {project_id} não encontrado"
+        )
+
+    return project_detail
+
+
+@router.get(
+    "/statistics",
+    response_model=SystemStatistics,
+    summary="Estatísticas abrangentes do sistema",
+    description="""
+    Retorna estatísticas abrangentes do sistema HaaS.
+
+    **Métricas incluídas:**
+    - **Projetos**: Total, por status, potência instalada média
+    - **Usuários**: Total cadastrados, ativos hoje
+    - **Documentos**: Gerados hoje/mês
+    - **Validações INMETRO**: Realizadas hoje/mês
+    - **Performance**: Tempo médio de resposta, taxa de erro
+    - **Distribuidoras**: Top concessionárias por projetos
+    - **Equipamentos**: Estatísticas de validação
+
+    **Atualização:** Dados atualizados em tempo real
+    """,
+)
+async def get_system_statistics(
+    current_user: User = Depends(get_current_active_user), db: Session = Depends(get_db)
+) -> SystemStatistics:
+    """
+    Retorna estatísticas abrangentes do sistema.
+    """
+    logger.info("Fetching system statistics")
+
+    # TODO: Calcular estatísticas reais do banco
+    # Por enquanto retorna dados mock
+    return generate_mock_statistics()

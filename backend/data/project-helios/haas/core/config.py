@@ -69,9 +69,17 @@ class Settings(BaseSettings):
     JWT_ALGORITHM: str = "HS256"
     JWT_ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
 
+    # ===== OLLAMA LLM CONFIGURATION =====
+    OLLAMA_BASE_URL: str = "http://localhost:11434"
+    OLLAMA_MODEL: str = "smollm2:latest"
+    OLLAMA_TIMEOUT: int = 30
+    OLLAMA_TEMPERATURE: float = 0.0
+    OLLAMA_ENABLED: bool = True
+
     class Config:
         env_file = ".env"
         case_sensitive = False
+        extra = "ignore"  # Ignora variáveis extras do .env
 
 
 # Instância global das configurações

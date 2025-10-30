@@ -1,0 +1,1320 @@
+{
+  "timestamp": "2025-10-21T13:48:02.895Z",
+  "total_products": 2925,
+  "statistics": {
+    "official": 0,
+    "cdn": 0,
+    "distributor": 0,
+    "placeholder": 2925
+  },
+  "success_rate": 0,
+  "results": [
+    {
+      "product": {
+        "sku": "BAT-BYD-BBOX-10KWH-48V-LFP",
+        "manufacturer": "BYD",
+        "model": "Battery-Box Premium LVS 10.24kWh",
+        "power": "10",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Download falhou"
+    },
+    {
+      "product": {
+        "sku": "BAT-PYLON-US2000-2KWH-48V-LFP",
+        "manufacturer": "PYLONTECH",
+        "model": "US2000B Plus",
+        "power": "2",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Download falhou"
+    },
+    {
+      "product": {
+        "sku": "BAT-FRLM-REVO-5KWH-51V-LFP",
+        "manufacturer": "FREEDOM WON",
+        "model": "Lite Home 5/4",
+        "power": "5",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "CAB-6MM-CC-VERM-50M",
+        "manufacturer": "SOLAX CABLE",
+        "model": "Energyflex 6mm² Red",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "CAB-4MM-CC-PRET-25M",
+        "manufacturer": "SOLAX CABLE",
+        "model": "Energyflex 4mm² Black",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "CAB-35MM-CA-VERM-100M",
+        "manufacturer": "FICAP",
+        "model": "Sintenax 35mm² Red",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "INV-GROW-MIN-5KW-HYB",
+        "manufacturer": "GROWATT",
+        "model": "MIN 5000TL-XH",
+        "power": "5",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Download falhou"
+    },
+    {
+      "product": {
+        "sku": "INV-DEYE-SUN-8KW-SG",
+        "manufacturer": "DEYE",
+        "model": "SUN-8K-SG04LP3-EU",
+        "power": "8",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Download falhou"
+    },
+    {
+      "product": {
+        "sku": "INV-SOLIS-S6-3KW-GR1P",
+        "manufacturer": "SOLIS",
+        "model": "S6-GR1P3K",
+        "power": "3",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Download falhou"
+    },
+    {
+      "product": {
+        "sku": "KIT-5.5KWP-CANA-GROW-GT",
+        "manufacturer": "UNKNOWN",
+        "power": "5.5",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "KIT-8.8KWP-JINKO-DEYE-HYB",
+        "manufacturer": "UNKNOWN",
+        "power": "8.8",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "KIT-1.14KWP-SOLNP-DEYE-MICRO",
+        "manufacturer": "UNKNOWN",
+        "power": "1.14",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "PNL-CANA-CS7N-550W-BF",
+        "manufacturer": "CANA",
+        "model": "CS7N-550TB-AG",
+        "power": "550",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "PNL-JINKO-TGR-585W-NTYPE",
+        "manufacturer": "UNKNOWN",
+        "power": "585",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "PNL-LONGI-HMO6-665W-BF",
+        "manufacturer": "UNKNOWN",
+        "power": "665",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "PNL-TRINA-VERTEX-670W-MONO",
+        "manufacturer": "UNKNOWN",
+        "power": "670",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "PNL-JA-JAM72-550W-PERC",
+        "manufacturer": "UNKNOWN",
+        "power": "550",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "EST-SOLG-CER-10P-V",
+        "manufacturer": "SOLAR GROUP",
+        "model": "Kit Cerâmico 10 Painéis Vertical",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "EST-ROMA-MET-15P-H",
+        "manufacturer": "ROMAGNOLE",
+        "model": "Telha Metálica 15 Painéis Horizontal",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "EST-KRNN-FIB-8P-V",
+        "manufacturer": "K2 SYSTEMS",
+        "model": "Fibrocimento 8 Painéis Vertical",
+        "category": "others"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-001",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-002",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-003",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-004",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-005",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-006",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-007",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-008",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-009",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-010",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-011",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-012",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-013",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-014",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-015",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-016",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-017",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-018",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-019",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-020",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-021",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-022",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-023",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-024",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-025",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-026",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-027",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-028",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-029",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-030",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-031",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-032",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-033",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-034",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-035",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-036",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-037",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-038",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-039",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-040",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-041",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-042",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-043",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-044",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-045",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-046",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-047",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-048",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-049",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-050",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-051",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-052",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-053",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-054",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-055",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-056",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-057",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-058",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-059",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-060",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-061",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-062",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-063",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-064",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-065",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-066",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-067",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-068",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-069",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-070",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-071",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-072",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-073",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-074",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-075",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-076",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-077",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-078",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-079",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    },
+    {
+      "product": {
+        "sku": "FLV-KIT-000KWP-GENERI-080",
+        "manufacturer": "UNKNOWN",
+        "power": "000",
+        "category": "kits"
+      },
+      "source": "placeholder",
+      "url": "",
+      "local_path": "",
+      "success": false,
+      "error": "Fabricante não catalogado"
+    }
+  ]
+}

@@ -216,32 +216,50 @@ async def _generate_memorial_pdf(
     user_email: str
 ) -> None:
     """
-    Gera memorial descritivo em background.
-
-    TODO: Implementar geração real com ReportLab + Jinja2
+    Gera memorial descritivo em background usando Jinja2 + WeasyPrint.
     """
     try:
-        logger.info(f"Generating memorial for document {document_id}")
+        logger.info("Generating memorial for document %s", document_id)
 
-        # Simular processamento
+        # Atualizar status para processing
+        if document_id in _documents_storage:
+            _documents_storage[document_id].status = DocumentStatus.PROCESSING
+
+        # Importar gerador de PDF
+        from pathlib import Path
         import asyncio
-        await asyncio.sleep(2)
+        from app.services.pdf_generator import MemorialGenerator
 
-        # Atualizar status
+        # Preparar dados do projeto
+        project_dict = project_data.model_dump()
+
+        # Gerar PDF em thread separada (WeasyPrint é síncrono)
+        output_dir = Path("./uploads/documents")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        output_path = output_dir / f"{document_id}.pdf"
+
+        generator = MemorialGenerator()
+        await asyncio.to_thread(generator.generate_memorial, project_dict, output_path)
+
+        # Atualizar status com sucesso
         if document_id in _documents_storage:
             _documents_storage[document_id].status = DocumentStatus.COMPLETED
             _documents_storage[document_id].completed_at = datetime.utcnow()
             # TODO: Upload para S3 e gerar URL assinada
             _documents_storage[document_id].file_url = (
-                f"https://s3.amazonaws.com/haas-docs/{document_id}.pdf"
-                "?signature=mock"
+                f"/api/documents/{document_id}/download"
             )
-            _documents_storage[document_id].file_size_bytes = 524288  # 512KB
+            _documents_storage[document_id].file_size_bytes = output_path.stat().st_size
+            _documents_storage[document_id].metadata["local_path"] = str(output_path)
 
-        logger.info(f"Memorial {document_id} generated successfully")
+        logger.info(
+            "Memorial %s generated successfully (%d bytes)",
+            document_id,
+            output_path.stat().st_size,
+        )
 
     except Exception as exc:
-        logger.exception(f"Error generating memorial {document_id}")
+        logger.exception("Error generating memorial %s", document_id)
         if document_id in _documents_storage:
             _documents_storage[document_id].status = DocumentStatus.FAILED
             _documents_storage[document_id].metadata["error"] = str(exc)

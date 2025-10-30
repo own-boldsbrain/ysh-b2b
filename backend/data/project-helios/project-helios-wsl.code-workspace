@@ -1,0 +1,136 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "remoteAuthority": "wsl+Ubuntu",
+  "settings": {
+    // ========== WSL/REMOTE SETTINGS ==========
+    // Force remote authority to WSL
+    "remote.containers.dockerPath": "docker",
+    "remote.WSL.fileWatcher.polling": false,
+    "remote.WSL.useShellEnvironment": true,
+    "remote.WSL.logLevel": "info",
+
+    // ========== TERMINAL SETTINGS ==========
+    // Use WSL as default terminal
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.windows": "WSL",
+    "terminal.integrated.defaultProfile.osx": "bash",
+
+    // WSL terminal configuration
+    "terminal.integrated.profiles.windows": {
+      "WSL": {
+        "path": "wsl.exe",
+        "args": ["-d", "Ubuntu"],
+        "icon": "terminal-wsl"
+      }
+    },
+
+    // Set working directory in WSL (use workspaceFolder for cross-platform compatibility)
+    "terminal.integrated.cwd": "${workspaceFolder}",
+
+    // ========== PYTHON SETTINGS ==========
+    // Python interpreter from WSL venv
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.executeInFileDir": true,
+
+    // Python analysis and linting
+    "python.analysis.typeCheckingMode": "off",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "black",
+
+    // ========== CODE SETTINGS ==========
+    "docwriter.style": "Auto-detect",
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": false,
+
+    // ========== GIT SETTINGS ==========
+    // Use system git from WSL
+    "git.path": "git",
+    "git.ignoreLimitWarning": true,
+
+    // ========== FILE WATCHER (Performance) ==========
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/.venv/**": true,
+      "**/.venvs/**": true,
+      "**/__pycache__/**": true,
+      "**/.pytest_cache/**": true,
+      "**/.mypy_cache/**": true,
+      "**/htmlcov/**": true,
+      "**/*.egg-info/**": true
+    },
+
+    // ========== SEARCH SETTINGS ==========
+    "search.exclude": {
+      "**/.git": true,
+      "**/__pycache__": true,
+      "**/.pytest_cache": true,
+      "**/*.egg-info": true,
+      "**/node_modules": true,
+      "**/.venv": true,
+      "**/.venvs": true
+    },
+
+    // ========== EDITOR SETTINGS ==========
+    "files.eol": "\n",
+    "files.autoSave": "off"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-python.debugpy",
+      "ms-vscode-remote.remote-wsl",
+      "ms-vscode.remote-repositories",
+      "ms-vscode-remote.remote-ssh",
+      "ms-azuretools.vscode-docker",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.vscode-jupyter-cell-tags",
+      "redhat.vscode-yaml",
+      "eamodio.gitlens",
+      "GitHub.copilot",
+      "ms-python.vscode-pylance"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Current File (WSL)",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      },
+      {
+        "name": "Python: FastAPI (haas)",
+        "type": "python",
+        "request": "launch",
+        "module": "uvicorn",
+        "args": ["app.main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"],
+        "jinja": true,
+        "cwd": "${workspaceFolder}/haas",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Python: pytest (haas)",
+        "type": "python",
+        "request": "launch",
+        "module": "pytest",
+        "args": ["tests/", "-v", "--tb=short"],
+        "cwd": "${workspaceFolder}/haas",
+        "console": "integratedTerminal",
+        "justMyCode": false
+      }
+    ]
+  }
+}

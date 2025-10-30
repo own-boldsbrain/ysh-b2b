@@ -1,0 +1,92 @@
+### TESTE WORKFLOW END-TO-END - COMPARATIVE QUOTES
+### Distribuidor: Edeltec (79 produtos)
+### Data: 21/10/2025
+
+@baseUrl = http://localhost:9000
+@adminBaseUrl = {{baseUrl}}/admin
+
+### 1️⃣ CRIAR SOLICITAÇÃO DE COTAÇÃO
+POST {{adminBaseUrl}}/comparative-quotes
+Content-Type: application/json
+
+{
+  "customer_id": "cust_test_edeltec_01",
+  "project_type": "residential",
+  "estimated_power_kwp": 10.5,
+  "location": {
+    "state": "SP",
+    "city": "São Paulo",
+    "coordinates": {
+      "lat": -23.5505,
+      "lng": -46.6333
+    }
+  },
+  "invited_suppliers": ["edeltec"],
+  "requirements": {
+    "budget_max": 50000,
+    "delivery_deadline": "2025-12-31",
+    "preferred_brands": ["Canadian Solar", "Fronius", "Growatt"],
+    "installation_type": "roof",
+    "connection_type": "grid_tied"
+  },
+  "metadata": {
+    "test_scenario": "workflow_end_to_end",
+    "test_date": "2025-10-21",
+    "notes": "Teste com Edeltec - 79 produtos válidos"
+  }
+}
+
+### 2️⃣ PUBLICAR COTAÇÃO (substituir {quote_id} pelo retornado acima)
+# @name publishQuote
+POST {{adminBaseUrl}}/comparative-quotes/{quote_id}/publish
+Content-Type: application/json
+
+{}
+
+### 3️⃣ VERIFICAR STATUS DA COTAÇÃO
+GET {{adminBaseUrl}}/comparative-quotes/{quote_id}
+
+### 4️⃣ LISTAR RESPOSTAS DE FORNECEDORES
+GET {{adminBaseUrl}}/comparative-quotes/{quote_id}/responses
+
+### 5️⃣ EXECUTAR COMPARAÇÃO DE PREÇOS
+GET {{adminBaseUrl}}/comparative-quotes/{quote_id}/comparison
+
+### 6️⃣ SELECIONAR MELHOR COTAÇÃO
+POST {{adminBaseUrl}}/comparative-quotes/{quote_id}/select
+Content-Type: application/json
+
+{
+  "supplier_id": "edeltec",
+  "supplier_name": "Edeltec Distribuidora",
+  "quoted_price": 45000,
+  "delivery_time_days": 30,
+  "payment_terms": "30/60/90 dias",
+  "warranty_months": 300,
+  "selection_reason": "Melhor disponibilidade de produtos (79 itens em estoque) e categorização completa (5 categorias)",
+  "notes": "Teste workflow end-to-end - primeiro distribuidor funcional"
+}
+
+### 7️⃣ VERIFICAR PROPOSTA GERADA
+GET {{adminBaseUrl}}/proposals?quote_id={quote_id}
+
+### 8️⃣ OBTER DETALHES DA PROPOSTA
+GET {{adminBaseUrl}}/proposals/{proposal_id}
+
+###
+### HEALTH CHECK
+###
+GET {{baseUrl}}/health
+
+###
+### LISTAR TODAS AS COTAÇÕES
+###
+GET {{adminBaseUrl}}/comparative-quotes
+
+###
+### COLETAR RESPOSTAS MANUALMENTE (se publish não disparou scrapers)
+###
+POST {{adminBaseUrl}}/comparative-quotes/{quote_id}/collect
+Content-Type: application/json
+
+{}

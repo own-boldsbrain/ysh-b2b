@@ -1,0 +1,442 @@
+version: '3.9'
+
+services:
+  # ====================
+  # WORKFLOW ENGINE
+  # ====================
+  temporal-server:
+    image: temporalio/auto-setup:1.22.4
+    container_name: ysh-temporal
+    ports:
+      - "7233:7233"  # gRPC
+      - "8080:8080"  # Web UI
+    environment:
+      - DB=postgresql
+      - DB_PORT=5432
+      - POSTGRES_USER=temporal
+      - POSTGRES_PWD=temporal
+      - POSTGRES_SEEDS=postgres-temporal
+      - DYNAMIC_CONFIG_FILE_PATH=config/dynamicconfig/development-sql.yaml
+    volumes:
+      - ./temporal-dynamicconfig:/etc/temporal/config/dynamicconfig
+    depends_on:
+      postgres-temporal:
+        condition: service_healthy
+    networks:
+      - ysh-agents-network
+    healthcheck:
+      test: ["CMD", "tctl", "--address", "temporal-server:7233", "cluster", "health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  postgres-temporal:
+    image: postgres:15-alpine
+    container_name: ysh-postgres-temporal
+    environment:
+      POSTGRES_USER: temporal
+      POSTGRES_PASSWORD: temporal
+      POSTGRES_DB: temporal
+    volumes:
+      - temporal-postgres-data:/var/lib/postgresql/data
+    networks:
+      - ysh-agents-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U temporal"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ====================
+  # DATABASE + VECTOR SEARCH
+  # ====================
+  supabase-db:
+    image: supabase/postgres:15.1.0.117
+    container_name: ysh-supabase-db
+    command:
+      - postgres
+      - -c
+      - config_file=/etc/postgresql/postgresql.conf
+      - -c
+      - log_min_messages=fatal
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_HOST: /var/run/postgresql
+      PGPORT: 5432
+      POSTGRES_PORT: 5432
+      PGUSER: supabase_admin
+      POSTGRES_USER: supabase_admin
+      PGPASSWORD: your-super-secret-and-long-postgres-password
+      POSTGRES_PASSWORD: your-super-secret-and-long-postgres-password
+      POSTGRES_DB: postgres
+    volumes:
+      - supabase-db-data:/var/lib/postgresql/data
+      - ./init-scripts/supabase-init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - ysh-agents-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U supabase_admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  supabase-studio:
+    image: supabase/studio:20231123-64e9a57
+    container_name: ysh-supabase-studio
+    restart: unless-stopped
+    ports:
+      - "54321:3000"
+    environment:
+      SUPABASE_URL: http://kong:8000
+      STUDIO_PG_META_URL: http://meta:8080
+      SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0
+      SUPABASE_SERVICE_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5Nn0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU
+    networks:
+      - ysh-agents-network
+
+  kong:
+    image: kong:2.8.1
+    container_name: ysh-kong
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+      - "8443:8443"
+    environment:
+      KONG_DATABASE: "off"
+      KONG_DECLARATIVE_CONFIG: /var/lib/kong/kong.yml
+      KONG_DNS_ORDER: LAST,A,CNAME
+      KONG_PLUGINS: request-transformer,cors,key-auth,acl
+    volumes:
+      - ./config/kong.yml:/var/lib/kong/kong.yml
+    networks:
+      - ysh-agents-network
+
+  meta:
+    image: supabase/postgres-meta:v0.68.0
+    container_name: ysh-meta
+    restart: unless-stopped
+    environment:
+      PG_META_PORT: 8080
+      PG_META_DB_HOST: supabase-db
+      PG_META_DB_PORT: 5432
+      PG_META_DB_NAME: postgres
+      PG_META_DB_USER: supabase_admin
+      PG_META_DB_PASSWORD: your-super-secret-and-long-postgres-password
+    networks:
+      - ysh-agents-network
+    depends_on:
+      supabase-db:
+        condition: service_healthy
+
+  # ====================
+  # CACHE + RATE LIMITING
+  # ====================
+  redis:
+    image: redis/redis-stack:7.2.0-v6
+    container_name: ysh-redis
+    ports:
+      - "6379:6379"
+      - "8001:8001"  # RedisInsight
+    environment:
+      - REDIS_ARGS=--maxmemory 2gb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis-data:/data
+    networks:
+      - ysh-agents-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ====================
+  # MESSAGE QUEUE
+  # ====================
+  redpanda:
+    image: docker.redpanda.com/redpandadata/redpanda:v23.3.3
+    container_name: ysh-redpanda
+    command:
+      - redpanda
+      - start
+      - --kafka-addr internal://0.0.0.0:9092,external://0.0.0.0:19092
+      - --advertise-kafka-addr internal://redpanda:9092,external://localhost:19092
+      - --pandaproxy-addr internal://0.0.0.0:8082,external://0.0.0.0:18082
+      - --advertise-pandaproxy-addr internal://redpanda:8082,external://localhost:18082
+      - --schema-registry-addr internal://0.0.0.0:8081,external://0.0.0.0:18081
+      - --rpc-addr redpanda:33145
+      - --advertise-rpc-addr redpanda:33145
+      - --smp 1
+      - --memory 1G
+      - --mode dev-container
+      - --default-log-level=info
+    ports:
+      - "18081:18081"  # Schema Registry
+      - "18082:18082"  # HTTP Proxy
+      - "19092:19092"  # Kafka API
+      - "19644:9644"   # Admin API
+    volumes:
+      - redpanda-data:/var/lib/redpanda/data
+    networks:
+      - ysh-agents-network
+    healthcheck:
+      test: ["CMD-SHELL", "rpk cluster health | grep 'Healthy:.*true' || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  redpanda-console:
+    image: docker.redpanda.com/redpandadata/console:v2.4.3
+    container_name: ysh-redpanda-console
+    ports:
+      - "8082:8080"
+    environment:
+      CONFIG_FILEPATH: /tmp/config.yml
+      KAFKA_BROKERS: redpanda:9092
+      KAFKA_SCHEMAREGISTRY_ENABLED: true
+      KAFKA_SCHEMAREGISTRY_URLS: http://redpanda:8081
+    volumes:
+      - ./config/redpanda-console.yml:/tmp/config.yml
+    networks:
+      - ysh-agents-network
+    depends_on:
+      redpanda:
+        condition: service_healthy
+
+  # ====================
+  # OBSERVABILITY
+  # ====================
+  prometheus:
+    image: prom/prometheus:v2.48.1
+    container_name: ysh-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./config/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    networks:
+      - ysh-agents-network
+
+  grafana:
+    image: grafana/grafana:10.2.3
+    container_name: ysh-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - ./config/grafana/provisioning:/etc/grafana/provisioning
+      - ./config/grafana/dashboards:/var/lib/grafana/dashboards
+      - grafana-data:/var/lib/grafana
+    networks:
+      - ysh-agents-network
+    depends_on:
+      - prometheus
+
+  loki:
+    image: grafana/loki:2.9.3
+    container_name: ysh-loki
+    ports:
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
+    volumes:
+      - ./config/loki.yml:/etc/loki/local-config.yaml
+      - loki-data:/loki
+    networks:
+      - ysh-agents-network
+
+  promtail:
+    image: grafana/promtail:2.9.3
+    container_name: ysh-promtail
+    volumes:
+      - ./config/promtail.yml:/etc/promtail/config.yml
+      - /var/log:/var/log
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+    command: -config.file=/etc/promtail/config.yml
+    networks:
+      - ysh-agents-network
+    depends_on:
+      - loki
+
+  # ====================
+  # BROWSER AUTOMATION
+  # ====================
+  chrome:
+    image: browserless/chrome:1.61.0-puppeteer-21.4.1
+    container_name: ysh-chrome
+    ports:
+      - "3333:3333"
+    environment:
+      - MAX_CONCURRENT_SESSIONS=5
+      - CONNECTION_TIMEOUT=600000
+      - MAX_QUEUE_LENGTH=10
+      - PREBOOT_CHROME=true
+      - ENABLE_DEBUGGER=false
+      - TOKEN=ysh-chrome-token-2025
+    networks:
+      - ysh-agents-network
+    shm_size: 2gb
+
+  # ====================
+  # AGENT WORKERS
+  # ====================
+  catalog-extractor-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    environment:
+      - NODE_ENV=production
+      - TEMPORAL_ADDRESS=temporal-server:7233
+      - SUPABASE_URL=http://kong:8000
+      - REDIS_URL=redis://redis:6379
+      - KAFKA_BROKERS=redpanda:9092
+      - CHROME_WS_ENDPOINT=ws://chrome:3333
+      - WORKER_TYPE=catalog-extractor
+      - WORKER_TASK_QUEUE=catalog-extraction
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src
+      - ./dist:/app/dist
+    networks:
+      - ysh-agents-network
+    depends_on:
+      temporal-server:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      redpanda:
+        condition: service_healthy
+      chrome:
+        condition: service_started
+    restart: unless-stopped
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+
+  price-intelligence-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    environment:
+      - NODE_ENV=production
+      - TEMPORAL_ADDRESS=temporal-server:7233
+      - SUPABASE_URL=http://kong:8000
+      - REDIS_URL=redis://redis:6379
+      - KAFKA_BROKERS=redpanda:9092
+      - WORKER_TYPE=price-intelligence
+      - WORKER_TASK_QUEUE=price-intelligence
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src
+      - ./dist:/app/dist
+    networks:
+      - ysh-agents-network
+    depends_on:
+      temporal-server:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      redpanda:
+        condition: service_healthy
+    restart: unless-stopped
+    deploy:
+      replicas: 3
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+
+  product-enricher-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    environment:
+      - NODE_ENV=production
+      - TEMPORAL_ADDRESS=temporal-server:7233
+      - SUPABASE_URL=http://kong:8000
+      - REDIS_URL=redis://redis:6379
+      - KAFKA_BROKERS=redpanda:9092
+      - WORKER_TYPE=product-enricher
+      - WORKER_TASK_QUEUE=product-enrichment
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src
+      - ./dist:/app/dist
+    networks:
+      - ysh-agents-network
+    depends_on:
+      temporal-server:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      redpanda:
+        condition: service_healthy
+    restart: unless-stopped
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+
+  sku-governor-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    container_name: ysh-sku-governor
+    environment:
+      - NODE_ENV=production
+      - TEMPORAL_ADDRESS=temporal-server:7233
+      - SUPABASE_URL=http://kong:8000
+      - REDIS_URL=redis://redis:6379
+      - KAFKA_BROKERS=redpanda:9092
+      - WORKER_TYPE=sku-governor
+      - WORKER_TASK_QUEUE=sku-governance
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src
+      - ./dist:/app/dist
+    networks:
+      - ysh-agents-network
+    depends_on:
+      temporal-server:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      redpanda:
+        condition: service_healthy
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+
+networks:
+  ysh-agents-network:
+    driver: bridge
+
+volumes:
+  temporal-postgres-data:
+  supabase-db-data:
+  redis-data:
+  redpanda-data:
+  prometheus-data:
+  grafana-data:
+  loki-data:

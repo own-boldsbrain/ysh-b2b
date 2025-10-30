@@ -1,0 +1,41 @@
+# Dockerfile.mcp-optimized
+# Build otimizado usando código existente
+
+FROM node:20-alpine
+
+# Install dumb-init
+RUN apk add --no-cache dumb-init
+
+# Create non-root user
+RUN addgroup -g 1001 -S nodejs && \
+      adduser -S nodejs -u 1001
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install production dependencies only
+RUN npm install --omit=dev --legacy-peer-deps && \
+      npm cache clean --force
+
+# Copy application code
+COPY --chown=nodejs:nodejs src ./src
+COPY --chown=nodejs:nodejs medusa-config.js ./
+COPY --chown=nodejs:nodejs medusa-config.ts ./
+
+# Switch to non-root user
+USER nodejs
+
+# Expose port
+EXPOSE 9000
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+      CMD node -e "require('http').get('http://localhost:9000/health', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"
+
+# Use dumb-init
+ENTRYPOINT ["dumb-init", "--"]
+
+# Start Medusa
+CMD ["npx", "medusa", "start"]

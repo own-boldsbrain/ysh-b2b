@@ -1,0 +1,25 @@
+# Dockerfile para Facebook Catalog API Uploader
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+      gcc \
+      && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
+RUN pip install --no-cache-dir \
+      facebook-business \
+      requests \
+      Pillow \
+      sqlalchemy \
+      psycopg2-binary \
+      python-dotenv \
+      tenacity
+
+# Copy API integration code
+COPY ./src/api /app/api
+
+# Run the uploader service
+CMD ["python", "api/facebook_catalog_uploader.py"]

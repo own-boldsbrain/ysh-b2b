@@ -1,0 +1,228 @@
+name: CI/CD Pipeline
+
+on:
+      push:
+            branches: [main, develop]
+      pull_request:
+            branches: [main, develop]
+      workflow_dispatch:
+
+env:
+      PYTHON_VERSION: "3.11"
+      POETRY_VERSION: "1.7.1"
+
+jobs:
+      test:
+            runs-on: ubuntu-latest
+            services:
+                  postgres:
+                        image: postgis/postgis:15-3.4
+                        env:
+                              POSTGRES_PASSWORD: postgres
+                              POSTGRES_DB: haas_test
+                        options: >-
+                              --health-cmd pg_isready
+                              --health-interval 10s
+                              --health-timeout 5s
+                              --health-retries 5
+                        ports:
+                              - 5432:5432
+                  redis:
+                        image: redis:7-alpine
+                        ports:
+                              - 6379:6379
+                        options: --health-cmd "redis-cli ping" --health-interval 10s --health-timeout 5s --health-retries 5
+
+            steps:
+                  - name: Checkout code
+                    uses: actions/checkout@v4
+
+                  - name: Set up Python
+                    uses: actions/setup-python@v4
+                    with:
+                          python-version: ${{ env.PYTHON_VERSION }}
+
+                  - name: Cache Poetry virtual environment
+                    uses: actions/cache@v3
+                    with:
+                          path: ~/.cache/pypoetry
+                          key: poetry-${{ runner.os }}-${{ env.PYTHON_VERSION }}-${{ hashFiles('**/poetry.lock') }}
+                          restore-keys: |
+                                poetry-${{ runner.os }}-${{ env.PYTHON_VERSION }}-
+
+                  - name: Install Poetry
+                    run: |
+                          python -m pip install --upgrade pip
+                          python -m pip install poetry==${{ env.POETRY_VERSION }}
+
+                  - name: Configure Poetry
+                    run: |
+                          poetry config virtualenvs.create true
+                          poetry config virtualenvs.in-project true
+
+                  - name: Install dependencies
+                    run: |
+                          cd haas
+                          poetry install --no-dev
+
+                  - name: Install test dependencies
+                    run: |
+                          cd haas
+                          poetry install
+
+                  - name: Run linting
+                    run: |
+                          cd haas
+                          poetry run black --check --diff .
+                          poetry run isort --check-only --diff .
+                          poetry run flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+                          poetry run flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+                  - name: Run type checking
+                    run: |
+                          cd haas
+                          poetry run mypy . --ignore-missing-imports
+
+                  - name: Run tests
+                    env:
+                          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/haas_test
+                          REDIS_URL: redis://localhost:6379/0
+                          SECRET_KEY: test-secret-key-for-ci
+                          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+                          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+                          LLM_PROVIDER_PRIORITY: anthropic,openai,mock
+                    run: |
+                          cd haas
+                          poetry run pytest --cov=. --cov-report=xml --cov-report=term-missing
+
+                  - name: Upload coverage to Codecov
+                    uses: codecov/codecov-action@v3
+                    with:
+                          file: ./haas/coverage.xml
+                          flags: unittests
+                          name: codecov-umbrella
+                          fail_ci_if_error: false
+
+      security:
+            runs-on: ubuntu-latest
+            steps:
+                  - name: Checkout code
+                    uses: actions/checkout@v4
+
+                  - name: Set up Python
+                    uses: actions/setup-python@v4
+                    with:
+                          python-version: ${{ env.PYTHON_VERSION }}
+
+                  - name: Install Poetry
+                    run: |
+                          python -m pip install --upgrade pip
+                          python -m pip install poetry==${{ env.PYTHON_VERSION }}
+
+                  - name: Install dependencies
+                    run: |
+                          cd haas
+                          poetry install --no-dev
+
+                  - name: Run security scan
+                    run: |
+                          cd haas
+                          poetry run pip-audit --format json || true
+                          poetry run bandit -r . -f json -o bandit-report.json || true
+
+                  - name: Upload security reports
+                    uses: actions/upload-artifact@v3
+                    with:
+                          name: security-reports
+                          path: |
+                                haas/bandit-report.json
+
+      build:
+            needs: [test, security]
+            runs-on: ubuntu-latest
+            if: github.ref == 'refs/heads/main'
+
+            steps:
+                  - name: Checkout code
+                    uses: actions/checkout@v4
+
+                  - name: Set up Docker Buildx
+                    uses: docker/setup-buildx-action@v3
+
+                  - name: Log in to Docker Hub
+                    uses: docker/login-action@v3
+                    with:
+                          username: ${{ secrets.DOCKER_USERNAME }}
+                          password: ${{ secrets.DOCKER_PASSWORD }}
+
+                  - name: Extract metadata
+                    id: meta
+                    uses: docker/metadata-action@v5
+                    with:
+                          images: ${{ secrets.DOCKER_USERNAME }}/haas-platform
+                          tags: |
+                                type=ref,event=branch
+                                type=ref,event=pr
+                                type=sha,prefix={{branch}}-
+                                type=raw,value=latest,enable={{is_default_branch}}
+
+                  - name: Build and push Docker image
+                    uses: docker/build-push-action@v5
+                    with:
+                          context: .
+                          file: ./haas/Dockerfile
+                          push: true
+                          tags: ${{ steps.meta.outputs.tags }}
+                          labels: ${{ steps.meta.outputs.labels }}
+                          cache-from: type=gha
+                          cache-to: type=gha,mode=max
+
+      deploy-staging:
+            needs: build
+            runs-on: ubuntu-latest
+            if: github.ref == 'refs/heads/develop'
+            environment: staging
+
+            steps:
+                  - name: Checkout code
+                    uses: actions/checkout@v4
+
+                  - name: Deploy to staging
+                    run: |
+                          echo "Deploying to staging environment..."
+                          # Add your staging deployment commands here
+                          # For example: kubectl apply -f k8s/staging/ or docker-compose up -d
+
+      deploy-production:
+            needs: build
+            runs-on: ubuntu-latest
+            if: github.ref == 'refs/heads/main'
+            environment: production
+
+            steps:
+                  - name: Checkout code
+                    uses: actions/checkout@v4
+
+                  - name: Deploy to production
+                    run: |
+                          echo "Deploying to production environment..."
+                          # Add your production deployment commands here
+                          # For example: kubectl apply -f k8s/production/ or docker stack deploy
+
+      notify:
+            needs: [test, security, build]
+            runs-on: ubuntu-latest
+            if: always()
+
+            steps:
+                  - name: Notify on failure
+                    if: failure()
+                    run: |
+                          echo "Pipeline failed. Check the logs for details."
+                          # Add notification logic here (Slack, Teams, etc.)
+
+                  - name: Notify on success
+                    if: success()
+                    run: |
+                          echo "Pipeline completed successfully!"
+                          # Add success notification logic here

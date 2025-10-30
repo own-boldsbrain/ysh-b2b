@@ -1,0 +1,228 @@
+{
+  "BYD-BAT-BYD-BBOX-10KWH-48V-LFP": {
+    "product": {
+      "sku": "BAT-BYD-BBOX-10KWH-48V-LFP",
+      "manufacturer": "BYD",
+      "model": "Battery-Box Premium LVS 10.24kWh",
+      "power": "10",
+      "category": "others"
+    },
+    "source": "placeholder",
+    "url": "",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "PYLONTECH-BAT-PYLON-US2000-2KWH-48V-LFP": {
+    "product": {
+      "sku": "BAT-PYLON-US2000-2KWH-48V-LFP",
+      "manufacturer": "PYLONTECH",
+      "model": "US2000B Plus",
+      "power": "2",
+      "category": "others"
+    },
+    "source": "placeholder",
+    "url": "",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "GROWATT-INV-GROW-MIN-5KW-HYB": {
+    "product": {
+      "sku": "INV-GROW-MIN-5KW-HYB",
+      "manufacturer": "GROWATT",
+      "model": "MIN 5000TL-XH",
+      "power": "5",
+      "category": "others"
+    },
+    "source": "placeholder",
+    "url": "",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "DEYE-INV-DEYE-SUN-8KW-SG": {
+    "product": {
+      "sku": "INV-DEYE-SUN-8KW-SG",
+      "manufacturer": "DEYE",
+      "model": "SUN-8K-SG04LP3-EU",
+      "power": "8",
+      "category": "others"
+    },
+    "source": "placeholder",
+    "url": "",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "SOLIS-INV-SOLIS-S6-3KW-GR1P": {
+    "product": {
+      "sku": "INV-SOLIS-S6-3KW-GR1P",
+      "manufacturer": "SOLIS",
+      "model": "S6-GR1P3K",
+      "power": "3",
+      "category": "others"
+    },
+    "source": "placeholder",
+    "url": "",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "GROWATT-FORT-INV-001": {
+    "product": {
+      "sku": "FORT-INV-001",
+      "manufacturer": "GROWATT",
+      "model": "MIN 5000TL-XH",
+      "category": "others",
+      "distributor_url": "https://example.com/growatt-5kw.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/growatt-5kw.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "DEYE-FORT-INV-002": {
+    "product": {
+      "sku": "FORT-INV-002",
+      "manufacturer": "DEYE",
+      "model": "SUN-8K-SG04LP3-EU",
+      "category": "others",
+      "distributor_url": "https://example.com/deye-8kw.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/deye-8kw.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "FRONIUS-FORT-INV-003": {
+    "product": {
+      "sku": "FORT-INV-003",
+      "manufacturer": "FRONIUS",
+      "model": "Primo GEN24 6.0 Plus",
+      "category": "others",
+      "distributor_url": "https://example.com/fronius-6kw.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/fronius-6kw.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "SOLIS-FORT-INV-004": {
+    "product": {
+      "sku": "FORT-INV-004",
+      "manufacturer": "SOLIS",
+      "model": "S6-GR1P10K-M",
+      "category": "others",
+      "distributor_url": "https://example.com/solis-10kw.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/solis-10kw.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "BYD-FOTUS-BAT-001": {
+    "product": {
+      "sku": "FOTUS-BAT-001",
+      "manufacturer": "BYD",
+      "model": "Battery-Box Premium HVS 10.2",
+      "category": "others",
+      "distributor_url": "https://example.com/byd-10kwh.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/byd-10kwh.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "PYLONTECH-FOTUS-BAT-002": {
+    "product": {
+      "sku": "FOTUS-BAT-002",
+      "manufacturer": "PYLONTECH",
+      "model": "Force H2 13.5kWh",
+      "power": "13.5",
+      "category": "others",
+      "distributor_url": "https://example.com/pylontech-13kwh.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/pylontech-13kwh.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "DYNESS-FOTUS-BAT-003": {
+    "product": {
+      "sku": "FOTUS-BAT-003",
+      "manufacturer": "DYNESS",
+      "model": "PowerBox Pro 21.3",
+      "category": "others",
+      "distributor_url": "https://example.com/dyness-21kwh.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/dyness-21kwh.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "HUAWEI-FOTUS-BAT-004": {
+    "product": {
+      "sku": "FOTUS-BAT-004",
+      "manufacturer": "HUAWEI",
+      "model": "LUNA2000-15-S0",
+      "category": "others",
+      "distributor_url": "https://example.com/huawei-15kwh.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/huawei-15kwh.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "CANADIAN-SOLAR-NEO-12345": {
+    "product": {
+      "sku": "NEO-12345",
+      "manufacturer": "CANADIAN-SOLAR",
+      "model": "CS7N-550TB-AG",
+      "category": "others",
+      "distributor_url": "https://example.com/canadian-solar-550w.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/canadian-solar-550w.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "TRINA-NEO-12347": {
+    "product": {
+      "sku": "NEO-12347",
+      "manufacturer": "TRINA",
+      "model": "TSM-DE19-550W",
+      "power": "550",
+      "category": "others",
+      "distributor_url": "https://example.com/trina-550w.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/trina-550w.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  },
+  "LONGI-NEO-12348": {
+    "product": {
+      "sku": "NEO-12348",
+      "manufacturer": "LONGI",
+      "model": "LR5-72HPH-540M",
+      "category": "others",
+      "distributor_url": "https://example.com/longi-540w.jpg"
+    },
+    "source": "placeholder",
+    "url": "https://example.com/longi-540w.jpg",
+    "local_path": "",
+    "success": false,
+    "error": "Download falhou"
+  }
+}

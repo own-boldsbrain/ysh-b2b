@@ -1,0 +1,178 @@
+/* Diagram CSS styles for PDF generation */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.diagram-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.diagram-header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #2c5f8d;
+    padding-bottom: 15px;
+}
+
+.diagram-header h1 {
+    color: #2c5f8d;
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.diagram-header .subtitle {
+    color: #666666;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+.diagram-svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.technical-specs {
+    margin-top: 30px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.technical-specs h2 {
+    color: #2c5f8d;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 8px;
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.specs-table th,
+.specs-table td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.specs-table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+    color: #495057;
+}
+
+.specs-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.specs-table tr:hover {
+    background-color: #e9ecef;
+}
+
+.legend {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    max-width: 300px;
+}
+
+.legend h3 {
+    margin: 0 0 10px 0;
+    color: #2c5f8d;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.legend-symbol {
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+    border: 1px solid #666;
+}
+
+.legend-text {
+    font-size: 12px;
+    color: #333;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 10px;
+    color: #666666;
+    border-top: 1px solid #dee2e6;
+    padding-top: 15px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* Print-specific styles */
+@media print {
+    body {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .diagram-container {
+        border: none;
+        padding: 0;
+    }
+
+    .diagram-svg {
+        border: none;
+        background-color: white;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .diagram-container {
+        padding: 10px;
+    }
+
+    .diagram-header h1 {
+        font-size: 20px;
+    }
+
+    .technical-specs {
+        padding: 10px;
+    }
+
+    .specs-table th,
+    .specs-table td {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+}

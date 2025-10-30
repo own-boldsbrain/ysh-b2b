@@ -1,931 +1,251 @@
-# 🏗️ Plano de Reestruturação Backend End-to-End
+# Plano de Reestruturacao Backend End-to-End
 
-**Data:** 20 de Outubro de 2025  
-**Versão:** 1.0  
-**Status:** Em Planejamento
-
----
-
-## 📋 Executive Summary
-
-Reestruturação completa do backend YSH B2B seguindo princípios de **Domain-Driven Design (DDD)**, **CQRS leve** e **Event-Driven Architecture**, focada em:
-
-- ✅ **Performance**: <150ms listagem catálogo, <50ms cálculo preço, <1s simulação solar (cache hit)
-- ✅ **Clareza**: JTBD explícitos, contratos versionados, separação de concerns
-- ✅ **Escalabilidade**: Workflows persistentes, cache distribuído, projeções materializadas
-- ✅ **Observabilidade**: SLIs/SLOs por domínio, auditoria completa, MTTR <30min
+**Data:** 20 de outubro de 2025  
+**Versao:** 1.1  
+**Status:** Em planejamento
 
 ---
 
-## 🗺️ Mapa de Domínios (12 Core Domains)
+## Visao Geral
 
-### 1. **Catálogo Unificado** 📦
+Reestruturacao completa do backend YSH Solar Hub adotando **Domain-Driven Design (DDD)**, **CQRS leve** e **arquitetura orientada a eventos** para ganhar desempenho, clareza arquitetural e governanca operacional 360 graus.
 
-**Responsabilidade:** Ingestão, normalização, enriquecimento, disponibilidade e imagens de produtos.
-
-**JTBD:** _"Unificar e normalizar SKUs de múltiplos distribuidores, garantindo disponibilidade e imagens otimizadas."_
-
-**Inputs:**
-
-- Arquivos JSON/CSV de distribuidores (Fortlev, Solfacil, Odex)
-- Comandos admin (import manual, re-sync)
-- Webhooks de parceiros
-
-**Outputs:**
-
-- SKUs normalizados (schema unificado)
-- Imagens otimizadas (WebP, CDN)
-- Projeções de busca (Elasticsearch/materialized views)
-- Eventos: `catalog.product.created`, `catalog.product.updated`, `catalog.sync.completed`
-
-**Outcomes:**
-
-- Latência listagem: **<150ms** (P95)
-- Sync completo: **<15min**
-- Taxa de erro mapeamento: **0%** (crítico)
-
-**KPIs:**
-
-- TTFB listagem
-- Latência de sync
-- Erros de normalização
-
-**Módulos Atuais:**
-
-- `src/modules/unified-catalog/`
-- `src/modules/ysh-catalog/`
-
-**APIs:**
-
-- `GET /admin/import-catalog`
-- `GET /store/catalog/:category`
-- `GET /store/catalog/skus`
+- Performance alvo: listagem de catalogo <150 ms (P95), calculo de preco <50 ms, simulacao solar <1 s (cache hit) / <5 s (miss)
+- Claridade de dominio: JTBD, inputs/outputs e outcomes definidos por dominio, contratos versionados
+- Escalabilidade: workflows persistentes, cache distribuido, materialized views para consultas pesadas
+- Observabilidade: SLIs/SLOs por dominio, auditoria completa, MTTR <30 min
 
 ---
 
-### 2. **Preço & Comercial** 💰
+## Principios Arquitetonicos
 
-**Responsabilidade:** Cálculo consistente de preços por canal/grupo, promoções e regras comerciais.
-
-**JTBD:** _"Calcular preço final considerando canal de venda, grupo de cliente, promoções ativas e políticas comerciais."_
-
-**Inputs:**
-
-- Regras comerciais (margins, markups)
-- Grupos de clientes (B2B, governo, varejo)
-- Promoções ativas
-- Eventos de catálogo (`catalog.product.updated`)
-
-**Outputs:**
-
-- Preços resolvidos (por SKU + contexto)
-- Regras ativas aplicadas
-- Eventos: `pricing.price.calculated`, `pricing.promotion.applied`
-
-**Outcomes:**
-
-- Consistência de preço: **100%**
-- Latência cálculo: **<50ms**
-- Cobertura de regras: **100%** SKUs
-
-**KPIs:**
-
-- Latência cálculo
-- Divergências de preço
-- Taxa de aplicação de promoções
-
-**Módulos Atuais:**
-
-- `src/modules/ysh-pricing/`
-- `src/workflows/calculate-dynamic-pricing.ts`
-- `src/workflows/promotion/`
-
-**APIs:**
-
-- `GET /store/produtos_melhorados`
-- `POST /admin/solar/promotions`
+- **Dominios primeiro**: cada dominio com camadas `domain`, `application`, `infrastructure`, `interfaces`
+- **Rotas finas**: `src/api/*` apenas delega casos de uso; validadores isolados
+- **Eventos como integracao**: publish/subscribe entre dominios (quotes -> approvals -> orders)
+- **CQRS pragmatica**: comandos gravam no modelo canonico; queries leem materialized views ou caches
+- **Observabilidade nativa**: eventos de dominio com metadados para auditoria, metrics e tracing
+- **Idempotencia**: comandos POST e steps de workflow com chaves idempotentes
+- **Seguranca B2B**: policies por dominio, segregacao multi-tenant, auditoria imutavel
 
 ---
 
-### 3. **RFQ/Quotes** 📝
+## Dominios Centrais
 
-**Responsabilidade:** Criação, negociação e conversão de cotações com snapshot de itens.
+### 1. Catalog
 
-**JTBD:** _"Criar e negociar cotações B2B com histórico de mensagens, anexos e snapshot imutável de SKUs/preços."_
+- **Responsabilidade:** ingestao, normalizacao, enriquecimento e disponibilidade de SKUs
+- **JTBD:** "Unificar SKUs multi-distribuidor com dados confiaveis e imagens otimizadas"
+- **Inputs:** feeds JSON/CSV, webhooks parceiros, comandos admin
+- **Outputs:** produtos normalizados, imagens otimizadas, eventos `catalog.*`
+- **Outcomes:** TTFB <150 ms, sincronizacao <15 min, 0 erro critico de mapeamento
+- **KPIs:** TTFB, tempo de sync, taxa de falha de normalizacao
+- **Touchpoints:** `src/modules/unified-catalog`, `src/modules/ysh-catalog`, rotas `/admin/import-catalog`, `/store/catalog/*`
 
-**Inputs:**
+### 2. Pricing
 
-- Itens/quantidades
-- Mensagens e anexos
-- Políticas de cliente
-- Eventos de aprovação (`approval.approved`)
+- **Responsabilidade:** precificacao por canal/grupo, promoções e regras comerciais
+- **JTBD:** "Calcular preco final consistente por contexto"
+- **Inputs:** regras comerciais, grupos de clientes, promoções, eventos `catalog.product.updated`
+- **Outputs:** precos resolvidos, eventos `pricing.*`
+- **Outcomes:** consistencia 100%, latencia <50 ms
+- **KPIs:** latencia de calculo, divergencias de preco, cobertura de regras
+- **Touchpoints:** `src/modules/ysh-pricing`, workflows de promocao, rotas `/admin/solar/promotions`
 
-**Outputs:**
+### 3. Quotes
 
-- Cotações com snapshot
-- Mensagens/chat
-- Eventos: `quote.sent`, `quote.accepted`, `quote.rejected`, `quote.expired`
+- **Responsabilidade:** criacao, negociacao e ciclo de vida de RFQs
+- **JTBD:** "Gerenciar cotacoes com snapshot imutavel, mensagens e anexos"
+- **Inputs:** itens, mensagens, anexos, politicas de cliente
+- **Outputs:** cotacoes, mensagens, eventos `quote.*`
+- **Outcomes:** TTM <5 min, taxa de aceite >30%, SLA mensagens <2 h
+- **KPIs:** tempo ciclo, taxa de aceite, aging
+- **Touchpoints:** `src/modules/quote`, `src/api/admin|store/quotes/*`
 
-**Outcomes:**
+### 4. Approvals
 
-- Time-to-Market quote: **<5min**
-- Taxa de aceite: **>30%**
-- SLA de resposta mensagens: **<2h** (business hours)
+- **Responsabilidade:** workflows de aprovacao multi-etapas com auditoria
+- **JTBD:** "Orquestrar aprovacoes condicionais garantido rastreabilidade"
+- **Inputs:** politicas por empresa, eventos de quote/order, excecoes
+- **Outputs:** decisoes, pendencias, auditoria, eventos `approval.*`
+- **Outcomes:** lead time <24 h, bypass indevido 0%
+- **KPIs:** ciclo por etapa, taxa de escalonamento, aging pendente
+- **Touchpoints:** `src/workflows/approval`, rotas `/store/approvals`, `/admin/approvals/*`
 
-**KPIs:**
+### 5. Company
 
-- TTM-quote
-- Taxa de aceite
-- Aging de cotações
+- **Responsabilidade:** estrutura B2B (empresas, colaboradores, limites, grupos)
+- **JTBD:** "Configurar contas corporativas com governanca de gastos"
+- **Inputs:** convites, mudancas de papel, limites, integrações ERP/CRM
+- **Outputs:** memberships, limites, eventos `company.*`
+- **Outcomes:** provisionamento <1 min, 0 divergencia de limite
+- **KPIs:** tempo de onboarding, inconsistencias de limite, adherencia a policy
+- **Touchpoints:** `src/modules/empresa`, rotas `/admin/companies/*`
 
-**Módulos Atuais:**
+### 6. Orders
 
-- `src/modules/quote/`
-- `src/workflows/quote/`
+- **Responsabilidade:** conversao de RFQ em pedido, checkout B2B, pagamentos e fulfillment
+- **JTBD:** "Concluir pedidos B2B com aprovacao integrada"
+- **Inputs:** carrinho, aprovacao concedida, status pagamento/entrega
+- **Outputs:** pedidos, faturas, eventos `order.*`
+- **Outcomes:** taxa de erro checkout <0.5%, previsibilidade de fulfillment
+- **KPIs:** taxa sucesso checkout, tempo ciclo, reprocessamentos
+- **Touchpoints:** `@medusajs/order`, workflows customizados, rotas `/store/orders`
 
-**APIs:**
+### 7. Financing
 
-- `GET /store/quotes`
-- `POST /store/quotes`
-- `POST /store/quotes/:id/messages`
-- `GET /admin/quotes`
+- **Responsabilidade:** simulacoes, credit scoring, consentimentos regulatorios
+- **JTBD:** "Simular e aprovar financiamentos com conformidade BACEN"
+- **Inputs:** dados cliente, consentimentos, tabelas parceiras
+- **Outputs:** simulacoes, limites aprovados/negados, eventos `financing.*`
+- **Outcomes:** latencia simulacao <2 s, conformidade 100%
+- **KPIs:** latencia, taxa de aprovacao, alertas compliance
+- **Touchpoints:** `src/modules/financing`, rotas `/admin/financing/*`
 
----
+### 8. Energy-ANEEL
 
-### 4. **Aprovações** ✅
+- **Responsabilidade:** tarifas/regioes ANEEL e aplicacao em simulacoes/billing
+- **JTBD:** "Manter tabelas tarifarias e aplica-las corretamente"
+- **Inputs:** bases ANEEL, atualizacoes regionais, ajustes reguladores
+- **Outputs:** tarifas resolvidas, eventos `aneel.tariff.updated`
+- **Outcomes:** acerto 100%, atualizacao <48 h
+- **KPIs:** latencia resolucao tarifa, divergencias encontradas
+- **Touchpoints:** `src/modules/tarifa-aneel`, rotas `/admin/aneel/*`
 
-**Responsabilidade:** Orquestração de aprovações condicionais multi-etapas com auditoria.
+### 9. Solar-Simulations
 
-**JTBD:** _"Orquestrar aprovações baseadas em políticas de empresa, limites de gastos e regras condicionais, garantindo trilha de auditoria imutável."_
+- **Responsabilidade:** calculos PVLib, cenarios de viabilidade, caching distribuido
+- **JTBD:** "Estimativas confiaveis de geracao e retorno"
+- **Inputs:** coordenadas, equipamentos, irradiancia, parametros de consumo
+- **Outputs:** metricas de geracao, relatórios, eventos `solar.simulation.completed`
+- **Outcomes:** latencia cache hit <1 s / miss <5 s, acuracia validada
+- **KPIs:** cache hit rate, latencia, variacao vs medicao real
+- **Touchpoints:** `src/modules/solar`, `src/modules/pvlib-integration`, scripts Python
 
-**Inputs:**
+### 10. Integrations
 
-- Políticas por empresa (spending limits, approval rules)
-- Eventos de quote/order (`quote.created`, `cart.checkout`)
-- Exceções e escalações
+- **Responsabilidade:** ingestao distribuidores, reconciliacao de estoque/preco/imagens
+- **JTBD:** "Sincronizar dados externos com confianca e alertas proativos"
+- **Inputs:** cron jobs, webhooks, scraping fallback, APIs parceiras
+- **Outputs:** normalizacoes, diffs, alertas, eventos `integration.*`
+- **Outcomes:** erro <1%, latencia <15 min
+- **KPIs:** divergencia por distribuidor, tempo de resolucao, erros de integracao
+- **Touchpoints:** `data/products-inventory`, scripts de pipeline, jobs `src/jobs/*`
 
-**Outputs:**
+### 11. Observability
 
-- Decisões (approved/rejected)
-- Pendências e notificações
-- Escalonamentos automáticos
-- Auditoria imutável (approval_history)
-
-**Outcomes:**
-
-- Lead time aprovação: **<24h**
-- Taxa de bypass indevido: **0%**
-- Rastreabilidade: **100%**
-
-**KPIs:**
-
-- Tempo de ciclo por etapa
-- Taxa de escalonamento
-- Aging por status
-
-**Módulos Atuais:**
-
-- `src/modules_disabled/approval/` ⚠️ (desabilitado, precisa reativação)
-- `src/workflows/approval/`
-
-**APIs:**
-
-- `GET /store/approvals`
-- `POST /store/approvals/:id/approve`
-- `GET /admin/approvals/rules`
-
----
-
-### 5. **Empresas & Colaboradores** 🏢
-**Responsabilidade:** Estrutura organizacional B2B, papéis, limites e centros de custo.
-
-**JTBD:** _"Estruturar contas B2B com hierarquia de colaboradores, papéis, limites de gastos e grupos de cliente."_
-
-**Inputs:**
-- Convites de colaboradores
-- Alterações de papéis (admin, employee)
-- Definição de limites (individual, company-wide)
-- Grupos de cliente (Customer Groups)
-
-**Outputs:**
-- Perfis/limites consolidados
-- Memberships ativas
-- Eventos: `company.employee.added`, `company.limit.exceeded`, `company.compliance.updated`
-
-**Outcomes:**
-- Inconsistência de limite: **0%**
-- Provisionamento de colaborador: **<1min**
-- Cobertura de compliance: **100%**
-
-**KPIs:**
-- Taxa de aderência a limites
-- Tempo de provisionamento
-- Erros de hierarquia
-
-**Módulos Atuais:**
-- `src/modules/empresa/` (alias `company`)
-- `src/workflows/company/`
-
-**APIs:**
-- `GET /store/companies`
-- `POST /store/companies/:id/employees`
-- `GET /admin/companies`
+- **Responsabilidade:** metrics, logs estruturados, tracing, auditoria e SLOs
+- **JTBD:** "Medir e explicar o comportamento do sistema end-to-end"
+- **Inputs:** eventos de dominio, logs, traces, configuracoes de alerta
+- **Outputs:** dashboards, alertas, auditoria, relatórios
+- **Outcomes:** MTTR <30 min, SLO 99.9% APIs criticas
+- **KPIs:** disponibilidade, tempo de deteccao, tempo de resolucao
+- **Touchpoints:** `src/domains/observability`, configuracoes Grafana/Alertmanager
 
 ---
 
-### 6. **Pedidos & Checkout** 🛒
-**Responsabilidade:** Conversão de RFQ em pedido com integração de aprovações.
+## Arquitetura Alvo
 
-**JTBD:** _"Converter cotações/carrinhos em pedidos após aprovação, integrando com fulfillment e pagamentos."_
-
-**Inputs:**
-- Carrinho/quote aprovado
-- Aprovação concedida (`approval.approved`)
-- Dados de pagamento/fulfillment
-
-**Outputs:**
-- Orders (draft → pending → processing)
-- Faturas
-- Eventos: `order.placed`, `order.fulfillment.created`
-
-**Outcomes:**
-- Taxa de erro checkout: **<0.5%**
-- Ciclo pedido previsível: **100%** tracking
-- Conversão quote→order: **>25%**
-
-**KPIs:**
-- Taxa de sucesso checkout
-- Tempo médio de conversão
-- Erros de fulfillment
-
-**Módulos Atuais:**
-- Core Medusa `order` module
-- `src/workflows/solar/draft-orders.ts`
-
-**APIs:**
-- `POST /store/carts/:id/complete`
-- `GET /admin/orders`
+- `src/domains/<dominio>/{domain,application,infrastructure,interfaces}` para logica principal
+- `src/modules/<dominio>` encapsula integracao Medusa (registries, di container)
+- Rotas em `src/api/admin|store/<dominio>` apenas orquestram validacao + chamada do caso de uso
+- Eventos publicados via subscribers (`src/subscribers/<dominio>`) e workflows (`src/workflows/<dominio>`)
+- Redis para cache (catalogo, simulacoes, listas) com versionamento de chave
+- Postgres com indices por filtros frequentes e materialized views em `database/views/<dominio>`
+- Jobs assíncronos em `src/jobs/<dominio>` com filas segregadas
+- Observabilidade nativa (OpenTelemetry + Prometheus + Grafana)
 
 ---
 
-### 7. **Financiamento & Crédito** 💳
-**Responsabilidade:** Simulação e aprovação de financiamentos com conformidade BACEN.
+## Roadmap de Migracao
 
-**JTBD:** _"Simular e aprovar propostas de financiamento, checando BACEN, conformidades regulatórias e consent do cliente."_
+### Fase 0 – Inventario (concluida)
 
-**Inputs:**
-- Dados do cliente
-- Consentimentos (LGPD)
-- Tabelas de parceiros (Asaas, bancos)
-- Propostas de financiamento
+- Mapear rotas, workflows, subscribers, jobs, migrações e dados vivos
+- Catalogar dependencias externas e contratos atuais
 
-**Outputs:**
+### Fase 1 – Fundacao DDD (2 semanas)
 
-- Simulações de parcelamento
-- Limites aprovados/negados
-- Trilhas de consent
-- Eventos: `financing.proposal.created`, `financing.approved`, `financing.rejected`
+- Criar skeleton `src/domains/*` (completo)
+- Extrair casos de uso prioritarios para camadas `application`
+- Configurar validadores/DTOs em `interfaces`
 
-**Outcomes:**
+### Fase 2 – Catalogo & Quotes (3 semanas)
 
-- Latência simulação: **<2s**
-- Conformidade regulatória: **100%**
-- Taxa de aprovação: **>40%**
+- Separar comandos/queries com CQRS leve
+- Implementar caches Redis e materialized views
+- Atualizar rotas `/admin/import-catalog` e `/store/quotes` para usar novos casos de uso
 
-**KPIs:**
-- Latência simulação
-- Taxa de aprovação
-- Conformidade BACEN
+### Fase 3 – Approvals & Orders (3 semanas)
 
-**Módulos Atuais:**
-- `src/modules/financing/`
-- `src/modules/credit-analysis/`
-- `src/workflows/financing/`
-- `src/workflows/credit-analysis/`
+- Introduzir eventos `quote.*` -> `approval.*` -> `order.*`
+- Centralizar trilha de auditoria
+- Ajustar workflows customizados de pedido
 
-**APIs:**
-- `GET /store/financing`
-- `POST /store/financing/proposals`
-- `GET /admin/financing`
+### Fase 4 – Financing & Energy (3 semanas)
 
----
+- Consolidar integrações BACEN/ANEEL com consent store unificado
+- Normalizar tarifas por regiao e expor API de consulta
 
-### 8. **Energia & Tarifas (ANEEL)** ⚡
-**Responsabilidade:** Manutenção e aplicação de tarifas elétricas por região.
+### Fase 5 – Observability (2 semanas)
 
-**JTBD:** _"Manter tabelas tarifárias ANEEL atualizadas e aplicar corretamente aos cenários de simulação solar."_
+- Criar builders de metricas por dominio e SLO dashboards
+- Instrumentar workflows e jobs com tracing
 
-**Inputs:**
-- Tabelas ANEEL (importação periódica)
-- Regiões/distribuidoras
-- Classes tarifárias (residencial, comercial, industrial)
+### Fase 6 – Hardening Prod (2 semanas)
 
-**Outputs:**
-- Tarifas resolvidas (por região + classe)
-- Índices de reajuste
-- Eventos: `tariff.updated`, `tariff.region.changed`
+- Migrar workflow engine para backend persistente (Redis/DB)
+- Implementar rate limiting multi-tenant, idempotency keys e testes de carga
 
-**Outcomes:**
-- Acerto de tarifa: **100%**
-- Atualização pós-mudança: **<48h**
-- Cobertura de regiões: **100%** Brasil
-
-**KPIs:**
-- Acurácia de tarifa
-- Latência de atualização
-- Cobertura geográfica
-
-**Módulos Atuais:**
-- `src/modules/tarifa-aneel/`
-
-**APIs:**
-- `GET /store/aneel/tarifas`
-- `POST /admin/aneel/import`
+Cada fase com rollout progressivo, feature flags e planos de rollback.
 
 ---
 
-### 9. **Simulações & Cálculo Solar** ☀️
-**Responsabilidade:** Estimativa de geração e viabilidade com PVLib e caching.
+## Entregaveis Principais
 
-**JTBD:** _"Estimar geração solar e viabilidade econômica com cálculos precisos, cenários múltiplos e caching distribuído."_
-
-**Inputs:**
-- Coordenadas geográficas
-- Equipamentos selecionados (painéis, inversores)
-- Irradiância (NASA/INPE)
-- Parâmetros de cálculo
-
-**Outputs:**
-- Métricas de geração (kWh/mês, anual)
-- Cenários (payback, ROI, VPL)
-- PDFs/relatórios
-- Eventos: `solar.simulation.completed`, `solar.report.generated`
-
-**Outcomes:**
-- Cálculo cache hit: **<1s**
-- Cálculo cache miss: **<5s**
-- Acurácia validada: **>95%** vs real
-
-**KPIs:**
-
-- Cache hit rate
-- Latência miss/hit
-- Acurácia (amostral)
-
-**Módulos Atuais:**
-
-- `src/modules/solar-calculator/`
-- `src/modules/pvlib-integration/`
-- `src/workflows/solar/calculate-solar-system.ts`
-
-**APIs:**
-
-- `POST /store/solar/validate-feasibility`
-- `GET /store/solar-quotes`
+- Catalogo de dominios 360 graus com JTBD/inputs/outputs/outcomes
+- Arquitetura alvo documentada e skeletons criados (`src/domains/*`)
+- Plano de migracao incremental com riscos e mitigacoes
+- Conjunto de KPIs + dashboards de monitoramento (Grafana)
+- Documentacao operacional em `docs/REESTRUTURACAO_360.md` e anexos
 
 ---
 
-### 10. **Integrações de Distribuidores** 🔗
+## Riscos e Mitigacoes
 
-**Responsabilidade:** Ingestão confiável e reconciliada (estoque/preço/imagem).
-
-**JTBD:** _"Ingestão automatizada e confiável de dados de distribuidores com reconciliação de divergências."_
-
-**Inputs:**
-
-- Cron/import manual
-- Webhooks de parceiros
-- Scraping fallback (quando API indisponível)
-
-**Outputs:**
-
-- Normalizações aplicadas
-- Diffs detectados
-- Alertas de divergência
-- Eventos: `distributor.sync.started`, `distributor.sync.completed`, `distributor.error`
-
-**Outcomes:**
-
-- Taxa de erro: **<1%**
-- Latência de atualização: **<15min**
-- Cobertura de distribuidores: **5+** ativos
-
-**KPIs:**
-
-- Taxa de erro por distribuidor
-- Latência de sync
-- Taxa de divergência
-
-**Módulos Atuais:**
-
-- `src/scrapers/`
-- `src/workers/`
-
-**APIs:**
-
-- `POST /admin/import-catalog`
+| Risco | Mitigacao |
+|-------|-----------|
+| Acoplamento legado em rotas | Introduzir camada `application` antes de mover, refatorar incrementalmente, usar feature flags |
+| Sobre carga em importacoes | Jobs particionados por distribuidor, backpressure, limites de concorrencia |
+| Consistencia eventual em eventos | Contratos versionados, idempotencia em subscribers, repositorio de eventos com dedup |
+| Crescimento de cache | TTLs por dominio, invalidacao via eventos, monitorar consumo |
+| Compliance e auditoria | Consent store central, logs imutaveis, revisao periodica |
 
 ---
 
-### 11. **Plataforma & Operação** ⚙️
+## KPIs e Dashboards
 
-**Responsabilidade:** Workflows, jobs, subscribers, admin UI, auth/ACL.
+- **Catalogo:** TTFB, tempo de sync, erros de normalizacao
+- **Pricing:** latencia de calculo, divergencias, aplicacao de promocao
+- **Quotes:** tempo ciclo, taxa de aceite, aging
+- **Approvals:** tempo por etapa, escalonamentos, aging
+- **Orders:** taxa sucesso checkout, tempo ciclo, reprocessamentos
+- **Financing:** latencia simulacao, taxa aprovacao, alertas compliance
+- **Solar-Simulations:** cache hit rate, latencia hit/miss, acuracia
+- **Observability:** SLO APIs criticas, MTTR, cobertura de logs/traces
 
-**JTBD:** _"Orquestrar operações assíncronas, gerenciar autenticação, autorização e interfaces administrativas."_
-
-**Inputs:**
-
-- Comandos admin
-- Jobs agendados (cron)
-- Eventos de domínio
-
-**Outputs:**
-- Execuções de workflows
-- Jobs completados
-- Notificações
-- Eventos: `workflow.completed`, `job.failed`
-
-**Outcomes:**
-- Uptime workflows: **>99.9%**
-- Taxa de falha de jobs: **<1%**
-- Latência de notificações: **<5s**
-
-**KPIs:**
-- Uptime
-- Taxa de sucesso de jobs
-- Latência de eventos
-
-**Módulos Atuais:**
-- `src/workflows/`
-- `src/jobs/`
-- `src/subscribers/`
-- `src/api/admin/`
+Dashboards recomendados: API Performance, Cache Efficiency, Workflow Health, Database Health, Business Conversion.
 
 ---
 
-### 12. **Observabilidade & Dados** 📊
-**Responsabilidade:** Métricas, logs, auditoria e data products (views).
+## Proximos Passos Imediatos
 
-**JTBD:** _"Medir, auditar e explicar o sistema com dashboards, SLIs/SLOs e trilhas de auditoria."_
-
-**Inputs:**
-- Eventos de domínio
-- Logs estruturados
-- Métricas de aplicação
-- Queries de análise
-
-**Outputs:**
-- Dashboards (latência, erros, SLIs/SLOs)
-- Trilhas de auditoria
-- Data products (materialized views)
-- Alertas
-
-**Outcomes:**
-- MTTR: **<30min**
-- SLO APIs críticas: **99.9%**
-- Cobertura de auditoria: **100%** operações sensíveis
-
-**KPIs:**
-- MTTR
-- SLO adherence
-- Cobertura de logs
-
-**Módulos Atuais:**
-- Integração com Grafana/Prometheus
-- `database/views/` (a criar)
+1. Validar mapa de dominios e prioridades com stakeholders.
+2. Escolher rotas piloto (ex.: import catalogo, send quote) para migrar para camada `application`.
+3. Configurar caches Redis + indices críticos (catalogo, quotes, approvals).
+4. Definir dashboards iniciais e coletores de metricas.
+5. Planejar cronograma de treinamentos internos sobre novo modelo de dominios.
 
 ---
 
-## 🏛️ Arquitetura Alvo
+**Ultima atualizacao:** 20/10/2025
 
-### Estilo Arquitetural
-- **DDD Modular**: Separação por domínios autônomos
-- **CQRS Leve**: Commands vs Queries sem event sourcing completo
-- **Event-Driven**: Publish/subscribe entre módulos
-
-### Camadas por Domínio
-```
-src/domains/<domínio>/
-├── domain/           # Entidades, Value Objects, Domain Events
-├── application/      # Use Cases, Workflows, Application Services
-├── infrastructure/   # Repositories, Adapters, External APIs
-└── interfaces/       # Controllers, Validators, DTOs
-```
-
-### Híbrido com Medusa
-- Manter `src/modules/<domínio>` como Medusa module wrappers
-- Rotas em `src/api/<admin|store>/<domínio>` chamando use cases
-- DI container do Medusa gerenciando dependências
-
-### Dados
-- **Postgres**: Normalizado + índices otimizados
-- **Materialized Views**: Projeções para consultas pesadas (catálogo, preços)
-- **Redis**: Cache por domínio com TTLs e versionamento
-
-### Eventos
-- **Interno**: Pub/sub via Medusa event bus
-- **Contratos**: Versionados (v1, v2) para backward compatibility
-- **Idempotência**: Deduplicação por event_id
-
-### Assíncrono
-- **Workflows**: Orquestrações multi-step (Medusa workflows)
-- **Jobs**: Imports, imagens, PVLib (Bull/Redis)
-- **Engine Persistente**: Redis/DB para workflows em prod (não in-memory)
-
-### Segurança
-- **Policies**: Por domínio (RBAC/ABAC)
-- **Idempotência**: Em comandos via idempotency keys
-- **Rate Limiting**: Por endpoint e tenant
-- **Auditoria**: Completa em operações sensíveis
-
----
-
-## 📁 Estrutura de Pastas (Proposta)
-
-```
-backend/
-├── src/
-│   ├── domains/                    # 🆕 Domínios DDD
-│   │   ├── catalog/
-│   │   │   ├── domain/
-│   │   │   │   ├── entities/       # Product, SKU
-│   │   │   │   ├── value-objects/  # Price, Stock
-│   │   │   │   └── events/         # ProductCreated, ProductUpdated
-│   │   │   ├── application/
-│   │   │   │   ├── use-cases/      # ImportCatalog, NormalizeSKU
-│   │   │   │   ├── workflows/      # ImportCatalogWorkflow
-│   │   │   │   └── services/       # CatalogApplicationService
-│   │   │   ├── infrastructure/
-│   │   │   │   ├── repositories/   # ProductRepository
-│   │   │   │   └── adapters/       # DistributorAPIAdapter
-│   │   │   └── interfaces/
-│   │   │       ├── http/           # Controllers, Validators
-│   │   │       └── dtos/           # Request/Response DTOs
-│   │   ├── pricing/
-│   │   ├── quotes/
-│   │   ├── approvals/
-│   │   ├── companies/
-│   │   ├── orders/
-│   │   ├── financing/
-│   │   ├── energy-tariffs/
-│   │   ├── solar-simulation/
-│   │   ├── distributor-integration/
-│   │   └── observability/
-│   │
-│   ├── modules/                    # ✅ Medusa modules (wrappers)
-│   │   ├── unified-catalog/        # Mantém compatibilidade
-│   │   ├── ysh-pricing/
-│   │   ├── quote/
-│   │   ├── approval/               # Reativar
-│   │   ├── empresa/
-│   │   └── ...
-│   │
-│   ├── shared/                     # 🆕 Código compartilhado
-│   │   ├── errors/                 # DomainError, ValidationError
-│   │   ├── auth/                   # AuthService, Policies
-│   │   ├── validation/             # Zod schemas, validators
-│   │   ├── events/                 # EventBus, EventStore
-│   │   ├── cache/                  # CacheService (Redis)
-│   │   └── utils/                  # Helpers, formatters
-│   │
-│   ├── workflows/                  # ✅ Workflows (já existem)
-│   │   ├── catalog/
-│   │   ├── pricing/
-│   │   ├── quotes/
-│   │   └── ...
-│   │
-│   ├── jobs/                       # ✅ Jobs assíncronos
-│   │   ├── catalog/                # Import jobs
-│   │   ├── images/                 # Otimização de imagens
-│   │   └── solar/                  # PVLib calculations
-│   │
-│   ├── subscribers/                # ✅ Event subscribers
-│   │   ├── catalog/
-│   │   ├── pricing/
-│   │   └── ...
-│   │
-│   └── api/                        # ✅ Rotas (já existem)
-│       ├── admin/
-│       │   ├── catalog/
-│       │   ├── quotes/
-│       │   └── ...
-│       └── store/
-│           ├── catalog/
-│           ├── quotes/
-│           └── ...
-│
-├── database/
-│   ├── migrations/                 # Nomeadas por domínio
-│   └── views/                      # 🆕 Materialized views
-│       ├── catalog_search.sql
-│       ├── pricing_matrix.sql
-│       └── approval_dashboard.sql
-│
-└── docs/
-    └── architecture/               # 🆕 Documentação por domínio
-        ├── BACKEND_RESTRUCTURE_PLAN.md  # Este arquivo
-        ├── domains/
-        │   ├── catalog.md          # JTBD, contratos, fluxos
-        │   ├── pricing.md
-        │   ├── quotes.md
-        │   └── ...
-        └── slis-slos/              # 🆕 Service Level Indicators/Objectives
-            ├── catalog.md
-            ├── quotes.md
-            └── ...
-```
-
----
-
-## 📊 Performance e Eficácia
-
-### Database
-- **Índices**: Por filtros frequentes (catálogo: category, price range; quotes: status, customer_id)
-- **VACUUM/ANALYZE**: Automatizado via cron
-- **Connection Pooling**: Limites por worker (max 20 conexões)
-
-### Consultas
-- **Materialized Views**: Para catálogos e listas (refresh on-demand ou scheduled)
-- **Paginação**: Cursor-based (não offset) para grandes datasets
-- **Query Optimization**: EXPLAIN ANALYZE em queries críticas
-
-### Cache
-- **Redis**: TTLs por domínio (catálogo: 1h, preços: 5min, simulações: 24h)
-- **Versionamento**: Chaves com hash de filtros (`catalog:v1:filter:hash`)
-- **Cache Warming**: Em sync de catálogo/preços
-
-### I/O Pesado
-- **Imagens**: Pipeline assíncrono (upload → resize → WebP → CDN)
-- **PVLib**: Memoization distribuída (cache por coordenadas + equipamentos)
-- **Imports**: Streaming de arquivos grandes
-
-### API
-- **Idempotência**: POST com `Idempotency-Key` header
-- **Rate Limiting**: 100 req/min por tenant, burst de 20
-- **Compaction**: Gzip/Brotli em payloads >1KB
-
-### Workflows
-- **Steps Idempotentes**: Retry-safe com compensations
-- **Backoff**: Exponencial com jitter
-- **Particionamento**: Jobs por domínio (filas separadas)
-
-### Concurrency
-- **Connection Pooling**: 20 max por worker
-- **Worker Limits**: 4 workers por processo
-- **Filas**: Separadas por domínio (catalog, pricing, solar)
-
-### Build
-- **Tree-shaking**: Remover código não usado
-- **TS Target**: ES2022 para performance
-- **Lazy Imports**: Em admin UI (code splitting)
-
----
-
-## 🚀 Plano de Migração (6 Fases)
-
-### **Fase 0 — Inventário** (1 semana)
-**Objetivo:** Mapear estado atual completo.
-
-**Atividades:**
-- ✅ Mapear rotas, módulos, workflows, jobs, subscribers
-- ✅ Mapear migrações e dados vivos (volumes)
-- ✅ Identificar dependências entre módulos
-- ✅ Documentar contratos de API atuais
-
-**Entregáveis:**
-- ✅ `CURRENT_STATE_INVENTORY.md`
-- ✅ Matriz de dependências
-- ✅ Documentação de APIs legadas
-
----
-
-### **Fase 1 — Domínios Base** (2 semanas)
-**Objetivo:** Criar estrutura DDD sem quebrar APIs existentes.
-
-**Atividades:**
-- Criar `src/domains/` com estrutura de camadas
-- Criar `src/shared/` (errors, validation, cache)
-- Documentar contratos de eventos (versionados)
-- Setup de padrões de código (ESLint rules, ADRs)
-
-**Entregáveis:**
-- Skeleton de domínios
-- Contratos de eventos (v1)
-- Guia de contribuição (coding standards)
-
-**Critérios de Sucesso:**
-- Build passa sem erros
-- Nenhuma API quebrada
-- Documentação completa
-
----
-
-### **Fase 2 — Catálogo & Quotes** (3 semanas)
-**Objetivo:** CQRS leve + caches; rotas finas chamando application.
-
-**Atividades:**
-- Migrar `unified-catalog` para `domains/catalog`
-- Implementar CatalogApplicationService (use cases)
-- Setup Redis cache (catálogo, preços)
-- Criar materialized views (catalog_search)
-- Migrar rotas para controllers finos
-
-**Entregáveis:**
-- Domínio Catálogo completo
-- Domínio Quotes completo
-- Cache Redis funcional
-- Materialized views criadas
-
-**Critérios de Sucesso:**
-- Latência listagem <150ms (P95)
-- Cache hit rate >80%
-- 100% backward compatibility
-
----
-
-### **Fase 3 — Aprovações & Pedidos** (3 semanas)
-**Objetivo:** Eventos integrados; auditoria centralizada.
-
-**Atividades:**
-- Reativar `approval` module
-- Migrar para `domains/approvals`
-- Integrar eventos (quotes→approvals→orders)
-- Implementar auditoria imutável (approval_history)
-- Setup de workflows persistentes (Redis-backed)
-
-**Entregáveis:**
-- Domínio Aprovações funcional
-- Auditoria completa
-- Workflows persistentes
-
-**Critérios de Sucesso:**
-- Lead time aprovação <24h
-- 0% bypass indevido
-- 100% rastreabilidade
-
----
-
-### **Fase 4 — Financiamento & Energia** (2 semanas)
-**Objetivo:** Consolidar integrações; compliance/consent store.
-
-**Atividades:**
-- Migrar `financing` e `tarifa-aneel` para domínios
-- Implementar consent store (LGPD)
-- Integrar BACEN (checagens de crédito)
-- Otimizar simulações solares (cache + PVLib)
-
-**Entregáveis:**
-- Domínio Financiamento completo
-- Domínio Energia/Tarifas completo
-- Consent store funcional
-
-**Critérios de Sucesso:**
-- Latência simulação <2s
-- 100% conformidade regulatória
-- Cache hit rate >70% (simulações)
-
----
-
-### **Fase 5 — Observabilidade** (2 semanas)
-**Objetivo:** SLIs/SLOs, tracing, alertas por domínio.
-
-**Atividades:**
-- Setup Prometheus + Grafana
-- Definir SLIs/SLOs por domínio
-- Implementar tracing distribuído (OpenTelemetry)
-- Criar dashboards (latência, erros, cache hit rate)
-- Setup de alertas (PagerDuty/Slack)
-
-**Entregáveis:**
-- Dashboards Grafana
-- SLIs/SLOs documentados
-- Alertas configurados
-
-**Critérios de Sucesso:**
-- MTTR <30min
-- SLO 99.9% APIs críticas
-- Cobertura de logs 100%
-
----
-
-### **Fase 6 — Hardening Prod** (2 semanas)
-**Objetivo:** Workflow engine persistente; hardening de segurança.
-
-**Atividades:**
-- Migrar workflows para backend persistente (Redis/DB)
-- Implementar rate limiting por tenant
-- Setup de idempotency keys
-- Auditoria de segurança (OWASP)
-- Load testing (K6)
-
-**Entregáveis:**
-- Workflows persistentes
-- Rate limiting ativo
-- Auditoria de segurança completa
-
-**Critérios de Sucesso:**
-- 0 downtime em deploy
-- Throughput >500 req/s
-- Segurança hardened
-
----
-
-## 📈 KPIs & Métricas
-
-### Por Domínio
-
-| Domínio | SLI | Target | Métrica |
-|---------|-----|--------|---------|
-| **Catálogo** | TTFB listagem | <150ms | P95 |
-| | Latência sync | <15min | Max |
-| | Erros normalização | 0% | Count |
-| **Pricing** | Latência cálculo | <50ms | P95 |
-| | Consistência | 100% | % |
-| **Quotes** | TTM-quote | <5min | Avg |
-| | Taxa aceite | >30% | % |
-| **Approvals** | Lead time | <24h | Avg |
-| | Bypass indevido | 0% | Count |
-| **Financing** | Latência simulação | <2s | P95 |
-| | Conformidade | 100% | % |
-| **Solar** | Cache hit rate | >70% | % |
-| | Latência hit/miss | <1s/<5s | P95 |
-| **Confiabilidade** | SLO APIs críticas | 99.9% | Uptime |
-| | MTTR | <30min | Avg |
-
-### Dashboards
-1. **API Performance**: Latência, throughput, erro 5xx
-2. **Cache Efficiency**: Hit rate, evictions, memory usage
-3. **Workflows**: Completados, falhados, aging
-4. **Database**: Connection pool, query time, deadlocks
-5. **Business**: Quotes criadas, aprovações, conversões
-
----
-
-## ⚠️ Riscos & Mitigações
-
-### Risco 1: Acoplamento Legacy
-**Descrição:** Lógica misturada nas rotas dificulta migração.
-
-**Mitigação:**
-- Introduzir camada `application` antes de mover
-- Refatorar incrementalmente (1 rota por vez)
-- Feature flags para rollback
-
----
-
-### Risco 2: Tráfego Pico em Importações
-**Descrição:** Imports bloqueiam workers e DB.
-
-**Mitigação:**
-- Particionar jobs por distribuidor
-- Aplicar backpressure (rate limiting)
-- Usar filas separadas
-
----
-
-### Risco 3: Consistência Eventual
-**Descrição:** Eventos podem chegar fora de ordem ou duplicados.
-
-**Mitigação:**
-- Contratos versionados
-- Idempotência em subscribers
-- Deduplicação por event_id
-- Compensations em workflows
-
----
-
-### Risco 4: Custos de Cache
-**Descrição:** Redis pode crescer ilimitadamente.
-
-**Mitigação:**
-- TTLs agressivos por domínio
-- Invalidação precisa via eventos
-- Monitorar memory usage
-- Eviction policies (LRU)
-
----
-
-## 📦 Entregáveis
-
-1. ✅ **Catálogo de Domínios e Fluxos 360º**
-2. ⏳ **Mapa de módulos/rotas → domínios**
-3. ⏳ **Especificação de eventos e contratos**
-4. ⏳ **Padrões de projeto/código**
-5. ⏳ **Dashboards e SLIs/SLOs**
-
----
-
-## 🎯 Próximos Passos
-
-1. **Validar mapa de domínios** com stakeholders
-2. **Priorizar** domínios (Catálogo → Quotes → Aprovações primeiro)
-3. **Gerar skeleton** `src/domains/*`
-4. **Adaptar 1 rota** por domínio como piloto
-5. **Configurar Redis** e índices críticos
-6. **Definir KPIs base** (Grafana dashboards)
-
----
-
-**Status Atual:** ✅ Fase 0 completa | 🔄 Fase 1 em planejamento
-
-**Última Atualização:** 20/10/2025

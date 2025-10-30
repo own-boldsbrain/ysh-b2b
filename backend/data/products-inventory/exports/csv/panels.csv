@@ -1,0 +1,93 @@
+﻿battery_capacity_kwh,battery_manufacturer,battery_quantity,battery_voltage_v,category,currency,distributor,id,image_url,inverter_image,inverter_manufacturer,inverter_power_kw,inverter_quantity,name,panel_image,panel_manufacturer,panel_power_w,panel_quantity,power_kwp,power_watts,price_brl,price_per_wp,source_csv,status,tags,total_batteries,total_inverters,total_panels,total_structures,type
+,,,,panels,BRL,Solfacil,solfacil_panels_1,/catalog/images/SOLFACIL-PANELS/IMAGE_PRODUCT_559375.jpeg,,,,,https://cdn-ecommerce.solfacil.com.br/contents/products/559375/images/IMAGE_PRODUCT_559375.jpeg HANERSUN,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_panels_2,/catalog/images/SOLFACIL-PANELS/IMAGE_PRODUCT_559380.jpeg,,,,,HANERSUN,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_panels_3,/catalog/images/SOLFACIL-PANELS/IMAGE_PRODUCT_559376.jpeg,,,,,DAH,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_panels_4,/catalog/images/SOLFACIL-PANELS/IMAGE_PRODUCT_559381.png,,,,,https://cdn-ecommerce.solfacil.com.br/contents/products/559381/images/IMAGE_PRODUCT_559381.png OSDA,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_panels_5,/catalog/images/SOLFACIL-PANELS/IMAGE_PRODUCT_573429.png,,,,,https://cdn-ecommerce.solfacil.com.br/contents/products/573429/images/IMAGE_PRODUCT_573429.png HANERSUN,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_panels_6,/catalog/images/SOLFACIL-PANELS/image.png,,,,,https://cdn-ecommerce.solfacil.com.br/contents/products/550010/images/image.png MINASOL,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_1,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600340.jpeg,,,,,ENPHASE IQ8P-72-2-BR,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_2,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE EZLOGGER PRO,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_3,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600329.jpg,,,,,GOODWE GW2000-MIS,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_4,/catalog/images/SOLFACIL-INVERTERS/image.webp,,,,,DEYE SUN-5K-G,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_5,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 3300-XS-30 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_6,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600369.png,,,,,SOFAR 5KTLM-G3 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_7,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600382.png,,,,,HUAWEI SUN2000-3KTL-L1 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_8,/catalog/images/SOLFACIL-INVERTERS/image.jpg,,,,,DEYE SUN-8K-G,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_9,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 5000-DNS-30 (16A) - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_10,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600423.png,,,,,HUAWEI SUN2000-4KTL-L1 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_11,,,,,,GOODWE GW8000-MS-C30 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_12,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 10K-MS-30 (20A) - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_13,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600386.png,,,,,HUAWEI SUN2000-10K-LC0 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_14,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600463.png,,,,,GOODWE GW10K-MS-G40 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_15,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600398.png,,,,,GOODWE GW10K-MS-G40 - AFCI C/ RSD,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_16,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600308.png,,,,,GROWATT MID 20KTL3 XL2 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_17,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600307.png,,,,,GROWATT MID 20KTL3 XL2 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_18,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600387.png,,,,,HUAWEI SUN2000-12K-MB0 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_19,,,,,,GROWATT MID 25KTL3-X,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_21,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600388.png,,,,,HUAWEI SUN2000-15K-MB0 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_22,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,DEYE SUN-25K-G02-LV,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_23,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 12KLV-SDT-C30 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_24,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600453.png,,,,,GOODWE GW20K-SDT-31 - AFCI C/ RSD,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_25,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600400.png,,,,,GOODWE GW12KLV-SDT-C31 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_26,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600381.png,,,,,SOFAR 25KTLX-G3-LV - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_27,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600404.png,,,,,GOODWE GW25K-SDT-P31 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_28,/catalog/images/SOLFACIL-INVERTERS/image.jpg,,,,,GOODWE GW 12KLV-MT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_29,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600452.png,,,,,GOODWE GW25K-SDT-P31 - AFCI C/ RSD,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_30,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW6000-ES-BR20 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_31,/catalog/images/SOLFACIL-INVERTERS/image.webp,,,,,GOODWE GW6000-SBP-20,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_32,/catalog/images/SOLFACIL-INVERTERS/image.jpeg,,,,,GOODWE GW 15KLV-MT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_33,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600314.png,,,,,GROWATT MID 50KTL3-X2 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_34,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 30K-SDT-C30 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_35,/catalog/images/SOLFACIL-INVERTERS/image.jpeg,,,,,DEYE SUN-35K-G02-LV,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_36,/catalog/images/SOLFACIL-INVERTERS/image.jpg,,,,,DEYE SUN-35K-G02-LV,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_37,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW3600-ES-BR20 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_38,/catalog/images/SOLFACIL-INVERTERS/image.jpeg,,,,,GOODWE GW 36K-MT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_39,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600350.jpg,,,,,GOODWE GW37K5-SDT-BR30 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_40,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600303.png,,,,,GROWATT MAC 36KTL3-XL - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_41,,,,,,GROWATT MAC 36KTL3-XL,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_42,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600311.png,,,,,GROWATT MAC 36KTL3-XL - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_43,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600275.png,,,,,GOODWE GW17KLV-SDT-C30 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_44,,,,,,GOODWE GW6000-ES-BR20 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_45,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600358.png,,,,,GOODWE GW6000-ES-BR20 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_46,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600361.png,,,,,GOODWE GW3500L-ES-BR20,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_47,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 20KLV-MT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_48,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 50KS-MT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_49,,,,,,GOODWE GW 30KLS-MT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_50,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600352.jpg,,,,,GOODWE GW23KLV-SDT-BR30 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_51,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600268.png,,,,,GOODWE GW 30KLS-MT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_52,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600243.png,,,,,GOODWE GW 30KLS-MT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_53,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600483.png,,,,,GOODWE GW 30KLS-MT - AFCI RED,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_54,,,,,,GOODWE GW 60KBF-MT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_55,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 60KS-MT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_56,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600109.png,,,,,GOODWE GW 35KLS-MT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_57,/catalog/images/SOLFACIL-INVERTERS/image.webp,,,,,GROWATT MAX 50KTL3-XL2,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_58,,,,,,DEYE SUN-50K-G-LV,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_59,,,,,,DEYE SUN-50K-G-LV,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_60,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,DEYE SUN-50K-G-LV,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_61,/catalog/images/SOLFACIL-INVERTERS/image.webp,,,,,GOODWE GW10K-BT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_62,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,DEYE SUN-75K-G01P3-LV,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_63,,,,,,DEYE SUN-75K-G01P3-LV,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_64,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600305.png,,,,,GROWATT MAX 50KTL3-XL2 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_65,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600304.png,,,,,GROWATT MAX 50KTL3-XL2 - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_66,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 35KLS-MT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_67,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 35KLS-MT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_68,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 60KS-MT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_69,/catalog/images/SOLFACIL-INVERTERS/image.webp,,,,,GROWATT MAX60KTL3-XL 2,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_70,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600328.png,,,,,GOODWE GW75K-SMT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_71,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 73KLV-HT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_72,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW 73KLV-HT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_73,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600149.png,,,,,GOODWE GW20K-ET - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_74,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600363.png,,,,,GOODWE GW12KL-ET - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_75,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600348.png,,,,,GOODWE GW15K-ET - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_76,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600066.png,,,,,GOODWE GW 100K-HT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_77,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600126.png,,,,,GOODWE GW100K-HT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_78,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600342.jpg,,,,,GOODWE GW100K-GT - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_79,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600023.png,,,,,GOODWE GW 110K-HT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_80,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600150.png,,,,,GOODWE GW30K-ET - AFCI,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_81,/catalog/images/SOLFACIL-INVERTERS/image.png,,,,,GOODWE GW250KN-HT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_82,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600344.png,,,,,GOODWE GW250KH-UT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_inverters_83,/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600142.png,,,,,GOODWE GW250K-HT,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_batteries_1,/catalog/images/SOLFACIL-BATTERIES/IMAGE_PRODUCT_000612.jpg,,,,,UNIDADE DE CONTROLE [PCU-F52] - PARA BATERIA LX F3.2-20,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_batteries_2,/catalog/images/SOLFACIL-BATTERIES/IMAGE_PRODUCT_000607.jpg,,,,,BATERIA LFP LYNX F (G2) LX F3.2-20 - 3.2KWH - GOODWE,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_batteries_3,,,,,,BATERIA UNIP LFP UPLFP48100 EN - 48V 100AH RACK - LP 5.1KWH - UNIPOWER,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel
+,,,,panels,BRL,Solfacil,solfacil_batteries_4,/catalog/images/SOLFACIL-BATTERIES/IMAGE_PRODUCT_850004.png,,,,,BATERIA LFP LYNX U (G3) LXU 5.0-30 - 5KWH - GOODWE,,,,1,0,0,0,,,published,Solar Panel|Solfacil,0,0,1,0,Solar Panel

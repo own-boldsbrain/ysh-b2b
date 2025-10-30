@@ -1,0 +1,13 @@
+{
+  "totalExtracted": 20,
+  "totalPages": 1,
+  "itemsPerPage": 20,
+  "categories": {
+    "bateria": 3,
+    "bomba": 7,
+    "cabo": 10
+  },
+  "startTime": 1761047542902,
+  "endTime": 1761047561240,
+  "duration": 18.338
+}

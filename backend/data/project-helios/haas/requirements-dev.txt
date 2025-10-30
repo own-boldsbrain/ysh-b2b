@@ -1,10 +1,36 @@
 # Development Requirements
 # Additional packages for development environment
 
-# Development Tools
+# ===== TESTING & COVERAGE =====
 pytest>=7.4.0
 pytest-asyncio>=0.21.1
 pytest-cov>=4.1.0
+coverage>=7.3.0
+
+# Test Runners with Coverage
+pytest-cov>=4.1.0
+trialcoverage>=0.3.12
+
+# Configuration Helpers
+covdefaults>=2.3.0
+coverage-conditional-plugin>=0.9.0
+coverage-simple-excludes>=0.1.0
+
+# Language Plugins
+django-coverage-plugin>=3.1.0
+Cython>=3.0.0
+coverage-jinja-plugin>=0.1.0
+coverage-sh>=0.1.0
+hy-coverage>=0.3.0
+coverage-mako-plugin>=0.1.0
+
+# Reporting Helpers
+python-coverage-comment-action>=1.1.2
+diff-cover>=8.0.0
+cuvner>=0.4.0
+python-genbadge>=1.0.0
+
+# Development Tools
 black>=23.7.0
 flake8>=6.0.0
 isort>=5.12.0

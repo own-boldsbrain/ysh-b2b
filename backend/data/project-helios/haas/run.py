@@ -1,7 +1,11 @@
-#!/usr/bin/env python3
 """
 Script para executar a API HaaS Platform
 """
+
+import sys
+import os
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 import uvicorn
 from app.main import app

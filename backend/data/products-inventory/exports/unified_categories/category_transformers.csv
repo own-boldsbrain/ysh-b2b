@@ -1,0 +1,4 @@
+﻿distributor,id,name,manufacturer,model,sku,category,type,price_brl,power_kw,power_w,voltage_v,current_a,efficiency_percent,certifications,currency,description,height_mm,image_url,length_mm,price_per_unit,stock_available,stock_quantity,tags,voltage_range,warranty_years,weight_kg,width_mm
+Fortlev,fortlev_transformers_ITF00003,TRAFO E-380V S-220V 40KVA,Unknown,,,transformers,,,,,,,,,BRL,TRAFO E-380V S-220V 40KVA,,,,,,,,,,,
+Fortlev,fortlev_transformers_ITF00005,TRAFO E-380V S-220V 85KVA,Unknown,,,transformers,,,,,,,,,BRL,TRAFO E-380V S-220V 85KVA,,,,,,,,,,,
+Fortlev,fortlev_transformers_ITF00002,TRAFO E-380V S-220V 30KVA,Unknown,,,transformers,,,,,,,,,BRL,TRAFO E-380V S-220V 30KVA,,,,,,,,,,,

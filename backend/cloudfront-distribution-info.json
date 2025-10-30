@@ -1,0 +1,19 @@
+{
+  "distributionId": "E348HOJ6LS4HJO",
+  "domainName": "d3ia2mn2uxt6iw.cloudfront.net",
+  "arn": "arn:aws:cloudfront::773235999227:distribution/E348HOJ6LS4HJO",
+  "status": "Deployed",
+  "aliases": [
+    "cdn.yellosolarhub.com"
+  ],
+  "certificateArn": "arn:aws:acm:us-east-1:773235999227:certificate/a8424071-ef10-42f1-b2fa-d5adaa25dd27",
+  "createdAt": "2025-10-21T17:10:43.728Z",
+  "dnsRecords": {
+    "type": "CNAME",
+    "name": "images",
+    "value": "d3ia2mn2uxt6iw.cloudfront.net",
+    "ttl": 3600
+  },
+  "lastChecked": "2025-10-21T17:12:48.988Z",
+  "deployedAt": "2025-10-21T17:14:20.455Z"
+}

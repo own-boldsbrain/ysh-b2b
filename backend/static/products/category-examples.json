@@ -1,0 +1,736 @@
+{
+      "categories": {
+            "inversores": {
+                  "description": "Inversores solares para conversão de energia DC para AC",
+                  "examples": [
+                        {
+                              "id": "odex_inverters_ODEX-INV-SAJ-3000W",
+                              "name": "Inversor Grid-Tie SAJ R5-3K-T2 BRL 3kW Monofásico 220V 2 MPPT",
+                              "manufacturer": "SAJ",
+                              "model": "R5-3K-T2",
+                              "category": "inverters",
+                              "power_w": 3000,
+                              "voltage_v": 220,
+                              "phase": "monofásico",
+                              "mppt_count": 2,
+                              "type": "grid-tie",
+                              "price_brl": 1599.0,
+                              "image": "/catalog/images/ODEX-INVERTERS/276954.jpg",
+                              "source": "plataforma.odex.com.br",
+                              "availability": "disponivel",
+                              "description": "Inversor Grid-Tie SAJ R5-3K-T2 BRL 3kW Monofásico 220V 2 MPPT",
+                              "processed_images": {
+                                    "thumb": "catalog\\images_processed\\ODEX\\INVERTERS\\thumb\\sku_276954_276954-17460390182534484.webp",
+                                    "medium": "catalog\\images_processed\\ODEX\\INVERTERS\\medium\\sku_276954_276954-17460390182534484.webp",
+                                    "large": "catalog\\images_processed\\ODEX\\INVERTERS\\large\\sku_276954_276954-17460390182534484.webp"
+                              },
+                              "pricing": {
+                                    "price": 1599.0,
+                                    "currency": "BRL"
+                              }
+                        },
+                        {
+                              "id": "odex_inverters_ODEX-INV-SAJ-5000W",
+                              "name": "Inversor Grid-Tie SAJ R5-5K-T2 BRL 5kW Monofásico 220V 2 MPPT",
+                              "manufacturer": "SAJ",
+                              "model": "R5-5K-T2",
+                              "category": "inverters",
+                              "power_w": 5000,
+                              "voltage_v": 220,
+                              "phase": "monofásico",
+                              "mppt_count": 2,
+                              "type": "grid-tie",
+                              "price_brl": 2499.0,
+                              "source": "plataforma.odex.com.br",
+                              "availability": "disponivel",
+                              "description": "Inversor Grid-Tie SAJ R5-5K-T2 BRL 5kW Monofásico 220V 2 MPPT"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "power_w",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "model",
+                              "voltage_v",
+                              "phase",
+                              "mppt_count",
+                              "type",
+                              "efficiency_percent",
+                              "warranty_years",
+                              "certifications",
+                              "image",
+                              "description",
+                              "processed_images",
+                              "pricing"
+                        ]
+                  }
+            },
+            "modulos": {
+                  "description": "Painéis/módulos solares fotovoltaicos",
+                  "examples": [
+                        {
+                              "id": "odex_panels_ODEX-PAINEL-ODEX-585W",
+                              "name": "Painel Solar Odex 585W",
+                              "manufacturer": "Odex",
+                              "model": "ODEX-585W",
+                              "category": "panels",
+                              "power_w": 585,
+                              "cell_type": "monocrystalline",
+                              "efficiency_percent": null,
+                              "dimensions_mm": {
+                                    "length": null,
+                                    "width": null,
+                                    "thickness": null
+                              },
+                              "weight_kg": null,
+                              "price_brl": 490.0,
+                              "image": "/catalog/images/ODEX-PANELS/289244.jpg",
+                              "source": "plataforma.odex.com.br",
+                              "availability": "disponivel",
+                              "description": "Painel Solar Odex 585W",
+                              "processed_images": {
+                                    "thumb": "catalog\\images_processed\\ODEX\\PANELS\\thumb\\sku_289244_289244_1-17460389447419270.webp",
+                                    "medium": "catalog\\images_processed\\ODEX\\PANELS\\medium\\sku_289244_289244_1-17460389447419270.webp",
+                                    "large": "catalog\\images_processed\\ODEX\\PANELS\\large\\sku_289244_289244_1-17460389447419270.webp"
+                              },
+                              "pricing": {
+                                    "price": 490.0,
+                                    "currency": "BRL"
+                              }
+                        },
+                        {
+                              "id": "odex_panels_ODEX-PAINEL-ODEX-610W",
+                              "name": "Painel Solar Odex 610W",
+                              "manufacturer": "Odex",
+                              "model": "ODEX-610W",
+                              "category": "panels",
+                              "power_w": 610,
+                              "price_brl": 505.0,
+                              "source": "plataforma.odex.com.br",
+                              "availability": "disponivel",
+                              "description": "Painel Solar Odex 610W"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "power_w",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "model",
+                              "cell_type",
+                              "efficiency_percent",
+                              "dimensions_mm",
+                              "weight_kg",
+                              "warranty_years",
+                              "certifications",
+                              "temperature_coefficient",
+                              "max_system_voltage",
+                              "image",
+                              "description",
+                              "processed_images",
+                              "pricing"
+                        ]
+                  }
+            },
+            "baterias": {
+                  "description": "Baterias para armazenamento de energia solar",
+                  "examples": [
+                        {
+                              "id": "solfacil_batteries_2",
+                              "name": "BATERIA LFP LYNX F (G2) LX F3.2-20 - 3.2KWH - GOODWE",
+                              "manufacturer": "GOODWE",
+                              "model": "LX F3.2-20",
+                              "category": "batteries",
+                              "capacity_kwh": 3.2,
+                              "voltage_v": 48,
+                              "technology": "LFP",
+                              "type": "lithium_iron_phosphate",
+                              "cycle_life": null,
+                              "dod_percent": null,
+                              "price_brl": 5983.17,
+                              "image": "/catalog/images/SOLFACIL-BATTERIES/IMAGE_PRODUCT_000607.jpg",
+                              "source": "loja.solfacil.com.br",
+                              "availability": "Disponível",
+                              "description": "BATERIA LFP LYNX F (G2) LX F3.2-20 - 3.2KWH - GOODWE",
+                              "pricing": {
+                                    "price": 5983.17,
+                                    "currency": "BRL"
+                              }
+                        },
+                        {
+                              "id": "solfacil_batteries_3",
+                              "name": "BATERIA UNIP LFP UPLFP48100 EN - 48V 100AH RACK - LP 5.1KWH - UNIPOWER",
+                              "manufacturer": "UNIPOWER",
+                              "model": "UPLFP48100",
+                              "category": "batteries",
+                              "capacity_kwh": 5.1,
+                              "capacity_ah": 100,
+                              "voltage_v": 48,
+                              "technology": "LFP",
+                              "type": "lithium_iron_phosphate",
+                              "form_factor": "rack",
+                              "price_brl": 6255.94,
+                              "source": "loja.solfacil.com.br",
+                              "availability": "Disponível",
+                              "description": "BATERIA UNIP LFP UPLFP48100 EN - 48V 100AH RACK - LP 5.1KWH - UNIPOWER"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "capacity_kwh",
+                              "voltage_v",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "model",
+                              "capacity_ah",
+                              "technology",
+                              "type",
+                              "cycle_life",
+                              "dod_percent",
+                              "form_factor",
+                              "weight_kg",
+                              "dimensions_mm",
+                              "warranty_years",
+                              "certifications",
+                              "image",
+                              "description",
+                              "processed_images",
+                              "pricing"
+                        ]
+                  }
+            },
+            "estruturas": {
+                  "description": "Estruturas de fixação para painéis solares",
+                  "examples": [
+                        {
+                              "id": "odex_structures_ODEX-ESTRUTURA-SOLARGROUP-FIBROCIMENTO",
+                              "name": "Estrutura Solar Group Fibrocimento Grande",
+                              "manufacturer": "Solar Group",
+                              "model": "Fibrocimento Grande",
+                              "category": "structures",
+                              "roof_type": "fibrocimento",
+                              "size": "grande",
+                              "material": "aluminum",
+                              "max_panels": null,
+                              "inclination_angle": null,
+                              "price_brl": 103.0,
+                              "image": "/catalog/images/ODEX-STRUCTURES/313801.jpg",
+                              "source": "plataforma.odex.com.br",
+                              "availability": "disponivel",
+                              "description": "Estrutura Solar Group Fibrocimento Grande",
+                              "processed_images": {
+                                    "thumb": "catalog\\images_processed\\ODEX\\STRUCTURES\\thumb\\sku_313801_313801-17466238930555038.webp",
+                                    "medium": "catalog\\images_processed\\ODEX\\STRUCTURES\\medium\\sku_313801_313801-17466238930555038.webp",
+                                    "large": "catalog\\images_processed\\ODEX\\STRUCTURES\\large\\sku_313801_313801-17466238930555038.webp"
+                              },
+                              "pricing": {
+                                    "price": 103.0,
+                                    "currency": "BRL"
+                              }
+                        },
+                        {
+                              "id": "odex_structures_ODEX-ESTRUTURA-SOLARGROUP-FIBROCIMENTO-PEQUENO",
+                              "name": "Estrutura Solar Group Fibrocimento Pequeno",
+                              "manufacturer": "Solar Group",
+                              "model": "Fibrocimento Pequeno",
+                              "category": "structures",
+                              "roof_type": "fibrocimento",
+                              "size": "pequeno",
+                              "price_brl": 98.0,
+                              "source": "plataforma.odex.com.br",
+                              "availability": "disponivel",
+                              "description": "Estrutura Solar Group Fibrocimento Pequeno"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "roof_type",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "model",
+                              "size",
+                              "material",
+                              "max_panels",
+                              "inclination_angle",
+                              "weight_kg",
+                              "load_capacity_kg",
+                              "warranty_years",
+                              "certifications",
+                              "image",
+                              "description",
+                              "processed_images",
+                              "pricing"
+                        ]
+                  }
+            },
+            "kits": {
+                  "description": "Kits solares completos (painéis + inversores + acessórios)",
+                  "examples": [
+                        {
+                              "id": "fortlev_kit_001",
+                              "name": "Kit 2.44kWp - Panel + Growatt",
+                              "distributor": "Fortlev",
+                              "category": "kits",
+                              "type": "Solar Kit",
+                              "system_type": "grid-tie",
+                              "power": {
+                                    "kwp": 2.44,
+                                    "watts": 2440.0
+                              },
+                              "pricing": {
+                                    "price_brl": 2923.56,
+                                    "price_per_wp": 1.2,
+                                    "currency": "BRL"
+                              },
+                              "components": {
+                                    "panels": [
+                                          {
+                                                "manufacturer": null,
+                                                "power_w": null,
+                                                "quantity": null,
+                                                "image": "https://prod-platform-api.s3.amazonaws.com/components/68dbedcc54fa3ed05329e145/IMO00135.png"
+                                          }
+                                    ],
+                                    "inverters": [
+                                          {
+                                                "manufacturer": "Growatt",
+                                                "power_kw": 2.0,
+                                                "quantity": 1
+                                          }
+                                    ],
+                                    "batteries": [],
+                                    "structures": []
+                              },
+                              "totals": {
+                                    "total_panels": 1,
+                                    "total_inverters": 1,
+                                    "total_batteries": 0,
+                                    "total_structures": 0,
+                                    "total_power_w": 2440.0
+                              },
+                              "estimated_generation": {
+                                    "monthly_kwh": 329,
+                                    "annual_kwh": 3948
+                              },
+                              "description": "Complete 2.44kWp solar energy kit for grid-tie residential or commercial installation.",
+                              "tags": [
+                                    "Solar Kit",
+                                    "Grid-Tie",
+                                    "Photovoltaic System",
+                                    "2.44kWp",
+                                    "Growatt",
+                                    "Residential Small"
+                              ]
+                        },
+                        {
+                              "id": "fortlev_kit_002",
+                              "name": "Kit 2.52kWp - Longi + Growatt",
+                              "distributor": "Fortlev",
+                              "category": "kits",
+                              "type": "Solar Kit",
+                              "system_type": "grid-tie",
+                              "power": {
+                                    "kwp": 2.52,
+                                    "watts": 2520.0
+                              },
+                              "pricing": {
+                                    "price_brl": 3163.7,
+                                    "price_per_wp": 1.26,
+                                    "currency": "BRL"
+                              },
+                              "components": {
+                                    "panels": [
+                                          {
+                                                "manufacturer": "Longi",
+                                                "power_w": null,
+                                                "quantity": null
+                                          }
+                                    ],
+                                    "inverters": [
+                                          {
+                                                "manufacturer": "Growatt",
+                                                "power_kw": null,
+                                                "quantity": 1
+                                          }
+                                    ]
+                              }
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "category",
+                              "power",
+                              "pricing"
+                        ],
+                        "optional": [
+                              "distributor",
+                              "type",
+                              "system_type",
+                              "components",
+                              "totals",
+                              "estimated_generation",
+                              "description",
+                              "tags",
+                              "image",
+                              "processed_images",
+                              "installation_notes",
+                              "warranty_years"
+                        ]
+                  }
+            },
+            "cabos": {
+                  "description": "Cabos elétricos para instalação solar",
+                  "examples": [
+                        {
+                              "id": "solfacil_cables_1",
+                              "title": "CABO FLEX 1KV 25MM VM C/RL 2,5MT",
+                              "name": "CABO FLEX 1KV 25MM VM C/RL 2,5MT",
+                              "manufacturer": "SOLFACIL",
+                              "category": "cables",
+                              "voltage_rating": "1kV",
+                              "gauge_mm2": 25,
+                              "color": "vermelho",
+                              "length_m": 2.5,
+                              "type": "flex",
+                              "price_brl": 21.83,
+                              "source": "loja.solfacil.com.br",
+                              "description": "CABO FLEX 1KV 25MM VM C/RL 2,5MT"
+                        },
+                        {
+                              "id": "solfacil_cables_2",
+                              "title": "CABO FLEX 1KV 16MM VM C/RL 2,5MT",
+                              "name": "CABO FLEX 1KV 16MM VM C/RL 2,5MT",
+                              "manufacturer": "SOLFACIL",
+                              "category": "cables",
+                              "voltage_rating": "1kV",
+                              "gauge_mm2": 16,
+                              "color": "vermelho",
+                              "length_m": 2.5,
+                              "type": "flex",
+                              "price_brl": 21.83,
+                              "source": "loja.solfacil.com.br",
+                              "description": "CABO FLEX 1KV 16MM VM C/RL 2,5MT"
+                        },
+                        {
+                              "id": "solfacil_cables_3",
+                              "title": "CABO FLEX 1KV 16MM PT C/RL 2,5MT",
+                              "name": "CABO FLEX 1KV 16MM PT C/RL 2,5MT",
+                              "manufacturer": "SOLFACIL",
+                              "category": "cables",
+                              "voltage_rating": "1kV",
+                              "gauge_mm2": 16,
+                              "color": "preto",
+                              "length_m": 2.5,
+                              "type": "flex",
+                              "price_brl": 21.83,
+                              "source": "loja.solfacil.com.br",
+                              "description": "CABO FLEX 1KV 16MM PT C/RL 2,5MT"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "gauge_mm2",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "voltage_rating",
+                              "color",
+                              "length_m",
+                              "type",
+                              "temperature_rating",
+                              "certifications",
+                              "insulation_type",
+                              "conductor_material",
+                              "description",
+                              "image"
+                        ]
+                  }
+            },
+            "stringboxes": {
+                  "description": "String boxes / caixas de junção para proteção do sistema solar",
+                  "examples": [
+                        {
+                              "id": "odex_stringbox_ODEX-STRINGBOX-CLAMPER-2E",
+                              "title": "String Box Clamper 2 Entradas",
+                              "name": "String Box Clamper 2 Entradas",
+                              "manufacturer": "Clamper",
+                              "category": "stringboxes",
+                              "input_count": 2,
+                              "output_count": 1,
+                              "voltage_rating": null,
+                              "current_rating": null,
+                              "protection_type": [
+                                    "fuse",
+                                    "surge_protection"
+                              ],
+                              "price_brl": 362.0,
+                              "source": "plataforma.odex.com.br",
+                              "description": "String Box Clamper 2 Entradas"
+                        },
+                        {
+                              "id": "odex_stringbox_ODEX-STRINGBOX-CLAMPER-4E",
+                              "title": "String Box Clamper 4 Entradas",
+                              "name": "String Box Clamper 4 Entradas",
+                              "manufacturer": "Clamper",
+                              "category": "stringboxes",
+                              "input_count": 4,
+                              "output_count": 1,
+                              "protection_type": [
+                                    "fuse",
+                                    "surge_protection"
+                              ],
+                              "price_brl": 489.0,
+                              "source": "plataforma.odex.com.br",
+                              "description": "String Box Clamper 4 Entradas"
+                        },
+                        {
+                              "id": "odex_stringbox_ODEX-STRINGBOX-CLAMPER-6E",
+                              "title": "String Box Clamper 6 Entradas",
+                              "name": "String Box Clamper 6 Entradas",
+                              "manufacturer": "Clamper",
+                              "category": "stringboxes",
+                              "input_count": 6,
+                              "output_count": 1,
+                              "protection_type": [
+                                    "fuse",
+                                    "surge_protection"
+                              ],
+                              "price_brl": null,
+                              "source": "plataforma.odex.com.br",
+                              "description": "String Box Clamper 6 Entradas"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "input_count",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "output_count",
+                              "voltage_rating",
+                              "current_rating",
+                              "protection_type",
+                              "ip_rating",
+                              "certifications",
+                              "dimensions_mm",
+                              "weight_kg",
+                              "description",
+                              "image"
+                        ]
+                  }
+            },
+            "conectores": {
+                  "description": "Conectores MC4 e outros conectores para instalação solar",
+                  "examples": [
+                        {
+                              "id": "connector_mc4_001",
+                              "name": "Conector MC4 Macho",
+                              "manufacturer": "Generic",
+                              "category": "connectors",
+                              "type": "MC4",
+                              "gender": "male",
+                              "voltage_rating": "1000V",
+                              "current_rating": "30A",
+                              "cable_range_mm2": {
+                                    "min": 2.5,
+                                    "max": 6.0
+                              },
+                              "price_brl": 8.50,
+                              "description": "Conector MC4 Macho para cabo solar 2.5-6mm²"
+                        },
+                        {
+                              "id": "connector_mc4_002",
+                              "name": "Conector MC4 Fêmea",
+                              "manufacturer": "Generic",
+                              "category": "connectors",
+                              "type": "MC4",
+                              "gender": "female",
+                              "voltage_rating": "1000V",
+                              "current_rating": "30A",
+                              "cable_range_mm2": {
+                                    "min": 2.5,
+                                    "max": 6.0
+                              },
+                              "price_brl": 8.50,
+                              "description": "Conector MC4 Fêmea para cabo solar 2.5-6mm²"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "type",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "gender",
+                              "voltage_rating",
+                              "current_rating",
+                              "cable_range_mm2",
+                              "ip_rating",
+                              "temperature_range",
+                              "certifications",
+                              "description",
+                              "image"
+                        ]
+                  }
+            },
+            "controladores": {
+                  "description": "Controladores de carga para sistemas off-grid",
+                  "examples": [
+                        {
+                              "id": "controller_mppt_001",
+                              "name": "Controlador MPPT 60A 12/24V",
+                              "manufacturer": "Generic Brand",
+                              "category": "charge_controllers",
+                              "type": "MPPT",
+                              "current_rating": 60,
+                              "voltage_system": [
+                                    12,
+                                    24
+                              ],
+                              "max_pv_voltage": 100,
+                              "max_pv_power_12v": 800,
+                              "max_pv_power_24v": 1600,
+                              "efficiency_percent": 98,
+                              "price_brl": 650.0,
+                              "description": "Controlador de carga MPPT 60A com suporte para sistemas 12V/24V"
+                        },
+                        {
+                              "id": "controller_pwm_001",
+                              "name": "Controlador PWM 30A 12/24V",
+                              "manufacturer": "Generic Brand",
+                              "category": "charge_controllers",
+                              "type": "PWM",
+                              "current_rating": 30,
+                              "voltage_system": [
+                                    12,
+                                    24
+                              ],
+                              "max_pv_voltage": 50,
+                              "price_brl": 180.0,
+                              "description": "Controlador de carga PWM 30A básico para sistemas 12V/24V"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "type",
+                              "current_rating",
+                              "voltage_system",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "max_pv_voltage",
+                              "max_pv_power_12v",
+                              "max_pv_power_24v",
+                              "efficiency_percent",
+                              "display_type",
+                              "communication_protocols",
+                              "temperature_compensation",
+                              "certifications",
+                              "description",
+                              "image"
+                        ]
+                  }
+            },
+            "acessorios": {
+                  "description": "Acessórios diversos para instalação solar",
+                  "examples": [
+                        {
+                              "id": "accessory_001",
+                              "name": "Kit Ferramenta Crimpagem MC4",
+                              "manufacturer": "Generic",
+                              "category": "accessories",
+                              "type": "tool",
+                              "sub_type": "crimping_tool",
+                              "price_brl": 85.0,
+                              "description": "Kit de ferramentas para crimpagem de conectores MC4"
+                        },
+                        {
+                              "id": "accessory_002",
+                              "name": "Abraçadeira Nylon UV 200mm (100un)",
+                              "manufacturer": "Generic",
+                              "category": "accessories",
+                              "type": "cable_tie",
+                              "length_mm": 200,
+                              "quantity_pack": 100,
+                              "uv_resistant": true,
+                              "price_brl": 15.0,
+                              "description": "Abraçadeiras de nylon resistentes a UV para fixação de cabos"
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "id",
+                              "name",
+                              "manufacturer",
+                              "category",
+                              "type",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "sub_type",
+                              "length_mm",
+                              "quantity_pack",
+                              "uv_resistant",
+                              "material",
+                              "color",
+                              "certifications",
+                              "description",
+                              "image"
+                        ]
+                  }
+            }
+      },
+      "metadata": {
+            "generated_at": "2025-10-21T19:30:00.000Z",
+            "total_categories": 10,
+            "source_files": [
+                  "data/products-inventory/distributors/odex/odex-inverters.json",
+                  "data/products-inventory/distributors/odex/odex-panels.json",
+                  "data/products-inventory/distributors/odex/odex-structures.json",
+                  "data/products-inventory/distributors/solfacil/solfacil-batteries.json",
+                  "data/products-inventory/distributors/solfacil/solfacil-cables.json",
+                  "data/products-inventory/📊_DATA/unified/unified_products.json",
+                  "data/products-inventory/semantic/index.json"
+            ],
+            "notes": "Este arquivo contém exemplos reais de dados JSON para cada categoria de equipamento solar disponível no inventário. Os campos 'common_fields' indicam quais campos são obrigatórios e opcionais para cada categoria."
+      }
+}

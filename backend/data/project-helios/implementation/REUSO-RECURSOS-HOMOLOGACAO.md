@@ -52,7 +52,7 @@ Arquitetura, padrões e práticas que devem ser replicados mas não código dire
 
 **Arquivos-Chave:**
 
-```
+```tsx
 src/homologacao/services/inmetro/
 ├── certification_validator.py   # Validador INMETRO
 ├── datasheet_parser.py          # Parser de PDFs
@@ -116,7 +116,7 @@ class HaaSINMETROValidator:
 
 **Arquivos-Chave:**
 
-```
+```tsx
 config/schemas/
 ├── contatos_normalizados.schema.json
 ├── enderecos_normalizados.schema.json
@@ -199,7 +199,7 @@ config/schemas/
 
 **Estrutura de Orquestração:**
 
-```
+```tsx
 orchestration/
 ├── node-red/flows/
 │   └── regulatory-events.json        # Triggers regulatórios
@@ -275,7 +275,7 @@ orchestration/
 
 **Estrutura de Testes:**
 
-```
+```tsx
 tests/
 ├── unit/
 │   ├── test_schema_validations.py      # 100% cobertura de schemas
@@ -361,7 +361,7 @@ def test_haas_project_validation(schema_validator_fixture):
 
 **Endpoints Principais:**
 
-```
+```tsx
 GET    /distribuidoras-gd/                    # Listar distribuidoras
 GET    /distribuidoras-gd/{codigo}             # Obter detalhes
 POST   /distribuidoras-gd/                    # Criar distribuidora
@@ -729,7 +729,7 @@ CREATE INDEX idx_embeddings_ivfflat ON gd_assets.solar_plants USING ivfflat(embe
 
 **Arquitetura de Agentes:**
 
-```
+```tsx
 external_services/
 ├── autonomous-browser/
 │   ├── browser_automation.py
@@ -900,7 +900,7 @@ external_services/
 | **Fase 4: Documentação e AI** | 14 dias | 34 dias | **59%** |
 | **TOTAL MVP** | **66 dias** | **156 dias** | **58%** |
 
-**Economia Total: 90 dias (3 meses) de desenvolvimento**
+#### **Economia Total: 90 dias (3 meses) de desenvolvimento**
 
 ### 🎯 **Cobertura de Requisitos HaaS**
 
@@ -915,7 +915,7 @@ external_services/
 | **Testing e CI/CD** | 100% | ✅ Completo |
 | **Database e Migrations** | 100% | ✅ Completo |
 
-**Cobertura Média: 82%**
+#### **Cobertura Média: 82%**
 
 ### 🔐 **Qualidade e Maturidade**
 
@@ -1075,7 +1075,7 @@ test_schema_validation()
 
 ### 2. **Arquitetura Recomendada**
 
-```
+```tsx
 haas-platform/
 ├── validators/
 │   ├── inmetro/              # ✅ Reuso direto

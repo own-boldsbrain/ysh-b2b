@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ diagram_type }} - {{ project_name or "Sistema Fotovoltaico" }}</title>
+    <link rel="stylesheet" href="diagram.css">
+</head>
+<body>
+    <div class="diagram-container">
+        <!-- Header Section -->
+        <div class="diagram-header">
+            <h1>{{ diagram_type }}</h1>
+            <div class="subtitle">
+                {{ project_name or "Sistema Fotovoltaico" }} -
+                Gerado em {{ generation_date | format_date }}
+            </div>
+        </div>
+
+        <!-- SVG Diagram Section -->
+        <div class="diagram-svg">
+            {{ layout_diagram_svg | safe }}
+        </div>
+
+        <!-- Technical Specifications Section -->
+        <div class="technical-specs">
+            <h2>Especificações de Layout</h2>
+
+            {% if equipments %}
+            <!-- Equipment Specifications Table -->
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Parâmetro</th>
+                        <th>Valor</th>
+                        <th>Observações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% set total_panels = equipments|selectattr('type', 'equalto', 'panel')|sum(attribute='quantity') %}
+                    <tr>
+                        <td>Área Total Ocupada</td>
+                        <td>{{ "%.1f"|format(total_panels * 2.0) }} m²</td>
+                        <td>Considerando 2m² por módulo</td>
+                    </tr>
+                    <tr>
+                        <td>Número de Strings</td>
+                        <td>{{ (total_panels / 8)|round|int }}</td>
+                        <td>8 módulos por string</td>
+                    </tr>
+                    <tr>
+                        <td>Módulos por String</td>
+                        <td>8</td>
+                        <td>Configuração otimizada</td>
+                    </tr>
+                    <tr>
+                        <td>Inclinação dos Módulos</td>
+                        <td>30°</td>
+                        <td>Latitude local</td>
+                    </tr>
+                    <tr>
+                        <td>Distância ao Telhado</td>
+                        <td>0.3 m</td>
+                        <td>Para ventilação adequada</td>
+                    </tr>
+                    <tr>
+                        <td>Tipo de Fixação</td>
+                        <td>Perfil Z + Clips</td>
+                        <td>Resistente aos ventos locais</td>
+                    </tr>
+                    <tr>
+                        <td>Peso Total do Sistema</td>
+                        <td>{{ "%.1f"|format(total_panels * 25) }} kg</td>
+                        <td>Incluindo estrutura e módulos</td>
+                    </tr>
+                </tbody>
+            </table>
+            {% endif %}
+
+            {% if location %}
+            <!-- Location and Orientation Table -->
+            <h3>Localização e Orientação</h3>
+            <table class="specs-table">
+                <tbody>
+                    <tr>
+                        <td><strong>Cidade:</strong></td>
+                        <td>{{ location.city or "N/A" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Estado:</strong></td>
+                        <td>{{ location.state or "N/A" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Latitude:</strong></td>
+                        <td>{{ location.latitude or "20°" }}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Orientações:</strong></td>
+                        <td>Sul (180°), Leste (90°), Oeste (270°)</td>
+                    </tr>
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p><strong>Documento Técnico - {{ diagram_type }}</strong></p>
+            <p>Gerado automaticamente pelo Sistema HaaS - Project Helios</p>
+            <p>Data: {{ generation_date | format_date("dd/MM/yyyy HH:mm") }}</p>
+            {% if responsible_engineer %}
+            <p>Responsável Técnico: {{ responsible_engineer }} - CREA: {{ crea_number }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

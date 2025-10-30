@@ -1,0 +1,35 @@
+{
+  "DEYE-286844": {
+    "sku": "286844",
+    "manufacturer": "DEYE",
+    "source": "official",
+    "original_url": "https://www.deyeinverter.com/deyeinverter/2025/05/29/8-15-8.png",
+    "local_path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products-official\\DEYE\\DEYE-286844.png",
+    "standardized_filename": "DEYE-286844.png",
+    "success": true,
+    "filesize_bytes": 23156,
+    "timestamp": "2025-10-21T13:58:30.750Z"
+  },
+  "DEYE-222133": {
+    "sku": "222133",
+    "manufacturer": "DEYE",
+    "source": "official",
+    "original_url": "https://www.deyeinverter.com/deyeinverter/2025/05/29/8-15-8.png",
+    "local_path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products-official\\DEYE\\DEYE-222133.png",
+    "standardized_filename": "DEYE-222133.png",
+    "success": true,
+    "filesize_bytes": 23156,
+    "timestamp": "2025-10-21T13:58:38.734Z"
+  },
+  "DEYE-222132": {
+    "sku": "222132",
+    "manufacturer": "DEYE",
+    "source": "official",
+    "original_url": "https://www.deyeinverter.com/deyeinverter/2025/05/29/8-15-8.png",
+    "local_path": "C:\\Users\\fjuni\\OneDrive\\Documentos\\GitHub\\ysh-b2b\\backend\\static\\products-official\\DEYE\\DEYE-222132.png",
+    "standardized_filename": "DEYE-222132.png",
+    "success": true,
+    "filesize_bytes": 23156,
+    "timestamp": "2025-10-21T13:58:46.756Z"
+  }
+}

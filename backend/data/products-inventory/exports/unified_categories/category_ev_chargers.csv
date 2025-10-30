@@ -1,0 +1,4 @@
+﻿distributor,id,name,manufacturer,model,sku,category,type,price_brl,power_kw,power_w,voltage_v,current_a,efficiency_percent,certifications,currency,description,height_mm,image_url,length_mm,price_per_unit,stock_available,stock_quantity,tags,voltage_range,warranty_years,weight_kg,width_mm
+Fortlev,fortlev_ev_chargers_ICV00004,CARREGADOR VEICULAR FOXESS A022KP1-E-2 - 22KW,Foxess,,,ev_chargers,,,,,,,,,BRL,CARREGADOR VEICULAR FOXESS A022KP1-E-2 - 22KW,,,,,,,,,,,
+Fortlev,fortlev_ev_chargers_ICV00003,"CARREGADOR VEICULAR FOXESS A7300P1-E-2 - 7,3 KW",Foxess,,,ev_chargers,,,,,,,,,BRL,"CARREGADOR VEICULAR FOXESS A7300P1-E-2 - 7,3 KW",,,,,,,,,,,
+Fortlev,fortlev_ev_chargers_ICV00002,CARREGADOR VEICULAR WALLBOX GROWATT THOR07AS-P THO,Growatt,,,ev_chargers,,,,,,,,,BRL,CARREGADOR VEICULAR WALLBOX GROWATT THOR07AS-P THO,,,,,,,,,,,

@@ -1,0 +1,735 @@
+[
+  {
+    "id": "edeltec-1761053796414",
+    "sku": "edeltec-1761053796414",
+    "title": "Gerador de Energia Solar",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "bomba",
+    "url": "https://edeltecsolar.com.br/produtos/geradores",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:36.415Z"
+  },
+  {
+    "id": "edeltec-1761053798327",
+    "sku": "edeltec-1761053798327",
+    "title": "Inversores",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "inversor",
+    "url": "https://edeltecsolar.com.br/produtos/inversores",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:38.328Z"
+  },
+  {
+    "id": "edeltec-1761053802481",
+    "sku": "edeltec-1761053802481",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/modulos",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:42.481Z"
+  },
+  {
+    "id": "edeltec-1761053806984",
+    "sku": "edeltec-1761053806984",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/transformadores",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:46.985Z"
+  },
+  {
+    "id": "edeltec-1761053808955",
+    "sku": "edeltec-1761053808955",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/string-box",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:48.955Z"
+  },
+  {
+    "id": "edeltec-1761053810886",
+    "sku": "edeltec-1761053810886",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/cabos-e-conectores",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:50.886Z"
+  },
+  {
+    "id": "edeltec-1761053812786",
+    "sku": "edeltec-1761053812786",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/estruturas",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:52.786Z"
+  },
+  {
+    "id": "272468",
+    "sku": "272468",
+    "title": "Clip de drenagem pv clip para frame de 30mm",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=efc7928d-1be6-4e00-9986-18d46d324ae7-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=efc7928d-1be6-4e00-9986-18d46d324ae7-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {
+      "spec_1": "DATASHEET PV CLIP - PORTUGUÃªS.PDF0.22MB",
+      "spec_2": "DOCUMENTO - MANUAL DE USO PARA O PV CLIP.PDF0.91MB",
+      "spec_3": "MANUAL DE USO DOS PV CLIPS.PDF4.16MB"
+    },
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/272468/clip-de-drenagem-pv-clip-para-frame-de-30-mm-272468",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:55.037Z"
+  },
+  {
+    "id": "272471",
+    "sku": "272471",
+    "title": "Clip de drenagem pv clip para frame de 35mm",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=12057a46-9855-41a9-885d-59e8caf37bf0-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=1504b451-c5e9-4b0c-8b22-fe7e8c59559a&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=12057a46-9855-41a9-885d-59e8caf37bf0-thumbnail&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=dc707f37-5683-4b24-bdaa-8990cd420e14&bucket=produtos"
+    ],
+    "specifications": {
+      "spec_1": "DATASHEET PV CLIP - PORTUGUÃªS.PDF0.22MB",
+      "spec_2": "DOCUMENTO - MANUAL DE USO PARA O PV CLIP.PDF0.91MB",
+      "spec_3": "MANUAL DE USO DOS PV CLIPS.PDF4.16MB"
+    },
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/272471/clip-de-drenagem-pv-clip-para-frame-de-35-mm-272471",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:57.089Z"
+  },
+  {
+    "id": "1333",
+    "sku": "1333",
+    "title": "End clamp sks (c/ parafuso)",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=0c036322-8673-452d-aa59-e6208578bed1-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=96a6e8da-4f17-440a-b89b-4ab35df88427&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=0c036322-8673-452d-aa59-e6208578bed1-thumbnail&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=6d929572-e5b9-4d99-84e8-0898467dc4ad&bucket=produtos"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/1333/end-clamp-sks-c-parafuso-1333",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:36:59.234Z"
+  },
+  {
+    "id": "1334",
+    "sku": "1334",
+    "title": "Mid clamp sks (c/ parafuso)",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=0c32c9f0-9b5c-4180-bedb-7652cb560351-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=88a11a7c-1629-476b-a692-33b3ed437d53&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=0c32c9f0-9b5c-4180-bedb-7652cb560351-thumbnail&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=648bbdc2-ee32-411e-969a-8e2355332dbe&bucket=produtos"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/1334/mid-clamp-sks-c-parafuso-1334",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:01.697Z"
+  },
+  {
+    "id": "1355",
+    "sku": "1355",
+    "title": "Grampo de aterramento sks",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=6aa0f341-3780-4c0b-a02c-3de3e5897aad-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=6aa0f341-3780-4c0b-a02c-3de3e5897aad-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/1355/grampo-de-aterramento-sks-1355",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:03.875Z"
+  },
+  {
+    "id": "24381",
+    "sku": "24381",
+    "title": "Conector sc6 macho/femea 1500v proauto",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=805ee16b-791a-4f52-8a2f-a9576819972b-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=805ee16b-791a-4f52-8a2f-a9576819972b-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {
+      "spec_1": "SC4 KIT CONECTOR SOLAR 1500V - 23719.PDF0.86MB",
+      "spec_2": "CERTIFICADO TUV - CONECTORES SC4.PDF0.84MB"
+    },
+    "category": "cabo",
+    "url": "https://edeltecsolar.com.br/produtos/24381/conector-sc-6-macho-femea-1500-v-proauto-24381",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:05.935Z"
+  },
+  {
+    "id": "25256",
+    "sku": "25256",
+    "title": "Suporte vertical sks l para microinversor",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=7fe0c6f6-5a91-4ba3-b28b-3ddbaaf7a7bd-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=7fe0c6f6-5a91-4ba3-b28b-3ddbaaf7a7bd-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "inversor",
+    "url": "https://edeltecsolar.com.br/produtos/25256/suporte-vertical-sks-l-para-microinversor-25256",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:07.953Z"
+  },
+  {
+    "id": "16401",
+    "sku": "16401",
+    "title": "Emenda p/ perfil sks (c/ parafuso)",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=83295334-9c3f-423f-b64a-059c723c6fb6-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=83295334-9c3f-423f-b64a-059c723c6fb6-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/16401/emenda-p-perfil-sks-c-parafuso-16401",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:10.188Z"
+  },
+  {
+    "id": "34",
+    "sku": "34",
+    "title": "Perfil de aluminio sks 55cm baixo",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=9b07d8b7-4ebd-4034-a72f-244a2f5a5999-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=9b07d8b7-4ebd-4034-a72f-244a2f5a5999-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/34/perfil-de-aluminio-sks-55-cm-baixo-34",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:12.225Z"
+  },
+  {
+    "id": "286844",
+    "sku": "286844",
+    "title": "Conector deye microinversor macho - ac trunk new",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=2cd28357-0ec7-44ae-bef8-aeb46cac742b-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=2cd28357-0ec7-44ae-bef8-aeb46cac742b-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "inversor",
+    "url": "https://edeltecsolar.com.br/produtos/286844/conector-deye-microinversor-macho-ac-trunk-new-286844",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:14.262Z"
+  },
+  {
+    "id": "222133",
+    "sku": "222133",
+    "title": "Conector deye microinversor femea - ac trunk new",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=2cbf67ce-0ac6-4714-b51e-8acf91a80e48-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=2cbf67ce-0ac6-4714-b51e-8acf91a80e48-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "inversor",
+    "url": "https://edeltecsolar.com.br/produtos/222133/conector-deye-microinversor-femea-ac-trunk-new-222133",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:16.305Z"
+  },
+  {
+    "id": "25159",
+    "sku": "25159",
+    "title": "Perfil de aluminio sks 55cm alto",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=98008456-f28f-423d-8e7d-ac923554483f-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=98008456-f28f-423d-8e7d-ac923554483f-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {
+      "spec_1": "DATASHEET SSMSOLAR_2021_FASTSPEEDLONG.PDF0.38MB"
+    },
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/25159/perfil-de-aluminio-sks-55-cm-alto-25159",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:18.359Z"
+  },
+  {
+    "id": "110539",
+    "sku": "110539",
+    "title": "Ferramenta microinversor hoymiles para desbloqueio do conector tronco ca tipo h - trunk unlock",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=99a10250-107c-4b34-a73e-013c6b83c918-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=99a10250-107c-4b34-a73e-013c6b83c918-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "inversor",
+    "url": "https://edeltecsolar.com.br/produtos/110539/ferramenta-microinversor-hoymiles-para-desbloqueio-do-conector-tronco-ca-tipo-h-trunk-unlock-110539",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:20.420Z"
+  },
+  {
+    "id": "110540",
+    "sku": "110540",
+    "title": "Ferramenta microinversor hoymiles para desbloqueio ca/cc - trunk disconnect",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=162b651c-adf2-449c-bc8e-2b54a293084f-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=162b651c-adf2-449c-bc8e-2b54a293084f-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "inversor",
+    "url": "https://edeltecsolar.com.br/produtos/110540/ferramenta-microinversor-hoymiles-para-desbloqueio-ca-cc-trunk-disconnect-110540",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:22.463Z"
+  },
+  {
+    "id": "222132",
+    "sku": "222132",
+    "title": "Conector deye microinversor tipo t - ac trunk new",
+    "description": "Valores disponíveis para integradores",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=9271b576-0218-44d1-bce9-f69136561018-medium&bucket=produtos",
+      "https://api.edeltecsolar.com.br/imagens?key=9271b576-0218-44d1-bce9-f69136561018-thumbnail&bucket=produtos",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "inversor",
+    "url": "https://edeltecsolar.com.br/produtos/222132/conector-deye-microinversor-tipo-t-ac-trunk-new-222132",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:24.475Z"
+  },
+  {
+    "id": "1",
+    "sku": "1",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/busca?q=&page=1&url=busca",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:26.374Z"
+  },
+  {
+    "id": "0",
+    "sku": "0",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/busca?q=&page=0&url=busca",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:28.511Z"
+  },
+  {
+    "id": "2",
+    "sku": "2",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/busca?q=&page=2&url=busca",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:30.470Z"
+  },
+  {
+    "id": "3",
+    "sku": "3",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/busca?q=&page=3&url=busca",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:32.381Z"
+  },
+  {
+    "id": "4",
+    "sku": "4",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/busca?q=&page=4&url=busca",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:34.308Z"
+  },
+  {
+    "id": "5",
+    "sku": "5",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/busca?q=&page=5&url=busca",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:36.214Z"
+  },
+  {
+    "id": "1100",
+    "sku": "1100",
+    "title": "Rodovia PR 317, 11541, Gleba Ribeirão, Maringá - PR, CEP 87035-510 | CNPJ: 10.289.713/0001-70",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://api.edeltecsolar.com.br/imagens?key=653206c1-40cd-49cf-8470-ebcf0c2b6645&bucket=bannersLaterais",
+      "https://api.edeltecsolar.com.br/imagens?key=278a6fba-97cf-4da5-9d62-68ee2d80b944&bucket=bannersLaterais",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/busca?q=&page=1100&url=busca",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:38.113Z"
+  },
+  {
+    "id": "1",
+    "sku": "1",
+    "title": "Página não encontrada",
+    "description": "Lamentamos, mas a página solicitada não foi encontrada. A página pode ter sido desativada ou você introduziu um endereço inválido.",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://edeltecsolar.com.br/img/logo-white.png",
+      "https://edeltecsolar.com.br/img/selos/selo-absolar.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-abgd.webp",
+      "https://edeltecsolar.com.br/img/selos/selo-membro-associado-MSL.webp",
+      "https://edeltecsolar.com.br/img/selos/apoiamos_hospital_pequeno_principe.webp"
+    ],
+    "specifications": {},
+    "category": "outros",
+    "url": "https://edeltecsolar.com.br/produtos/produtos/geradores?marca=ZNSHINE+HJT+BIFACIAL&page=1",
+    "distributor": "edeltec",
+    "extractedAt": "2025-10-21T13:37:40.483Z"
+  }
+]

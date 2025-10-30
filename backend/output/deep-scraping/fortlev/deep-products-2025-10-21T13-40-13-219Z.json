@@ -1,0 +1,261 @@
+[
+  {
+    "id": "fortlev-1761053999152",
+    "sku": "fortlev-1761053999152",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 49856.68,
+    "pricePromo": 5.73,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://prod-platform-api.s3.amazonaws.com/components/68f624529776290050d564af/IMO00144.png",
+      "https://prod-platform-api.s3.amazonaws.com/components/68c4044876fc8cff81c3e9f6/imagem.png",
+      "https://prod-platform-api.s3.amazonaws.com/components/68c4044876fc8cff81c3e9f5/imagem.png"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:39:59.153Z"
+  },
+  {
+    "id": "20",
+    "sku": "20",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 7145.56,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7d7/IBT00001.png",
+      "https://fortlevsolar.app/statics/fortinho-thinking.webp"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso?nome=BATERIA%20GROWATT%20AXE%205.0L",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:40:00.861Z"
+  },
+  {
+    "id": "20",
+    "sku": "20",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://fortlevsolar.app/statics/fortinho-thinking.webp"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso?nome=DUTO%20CORRUGADO%20CONDUFORT%20PEAD%20DN%2040%20-%20NBR%20450N%20-%20(MULT.%2050M)",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:40:02.552Z"
+  },
+  {
+    "id": "20",
+    "sku": "20",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 3423.66,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7ec/ICV00002%20CARREGADOR%20VEICULAR%20WALLBOX%20GROWATT%20THOR07AS-P%20THO.png",
+      "https://fortlevsolar.app/statics/fortinho-thinking.webp"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso?nome=CARREGADOR%20VEICULAR%20WALLBOX%20GROWATT%20THOR07AS-P%20THO",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:40:04.248Z"
+  },
+  {
+    "id": "20",
+    "sku": "20",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 2811.46,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://prod-platform-api.s3.amazonaws.com/components/6687e304189963220c27c7ed/ICV00003%20CARREGADOR%20VEICULAR%20FOXESS%20A7300P1-E-2%20-%207,3%20KW.png",
+      "https://fortlevsolar.app/statics/fortinho-thinking.webp"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso?nome=CARREGADOR%20VEICULAR%20FOXESS%20A7300P1-E-2%20-%207,3%20KW",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:40:05.941Z"
+  },
+  {
+    "id": "20",
+    "sku": "20",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 864.88,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://prod-platform-api.s3.amazonaws.com/components/66966ed99afa5f57231d619e/caixa%20de%20passagem.png",
+      "https://fortlevsolar.app/statics/fortinho-thinking.webp"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso?nome=CAIXA%20DE%20PASSAGEM%20PRFV%20D%200,8%20H%200,8",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:40:07.640Z"
+  },
+  {
+    "id": "20",
+    "sku": "20",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://fortlevsolar.app/statics/fortinho-thinking.webp"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso?nome=CERCA%20DE%20ARAME%201,8MX20M%20(2.1MMX65X65MM)",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:40:09.335Z"
+  },
+  {
+    "id": "20",
+    "sku": "20",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://fortlevsolar.app/statics/fortinho-thinking.webp"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso?nome=CONCERTINA%20%20FIO%203.0MM%20-%20ROLO%20C/%2010MT",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:40:11.013Z"
+  },
+  {
+    "id": "20",
+    "sku": "20",
+    "title": "PRODUTOS",
+    "description": "",
+    "price": 0,
+    "currency": "BRL",
+    "stock": {
+      "available": false,
+      "status": "Indisponível"
+    },
+    "images": [
+      "https://fortlevsolar.app/statics/logo.png",
+      "https://fortlevsolar.app/statics/user-default-picture.png",
+      "https://fortlevsolar.app/statics/fortinho-thinking.webp"
+    ],
+    "specifications": {
+      "spec_1": "MONOFASICO 220V",
+      "spec_2": "BIFÁSICO 220V",
+      "spec_3": "TRIFÁSICO 220V",
+      "spec_4": "TRIFÁSICO 380V",
+      "spec_5": "TRIFÀSICO ACIMA DE 380V"
+    },
+    "category": "outros",
+    "url": "https://fortlevsolar.app/produto-avulso?nome=NEP%20DISPOSITIVO%20DE%20RSD%2020A%20P/%203%20M%C3%93DULO%20%E2%80%93%20PVG-3-20A-L%20(MC4)",
+    "distributor": "fortlev",
+    "extractedAt": "2025-10-21T13:40:12.707Z"
+  }
+]

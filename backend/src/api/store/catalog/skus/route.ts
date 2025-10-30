@@ -4,15 +4,26 @@ import {
     StoreGetCatalogSKUsParamsType,
 } from "../validators";
 import { UNIFIED_CATALOG_MODULE } from "../../../../modules/unified-catalog";
+import { dddCatalogHandlers } from "../../../../domains/catalog/interfaces/http/catalog-routes";
 
 /**
  * GET /store/catalog/skus
  * Lista SKUs com filtros avançados
+ * 
+ * Feature flag: CATALOG_DDD_ENABLED
+ * - true: Use new DDD/CQRS implementation with Redis cache
+ * - false: Use legacy Unified Catalog module
  */
 export const GET = async (
     req: MedusaRequest<StoreGetCatalogSKUsParamsType>,
     res: MedusaResponse
 ) => {
+    // Route to DDD implementation if feature flag enabled
+    if (dddCatalogHandlers.isEnabled) {
+        return dddCatalogHandlers.listSKUs(req, res);
+    }
+
+    // Legacy implementation (Unified Catalog)
     const catalogService = req.scope.resolve(UNIFIED_CATALOG_MODULE) as any;
 
     const validatedQuery = StoreGetCatalogSKUsParams.parse(req.query);

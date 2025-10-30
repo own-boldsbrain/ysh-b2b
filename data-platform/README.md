@@ -6,7 +6,7 @@
 
 ## 🏗️ Arquitetura
 
-```tsx
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │                         Fontes de Dados                         │
 │  Medusa • ANEEL APIs • NASA/PVGIS • Inmetro • S3/MinIO         │
@@ -87,7 +87,7 @@ docker-compose -f docker-compose.pathway.yml up -d
 
 ## 📦 Estrutura de Código
 
-```tsx
+```
 data-platform/
 ├── dagster/
 │   ├── Dockerfile

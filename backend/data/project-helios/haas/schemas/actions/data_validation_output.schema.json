@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ysh.dev/schemas/actions/data_validation_output.schema.json",
+  "title": "Resposta padrão de validação de dados",
+  "description": "Formato padronizado das respostas do DataExtractor",
+  "type": "object",
+  "required": [
+    "status"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "valid",
+        "invalid",
+        "simulated"
+      ]
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "message"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadados adicionais da validação",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

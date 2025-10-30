@@ -1,0 +1,274 @@
+# ============================================================================
+# YSH Data Pipeline - Enhanced Requirements
+# ============================================================================
+# High-performance solar product data extraction and Medusa sync
+# Version: 2.0.0
+# Date: October 19, 2025
+# ============================================================================
+
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+
+# Python version
+python-version>=3.11
+
+# Async runtime
+asyncio>=3.4.3
+aiohttp>=3.9.0
+aiobotocore>=2.7.0
+
+# ============================================================================
+# ORCHESTRATION & WORKFLOWS
+# ============================================================================
+
+# Apache Airflow
+apache-airflow==2.7.3
+apache-airflow-providers-postgres==5.7.1
+apache-airflow-providers-amazon==8.10.0
+apache-airflow-providers-celery==3.4.1
+apache-airflow-providers-redis==3.4.0
+
+# Celery for distributed tasks
+celery[redis]>=5.3.4
+flower>=2.0.1  # Celery monitoring
+
+# ============================================================================
+# WEB SCRAPING - HIGH PERFORMANCE
+# ============================================================================
+
+# Crawlee - Advanced web scraping framework
+crawlee[playwright]>=0.3.0
+playwright>=1.40.0
+
+# Additional scraping tools
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+requests>=2.31.0
+httpx>=0.25.0
+
+# ============================================================================
+# DATA PROCESSING - HIGH PERFORMANCE
+# ============================================================================
+
+# Polars - Lightning-fast dataframes (faster than pandas)
+polars>=0.19.0
+
+# Pandas for compatibility
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Data validation
+pydantic>=2.5.0
+pydantic[email]>=2.5.0
+
+# ============================================================================
+# DATABASE & STORAGE
+# ============================================================================
+
+# PostgreSQL
+psycopg2-binary>=2.9.9
+asyncpg>=0.29.0
+sqlalchemy>=2.0.23
+
+# Redis
+redis>=5.0.0
+redis-py-cluster>=2.1.3
+
+# S3/MinIO
+boto3>=1.28.0
+botocore>=1.31.0
+minio>=7.2.0
+
+# Vector DB
+qdrant-client>=1.7.0
+
+# ============================================================================
+# PDF & DOCUMENT PROCESSING
+# ============================================================================
+
+# PDF extraction
+pdfplumber>=0.10.0
+pypdf>=3.17.0
+PyMuPDF>=1.23.0  # fitz - faster PDF parsing
+
+# OCR & LaTeX
+pix2tex>=0.1.2  # LaTeX-OCR
+pdf2zh>=0.5.0   # PDFMathTranslate
+pytesseract>=0.3.10
+
+# ============================================================================
+# IMAGE PROCESSING
+# ============================================================================
+
+# Pillow for image manipulation
+Pillow>=10.1.0
+pillow-heif>=0.14.0  # HEIF/HEIC support
+
+# Image optimization
+pillow-avif-plugin>=1.4.0
+
+# ============================================================================
+# AI/ML - LOCAL & CLOUD
+# ============================================================================
+
+# OpenAI
+openai>=1.0.0
+
+# Ollama - Local LLM
+ollama>=0.1.0
+
+# LangChain for AI workflows
+langchain>=0.1.0
+langchain-community>=0.0.10
+
+# ============================================================================
+# AWS SERVICES
+# ============================================================================
+
+# AWS Lambda & SQS
+awslambda-toolkit>=0.5.0
+
+# AWS SDK
+aioboto3>=12.0.0
+
+# ============================================================================
+# MONITORING & OBSERVABILITY
+# ============================================================================
+
+# Prometheus client
+prometheus-client>=0.19.0
+
+# Logging
+python-json-logger>=2.0.7
+loguru>=0.7.2
+
+# Sentry for error tracking
+sentry-sdk>=1.39.0
+
+# ============================================================================
+# API & WEB FRAMEWORK
+# ============================================================================
+
+# FastAPI for REST API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+gunicorn>=21.2.0
+
+# API clients
+httpx>=0.25.0
+
+# ============================================================================
+# UTILITIES
+# ============================================================================
+
+# Environment & config
+python-dotenv>=1.0.0
+python-decouple>=3.8
+
+# Date/time
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Parsing & validation
+feedparser>=6.0.10
+validators>=0.22.0
+
+# Hashing & security
+hashlib3>=1.0.0
+cryptography>=41.0.7
+
+# JSON & serialization
+orjson>=3.9.10  # Fast JSON
+msgpack>=1.0.7
+
+# Rate limiting
+ratelimit>=2.2.1
+slowapi>=0.1.9
+
+# Retry logic
+tenacity>=8.2.3
+
+# ============================================================================
+# TESTING
+# ============================================================================
+
+# Testing framework
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Performance testing
+locust>=2.17.0
+
+# ============================================================================
+# DEVELOPMENT TOOLS
+# ============================================================================
+
+# Code quality
+black>=23.11.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.7.0
+
+# Documentation
+mkdocs>=1.5.3
+mkdocs-material>=9.4.0
+
+# Jupyter for data exploration
+jupyter>=1.0.0
+ipykernel>=6.26.0
+
+# ============================================================================
+# MEDUSA COMMERCE INTEGRATION
+# ============================================================================
+
+# Medusa JS SDK via TypeScript bridge (use subprocess)
+# Note: Primary integration via REST API (FastAPI)
+
+# ============================================================================
+# PERFORMANCE OPTIMIZATION
+# ============================================================================
+
+# Multiprocessing & concurrency
+multiprocess>=0.70.15
+joblib>=1.3.2
+
+# Memory profiling
+memory-profiler>=0.61.0
+
+# ============================================================================
+# SPECIFIC VERSIONS FOR STABILITY
+# ============================================================================
+
+# Pin critical versions
+urllib3==1.26.18  # Avoid version conflicts
+certifi>=2023.11.17
+charset-normalizer>=3.3.2
+idna>=3.6
+
+# ============================================================================
+# OPTIONAL - MACHINE LEARNING
+# ============================================================================
+
+# Uncomment if you need ML for image recognition
+# torch>=2.1.0
+# torchvision>=0.16.0
+# transformers>=4.35.0
+# scikit-learn>=1.3.2
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# 
+# Installation:
+#   pip install -r requirements.txt
+#
+# For production:
+#   pip install --no-cache-dir -r requirements.txt
+#
+# Update all:
+#   pip install --upgrade -r requirements.txt
+#
+# ============================================================================

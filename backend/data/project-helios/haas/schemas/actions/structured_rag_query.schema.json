@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ysh.dev/schemas/actions/structured_rag_query.schema.json",
+  "title": "Consulta Structured RAG",
+  "type": "object",
+  "required": [
+    "query"
+  ],
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "Termo de busca"
+    },
+    "namespace": {
+      "type": "string",
+      "description": "Namespace opcional (padrão aneel)"
+    },
+    "limit": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 5
+    }
+  },
+  "additionalProperties": false
+}

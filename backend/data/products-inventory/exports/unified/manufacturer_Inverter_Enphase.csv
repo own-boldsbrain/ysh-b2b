@@ -1,0 +1,7 @@
+﻿battery_capacity_kwh,battery_manufacturer,battery_quantity,battery_voltage_v,category,distributor,id,inverter_manufacturer,inverter_power_kw,inverter_quantity,name,panel_manufacturer,panel_power_w,panel_quantity,power_kwp,power_watts,price_brl,price_per_wp,total_batteries,total_inverters,total_panels,type
+,,,,kits,Fortlev,fortlev_kit_041,Enphase,,1,Kit 2.8kWp - Risen + Enphase,Risen,700,4,2.8,2800.0,6296.65,2.25,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_045,Enphase,,1,Kit 2.92kWp - Longi + Enphase,Longi,585,5,2.92,2920.0,6510.25,2.23,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_046,Enphase,,1,Kit 3.05kWp - Panel + Enphase,,,,3.05,3050.0,6511.42,2.13,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_050,Enphase,,1,Kit 3.15kWp - Longi + Enphase,Longi,630,5,3.15,3150.0,6811.6,2.16,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_080,Enphase,,1,Kit 3.18kWp - BYD + Enphase,BYD,530,6,3.18,3180.0,8660.46,2.72,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_104,Enphase,,1,Kit 3.45kWp - Panel + Enphase,,,,3.45,3450.0,10065.24,2.92,0,1,1,Solar Kit

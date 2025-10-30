@@ -1,0 +1,1052 @@
+{
+      "metadata": {
+            "generated_at": "2025-10-21T19:35:00.000Z",
+            "source": "AWS CDN - cdn.yellosolarhub.com",
+            "total_categories": 23,
+            "total_products_published": 1138,
+            "total_images_cdn": 1183,
+            "base_cdn_url": "https://cdn.yellosolarhub.com/products/",
+            "pricing_coverage": "100%",
+            "note": "Exemplos baseados no catálogo REAL publicado na AWS CloudFront CDN"
+      },
+      "categories": {
+            "inversores": {
+                  "description": "Inversores solares para conversão de energia DC para AC",
+                  "total_published": 372,
+                  "price_range": {
+                        "min_brl": 1200,
+                        "max_brl": 182250
+                  },
+                  "examples": [
+                        {
+                              "sku": "GOODWEGW250KHTIMAGEPRODUCT600142",
+                              "filename": "GOODWE-GW250K-HT_IMAGE_PRODUCT_600142.png",
+                              "category": "inversores",
+                              "manufacturer": "GOODWE",
+                              "model": "GW250K-HT",
+                              "power_w": 250000,
+                              "power_kw": 250,
+                              "type": "grid-tie",
+                              "phase": "trifásico",
+                              "voltage_v": 380,
+                              "price_brl": 182250.0,
+                              "price_per_kw": 729.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250K-HT_IMAGE_PRODUCT_600142.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "GOODWEGW250KHUTIMAGEPRODUCT600344",
+                              "filename": "GOODWE-GW250KH-UT_IMAGE_PRODUCT_600344.png",
+                              "category": "inversores",
+                              "manufacturer": "GOODWE",
+                              "model": "GW250KH-UT",
+                              "power_w": 250000,
+                              "power_kw": 250,
+                              "type": "grid-tie",
+                              "phase": "trifásico",
+                              "voltage_v": 380,
+                              "price_brl": 182250.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250KH-UT_IMAGE_PRODUCT_600344.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "112369",
+                              "filename": "112369.jpg",
+                              "category": "inversores",
+                              "manufacturer": null,
+                              "power_w": null,
+                              "price_brl": 2500.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/inversores/112369.jpg",
+                              "cdn_published": true,
+                              "size_bytes": 42129
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "model",
+                              "power_w",
+                              "power_kw",
+                              "type",
+                              "phase",
+                              "voltage_v",
+                              "mppt_count",
+                              "efficiency_percent",
+                              "warranty_years"
+                        ]
+                  }
+            },
+            "kits": {
+                  "description": "Kits solares completos (painéis + inversores + estruturas)",
+                  "total_published": 272,
+                  "price_range": {
+                        "min_brl": 2500,
+                        "max_brl": 7670500
+                  },
+                  "examples": [
+                        {
+                              "sku": "FOTUSKP021704KWPCERAMICOKITS",
+                              "filename": "FOTUS-KP02-1704kWp-Ceramico-kits.jpg",
+                              "category": "kits",
+                              "manufacturer": "FOTUS",
+                              "power_w": 1704000,
+                              "power_kwp": 1704,
+                              "structure_type": "ceramico",
+                              "system_type": "grid-tie",
+                              "price_brl": 7670500.0,
+                              "price_per_kwp": 4500.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Ceramico-kits.jpg",
+                              "cdn_published": true,
+                              "estimated_generation_kwh_month": 230040
+                        },
+                        {
+                              "sku": "FOTUSKP021704KWPFIBROCIMENTOKITS",
+                              "filename": "FOTUS-KP02-1704kWp-Fibrocimento-kits.jpg",
+                              "category": "kits",
+                              "manufacturer": "FOTUS",
+                              "power_w": 1704000,
+                              "power_kwp": 1704,
+                              "structure_type": "fibrocimento",
+                              "system_type": "grid-tie",
+                              "price_brl": 7670500.0,
+                              "price_per_kwp": 4500.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Fibrocimento-kits.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "FOTUSKP041596KWPCERAMICOKITS",
+                              "filename": "FOTUS-KP04-1596kWp-Ceramico-kits.jpg",
+                              "category": "kits",
+                              "manufacturer": "FOTUS",
+                              "power_w": 1596000,
+                              "power_kwp": 1596,
+                              "structure_type": "ceramico",
+                              "price_brl": 7184500.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP04-1596kWp-Ceramico-kits.jpg",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "power_kwp",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "structure_type",
+                              "system_type",
+                              "price_per_kwp",
+                              "estimated_generation_kwh_month",
+                              "components"
+                        ]
+                  }
+            },
+            "paineis": {
+                  "description": "Painéis/módulos solares fotovoltaicos",
+                  "total_published": 26,
+                  "price_range": {
+                        "min_brl": 490,
+                        "max_brl": 1200
+                  },
+                  "examples": [
+                        {
+                              "sku": "215563",
+                              "filename": "215563.jpg",
+                              "category": "paineis",
+                              "power_w": null,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/paineis/215563.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "289244",
+                              "filename": "289244.jpg",
+                              "category": "paineis",
+                              "power_w": null,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/paineis/289244.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "PAINELBYDBYD530WMLK36530W",
+                              "filename": "PAINEL-BYD-BYD-530W-MLK-36---530W.png",
+                              "category": "paineis",
+                              "manufacturer": "BYD",
+                              "model": "MLK-36",
+                              "power_w": 530,
+                              "cell_type": "monocrystalline",
+                              "price_brl": 1200.0,
+                              "price_per_wp": 2.26,
+                              "image_url": "https://cdn.yellosolarhub.com/products/BYD/PAINEL-BYD-BYD-530W-MLK-36---530W.png",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "model",
+                              "power_w",
+                              "cell_type",
+                              "efficiency_percent",
+                              "dimensions_mm",
+                              "weight_kg",
+                              "warranty_years"
+                        ]
+                  }
+            },
+            "baterias": {
+                  "description": "Baterias para armazenamento de energia solar",
+                  "total_published": 3,
+                  "price_range": {
+                        "min_brl": 4500,
+                        "max_brl": 18500
+                  },
+                  "examples": [
+                        {
+                              "sku": "IMAGEPRODUCT000607",
+                              "filename": "IMAGE_PRODUCT_000607.jpg",
+                              "category": "baterias",
+                              "manufacturer": "GOODWE",
+                              "model": "LX F3.2-20",
+                              "technology": "LFP",
+                              "capacity_kwh": 3.2,
+                              "voltage_v": 48,
+                              "price_brl": 4500.0,
+                              "price_per_kwh": 1406.25,
+                              "image_url": "https://cdn.yellosolarhub.com/products/baterias/IMAGE_PRODUCT_000607.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IMAGEPRODUCT000612",
+                              "filename": "IMAGE_PRODUCT_000612.jpg",
+                              "category": "baterias",
+                              "technology": "LFP",
+                              "price_brl": 4500.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/baterias/IMAGE_PRODUCT_000612.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IMAGEPRODUCT850004",
+                              "filename": "IMAGE_PRODUCT_850004.png",
+                              "category": "baterias",
+                              "price_brl": 4500.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/baterias/IMAGE_PRODUCT_850004.png",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "model",
+                              "technology",
+                              "capacity_kwh",
+                              "capacity_ah",
+                              "voltage_v",
+                              "cycle_life",
+                              "dod_percent",
+                              "form_factor",
+                              "warranty_years"
+                        ]
+                  }
+            },
+            "estruturas": {
+                  "description": "Estruturas de fixação para painéis solares",
+                  "total_published": 28,
+                  "price_range": {
+                        "min_brl": 850,
+                        "max_brl": 1650
+                  },
+                  "examples": [
+                        {
+                              "sku": "124358",
+                              "filename": "124358.jpg",
+                              "category": "estruturas",
+                              "roof_type": null,
+                              "price_brl": 850.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/estruturas/124358.jpg",
+                              "cdn_published": true,
+                              "size_bytes": 224554
+                        },
+                        {
+                              "sku": "313801",
+                              "filename": "313801.jpg",
+                              "category": "estruturas",
+                              "manufacturer": "Solar Group",
+                              "roof_type": "fibrocimento",
+                              "size": "grande",
+                              "price_brl": 850.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/estruturas/313801.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "313834",
+                              "filename": "313834.jpg",
+                              "category": "estruturas",
+                              "manufacturer": "Solar Group",
+                              "roof_type": "fibrocimento",
+                              "size": "pequeno",
+                              "price_brl": 850.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/estruturas/313834.jpg",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "roof_type",
+                              "size",
+                              "material",
+                              "max_panels",
+                              "inclination_angle",
+                              "load_capacity_kg",
+                              "warranty_years"
+                        ]
+                  }
+            },
+            "stringboxes": {
+                  "description": "String boxes / caixas de junção para proteção do sistema solar",
+                  "total_published": 14,
+                  "price_range": {
+                        "min_brl": 850,
+                        "max_brl": 1200
+                  },
+                  "examples": [
+                        {
+                              "sku": "192068",
+                              "filename": "192068.jpg",
+                              "category": "stringboxes",
+                              "manufacturer": "Clamper",
+                              "input_count": null,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/stringboxes/192068.jpg",
+                              "cdn_published": true,
+                              "size_bytes": 65217
+                        },
+                        {
+                              "sku": "SKU12298012298017544826815777105",
+                              "filename": "sku_122980_122980-17544826815777105.jpeg",
+                              "category": "stringboxes",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/stringboxes/sku_122980_122980-17544826815777105.jpeg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "SKU13598513598517544833546238906",
+                              "filename": "sku_135985_135985-17544833546238906.jpeg",
+                              "category": "stringboxes",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/stringboxes/sku_135985_135985-17544833546238906.jpeg",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "input_count",
+                              "output_count",
+                              "voltage_rating",
+                              "current_rating",
+                              "protection_type",
+                              "ip_rating",
+                              "certifications"
+                        ]
+                  }
+            },
+            "cabos": {
+                  "description": "Cabos elétricos para instalação solar",
+                  "total_published": 49,
+                  "price_range": {
+                        "min_brl": 180,
+                        "max_brl": 280
+                  },
+                  "examples": [
+                        {
+                              "sku": "IMAGEPRODUCT052113",
+                              "filename": "IMAGE_PRODUCT_052113.png",
+                              "category": "cabos",
+                              "gauge_mm2": null,
+                              "price_brl": 180.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052113.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IMAGEPRODUCT052115",
+                              "filename": "IMAGE_PRODUCT_052115.jpg",
+                              "category": "cabos",
+                              "voltage_rating": "1kV",
+                              "gauge_mm2": null,
+                              "price_brl": 180.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052115.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IMAGEPRODUCT052117",
+                              "filename": "IMAGE_PRODUCT_052117.jpg",
+                              "category": "cabos",
+                              "price_brl": 180.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052117.jpg",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "voltage_rating",
+                              "gauge_mm2",
+                              "color",
+                              "length_m",
+                              "type",
+                              "temperature_rating",
+                              "certifications"
+                        ]
+                  }
+            },
+            "carregadores": {
+                  "description": "Carregadores de veículos elétricos e sistemas de carga",
+                  "total_published": 81,
+                  "price_range": {
+                        "min_brl": 1200,
+                        "max_brl": 5000
+                  },
+                  "examples": [
+                        {
+                              "sku": "NEOSOLARCHARGERS20031",
+                              "filename": "NEOSOLAR_CHARGERS_20031.jpg",
+                              "category": "carregadores",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/carregadores/NEOSOLAR_CHARGERS_20031.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "NEOSOLARCHARGERS20034",
+                              "filename": "NEOSOLAR_CHARGERS_20034.jpg",
+                              "category": "carregadores",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/carregadores/NEOSOLAR_CHARGERS_20034.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "NEOSOLARCHARGERS20035",
+                              "filename": "NEOSOLAR_CHARGERS_20035.jpg",
+                              "category": "carregadores",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/carregadores/NEOSOLAR_CHARGERS_20035.jpg",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "distributor",
+                              "power_kw",
+                              "connector_type",
+                              "voltage_v",
+                              "current_a",
+                              "smart_features"
+                        ]
+                  }
+            },
+            "controladores": {
+                  "description": "Controladores de carga para sistemas off-grid",
+                  "total_published": 53,
+                  "price_range": {
+                        "min_brl": 180,
+                        "max_brl": 1200
+                  },
+                  "examples": [
+                        {
+                              "sku": "NEOSOLARCONTROLLERS20055",
+                              "filename": "NEOSOLAR_CONTROLLERS_20055.jpg",
+                              "category": "controladores",
+                              "distributor": "NeoSolar",
+                              "type": "MPPT",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/controladores/NEOSOLAR_CONTROLLERS_20055.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "NEOSOLARCONTROLLERS20056",
+                              "filename": "NEOSOLAR_CONTROLLERS_20056.jpg",
+                              "category": "controladores",
+                              "distributor": "NeoSolar",
+                              "type": "MPPT",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/controladores/NEOSOLAR_CONTROLLERS_20056.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "NEOSOLARCONTROLLERS20057",
+                              "filename": "NEOSOLAR_CONTROLLERS_20057.jpg",
+                              "category": "controladores",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/controladores/NEOSOLAR_CONTROLLERS_20057.jpg",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "distributor",
+                              "type",
+                              "current_rating",
+                              "voltage_system",
+                              "max_pv_voltage",
+                              "efficiency_percent"
+                        ]
+                  }
+            },
+            "acessorios": {
+                  "description": "Acessórios diversos para instalação solar",
+                  "total_published": 6,
+                  "price_range": {
+                        "min_brl": 850,
+                        "max_brl": 1200
+                  },
+                  "examples": [
+                        {
+                              "sku": "IMAGE",
+                              "filename": "image.png",
+                              "category": "acessorios",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/acessorios/image.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IMAGEPRODUCT450083",
+                              "filename": "IMAGE_PRODUCT_450083.png",
+                              "category": "acessorios",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/acessorios/IMAGE_PRODUCT_450083.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IMAGEPRODUCT450094",
+                              "filename": "IMAGE_PRODUCT_450094.png",
+                              "category": "acessorios",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/acessorios/IMAGE_PRODUCT_450094.png",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "type",
+                              "sub_type",
+                              "description",
+                              "quantity_pack",
+                              "material"
+                        ]
+                  }
+            },
+            "estacoes": {
+                  "description": "Estações de carregamento e sistemas de energia portáteis",
+                  "total_published": 19,
+                  "price_range": {
+                        "min_brl": 1200,
+                        "max_brl": 5000
+                  },
+                  "examples": [
+                        {
+                              "sku": "NEOSOLARSTATIONS20077",
+                              "filename": "NEOSOLAR_STATIONS_20077.jpg",
+                              "category": "estacoes",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/estacoes/NEOSOLAR_STATIONS_20077.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "NEOSOLARSTATIONS20078",
+                              "filename": "NEOSOLAR_STATIONS_20078.jpg",
+                              "category": "estacoes",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/estacoes/NEOSOLAR_STATIONS_20078.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "NEOSOLARSTATIONS20121",
+                              "filename": "NEOSOLAR_STATIONS_20121.jpg",
+                              "category": "estacoes",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/estacoes/NEOSOLAR_STATIONS_20121.jpg",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "distributor",
+                              "capacity_wh",
+                              "output_ports",
+                              "solar_input_w",
+                              "weight_kg"
+                        ]
+                  }
+            },
+            "postes": {
+                  "description": "Postes e suportes para iluminação solar",
+                  "total_published": 9,
+                  "price_range": {
+                        "min_brl": 1200,
+                        "max_brl": 3500
+                  },
+                  "examples": [
+                        {
+                              "sku": "NEOSOLARPOSTS23327",
+                              "filename": "NEOSOLAR_POSTS_23327.jpg",
+                              "category": "postes",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/postes/NEOSOLAR_POSTS_23327.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "NEOSOLARPOSTS23586",
+                              "filename": "NEOSOLAR_POSTS_23586.jpg",
+                              "category": "postes",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/postes/NEOSOLAR_POSTS_23586.jpg",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "NEOSOLARPOSTS23587",
+                              "filename": "NEOSOLAR_POSTS_23587.jpg",
+                              "category": "postes",
+                              "distributor": "NeoSolar",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/postes/NEOSOLAR_POSTS_23587.jpg",
+                              "cdn_published": true
+                        }
+                  ],
+                  "common_fields": {
+                        "required": [
+                              "sku",
+                              "category",
+                              "image_url",
+                              "price_brl"
+                        ],
+                        "optional": [
+                              "manufacturer",
+                              "distributor",
+                              "height_m",
+                              "material",
+                              "light_power_w",
+                              "battery_included"
+                        ]
+                  }
+            },
+            "GOODWE": {
+                  "description": "Produtos da marca GOODWE (inversores de alta potência)",
+                  "total_published": 20,
+                  "manufacturer": "GOODWE",
+                  "price_range": {
+                        "min_brl": 1200,
+                        "max_brl": 182250
+                  },
+                  "examples": [
+                        {
+                              "sku": "GOODWEGW250KHTIMAGEPRODUCT600142",
+                              "filename": "GOODWE-GW250K-HT_IMAGE_PRODUCT_600142.png",
+                              "category": "inversores",
+                              "manufacturer": "GOODWE",
+                              "model": "GW250K-HT",
+                              "power_w": 250000,
+                              "price_brl": 182250.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250K-HT_IMAGE_PRODUCT_600142.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "GOODWEGW250KHUTIMAGEPRODUCT600344",
+                              "filename": "GOODWE-GW250KH-UT_IMAGE_PRODUCT_600344.png",
+                              "category": "inversores",
+                              "manufacturer": "GOODWE",
+                              "model": "GW250KH-UT",
+                              "power_w": 250000,
+                              "price_brl": 182250.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250KH-UT_IMAGE_PRODUCT_600344.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "GOODWEGW250KNHTIMAGE",
+                              "filename": "GOODWE-GW250KN-HT_image.png",
+                              "category": "inversores",
+                              "manufacturer": "GOODWE",
+                              "model": "GW250KN-HT",
+                              "power_w": 250000,
+                              "price_brl": 182250.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250KN-HT_image.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "GROWATT": {
+                  "description": "Produtos da marca GROWATT (inversores)",
+                  "total_published": 9,
+                  "manufacturer": "GROWATT",
+                  "price_range": {
+                        "min_brl": 1200,
+                        "max_brl": 35000
+                  },
+                  "examples": [
+                        {
+                              "sku": "GROWATTMIC3000TLX2220V1MPPT",
+                              "filename": "GROWATT-MIC-3000TL-X2-220V-1MPPT.png",
+                              "category": "inversores",
+                              "manufacturer": "GROWATT",
+                              "model": "MIC-3000TL-X2",
+                              "voltage_v": 220,
+                              "mppt_count": 1,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/GROWATT/GROWATT-MIC-3000TL-X2-220V-1MPPT.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "GROWATTMID40KTL3X2380V4MPPTV2",
+                              "filename": "GROWATT-MID40KTL3-X2---380V---4MPPT_v2.png",
+                              "category": "inversores",
+                              "manufacturer": "GROWATT",
+                              "model": "MID40KTL3-X2",
+                              "power_w": 40000,
+                              "voltage_v": 380,
+                              "mppt_count": 4,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/GROWATT/GROWATT-MID40KTL3-X2---380V---4MPPT_v2.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "SUNGROW": {
+                  "description": "Produtos da marca SUNGROW (inversores)",
+                  "total_published": 8,
+                  "manufacturer": "SUNGROW",
+                  "price_range": {
+                        "min_brl": 1200,
+                        "max_brl": 65000
+                  },
+                  "examples": [
+                        {
+                              "sku": "SUNGROWSG15RTP2AFCI380V2MPPT201",
+                              "filename": "SUNGROW-SG15RT-P2-(AFCI)---380V---2MPPT%201.png",
+                              "category": "inversores",
+                              "manufacturer": "SUNGROW",
+                              "model": "SG15RT-P2",
+                              "voltage_v": 380,
+                              "mppt_count": 2,
+                              "features": [
+                                    "AFCI"
+                              ],
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/SUNGROW/SUNGROW-SG15RT-P2-(AFCI)---380V---2MPPT%201.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "SUNGROWSG20RTP2AFCI380V2MPPT",
+                              "filename": "SUNGROW-SG20RT-P2-(AFCI)-380V-2MPPT.png",
+                              "category": "inversores",
+                              "manufacturer": "SUNGROW",
+                              "model": "SG20RT-P2",
+                              "voltage_v": 380,
+                              "mppt_count": 2,
+                              "features": [
+                                    "AFCI"
+                              ],
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/SUNGROW/SUNGROW-SG20RT-P2-(AFCI)-380V-2MPPT.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "HUAWEI": {
+                  "description": "Produtos da marca HUAWEI (inversores de alta potência)",
+                  "total_published": 1,
+                  "manufacturer": "HUAWEI",
+                  "examples": [
+                        {
+                              "sku": "IIN00316HUAWEISUN2000100KTLM2380V10MPPT",
+                              "filename": "IIN00316-HUAWEI-SUN2000-100KTL-M2-380V-10MPPT.png",
+                              "category": "inversores",
+                              "manufacturer": "HUAWEI",
+                              "model": "SUN2000-100KTL-M2",
+                              "power_w": 100000,
+                              "power_kw": 100,
+                              "voltage_v": 380,
+                              "mppt_count": 10,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/HUAWEI/IIN00316-HUAWEI-SUN2000-100KTL-M2-380V-10MPPT.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "ENPHASE": {
+                  "description": "Produtos da marca ENPHASE (microinversores e acessórios)",
+                  "total_published": 2,
+                  "manufacturer": "ENPHASE",
+                  "examples": [
+                        {
+                              "sku": "ENPHASEIQRELAYLLBR",
+                              "filename": "ENPHASE-IQ-RELAY-LL-BR.png",
+                              "category": "acessorios",
+                              "manufacturer": "ENPHASE",
+                              "model": "IQ-RELAY-LL-BR",
+                              "type": "relay",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/ENPHASE/ENPHASE-IQ-RELAY-LL-BR.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "ENPHASEIQB",
+                              "filename": "Enphase-IQB.png",
+                              "category": "acessorios",
+                              "manufacturer": "ENPHASE",
+                              "model": "IQB",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/ENPHASE/Enphase-IQB.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "LONGI": {
+                  "description": "Produtos da marca LONGI (painéis solares)",
+                  "total_published": 2,
+                  "manufacturer": "LONGI",
+                  "examples": [
+                        {
+                              "sku": "LONGI585W",
+                              "filename": "LONGI-585W.png",
+                              "category": "paineis",
+                              "manufacturer": "LONGI",
+                              "power_w": 585,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/LONGI/LONGI-585W.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "LONGI630WPV2",
+                              "filename": "LONGI-630Wp_v2.png",
+                              "category": "paineis",
+                              "manufacturer": "LONGI",
+                              "power_w": 630,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/LONGI/LONGI-630Wp_v2.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "BYD": {
+                  "description": "Produtos da marca BYD (painéis solares)",
+                  "total_published": 1,
+                  "manufacturer": "BYD",
+                  "examples": [
+                        {
+                              "sku": "PAINELBYDBYD530WMLK36530W",
+                              "filename": "PAINEL-BYD-BYD-530W-MLK-36---530W.png",
+                              "category": "paineis",
+                              "manufacturer": "BYD",
+                              "model": "MLK-36",
+                              "power_w": 530,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/BYD/PAINEL-BYD-BYD-530W-MLK-36---530W.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "RISEN": {
+                  "description": "Produtos da marca RISEN (painéis solares)",
+                  "total_published": 1,
+                  "manufacturer": "RISEN",
+                  "examples": [
+                        {
+                              "sku": "RISEN700W",
+                              "filename": "RISEN-700W.png",
+                              "category": "paineis",
+                              "manufacturer": "RISEN",
+                              "power_w": 700,
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/RISEN/RISEN-700W.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "FORTLEV": {
+                  "description": "Produtos da distribuição FORTLEV (componentes diversos)",
+                  "total_published": 124,
+                  "distributor": "FORTLEV",
+                  "price_range": {
+                        "min_brl": 1200,
+                        "max_brl": 3000
+                  },
+                  "examples": [
+                        {
+                              "sku": "IIN00021",
+                              "filename": "IIN00021.png",
+                              "category": "componentes",
+                              "distributor": "FORTLEV",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/FORTLEV/IIN00021.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IIN00033",
+                              "filename": "IIN00033.png",
+                              "category": "componentes",
+                              "distributor": "FORTLEV",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/FORTLEV/IIN00033.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IIN00034",
+                              "filename": "IIN00034.png",
+                              "category": "componentes",
+                              "distributor": "FORTLEV",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/FORTLEV/IIN00034.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "GENERIC-COMPONENTS": {
+                  "description": "Componentes genéricos e acessórios diversos",
+                  "total_published": 3,
+                  "examples": [
+                        {
+                              "sku": "CORRUGADO",
+                              "filename": "corrugado.png",
+                              "category": "acessorios",
+                              "type": "tubo_corrugado",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/GENERIC-COMPONENTS/corrugado.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "DUTOCORRUGADO",
+                              "filename": "duto_corrugado.png",
+                              "category": "acessorios",
+                              "type": "duto_corrugado",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/GENERIC-COMPONENTS/duto_corrugado.png",
+                              "cdn_published": true
+                        }
+                  ]
+            },
+            "UNKNOWN-MANUFACTURER": {
+                  "description": "Produtos sem fabricante identificado",
+                  "total_published": 54,
+                  "examples": [
+                        {
+                              "sku": "CAIXA20DE20PASSAGEM",
+                              "filename": "caixa%20de%20passagem.png",
+                              "category": "acessorios",
+                              "type": "caixa_passagem",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/UNKNOWN-MANUFACTURER/caixa%20de%20passagem.png",
+                              "cdn_published": true
+                        },
+                        {
+                              "sku": "IBT00001",
+                              "filename": "IBT00001.png",
+                              "category": "componentes",
+                              "price_brl": 1200.0,
+                              "image_url": "https://cdn.yellosolarhub.com/products/UNKNOWN-MANUFACTURER/IBT00001.png",
+                              "cdn_published": true
+                        }
+                  ]
+            }
+      },
+      "cdn_stats": {
+            "total_images_published": 1183,
+            "total_skus_published": 1138,
+            "pricing_coverage": "100%",
+            "pricing_methods": {
+                  "direct_match": 0,
+                  "similar_match": 30,
+                  "estimated": 1108
+            },
+            "total_catalog_value_brl": 577872630.1,
+            "avg_product_price_brl": 507796.69,
+            "price_range": {
+                  "min_brl": 180,
+                  "max_brl": 7670500
+            }
+      },
+      "access_examples": {
+            "inversor_250kw": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250K-HT_IMAGE_PRODUCT_600142.png",
+            "kit_1704kwp": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Ceramico-kits.jpg",
+            "painel_530w": "https://cdn.yellosolarhub.com/products/BYD/PAINEL-BYD-BYD-530W-MLK-36---530W.png",
+            "bateria_3kwh": "https://cdn.yellosolarhub.com/products/baterias/IMAGE_PRODUCT_000607.jpg",
+            "estrutura": "https://cdn.yellosolarhub.com/products/estruturas/313801.jpg",
+            "stringbox": "https://cdn.yellosolarhub.com/products/stringboxes/192068.jpg",
+            "cabo": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052113.png"
+      }
+}

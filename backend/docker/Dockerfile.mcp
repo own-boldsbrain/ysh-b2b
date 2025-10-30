@@ -1,0 +1,25 @@
+# Dockerfile para MCP Server (Model Context Protocol)
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install dependencies
+RUN pip install --no-cache-dir \
+      fastapi \
+      uvicorn \
+      google-generativeai \
+      openai \
+      python-dotenv \
+      pydantic
+
+# Copy MCP configuration and prompts
+COPY ./docs/ai-ml /app/prompts
+
+# Create MCP server script
+COPY ./scripts/mcp_server.py /app/
+
+# Expose MCP server port
+EXPOSE 8000
+
+# Run MCP server
+CMD ["uvicorn", "mcp_server:app", "--host", "0.0.0.0", "--port", "8000"]

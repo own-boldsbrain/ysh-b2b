@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*$py.class
+
+# Python environments
+.env
+.venv
+env/
+ENV/
+venv/
+.Python
+
+# Tool caches
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# Packaging / build
+build/
+dist/
+wheelhouse/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Swe-agent artifacts
+.swe/
+swe-output/
+
+# Logs
+logs/
+*.log
+
+# Node / frontend
+node_modules/
+.npm/
+*.tsbuildinfo
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Local binaries / archives
+haas/terraform.exe
+haas/terraform.zip
+
+# Docker
+*.localstack
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local cache directories
+.cache/
+
+# Datasets
+aneel_datasets/

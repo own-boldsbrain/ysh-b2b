@@ -1,0 +1,22 @@
+{
+  "certificateArn": "arn:aws:acm:us-east-1:773235999227:certificate/a8424071-ef10-42f1-b2fa-d5adaa25dd27",
+  "domain": "cdn.yellosolarhub.com",
+  "status": "ISSUED",
+  "requestedAt": "2025-10-21T17:05:00.641Z",
+  "validationRecords": [
+    {
+      "domain": "cdn.yellosolarhub.com",
+      "type": "CNAME",
+      "name": "_34a2ace4ff26ee3344f6743b5790f1b6.cdn.yellosolarhub.com.",
+      "value": "_ed60f5c71ff8539c1f1fc6f85c68b55d.xlfgrmvvlj.acm-validations.aws."
+    },
+    {
+      "domain": "*.cdn.yellosolarhub.com",
+      "type": "CNAME",
+      "name": "_34a2ace4ff26ee3344f6743b5790f1b6.cdn.yellosolarhub.com.",
+      "value": "_ed60f5c71ff8539c1f1fc6f85c68b55d.xlfgrmvvlj.acm-validations.aws."
+    }
+  ],
+  "lastChecked": "2025-10-21T17:10:33.596Z",
+  "issuedAt": "2025-10-21T17:09:26.205Z"
+}

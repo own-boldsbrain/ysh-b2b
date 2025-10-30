@@ -515,37 +515,127 @@ Apenas JSON."""
 
 class SearchAgent:
     """
-    Search Agent: Performs incremental web search for missing data
-    Note: Actual web search would require API integration
+    Search Agent: Intelligent multi-layer fallback search
+
+    Architecture:
+    1. RAG (TF-IDF local KB) - Primary, fastest
+    2. SearxNG (FOSS multi-engine) - Secondary
+    3. Ollama (LLM inference) - Tertiary, slowest
     """
-    
-    def __init__(self):
+
+    def __init__(self, kb_dir: str = "../output/knowledge_bases"):
         self.name = "🔍 Search"
-    
+        self._orchestrator = None
+        self._kb_dir = kb_dir
+
+    def _get_orchestrator(self):
+        """Lazy load orchestrator to avoid circular imports."""
+        if self._orchestrator is None:
+            try:
+                from intelligent_fallback_orchestrator import (
+                    IntelligentFallbackOrchestrator,
+                )
+
+                self._orchestrator = IntelligentFallbackOrchestrator(
+                    kb_dir=self._kb_dir,
+                    circuit_threshold=5,
+                    enable_adaptive=True,
+                )
+            except ImportError as e:
+                print(f"⚠️  Fallback orchestrator não disponível: {e}")
+                return None
+        return self._orchestrator
+
     def search(self, memory: ProductMemory) -> List[Dict[str, Any]]:
-        """Search for missing product data"""
-        
-        # Stub implementation
-        # In production, this would use:
-        # - Google Search API
-        # - Manufacturer websites
-        # - Datasheet databases
-        
+        """Search for missing product data using intelligent fallback."""
+
         manufacturer = memory.enriched_data.get('manufacturer', '')
         model = memory.enriched_data.get('model', '')
-        
+        base_domain = memory.enriched_data.get("website", "")
+
         if not manufacturer or not model:
-            return []
-        
-        # Simulate search results
-        return [
-            {
-                'query': f'{manufacturer} {model} datasheet',
-                'type': 'datasheet_search',
-                'status': 'simulated',
-                '_agent': self.name
-            }
+            return [
+                {
+                    "status": "skipped",
+                    "reason": "Missing manufacturer or model",
+                    "_agent": self.name,
+                }
+            ]
+
+        orchestrator = self._get_orchestrator()
+        if not orchestrator:
+            return [
+                {
+                    "status": "fallback_unavailable",
+                    "reason": "Orchestrator not initialized",
+                    "_agent": self.name,
+                }
+            ]
+
+        # Build search queries
+        queries = [
+            model,
+            f"{manufacturer} {model}",
+            f"{model} datasheet",
         ]
+
+        # Infer base domain if not provided
+        if not base_domain:
+            base_domain = self._infer_domain(manufacturer)
+
+        try:
+            result = orchestrator.search(
+                manufacturer=manufacturer.upper(),
+                product_name=model,
+                base_domain=base_domain,
+                queries=queries,
+                product_context=memory.enriched_data.get("description", ""),
+            )
+
+            if result:
+                return [
+                    {
+                        "url": result.url,
+                        "score": result.score,
+                        "layer": result.layer.value,
+                        "metadata": result.metadata,
+                        "status": "success",
+                        "_agent": self.name,
+                    }
+                ]
+            else:
+                return [
+                    {
+                        "status": "not_found",
+                        "queries_attempted": queries,
+                        "_agent": self.name,
+                    }
+                ]
+
+        except Exception as e:
+            return [{"status": "error", "error": str(e), "_agent": self.name}]
+
+    def _infer_domain(self, manufacturer: str) -> str:
+        """Infer manufacturer website domain."""
+        domain_map = {
+            "JINKO": "https://jinkosolar.com",
+            "DEYE": "https://www.deyeinverter.com",
+            "GROWATT": "https://www.growatt.com",
+            "CANADIAN": "https://www.canadiansolar.com",
+            "FRONIUS": "https://www.fronius.com",
+            "HUAWEI": "https://solar.huawei.com",
+            "SUNGROW": "https://www.sungrowpower.com",
+        }
+        return domain_map.get(
+            manufacturer.upper(), f"https://{manufacturer.lower()}.com"
+        )
+
+    def get_metrics(self) -> Dict[str, Any]:
+        """Get search metrics from orchestrator."""
+        orchestrator = self._get_orchestrator()
+        if orchestrator:
+            return orchestrator.get_metrics()
+        return {}
 
 
 # ============================================================================

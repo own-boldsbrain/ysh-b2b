@@ -1,0 +1,106 @@
+# Core Python Dependencies for YSH Solar B2B Project
+# Image Scraping & AI Automation System
+
+# ============================================
+# AI & Machine Learning
+# ============================================
+google-generativeai>=0.8.0  # Gemini API
+openai>=1.50.0  # GPT-4, Codex
+anthropic>=0.8.0  # Claude (optional)
+tiktoken>=0.5.2  # Token counting for OpenAI
+
+# Multi-Agent Frameworks
+crewai>=0.80.0  # CrewAI para agentes colaborativos
+crewai-tools>=0.12.0  # Ferramentas para CrewAI
+langchain>=0.3.0  # LangChain core
+langchain-community>=0.3.0  # Integrações LangChain
+langchain-google-genai>=2.0.0  # Gemini no LangChain
+langchain-openai>=0.2.0  # OpenAI no LangChain
+langchain-ollama>=0.2.0  # Ollama local models
+mastra>=0.1.0  # Framework de agentes moderno
+
+# ============================================
+# Web Scraping & Browser Automation
+# ============================================
+playwright>=1.40.0
+selenium>=4.16.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+requests>=2.31.0
+httpx>=0.25.0
+
+# ============================================
+# Image Processing
+# ============================================
+Pillow>=10.1.0
+opencv-python-headless>=4.8.0
+imagehash>=4.3.1  # Duplicate detection
+
+# ============================================
+# Data Processing
+# ============================================
+pandas>=2.1.0
+numpy>=1.24.0
+pathway>=0.7.0  # Real-time processing
+pydantic>=2.10.0  # Validação de dados estruturados
+pydantic-settings>=2.6.0  # Settings com Pydantic
+
+# ============================================
+# Pipeline Orchestration
+# ============================================
+dagster>=1.5.0
+dagster-webserver>=1.5.0
+dagster-postgres>=0.21.0
+dagster-docker>=0.21.0
+
+# ============================================
+# Database & Storage
+# ============================================
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+redis>=5.0.0
+alembic>=1.13.0  # Database migrations
+
+# ============================================
+# Facebook Marketing API
+# ============================================
+facebook-business>=18.0.0
+
+# ============================================
+# Web Framework (para MCP server)
+# ============================================
+fastapi>=0.108.0
+uvicorn>=0.25.0
+pydantic>=2.5.0
+
+# ============================================
+# Utilities
+# ============================================
+python-dotenv>=1.0.0
+tenacity>=8.2.0  # Retry logic
+tqdm>=4.66.0  # Progress bars
+loguru>=0.7.0  # Better logging
+pyyaml>=6.0.0
+python-dateutil>=2.8.0
+
+# ============================================
+# Monitoring & Observability
+# ============================================
+prometheus-client>=0.19.0
+sentry-sdk>=1.39.0
+
+# ============================================
+# Testing (Development)
+# ============================================
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+faker>=22.0.0
+
+# ============================================
+# Code Quality (Development)
+# ============================================
+black>=23.12.0
+flake8>=7.0.0
+mypy>=1.7.0
+isort>=5.13.0

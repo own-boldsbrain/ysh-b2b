@@ -1,0 +1,12 @@
+{
+  "totalExtracted": 20,
+  "totalAvailable": 20,
+  "categories": {
+    "bateria": 3,
+    "bomba": 7,
+    "cabo": 10
+  },
+  "startTime": 1761047499196,
+  "endTime": 1761047502273,
+  "duration": 3.077
+}

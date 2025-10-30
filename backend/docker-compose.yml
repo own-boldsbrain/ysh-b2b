@@ -1,42 +1,40 @@
-# ==========================================
-# Docker Compose - YSH Backend Development
-# Ambiente completo para desenvolvimento local
-# ==========================================
+# YSH Solar B2B - Docker Compose Configuration
+# Sistema Integrado de Captura de Imagens e Gestão de Catálogo
 
-version: "3.9"
+version: '3.8'
 
 services:
-  # PostgreSQL Database
+  # ============================================
+  # PostgreSQL - Database Principal
+  # ============================================
   postgres:
     image: postgres:15-alpine
     container_name: ysh-postgres
-    restart: unless-stopped
-    ports:
-      - "5432:5432"
     environment:
-      POSTGRES_USER: yshuser
-      POSTGRES_PASSWORD: yshpass
-      POSTGRES_DB: yshdb
-      POSTGRES_INITDB_ARGS: "-E UTF8 --locale=en_US.UTF-8"
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ysh_solar
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./init-scripts:/docker-entrypoint-initdb.d:ro
+      - ./init-scripts:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U yshuser -d yshdb"]
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 10s
       timeout: 5s
       retries: 5
     networks:
       - ysh-network
 
-  # Redis Cache
+  # ============================================
+  # Redis - Cache e Message Queue
+  # ============================================
   redis:
     image: redis:7-alpine
     container_name: ysh-redis
-    restart: unless-stopped
     ports:
       - "6379:6379"
-    command: redis-server --appendonly yes --maxmemory 512mb --maxmemory-policy allkeys-lru
     volumes:
       - redis_data:/data
     healthcheck:
@@ -47,98 +45,202 @@ services:
     networks:
       - ysh-network
 
-  # Medusa Backend
-  backend:
+  # ============================================
+  # Dagster - Pipeline Orchestrator
+  # ============================================
+  dagster-webserver:
     build:
       context: .
-      dockerfile: Dockerfile.dev
-    container_name: ysh-backend
-    restart: unless-stopped
-    ports:
-      - "9000:9000" # Main API
-      - "9001:9001" # Admin API
-      - "9002:9002" # Store API
+      dockerfile: ./docker/Dockerfile.dagster
+    container_name: ysh-dagster-webserver
     environment:
-      # Database
-      DATABASE_URL: postgresql://yshuser:yshpass@postgres:5432/yshdb
-      DATABASE_SSL: "false"
-
-      # Redis
-      REDIS_URL: redis://redis:6379
-
-      # Application
-      NODE_ENV: development
-      PORT: 9000
-      HOST: 0.0.0.0
-
-      # JWT & Cookies
-      JWT_SECRET: development-jwt-secret-change-in-production
-      COOKIE_SECRET: development-cookie-secret-change-in-production
-
-      # CORS
-      ADMIN_CORS: http://localhost:7001,http://localhost:9000
-      STORE_CORS: http://localhost:8000,http://localhost:3000
-
-      # Migration Control
-      SKIP_MIGRATIONS: "false"
-      FAIL_ON_MIGRATION_ERROR: "true"
-
-      # Development
-      LOG_LEVEL: debug
+      DAGSTER_POSTGRES_USER: postgres
+      DAGSTER_POSTGRES_PASSWORD: postgres
+      DAGSTER_POSTGRES_DB: dagster
+      DAGSTER_POSTGRES_HOST: postgres
+      DAGSTER_POSTGRES_PORT: 5432
+    ports:
+      - "3000:3000"
     volumes:
-      # Source code (hot reload)
-      - ./src:/app/src:ro
-      - ./medusa-config.ts:/app/medusa-config.ts:ro
-      - ./mikro-orm.config.ts:/app/mikro-orm.config.ts:ro
-
-      # Uploads (persistent)
-      - uploads_data:/app/uploads
-
-      # Node modules (prevent overwrite)
-      - /app/node_modules
-    depends_on:
-      postgres:
-        condition: service_healthy
-      redis:
-        condition: service_healthy
-    healthcheck:
-      test:
-        [
-          "CMD",
-          "node",
-          "-e",
-          "require('http').get('http://localhost:9000/health', (r) => process.exit(r.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))",
-        ]
-      interval: 30s
-      timeout: 10s
-      start_period: 60s
-      retries: 3
-    networks:
-      - ysh-network
-
-  # Adminer - Database Management UI
-  adminer:
-    image: adminer:latest
-    container_name: ysh-adminer
-    restart: unless-stopped
-    ports:
-      - "8080:8080"
-    environment:
-      ADMINER_DEFAULT_SERVER: postgres
-      ADMINER_DESIGN: nette
+      - ./data-platform/dagster:/opt/dagster/app
+      - dagster_home:/opt/dagster/dagster_home
     depends_on:
       - postgres
+    command: dagster-webserver -h 0.0.0.0 -p 3000
     networks:
       - ysh-network
 
+  dagster-daemon:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.dagster
+    container_name: ysh-dagster-daemon
+    environment:
+      DAGSTER_POSTGRES_USER: postgres
+      DAGSTER_POSTGRES_PASSWORD: postgres
+      DAGSTER_POSTGRES_DB: dagster
+      DAGSTER_POSTGRES_HOST: postgres
+      DAGSTER_POSTGRES_PORT: 5432
+    volumes:
+      - ./data-platform/dagster:/opt/dagster/app
+      - dagster_home:/opt/dagster/dagster_home
+    depends_on:
+      - postgres
+    command: dagster-daemon run
+    networks:
+      - ysh-network
+
+  # ============================================
+  # Pathway - Real-Time Data Processing
+  # ============================================
+  pathway-processor:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.pathway
+    container_name: ysh-pathway-processor
+    environment:
+      PATHWAY_THREADS: 4
+      PATHWAY_MONITORING_PORT: 8080
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/ysh_solar
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data-platform/pathway:/app
+      - ./output:/output
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - ysh-network
+
+  # ============================================
+  # AI Image Scraper Worker
+  # ============================================
+  image-scraper:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.scraper
+    container_name: ysh-image-scraper
+    environment:
+      GEMINI_API_KEY_1: ${GEMINI_API_KEY_1}
+      GEMINI_API_KEY_2: ${GEMINI_API_KEY_2}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      PLAYWRIGHT_HEADLESS: "true"
+      SCRAPING_DELAY_MIN: 2
+      SCRAPING_DELAY_MAX: 5
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/ysh_solar
+      REDIS_URL: redis://redis:6379/0
+    volumes:
+      - ./src/scrapers:/app/scrapers
+      - ./output/images:/app/output/images
+      - ./output/metadata:/app/output/metadata
+      - ./output/logs:/app/output/logs
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - ysh-network
+
+  # ============================================
+  # Facebook Catalog API Uploader
+  # ============================================
+  facebook-uploader:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.facebook
+    container_name: ysh-facebook-uploader
+    environment:
+      FACEBOOK_APP_ID: ${FACEBOOK_APP_ID}
+      FACEBOOK_APP_SECRET: ${FACEBOOK_APP_SECRET}
+      FACEBOOK_ACCESS_TOKEN: ${FACEBOOK_ACCESS_TOKEN}
+      FACEBOOK_CATALOG_ID: ${FACEBOOK_CATALOG_ID}
+      FB_BATCH_SIZE: 100
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/ysh_solar
+    volumes:
+      - ./src/api:/app/api
+      - ./output/images:/app/images
+    depends_on:
+      - postgres
+      - image-scraper
+    networks:
+      - ysh-network
+
+  # ============================================
+  # Prometheus - Metrics Collection
+  # ============================================
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: ysh-prometheus
+    volumes:
+      - ./config/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    networks:
+      - ysh-network
+
+  # ============================================
+  # Grafana - Monitoring Dashboard
+  # ============================================
+  grafana:
+    image: grafana/grafana:latest
+    container_name: ysh-grafana
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    ports:
+      - "3001:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./config/grafana/dashboards:/etc/grafana/provisioning/dashboards
+    depends_on:
+      - prometheus
+    networks:
+      - ysh-network
+
+  # ============================================
+  # MCP Toolkit (Model Context Protocol)
+  # ============================================
+  mcp-server:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.mcp
+    container_name: ysh-mcp-server
+    environment:
+      MCP_CATALOG_ENABLED: "true"
+      GEMINI_API_KEY: ${GEMINI_API_KEY_1}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./docs/ai-ml:/app/prompts
+    networks:
+      - ysh-network
+
+# ============================================
+# Volumes
+# ============================================
 volumes:
   postgres_data:
     driver: local
   redis_data:
     driver: local
-  uploads_data:
+  dagster_home:
+    driver: local
+  prometheus_data:
+    driver: local
+  grafana_data:
     driver: local
 
+# ============================================
+# Networks
+# ============================================
 networks:
   ysh-network:
     driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16

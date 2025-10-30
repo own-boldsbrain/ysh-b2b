@@ -1,0 +1,31 @@
+# Arquivo de dependências para os scripts de scraping e IA
+
+# Bibliotecas para interagir com as APIs de IA
+openai
+google-generativeai
+python-dotenv
+
+# Biblioteca para interagir com o Docker
+docker
+
+# Biblioteca para fazer requisições HTTP
+requests
+
+# Biblioteca para parsing de HTML
+beautifulsoup4
+
+# Biblioteca para manipulação de dados (leitura de CSV)
+pandas
+
+# Biblioteca para processamento de imagens
+Pillow
+
+# Biblioteca para barras de progresso
+tqdm
+
+# Bibliotecas para scraping semântico e RAG
+scikit-learn
+lxml
+
+# Biblioteca para extração de imagens de PDFs
+PyMuPDF

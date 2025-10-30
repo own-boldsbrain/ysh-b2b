@@ -1,0 +1,7 @@
+# Execute este comando no terminal que tem AWS CLI funcionando:
+
+aws cloudformation describe-stacks --stack-name ysh-b2b-infrastructure --profile ysh-production --region us-east-1 2>&1
+
+# Se retornar "does not exist" = Stack deletado com sucesso
+# Se retornar JSON com "DELETE_IN_PROGRESS" = Ainda deletando
+# Se retornar outros status = Verificar erro

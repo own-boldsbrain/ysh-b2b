@@ -1,0 +1,520 @@
+{
+  "kits": [
+    {
+      "sku": "FOTUSKP021704KWPCERAMICOKITS",
+      "filename": "FOTUS-KP02-1704kWp-Ceramico-kits.jpg",
+      "price": 7670500,
+      "manufacturer": null,
+      "power_w": 1704000,
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Ceramico-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP021704KWPFIBROCIMENTOKITS",
+      "filename": "FOTUS-KP02-1704kWp-Fibrocimento-kits.jpg",
+      "price": 7670500,
+      "manufacturer": null,
+      "power_w": 1704000,
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-Fibrocimento-kits.jpg"
+    },
+    {
+      "sku": "FOTUSKP021704KWPMINITRILHOKITS",
+      "filename": "FOTUS-KP02-1704kWp-MiniTrilho-kits.jpg",
+      "price": 7670500,
+      "manufacturer": null,
+      "power_w": 1704000,
+      "image_url": "https://cdn.yellosolarhub.com/products/kits/FOTUS-KP02-1704kWp-MiniTrilho-kits.jpg"
+    }
+  ],
+  "inversores": [
+    {
+      "sku": "GOODWEGW250KHTIMAGEPRODUCT600142",
+      "filename": "GOODWE-GW250K-HT_IMAGE_PRODUCT_600142.png",
+      "price": 182250,
+      "manufacturer": "GOODWE",
+      "power_w": 250000,
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250K-HT_IMAGE_PRODUCT_600142.png"
+    },
+    {
+      "sku": "GOODWEGW250KHUTIMAGEPRODUCT600344",
+      "filename": "GOODWE-GW250KH-UT_IMAGE_PRODUCT_600344.png",
+      "price": 182250,
+      "manufacturer": "GOODWE",
+      "power_w": 250000,
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250KH-UT_IMAGE_PRODUCT_600344.png"
+    },
+    {
+      "sku": "GOODWEGW250KNHTIMAGE",
+      "filename": "GOODWE-GW250KN-HT_image.png",
+      "price": 182250,
+      "manufacturer": "GOODWE",
+      "power_w": 250000,
+      "image_url": "https://cdn.yellosolarhub.com/products/inversores/GOODWE-GW250KN-HT_image.png"
+    }
+  ],
+  "baterias": [
+    {
+      "sku": "IMAGEPRODUCT000607",
+      "filename": "IMAGE_PRODUCT_000607.jpg",
+      "price": 4500,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/baterias/IMAGE_PRODUCT_000607.jpg"
+    },
+    {
+      "sku": "IMAGEPRODUCT000612",
+      "filename": "IMAGE_PRODUCT_000612.jpg",
+      "price": 4500,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/baterias/IMAGE_PRODUCT_000612.jpg"
+    },
+    {
+      "sku": "IMAGEPRODUCT850004",
+      "filename": "IMAGE_PRODUCT_850004.png",
+      "price": 4500,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/baterias/IMAGE_PRODUCT_850004.png"
+    }
+  ],
+  "stringboxes": [
+    {
+      "sku": "192068",
+      "filename": "192068.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/stringboxes/192068.jpg"
+    },
+    {
+      "sku": "SKU12298012298017544826815777105",
+      "filename": "sku_122980_122980-17544826815777105.jpeg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/stringboxes/sku_122980_122980-17544826815777105.jpeg"
+    },
+    {
+      "sku": "SKU13598513598517544833546238906",
+      "filename": "sku_135985_135985-17544833546238906.jpeg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/stringboxes/sku_135985_135985-17544833546238906.jpeg"
+    }
+  ],
+  "paineis": [
+    {
+      "sku": "215563",
+      "filename": "215563.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/paineis/215563.jpg"
+    },
+    {
+      "sku": "289244",
+      "filename": "289244.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/paineis/289244.jpg"
+    },
+    {
+      "sku": "291808",
+      "filename": "291808.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/paineis/291808.jpg"
+    }
+  ],
+  "acessorios": [
+    {
+      "sku": "IMAGE",
+      "filename": "image.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/acessorios/image.png"
+    },
+    {
+      "sku": "IMAGEPRODUCT450083",
+      "filename": "IMAGE_PRODUCT_450083.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/acessorios/IMAGE_PRODUCT_450083.png"
+    },
+    {
+      "sku": "IMAGEPRODUCT450094",
+      "filename": "IMAGE_PRODUCT_450094.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/acessorios/IMAGE_PRODUCT_450094.png"
+    }
+  ],
+  "BYD": [
+    {
+      "sku": "PAINELBYDBYD530WMLK36530W",
+      "filename": "PAINEL-BYD-BYD-530W-MLK-36---530W.png",
+      "price": 1200,
+      "manufacturer": "BYD",
+      "power_w": 530,
+      "image_url": "https://cdn.yellosolarhub.com/products/BYD/PAINEL-BYD-BYD-530W-MLK-36---530W.png"
+    }
+  ],
+  "carregadores": [
+    {
+      "sku": "NEOSOLARCHARGERS20031",
+      "filename": "NEOSOLAR_CHARGERS_20031.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/carregadores/NEOSOLAR_CHARGERS_20031.jpg"
+    },
+    {
+      "sku": "NEOSOLARCHARGERS20034",
+      "filename": "NEOSOLAR_CHARGERS_20034.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/carregadores/NEOSOLAR_CHARGERS_20034.jpg"
+    },
+    {
+      "sku": "NEOSOLARCHARGERS20035",
+      "filename": "NEOSOLAR_CHARGERS_20035.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/carregadores/NEOSOLAR_CHARGERS_20035.jpg"
+    }
+  ],
+  "controladores": [
+    {
+      "sku": "NEOSOLARCONTROLLERS20055",
+      "filename": "NEOSOLAR_CONTROLLERS_20055.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/controladores/NEOSOLAR_CONTROLLERS_20055.jpg"
+    },
+    {
+      "sku": "NEOSOLARCONTROLLERS20056",
+      "filename": "NEOSOLAR_CONTROLLERS_20056.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/controladores/NEOSOLAR_CONTROLLERS_20056.jpg"
+    },
+    {
+      "sku": "NEOSOLARCONTROLLERS20057",
+      "filename": "NEOSOLAR_CONTROLLERS_20057.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/controladores/NEOSOLAR_CONTROLLERS_20057.jpg"
+    }
+  ],
+  "ENPHASE": [
+    {
+      "sku": "ENPHASEIQRELAYLLBR",
+      "filename": "ENPHASE-IQ-RELAY-LL-BR.png",
+      "price": 1200,
+      "manufacturer": "ENPHASE",
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/ENPHASE/ENPHASE-IQ-RELAY-LL-BR.png"
+    },
+    {
+      "sku": "ENPHASEIQB",
+      "filename": "Enphase-IQB.png",
+      "price": 1200,
+      "manufacturer": "ENPHASE",
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/ENPHASE/Enphase-IQB.png"
+    }
+  ],
+  "estacoes": [
+    {
+      "sku": "NEOSOLARSTATIONS20077",
+      "filename": "NEOSOLAR_STATIONS_20077.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/estacoes/NEOSOLAR_STATIONS_20077.jpg"
+    },
+    {
+      "sku": "NEOSOLARSTATIONS20078",
+      "filename": "NEOSOLAR_STATIONS_20078.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/estacoes/NEOSOLAR_STATIONS_20078.jpg"
+    },
+    {
+      "sku": "NEOSOLARSTATIONS20121",
+      "filename": "NEOSOLAR_STATIONS_20121.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/estacoes/NEOSOLAR_STATIONS_20121.jpg"
+    }
+  ],
+  "FORTLEV": [
+    {
+      "sku": "IIN00021",
+      "filename": "IIN00021.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/FORTLEV/IIN00021.png"
+    },
+    {
+      "sku": "IIN00033",
+      "filename": "IIN00033.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/FORTLEV/IIN00033.png"
+    },
+    {
+      "sku": "IIN00034",
+      "filename": "IIN00034.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/FORTLEV/IIN00034.png"
+    }
+  ],
+  "GENERIC-COMPONENTS": [
+    {
+      "sku": "CORRUGADO",
+      "filename": "corrugado.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/GENERIC-COMPONENTS/corrugado.png"
+    },
+    {
+      "sku": "DUTOCORRUGADO",
+      "filename": "duto_corrugado.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/GENERIC-COMPONENTS/duto_corrugado.png"
+    },
+    {
+      "sku": "IMAGEM",
+      "filename": "imagem.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/GENERIC-COMPONENTS/imagem.png"
+    }
+  ],
+  "GROWATT": [
+    {
+      "sku": "GROWATT20MIC3000TLX20220V20201MPPT",
+      "filename": "GROWATT%20MIC3000TL-X%20-220V%20-%201MPPT.png",
+      "price": 1200,
+      "manufacturer": "GROWATT",
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/GROWATT/GROWATT%20MIC3000TL-X%20-220V%20-%201MPPT.png"
+    },
+    {
+      "sku": "GROWATTMIC3000TLX2220V1MPPT",
+      "filename": "GROWATT-MIC-3000TL-X2-220V-1MPPT.png",
+      "price": 1200,
+      "manufacturer": "GROWATT",
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/GROWATT/GROWATT-MIC-3000TL-X2-220V-1MPPT.png"
+    },
+    {
+      "sku": "GROWATTMID40KTL3X2380V4MPPTV2",
+      "filename": "GROWATT-MID40KTL3-X2---380V---4MPPT_v2.png",
+      "price": 1200,
+      "manufacturer": "GROWATT",
+      "power_w": 40000,
+      "image_url": "https://cdn.yellosolarhub.com/products/GROWATT/GROWATT-MID40KTL3-X2---380V---4MPPT_v2.png"
+    }
+  ],
+  "HUAWEI": [
+    {
+      "sku": "IIN00316HUAWEISUN2000100KTLM2380V10MPPT",
+      "filename": "IIN00316-HUAWEI-SUN2000-100KTL-M2-380V-10MPPT.png",
+      "price": 1200,
+      "manufacturer": "HUAWEI",
+      "power_w": 100000,
+      "image_url": "https://cdn.yellosolarhub.com/products/HUAWEI/IIN00316-HUAWEI-SUN2000-100KTL-M2-380V-10MPPT.png"
+    }
+  ],
+  "LONGI": [
+    {
+      "sku": "LONGI585W",
+      "filename": "LONGI-585W.png",
+      "price": 1200,
+      "manufacturer": "LONGI",
+      "power_w": 585,
+      "image_url": "https://cdn.yellosolarhub.com/products/LONGI/LONGI-585W.png"
+    },
+    {
+      "sku": "LONGI630WPV2",
+      "filename": "LONGI-630Wp_v2.png",
+      "price": 1200,
+      "manufacturer": "LONGI",
+      "power_w": 630,
+      "image_url": "https://cdn.yellosolarhub.com/products/LONGI/LONGI-630Wp_v2.png"
+    }
+  ],
+  "outros": [
+    {
+      "sku": "CONTENTINGRESSPORTALB2BNEOSOLARCOMBR",
+      "filename": "content_ingress=portalb2b.neosolar.com.br.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/outros/content_ingress=portalb2b.neosolar.com.br.png"
+    }
+  ],
+  "postes": [
+    {
+      "sku": "NEOSOLARPOSTS23327",
+      "filename": "NEOSOLAR_POSTS_23327.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/postes/NEOSOLAR_POSTS_23327.jpg"
+    },
+    {
+      "sku": "NEOSOLARPOSTS23586",
+      "filename": "NEOSOLAR_POSTS_23586.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/postes/NEOSOLAR_POSTS_23586.jpg"
+    },
+    {
+      "sku": "NEOSOLARPOSTS23587",
+      "filename": "NEOSOLAR_POSTS_23587.jpg",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/postes/NEOSOLAR_POSTS_23587.jpg"
+    }
+  ],
+  "RISEN": [
+    {
+      "sku": "RISEN700W",
+      "filename": "RISEN-700W.png",
+      "price": 1200,
+      "manufacturer": "RISEN",
+      "power_w": 700,
+      "image_url": "https://cdn.yellosolarhub.com/products/RISEN/RISEN-700W.png"
+    }
+  ],
+  "SUNGROW": [
+    {
+      "sku": "SUNGROW20SG12RT2020380V20202MPPT",
+      "filename": "SUNGROW%20SG12RT%20-%20380V%20-%202MPPT.png",
+      "price": 1200,
+      "manufacturer": "SUNGROW",
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/SUNGROW/SUNGROW%20SG12RT%20-%20380V%20-%202MPPT.png"
+    },
+    {
+      "sku": "SUNGROWSG15RTP2AFCI380V2MPPT201",
+      "filename": "SUNGROW-SG15RT-P2-(AFCI)---380V---2MPPT%201.png",
+      "price": 1200,
+      "manufacturer": "SUNGROW",
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/SUNGROW/SUNGROW-SG15RT-P2-(AFCI)---380V---2MPPT%201.png"
+    },
+    {
+      "sku": "SUNGROWSG20RTP2AFCI380V2MPPT",
+      "filename": "SUNGROW-SG20RT-P2-(AFCI)-380V-2MPPT.png",
+      "price": 1200,
+      "manufacturer": "SUNGROW",
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/SUNGROW/SUNGROW-SG20RT-P2-(AFCI)-380V-2MPPT.png"
+    }
+  ],
+  "UNKNOWN-MANUFACTURER": [
+    {
+      "sku": "CAIXA20DE20PASSAGEM",
+      "filename": "caixa%20de%20passagem.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/UNKNOWN-MANUFACTURER/caixa%20de%20passagem.png"
+    },
+    {
+      "sku": "DISPOSITIVODEDESCONEXAOIQRELAYLNBR",
+      "filename": "DISPOSITIVO-DE-DESCONEXAO-IQ-RELAY-LN-BR.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/UNKNOWN-MANUFACTURER/DISPOSITIVO-DE-DESCONEXAO-IQ-RELAY-LN-BR.png"
+    },
+    {
+      "sku": "IBT00001",
+      "filename": "IBT00001.png",
+      "price": 1200,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/UNKNOWN-MANUFACTURER/IBT00001.png"
+    }
+  ],
+  "estruturas": [
+    {
+      "sku": "124358",
+      "filename": "124358.jpg",
+      "price": 850,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/estruturas/124358.jpg"
+    },
+    {
+      "sku": "313801",
+      "filename": "313801.jpg",
+      "price": 850,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/estruturas/313801.jpg"
+    },
+    {
+      "sku": "313834",
+      "filename": "313834.jpg",
+      "price": 850,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/estruturas/313834.jpg"
+    }
+  ],
+  "cabos": [
+    {
+      "sku": "IMAGEPRODUCT052113",
+      "filename": "IMAGE_PRODUCT_052113.png",
+      "price": 180,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052113.png"
+    },
+    {
+      "sku": "IMAGEPRODUCT052115",
+      "filename": "IMAGE_PRODUCT_052115.jpg",
+      "price": 180,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052115.jpg"
+    },
+    {
+      "sku": "IMAGEPRODUCT052117",
+      "filename": "IMAGE_PRODUCT_052117.jpg",
+      "price": 180,
+      "manufacturer": null,
+      "power_w": null,
+      "image_url": "https://cdn.yellosolarhub.com/products/cabos/IMAGE_PRODUCT_052117.jpg"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿distributor,id,name,manufacturer,model,sku,category,type,price_brl,power_kw,power_w,voltage_v,current_a,efficiency_percent,certifications,currency,description,height_mm,image_url,length_mm,price_per_unit,stock_available,stock_quantity,tags,voltage_range,warranty_years,weight_kg,width_mm
+Fortlev,fortlev_miscellaneous_ICO00012,CONECTOR JINKO PV-JK03M  2 PARES,Jinko,,,miscellaneous,,,,,,,,,BRL,CONECTOR JINKO PV-JK03M  2 PARES,,,,,,,,,,,
+Fortlev,fortlev_miscellaneous_ICO00001,KIT CONECTOR 2 PARES,Unknown,,,miscellaneous,,,,,,,,,BRL,KIT CONECTOR 2 PARES,,,,,,,,,,,
+Fortlev,fortlev_miscellaneous_ICA00011,"CABO 1X6MM VERMELHO 1,8KV",Unknown,,,miscellaneous,,,,,,,,,BRL,"CABO 1X6MM VERMELHO 1,8KV",,,,,,,,,,,
+Fortlev,fortlev_miscellaneous_ICA00010,"CABO 1X6MM PRETO 1,8KV",Unknown,,,miscellaneous,,,,,,,,,BRL,"CABO 1X6MM PRETO 1,8KV",,,,,,,,,,,
+Fortlev,fortlev_miscellaneous_ICA00009,CABO VERMELHO 4MM2,Unknown,,,miscellaneous,,,,,,,,,BRL,CABO VERMELHO 4MM2,,,,,,,,,,,
+Fortlev,fortlev_miscellaneous_ICA00008,CABO PRETO 4MM2,Unknown,,,miscellaneous,,,,,,,,,BRL,CABO PRETO 4MM2,,,,,,,,,,,
+Fortlev,fortlev_miscellaneous_ICA00007,CABO VERDE 6MM2,Unknown,,,miscellaneous,,,,,,,,,BRL,CABO VERDE 6MM2,,,,,,,,,,,

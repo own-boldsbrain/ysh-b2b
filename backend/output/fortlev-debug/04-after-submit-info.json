@@ -1,0 +1,987 @@
+{
+  "url": "https://fortlevsolar.app/",
+  "title": "Fortlev Solar",
+  "inputs": [
+    {
+      "index": 0,
+      "type": "text",
+      "name": "power",
+      "id": "",
+      "placeholder": "",
+      "value": "",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "text",
+      "name": "",
+      "id": "",
+      "placeholder": "Buscar...",
+      "value": "",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 2,
+      "type": "checkbox",
+      "name": "",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 3,
+      "type": "checkbox",
+      "name": "inverterName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 4,
+      "type": "checkbox",
+      "name": "inverterName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 5,
+      "type": "checkbox",
+      "name": "inverterName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 6,
+      "type": "checkbox",
+      "name": "inverterName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 7,
+      "type": "checkbox",
+      "name": "inverterName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 8,
+      "type": "checkbox",
+      "name": "inverterName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 9,
+      "type": "checkbox",
+      "name": "inverterName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 10,
+      "type": "checkbox",
+      "name": "moduleName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 11,
+      "type": "checkbox",
+      "name": "moduleName",
+      "id": "",
+      "placeholder": "",
+      "value": "***",
+      "visible": false,
+      "disabled": false
+    }
+  ],
+  "buttons": [
+    {
+      "index": 0,
+      "type": "button",
+      "text": "Gerador",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 1,
+      "type": "submit",
+      "text": "Mais ações",
+      "className": "btn",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 2,
+      "type": "submit",
+      "text": "Mudar tema",
+      "className": "btn btn-toggle-theme",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 3,
+      "type": "submit",
+      "text": "Sair\n            do app",
+      "className": "btn btn-text flex align-center",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 4,
+      "type": "submit",
+      "text": "",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 5,
+      "type": "button",
+      "text": "",
+      "className": "",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 6,
+      "type": "submit",
+      "text": "",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 7,
+      "type": "submit",
+      "text": "Mudar tema",
+      "className": "btn btn-toggle-theme",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 8,
+      "type": "submit",
+      "text": "Sair do app",
+      "className": "btn btn-text flex align-center",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 9,
+      "type": "button",
+      "text": "",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 10,
+      "type": "button",
+      "text": "Montar geradores",
+      "className": "btn btn-contained",
+      "visible": false,
+      "disabled": true
+    },
+    {
+      "index": 11,
+      "type": "button",
+      "text": "",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 12,
+      "type": "submit",
+      "text": "Conversar no WhatsApp",
+      "className": "btn btn-contained",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 13,
+      "type": "submit",
+      "text": "",
+      "className": "carousel-arrow prev",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 14,
+      "type": "submit",
+      "text": "",
+      "className": "carousel-arrow next",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 15,
+      "type": "button",
+      "text": "",
+      "className": "featured-products__arrow featured-products__arrow--left",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 16,
+      "type": "button",
+      "text": "",
+      "className": "featured-products__arrow featured-products__arrow--right",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 17,
+      "type": "button",
+      "text": "",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 18,
+      "type": "button",
+      "text": "",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 19,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 20,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 21,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 22,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 23,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 24,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 25,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 26,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 27,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 28,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 29,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 30,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 31,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 32,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 33,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 34,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 35,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 36,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 37,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 38,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 39,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 40,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 41,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 42,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 43,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 44,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 45,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 46,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 47,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 48,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 49,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 50,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 51,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 52,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 53,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 54,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 55,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 56,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 57,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 58,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 59,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 60,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 61,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 62,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 63,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 64,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 65,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 66,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 67,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 68,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 69,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 70,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 71,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 72,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 73,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 74,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 75,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 76,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 77,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 78,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 79,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 80,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 81,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 82,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 83,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 84,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 85,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 86,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 87,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 88,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 89,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 90,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 91,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 92,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 93,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 94,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 95,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 96,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 97,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 98,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 99,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 100,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 101,
+      "type": "button",
+      "text": "Ver detalhes",
+      "className": "",
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "index": 102,
+      "type": "button",
+      "text": "",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 103,
+      "type": "button",
+      "text": "Criar pedido",
+      "className": "btn btn-contained",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 104,
+      "type": "button",
+      "text": "",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 105,
+      "type": "button",
+      "text": "Cancelar",
+      "className": "btn btn-default",
+      "visible": false,
+      "disabled": false
+    },
+    {
+      "index": 106,
+      "type": "button",
+      "text": "Confirmar",
+      "className": "btn",
+      "visible": false,
+      "disabled": false
+    }
+  ],
+  "links": [],
+  "forms": [],
+  "bodyTextSample": "Início\n\nGerador\n\nProduto Avulso\n\nDocumentos técnicos\n\nMesa de financiamentos\n\nPedidos\n\nUsuários do integrador\n\nMais ações\n\nInício\n|\nIntegrador\nProdutos em Destaque\n\n6%\n\nOFF\n\nIBT00001\n\nBATERIA GROWATT AXE 5.0L\n\nDe: R$ 7.145,56\n\nPor: R$ 6.716,83\n\nVer mais\nIDT00002\n\nDUTO CORRUGADO CONDUFORT PEAD DN 40 - NBR 450N - (MULT. 50M)\n\nR$ 5,66\n\nVer mais\nICV00002\n\nCARREGADOR VEICULAR WALLBOX GROWATT THOR07AS-P THO\n\nR$ 3.423,66\n\nVer mais\nICV00003\n\nCARREGADOR VEICULAR FOXESS A7300P1-E-2 - 7,3 KW\n\nR$ 2.811,46\n\n"
+}

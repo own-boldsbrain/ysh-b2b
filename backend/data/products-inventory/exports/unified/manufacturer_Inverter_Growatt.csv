@@ -1,0 +1,23 @@
+﻿battery_capacity_kwh,battery_manufacturer,battery_quantity,battery_voltage_v,category,distributor,id,inverter_manufacturer,inverter_power_kw,inverter_quantity,name,panel_manufacturer,panel_power_w,panel_quantity,power_kwp,power_watts,price_brl,price_per_wp,total_batteries,total_inverters,total_panels,type
+,,,,kits,Fortlev,fortlev_kit_001,Growatt,2.0,1,Kit 2.44kWp - Panel + Growatt,,,,2.44,2440.0,2923.56,1.2,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_002,Growatt,2.0,1,Kit 2.52kWp - Longi + Growatt,Longi,630,4,2.52,2520.0,3163.7,1.26,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_003,Growatt,2.0,1,Kit 2.8kWp - Risen + Growatt,Risen,700,4,2.8,2800.0,3837.94,1.37,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_004,Growatt,,1,Kit 2.8kWp - Risen + Growatt,Risen,700,4,2.8,2800.0,3923.18,1.4,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_005,Growatt,2.0,1,Kit 2.92kWp - Longi + Growatt,Longi,585,5,2.92,2920.0,4222.76,1.44,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_006,Growatt,,1,Kit 2.92kWp - Longi + Growatt,Longi,585,5,2.92,2920.0,4393.24,1.5,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_007,Growatt,,1,Kit 3.05kWp - Panel + Growatt,,,,3.05,3050.0,4394.4,1.44,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_008,Growatt,,1,Kit 3.15kWp - Longi + Growatt,Longi,630,5,3.15,3150.0,4694.59,1.49,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_009,Growatt,,1,Kit 3.66kWp - Panel + Growatt,,,,3.66,3660.0,4986.95,1.36,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_012,Growatt,2.0,1,Kit 2.65kWp - BYD + Growatt,BYD,530,5,2.65,2650.0,5073.84,1.91,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_015,Growatt,,1,Kit 3.78kWp - Longi + Growatt,Longi,630,6,3.78,3780.0,5304.08,1.4,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_016,Growatt,,1,Kit 3.78kWp - Longi + Growatt,Longi,630,6,3.78,3780.0,5347.17,1.41,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_022,Growatt,,1,Kit 4.09kWp - Longi + Growatt,Longi,585,7,4.09,4090.0,5483.29,1.34,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_023,Growatt,,1,Kit 4.09kWp - Longi + Growatt,Longi,585,7,4.09,4090.0,5526.38,1.35,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_035,Growatt,,1,Kit 3.18kWp - BYD + Growatt,BYD,530,6,3.18,3180.0,5955.36,1.87,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_039,Growatt,2.0,1,Kit 2.88kWp - Panel + Growatt,,,,2.88,2880.0,6244.48,2.17,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_042,Growatt,,1,Kit 4.2kWp - Risen + Growatt,Risen,700,6,4.2,4200.0,6358.53,1.51,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_043,Growatt,,1,Kit 2.88kWp - Panel + Growatt,,,,2.88,2880.0,6414.96,2.23,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_048,Growatt,,1,Kit 3.71kWp - BYD + Growatt,BYD,530,7,3.71,3710.0,6674.8,1.8,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_049,Growatt,,1,Kit 3.71kWp - BYD + Growatt,BYD,530,7,3.71,3710.0,6717.89,1.81,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_071,Growatt,,1,Kit 4.03kWp - Panel + Growatt,,,,4.03,4030.0000000000005,8313.71,2.07,0,1,1,Solar Kit
+,,,,kits,Fortlev,fortlev_kit_072,Growatt,,1,Kit 4.03kWp - Panel + Growatt,,,,4.03,4030.0000000000005,8356.79,2.08,0,1,1,Solar Kit

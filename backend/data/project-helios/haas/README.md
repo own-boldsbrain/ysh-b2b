@@ -56,8 +56,39 @@ O **HaaS Platform** é uma plataforma completa para homologação automática de
 - Python 3.9+
 - PostgreSQL 13+ com PostGIS
 - Redis (opcional, para cache)
+- Docker & Docker Compose (recomendado)
 
-### Instalação
+### Instalação com Docker (Recomendado)
+
+```bash
+# Navegar para o diretório do projeto
+cd haas
+
+# Copiar arquivo de exemplo de variáveis de ambiente
+cp .env.example .env
+
+# Editar .env com suas configurações
+# Importante: Configure as variáveis do Huginn para automação
+
+# Iniciar todos os serviços (HaaS API + PostgreSQL + Redis + Huginn)
+docker-compose up -d
+
+# Verificar status dos serviços
+docker-compose ps
+
+# Ver logs
+docker-compose logs -f
+```
+
+**Serviços incluídos no stack:**
+- **HaaS API**: `http://localhost:8000` (ou porta configurada)
+- **PostgreSQL**: porta 5432
+- **Redis**: porta 6379
+- **Huginn**: `http://localhost:3000` - Automação de agentes e workflows
+- **Adminer**: `http://localhost:8080` - Interface web para banco de dados
+- **Redis Commander**: `http://localhost:8081` - Interface web para Redis
+
+### Instalação Manual (Sem Docker)
 
 ```bash
 # Clonar ou navegar para o diretório do projeto
@@ -124,7 +155,92 @@ validator = DataValidator()
 resultado = validator.validate_data(dados, "schema_name")
 ```
 
+## 🧪 Testes e Cobertura de Código
+
+A plataforma HaaS utiliza uma suíte completa de ferramentas para testes e análise de cobertura, garantindo alta qualidade e confiabilidade do código.
+
+### Ferramentas de Teste
+
+#### Test Runners
+- **pytest-cov**: Plugin pytest para coordenação de coverage.py
+- **trialcoverage**: Plugin para Twisted trial
+
+#### Configuration Helpers
+- **covdefaults**: Configurações "sensatas" padrão para coverage
+- **coverage-conditional-plugin**: Controle de cobertura usando condições ao invés de pragmas simples
+- **coverage-simple-excludes**: Novos formatos de comentário para excluir código baseado em versões Python e SO
+
+#### Language Plugins
+- **django-coverage-plugin**: Mede cobertura de templates Django
+- **Cython**: Plugin para código Cythonized
+- **coverage-jinja-plugin**: Plugin Jinja2 (incompleto)
+- **coverage-sh**: Mede cobertura de scripts shell executados via subprocess
+- **hy-coverage**: Suporte para linguagem Hy
+- **coverage-mako-plugin**: Mede cobertura em templates Mako
+
+#### Reporting Helpers
+- **python-coverage-comment-action**: Publica relatório delta de cobertura como comentário em PR
+- **diff-cover**: Reporta cobertura de linhas alteradas em pull requests
+- **cuvner**: Visualizações alternativas de dados de cobertura
+- **python-genbadge**: Gera badges para ferramentas que não fornecem
+
+### Executando Testes
+
+#### Testes Básicos
+```bash
+# Executar todos os testes
+python run_tests.py
+
+# Executar testes específicos
+python run_tests.py --type unit
+python run_tests.py --type integration
+python run_tests.py --type inmetro
+```
+
+#### Análise Avançada de Cobertura
+```bash
+# Análise completa com múltiplas ferramentas
+python run_coverage.py --badge --comment --analyze
+
+# Comparar cobertura com branch principal
+python run_coverage.py --diff-cover main
+
+# Visualizações alternativas
+python run_coverage.py --cuvner
+
+# Análise específica de tipo de teste
+python run_coverage.py --type inmetro --badge
+```
+
+### Arquivos de Configuração
+
+- **`.coveragerc`**: Configuração avançada de coverage com plugins e exclusões condicionais
+- **`pytest.ini`**: Configuração pytest com markers e thresholds
+- **`requirements-dev.txt`**: Dependências de desenvolvimento incluindo todas as ferramentas de coverage
+
+### Relatórios Gerados
+
+Após execução dos testes, são gerados:
+- **`htmlcov/index.html`**: Relatório HTML interativo
+- **`coverage.xml`**: Relatório XML para CI/CD
+- **`coverage.json`**: Dados JSON para análise programática
+- **`coverage-badge.svg`**: Badge de cobertura para README
+- **`coverage-comment.md`**: Comentário formatado para PRs
+- **`diff-cover-report.html`**: Relatório de diferenças de cobertura
+
+### Thresholds de Qualidade
+
+- **Cobertura Mínima**: 80%
+- **Marcadores de Teste**: unit, integration, auth, inmetro, monitoring, documents, schema
+- **Exclusões**: Código de teste, migrações, arquivos de configuração
+
 ## Roadmap de Desenvolvimento
+
+### Fase 1 - Foundation ✅ COMPLETA
+- INMETRO Validator integrado
+- JSON Schemas para validação de dados
+- Configuração base e infraestrutura
+- **Huginn integrado para automação de workflows**
 
 ### Fase 2 - Core Services (Previsto: 21 dias)
 

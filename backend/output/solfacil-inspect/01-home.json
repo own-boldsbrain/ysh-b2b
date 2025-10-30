@@ -1,0 +1,393 @@
+{
+  "url": "https://integrador.solfacil.com.br/",
+  "title": "Portal do Integrador",
+  "links": [
+    {
+      "href": "https://integrador.solfacil.com.br/",
+      "text": "Portal do integrador"
+    },
+    {
+      "href": "https://loja.solfacil.com.br/",
+      "text": "Loja"
+    },
+    {
+      "href": "https://financiamento.solfacil.com.br/financing/list",
+      "text": "Financiamento"
+    },
+    {
+      "href": "https://plataforma-ampera.solfacil.com.br/dashboard",
+      "text": "Ampera"
+    },
+    {
+      "href": "https://integrador.solfacil.com.br/term?redirect=https%3A%2F%2Fintegrador.solfacil.com.br%2F",
+      "text": "Acordo Operacional"
+    },
+    {
+      "href": "https://integrador.solfacil.com.br/",
+      "text": "Portal do integrador"
+    },
+    {
+      "href": "https://loja.solfacil.com.br/",
+      "text": "Loja"
+    },
+    {
+      "href": "https://financiamento.solfacil.com.br/financing/list",
+      "text": "Financiamento"
+    },
+    {
+      "href": "https://plataforma-ampera.solfacil.com.br/dashboard",
+      "text": "Ampera"
+    },
+    {
+      "href": "https://integrador.solfacil.com.br/term?redirect=https%3A%2F%2Fintegrador.solfacil.com.br%2F",
+      "text": "Acordo Operacional"
+    },
+    {
+      "href": "https://solfacilmais.solfacil.com.br/?partnerid=10084627",
+      "text": "Mais detalhes"
+    },
+    {
+      "href": "",
+      "text": "Falar com Gerente de Conta"
+    },
+    {
+      "href": "",
+      "text": "Central de Ajuda"
+    },
+    {
+      "href": "",
+      "text": "Meus chamados"
+    },
+    {
+      "href": "",
+      "text": "Termos e Condições"
+    },
+    {
+      "href": "",
+      "text": "Sair da minha conta"
+    },
+    {
+      "href": "https://integrador.solfacil.com.br/",
+      "text": "Início"
+    },
+    {
+      "href": "https://solfacilmais.solfacil.com.br/app/dashboard",
+      "text": "Solfácil Mais"
+    },
+    {
+      "href": "",
+      "text": "Central de Ajuda"
+    },
+    {
+      "href": "https://solfacilmais.solfacil.com.br/",
+      "text": "+ Mais detalhes"
+    },
+    {
+      "href": "https://loja.solfacil.com.br/",
+      "text": "Continue comprando"
+    },
+    {
+      "href": "https://loja.solfacil.com.br/",
+      "text": "Efetue o pagamento"
+    },
+    {
+      "href": "https://loja.solfacil.com.br/",
+      "text": "Histórico de pedidos"
+    },
+    {
+      "href": "https://loja.solfacil.com.br/",
+      "text": "Ir para a loja"
+    },
+    {
+      "href": "https://cadastro.solfacil.com.br/",
+      "text": "Clique aqui"
+    },
+    {
+      "href": "https://helpcentersolfacil.zendesk.com/hc/pt-br/articles/15964454294683-Quais-s%C3%A3o-os-crit%C3%A9rios-para-me-tornar-um-parceiro-integrador-com-acesso-a-financiamento-",
+      "text": "clique aqui"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "2 Tem mensagens pra você aqui!",
+      "class": "notification-button"
+    },
+    {
+      "text": "Boas-vindasFernando Teixeira De Santana Junior",
+      "class": "toggle-menu"
+    },
+    {
+      "text": "Falar com Gerente de Conta",
+      "class": "toggle-menu"
+    },
+    {
+      "text": "+55 (11) 91238-6374",
+      "class": "sol-button-core -primary -small\n      \n      -on-color button-whats"
+    },
+    {
+      "text": "Detalhes do cadastro",
+      "class": "sol-button-core -secondary -small"
+    },
+    {
+      "text": "Aluguel Solfácil (saiba mais)",
+      "class": "sol-button-core -secondary -large"
+    },
+    {
+      "text": "Solfácil Distribuidora",
+      "class": "sol-button-core -secondary -large"
+    },
+    {
+      "text": "Meus pedidos",
+      "class": "sol-button-core -secondary -large"
+    },
+    {
+      "text": "Financiamento",
+      "class": "sol-button-core -secondary -large"
+    },
+    {
+      "text": "Ampera",
+      "class": "sol-button-core -secondary -large"
+    },
+    {
+      "text": "Meus chamados",
+      "class": "sol-button-core -secondary -large"
+    },
+    {
+      "text": "Acompanhar cadastro",
+      "class": "sol-button-core -secondary -medium w-full sm:system:w-auto"
+    },
+    {
+      "text": "Ir para loja",
+      "class": "sol-button-core -secondary -small button"
+    },
+    {
+      "text": "Ir para a loja",
+      "class": "sol-button-core -secondary -small button"
+    },
+    {
+      "text": "Monitorar usinas",
+      "class": "sol-button-core -secondary -small button"
+    }
+  ],
+  "productDivs": [
+    {
+      "tag": "DIV",
+      "class": "items item-active",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "items",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "item-title",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "item-title",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "item-title",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "item-title",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "item-title",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "item-notification",
+      "id": "",
+      "children": 2
+    },
+    {
+      "tag": "DIV",
+      "class": "item-container",
+      "id": "",
+      "children": 2
+    },
+    {
+      "tag": "DIV",
+      "class": "item-icon",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "item-content",
+      "id": "",
+      "children": 3
+    },
+    {
+      "tag": "DIV",
+      "class": "item-notification",
+      "id": "",
+      "children": 2
+    },
+    {
+      "tag": "DIV",
+      "class": "item-container",
+      "id": "",
+      "children": 2
+    },
+    {
+      "tag": "DIV",
+      "class": "item-icon",
+      "id": "",
+      "children": 1
+    },
+    {
+      "tag": "DIV",
+      "class": "item-content",
+      "id": "",
+      "children": 3
+    }
+  ],
+  "images": [
+    {
+      "src": "",
+      "alt": "portal logo"
+    },
+    {
+      "src": "https://cdn.solfacil.com.br/integrator-dashboard/images/carousel/micro-inverter-goodwe-mobile.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.solfacil.com.br/integrator-dashboard/images/carousel/paga-facil-mobile.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.solfacil.com.br/integrator-dashboard/images/carousel/groner-partner-mobile.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.solfacil.com.br/integrator-dashboard/images/carousel/sell-simulation-mobile.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.solfacil.com.br/integrator-dashboard/images/carousel/dimensionamento-mobile.png",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.solfacil.com.br/integrator-dashboard/images/carousel/baterias-mobile.jpg",
+      "alt": ""
+    },
+    {
+      "src": "",
+      "alt": ""
+    }
+  ],
+  "topClasses": [
+    "font-sans",
+    "bg-neutral-high-light",
+    "go3670563033",
+    "default-layout",
+    "mobile-sidebar",
+    "menu-items-open",
+    "items",
+    "item-active",
+    "item-name",
+    "product-menu-mobile",
+    "header",
+    "content",
+    "title",
+    "main",
+    "sol-link-core",
+    "-large",
+    "-on-color",
+    "main-item",
+    "text",
+    "item-title"
+  ],
+  "topIds": [
+    "hubspot-messages-loader",
+    "cookieBanner-21098922",
+    "hs-ads-pixel-21098922",
+    "hubspot-web-interactives-loader",
+    "hs-analytics",
+    "apexcharts-css",
+    "_goober",
+    "hs-web-interactives-top-push-anchor",
+    "app",
+    "link-portal"
+  ],
+  "hasProducts": true,
+  "hasCatalog": false,
+  "hasPrice": false,
+  "menuItems": [
+    {
+      "href": "https://integrador.solfacil.com.br/",
+      "text": "Portal do integrador"
+    },
+    {
+      "href": "https://loja.solfacil.com.br/",
+      "text": "Loja"
+    },
+    {
+      "href": "https://financiamento.solfacil.com.br/financing/list",
+      "text": "Financiamento"
+    },
+    {
+      "href": "https://plataforma-ampera.solfacil.com.br/dashboard",
+      "text": "Ampera"
+    },
+    {
+      "href": "https://integrador.solfacil.com.br/term?redirect=https%3A%2F%2Fintegrador.solfacil.com.br%2F",
+      "text": "Acordo Operacional"
+    },
+    {
+      "href": "https://solfacilmais.solfacil.com.br/?partnerid=10084627",
+      "text": "Mais detalhes"
+    },
+    {
+      "href": null,
+      "text": "Falar com Gerente de Conta"
+    },
+    {
+      "href": null,
+      "text": "Central de Ajuda"
+    },
+    {
+      "href": null,
+      "text": "Meus chamados"
+    },
+    {
+      "href": null,
+      "text": "Termos e Condições"
+    },
+    {
+      "href": null,
+      "text": "Sair da minha conta"
+    },
+    {
+      "href": "/",
+      "text": "Início"
+    },
+    {
+      "href": "https://solfacilmais.solfacil.com.br/app/dashboard",
+      "text": "Solfácil Mais"
+    },
+    {
+      "href": null,
+      "text": "Central de Ajuda"
+    }
+  ]
+}
