@@ -1,0 +1,1 @@
+python scripts/upload_unique_products_to_dynamodb.py

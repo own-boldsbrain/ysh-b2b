@@ -63,6 +63,16 @@ class ImageScraper:
                     "https://www.deyeinverter.com/wp-content/uploads/2025/01/16/sg02lp2-us-am-02.png"
                 ],
             },
+            "HUAWEISUN20003KTLL1AFCIIMAGEPRODUCT600382": {
+                "type": "page",
+                "primary": "https://ske-solar.com/en/residential/product/sun2000-l1",
+                "additional": [],
+            },
+            "DEYESUN8KGIMAGE": {
+                "type": "page",
+                "primary": "https://pt.deyeinverter.com/product/single-phase-string-inverter/sun9-10-10-5kg02p1euam2-910-5-kw-monof-sico-2mppt.html",
+                "additional": [],
+            },
         }
 
     def _get_search_urls(self, sku_info):
@@ -160,7 +170,7 @@ if __name__ == "__main__":
     from sku_parser import parse_sku
 
     scraper = ImageScraper()
-    test_sku = "PNL-JINKO-TGR-585W-NTYPE"
+    test_sku = "HUAWEISUN20003KTLL1AFCIIMAGEPRODUCT600382"
     sku_data = parse_sku(test_sku)
 
     images = scraper.find_images(sku_data)

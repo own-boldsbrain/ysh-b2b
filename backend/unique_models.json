@@ -1,0 +1,469 @@
+{
+  "source": "unique-products-consolidated.json",
+  "generated_at": "2025-10-30T09:36:52.360119+00:00",
+  "total_products": 42,
+  "models": [
+    {
+      "sku": "16025P6KWKIT",
+      "name": "Kit Energia Solar para Starlink - 06h/dia (até 640 Wh/dia) - Chumbo (25130)",
+      "manufacturer": "160",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar para Starlink - 06h/dia (até 640 Wh/dia) - Chumbo (25130)",
+        "power_kwp": 25.6,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "20040KWKIT",
+      "name": "Kit Energia Solar para Starlink - 06h/dia (até 800 Wh/dia) - Chumbo (23701)",
+      "manufacturer": "200",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar para Starlink - 06h/dia (até 800 Wh/dia) - Chumbo (23701)",
+        "power_kwp": 40.0,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "320102P4KWKIT",
+      "name": "Kit Energia Solar para Starlink - 10h/dia (até 1.280 Wh/dia) - Chumbo (25131)",
+      "manufacturer": "320",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar para Starlink - 10h/dia (até 1.280 Wh/dia) - Chumbo (25131)",
+        "power_kwp": 102.4,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "400160KWKIT",
+      "name": "Kit Energia Solar para Starlink - 10h/dia (até 1.600 Wh/dia) - Chumbo (23705)",
+      "manufacturer": "400",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar para Starlink - 10h/dia (até 1.600 Wh/dia) - Chumbo (23705)",
+        "power_kwp": 160.0,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "ASTUNKPAI",
+      "name": "Painel Solar Astronergy 600W",
+      "manufacturer": "ASTRONERGY",
+      "equipment_type": "painel",
+      "metadata": {
+        "description": "Painel Solar Astronergy 600W",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "CHIUNKINV",
+      "name": "Inversor Grid-Tie Chint NXI-3.0K-T2 3kW Monofásico 220V 2 MPPT",
+      "manufacturer": "CHINT",
+      "equipment_type": "inversor",
+      "metadata": {
+        "description": "Inversor Grid-Tie Chint NXI-3.0K-T2 3kW Monofásico 220V 2 MPPT",
+        "power_kwp": null,
+        "voltage_v": 220
+      }
+    },
+    {
+      "sku": "COM0P7KWKIT",
+      "name": "Kit Energia Solar Off Grid c/ Bateria 660Wp - até 2495Wh/dia",
+      "manufacturer": "COMPOSIÇÃO:",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar Off Grid c/ Bateria 660Wp - até 2495Wh/dia",
+        "power_kwp": 0.66,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "DAH24KWKIT",
+      "name": "Kit Energia Solar Off Grid - 1,24kWp 100Ah/48V Lítio (27314)",
+      "manufacturer": "DAH",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar Off Grid - 1,24kWp 100Ah/48V Lítio (27314)",
+        "power_kwp": 24.0,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "DEY38KWKIT",
+      "name": "Kit Energia Solar On Grid Híbrido - 6,38kWp 5000Wh Lítio 220V - Sem Estrutura",
+      "manufacturer": "DEYE",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar On Grid Híbrido - 6,38kWp 5000Wh Lítio 220V - Sem Estrutura",
+        "power_kwp": 38.0,
+        "voltage_v": 220
+      }
+    },
+    {
+      "sku": "ENE1P2KWKIT",
+      "name": "Kit Gerador Energia Solar 1.24kWp - Microinversor Deye c/ Wifi SUN2250 - Painel DAH Solar",
+      "manufacturer": "ENERGIA:",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Gerador Energia Solar 1.24kWp - Microinversor Deye c/ Wifi SUN2250 - Painel DAH Solar",
+        "power_kwp": 1.24,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "ENP2P8KWKIT",
+      "name": "Kit 2.8kWp - Risen + Enphase",
+      "manufacturer": "ENPHASE",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit 2.8kWp - Risen + Enphase",
+        "power_kwp": 2.8,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "FOXUNKOUT",
+      "name": "FOXESS T12-G3 AFCI - 380V - 2MPPT",
+      "manufacturer": "FOXESS",
+      "equipment_type": "outro",
+      "metadata": {
+        "description": "FOXESS T12-G3 AFCI - 380V - 2MPPT",
+        "power_kwp": null,
+        "voltage_v": 380
+      }
+    },
+    {
+      "sku": "FROUNKOUT",
+      "name": "FRONIUS SMART METER 63A-3",
+      "manufacturer": "FRONIUS",
+      "equipment_type": "outro",
+      "metadata": {
+        "description": "FRONIUS SMART METER 63A-3",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "GOOUNKOUT",
+      "name": "GOODWE GW50KN-MT - 380V - 4MPPT",
+      "manufacturer": "GOODWE",
+      "equipment_type": "outro",
+      "metadata": {
+        "description": "GOODWE GW50KN-MT - 380V - 4MPPT",
+        "power_kwp": null,
+        "voltage_v": 380
+      }
+    },
+    {
+      "sku": "GRO2P4KWKIT",
+      "name": "Kit 2.44kWp - Panel + Growatt",
+      "manufacturer": "GROWATT",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit 2.44kWp - Panel + Growatt",
+        "power_kwp": 2.44,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "HANUNKOUT",
+      "name": "https://cdn-ecommerce.solfacil.com.br/contents/products/559375/images/IMAGE_PRODUCT_559375.jpeg HANERSUN",
+      "manufacturer": "HANERSUN",
+      "equipment_type": "outro",
+      "metadata": {
+        "description": "https://cdn-ecommerce.solfacil.com.br/contents/products/559375/images/IMAGE_PRODUCT_559375.jpeg HANERSUN",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "HUAUNKOUT",
+      "name": "HUAWEI ON-GRID 75KW - 220V - 7 MPPT - AFCI (SUN2000-75K-MGL0-BR)",
+      "manufacturer": "HUAWEI",
+      "equipment_type": "outro",
+      "metadata": {
+        "description": "HUAWEI ON-GRID 75KW - 220V - 7 MPPT - AFCI (SUN2000-75K-MGL0-BR)",
+        "power_kwp": null,
+        "voltage_v": 220
+      }
+    },
+    {
+      "sku": "JINUNKPAI",
+      "name": "Painel Solar Jinko 610W",
+      "manufacturer": "JINKO",
+      "equipment_type": "painel",
+      "metadata": {
+        "description": "Painel Solar Jinko 610W",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "KITUNKKIT",
+      "name": "Kit de Montagem - Estrutura de Fixação para Telha Mini Trilho - Solar System",
+      "manufacturer": "KIT",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit de Montagem - Estrutura de Fixação para Telha Mini Trilho - Solar System",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "LON0P9KWKIT",
+      "name": "Kit Energia Solar Off Grid - 870Wp 100Ah/24V Lítio (25050)",
+      "manufacturer": "LONGI",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar Off Grid - 870Wp 100Ah/24V Lítio (25050)",
+        "power_kwp": 0.87,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "LON17KWKIT",
+      "name": "Kit de Energia Solar Nobreak c/ Inv-car - 2,17kWp 220Ah 48/220V (24444)",
+      "manufacturer": "LONGI",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit de Energia Solar Nobreak c/ Inv-car - 2,17kWp 220Ah 48/220V (24444)",
+        "power_kwp": 17.0,
+        "voltage_v": 220
+      }
+    },
+    {
+      "sku": "LON5KWKIT",
+      "name": "Kit de Energia Solar Nobreak c/ Inv-car - 3,05kWp 440Ah 48/220V (24615)",
+      "manufacturer": "LONGI",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit de Energia Solar Nobreak c/ Inv-car - 3,05kWp 440Ah 48/220V (24615)",
+        "power_kwp": 5.0,
+        "voltage_v": 220
+      }
+    },
+    {
+      "sku": "MINUNKOUT",
+      "name": "https://cdn-ecommerce.solfacil.com.br/contents/products/550010/images/image.png MINASOL",
+      "manufacturer": "MINASOL",
+      "equipment_type": "outro",
+      "metadata": {
+        "description": "https://cdn-ecommerce.solfacil.com.br/contents/products/550010/images/image.png MINASOL",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "NEPUNKOUT",
+      "name": "NEP CLIP FIXAÇÃO P/ RSD",
+      "manufacturer": "NEP",
+      "equipment_type": "outro",
+      "metadata": {
+        "description": "NEP CLIP FIXAÇÃO P/ RSD",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "ODEUNKPAI",
+      "name": "Painel Solar Odex 585W",
+      "manufacturer": "ODEX",
+      "equipment_type": "painel",
+      "metadata": {
+        "description": "Painel Solar Odex 585W",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "OSD1P2KWKIT",
+      "name": "Kit Energia Solar Off Grid s/ Inversor - 1.16kWp 100Ah 48V Lítio (22692)",
+      "manufacturer": "OSDA",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar Off Grid s/ Inversor - 1.16kWp 100Ah 48V Lítio (22692)",
+        "power_kwp": 1.16,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "POT0P4KWKIT",
+      "name": "Kit Bomba Solar Anauger P100 MAXX - até 40m ou 8.600 L/dia",
+      "manufacturer": "POTÊNCIA",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Bomba Solar Anauger P100 MAXX - até 40m ou 8.600 L/dia",
+        "power_kwp": 0.4,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "POT3P4KWKIT",
+      "name": "Kit Bomba Solar ZTROON - 3ZTPC3.8-180-96-1500W - até 180m ou 22.800 L/dia (23757)",
+      "manufacturer": "POTÊNCIA",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Bomba Solar ZTROON - 3ZTPC3.8-180-96-1500W - até 180m ou 22.800 L/dia (23757)",
+        "power_kwp": 3.44,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "POT48KWKIT",
+      "name": "Kit Nobreak Solar Híbrido Off-Grid UP8041 3,48 kWp c/ Bateria de Lítio (24047)",
+      "manufacturer": "POTÊNCIA:",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Nobreak Solar Híbrido Off-Grid UP8041 3,48 kWp c/ Bateria de Lítio (24047)",
+        "power_kwp": 48.0,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "POT74KWKIT",
+      "name": "Kit Gerador Energia Solar 1,74 kWp - Microinversor Deye c/ Wifi SUN2000 - Painel OSDA Com Estrutura",
+      "manufacturer": "POTÊNCIA:",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Gerador Energia Solar 1,74 kWp - Microinversor Deye c/ Wifi SUN2000 - Painel OSDA Com Estrutura",
+        "power_kwp": 74.0,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "REN22KWKIT",
+      "name": "Kit Gerador Energia Solar 2,22kWp - Microinversor Deye c/ Wifi SUN2000 C/ Parafuso (Madeira)",
+      "manufacturer": "RENESOLA",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Gerador Energia Solar 2,22kWp - Microinversor Deye c/ Wifi SUN2000 C/ Parafuso (Madeira)",
+        "power_kwp": 22.0,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "RIS3P5KWKIT",
+      "name": "Kit 3.5kWp - Risen + Inverter",
+      "manufacturer": "RISEN",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit 3.5kWp - Risen + Inverter",
+        "power_kwp": 3.5,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "SAJUNKINV",
+      "name": "Inversor Grid-Tie SAJ R5-3K-T2 BRL 3kW Monofásico 220V 2 MPPT",
+      "manufacturer": "SAJ",
+      "equipment_type": "inversor",
+      "metadata": {
+        "description": "Inversor Grid-Tie SAJ R5-3K-T2 BRL 3kW Monofásico 220V 2 MPPT",
+        "power_kwp": null,
+        "voltage_v": 220
+      }
+    },
+    {
+      "sku": "SOFUNKINV",
+      "name": "Inversor Grid-Tie Sofar 3.3K-TL-G4 3.3kW Monofásico 220V 2 MPPT",
+      "manufacturer": "SOFAR",
+      "equipment_type": "inversor",
+      "metadata": {
+        "description": "Inversor Grid-Tie Sofar 3.3K-TL-G4 3.3kW Monofásico 220V 2 MPPT",
+        "power_kwp": null,
+        "voltage_v": 220
+      }
+    },
+    {
+      "sku": "SOLUNKINV",
+      "name": "Inversor Híbrido SolaX X1-Hybrid-5.0-T 5kW Monofásico 220V 48V 2 MPPT",
+      "manufacturer": "SOLAX",
+      "equipment_type": "inversor",
+      "metadata": {
+        "description": "Inversor Híbrido SolaX X1-Hybrid-5.0-T 5kW Monofásico 220V 48V 2 MPPT",
+        "power_kwp": null,
+        "voltage_v": 220
+      }
+    },
+    {
+      "sku": "SOLUNKOUT",
+      "name": "MEDIDOR TRIF. SOLIS DTSD1352-C-3*1(6)A",
+      "manufacturer": "SOLIS",
+      "equipment_type": "outro",
+      "metadata": {
+        "description": "MEDIDOR TRIF. SOLIS DTSD1352-C-3*1(6)A",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "SUN4P3KWKIT",
+      "name": "Kit 4.27kWp - Panel + Sungrow",
+      "manufacturer": "SUNGROW",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit 4.27kWp - Panel + Sungrow",
+        "power_kwp": 4.27,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "SUN44KWKIT",
+      "name": "Kit Energia Solar Off Grid - 2,44kWp 105Ah/48V Lítio (25058)",
+      "manufacturer": "SUNOVA",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar Off Grid - 2,44kWp 105Ah/48V Lítio (25058)",
+        "power_kwp": 44.0,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "TSUUNKPAI",
+      "name": "Painel Solar Tsun 560W",
+      "manufacturer": "TSUN",
+      "equipment_type": "painel",
+      "metadata": {
+        "description": "Painel Solar Tsun 560W",
+        "power_kwp": null,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "ZNS4KWKIT",
+      "name": "Kit de Energia Solar On Grid 8,4KWP-OS 7,5KW LI Estrutura p/ Madeira",
+      "manufacturer": "ZNSHINE",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit de Energia Solar On Grid 8,4KWP-OS 7,5KW LI Estrutura p/ Madeira",
+        "power_kwp": 4.0,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "ZNS5P7KWKIT",
+      "name": "Kit Energia Solar On Grid Híbrido - 5.65kWp 4,8kWh Lítio 48V (26766)",
+      "manufacturer": "ZNSHINE",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar On Grid Híbrido - 5.65kWp 4,8kWh Lítio 48V (26766)",
+        "power_kwp": 5.65,
+        "voltage_v": null
+      }
+    },
+    {
+      "sku": "ZTR0P2KWKIT",
+      "name": "Kit Energia Solar Off Grid - 160Wp 105Ah/12V (25046)",
+      "manufacturer": "ZTROON",
+      "equipment_type": "kit_completo",
+      "metadata": {
+        "description": "Kit Energia Solar Off Grid - 160Wp 105Ah/12V (25046)",
+        "power_kwp": 0.16,
+        "voltage_v": null
+      }
+    }
+  ]
+}

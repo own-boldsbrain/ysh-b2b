@@ -1,0 +1,85 @@
+{
+  "timestamp": "2025-10-21T11:28:45.096Z",
+  "facebook_requirements": {
+    "file": {
+      "min_bytes": 100,
+      "max_bytes": 8388608,
+      "recommended_bytes": 2097152
+    },
+    "dimensions": {
+      "min_width": 200,
+      "min_height": 200,
+      "max_width": 9999,
+      "max_height": 9999,
+      "recommended_aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4"
+      ]
+    },
+    "formats": {
+      "primary": [
+        "JPG",
+        "JPEG",
+        "PNG"
+      ],
+      "secondary": [
+        "WEBP",
+        "GIF"
+      ],
+      "note": "Recomendado: JPG ou PNG com RGB ou CMYK"
+    },
+    "quality": {
+      "min_dpi": 72,
+      "recommended_dpi": 96,
+      "high_quality_dpi": 150
+    },
+    "colors": {
+      "min_colors": 3,
+      "note": "Imagens com muitas cores (> 256 colors) são preferidas"
+    }
+  },
+  "images_analysis": {
+    "total": 937,
+    "by_format": {
+      "PNG": 114,
+      "JPG": 730,
+      "WEBP": 7,
+      "JPEG": 86
+    },
+    "by_size_range": {
+      "< 100KB": 831,
+      "100KB - 500KB": 103,
+      "500KB - 1MB": 3,
+      "1MB - 2MB": 0,
+      "2MB - 5MB": 0,
+      "5MB - 8MB": 0,
+      "> 8MB": 0
+    },
+    "issues": {
+      "tooSmall": [],
+      "tooLarge": [],
+      "unsupported": []
+    },
+    "compliance": {
+      "all_within_limits": false,
+      "large_files": 0,
+      "small_files": 0
+    }
+  },
+  "recommendations": {
+    "general": [
+      "✓ Usar formatos JPG ou PNG (Facebook preferido: JPG para fotos, PNG para produtos com fundo transparente)",
+      "✓ Dimensões recomendadas: 1200x628px (16:9) ou 1080x1080px (1:1 quadrada)",
+      "✓ Tamanho otimizado: 100KB - 2MB por arquivo",
+      "✓ Comprimir imagens sem perder qualidade usando ferramentas como TinyPNG, ImageMagick ou FFmpeg",
+      "✓ Garantir que todas as imagens tenham pelo menos 200x200px de resolução",
+      "✓ Usar DPI 72-96 para web (300 DPI é overkill e aumenta tamanho)",
+      "✓ Testar imagens em diferentes tamanhos/devices antes de enviar"
+    ],
+    "next_steps": [
+      "Executar sincronização se todas as imagens estão conformes",
+      "Ou otimizar imagens conforme recomendações antes de sincronizar"
+    ]
+  }
+}

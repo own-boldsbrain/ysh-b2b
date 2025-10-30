@@ -1,0 +1,557 @@
+{
+  "fotus": {
+    "name": "fotus",
+    "files": [
+      {
+        "name": "fotus-kits-hibridos-normalized.json",
+        "count": 1,
+        "type": "list"
+      },
+      {
+        "name": "fotus-kits-hibridos-with-skus.json",
+        "count": 1,
+        "type": "list"
+      },
+      {
+        "name": "fotus-kits-hibridos.json",
+        "count": 1,
+        "type": "list"
+      },
+      {
+        "name": "fotus-kits-normalized.json",
+        "count": 3,
+        "type": "list"
+      },
+      {
+        "name": "fotus-kits-synced.json",
+        "count": 3,
+        "type": "list"
+      },
+      {
+        "name": "fotus-kits-with-images.json",
+        "count": 3,
+        "type": "list"
+      },
+      {
+        "name": "fotus-kits-with-skus.json",
+        "count": 3,
+        "type": "list"
+      },
+      {
+        "name": "fotus-kits.json",
+        "count": 3,
+        "type": "list"
+      },
+      {
+        "name": "fotus-kits.csv",
+        "count": 221,
+        "type": "list"
+      }
+    ],
+    "total_products": 239,
+    "sample_fields": [
+      "batteries",
+      "centro_distribuicao",
+      "collection",
+      "description",
+      "distributor",
+      "estrutura",
+      "handle",
+      "id",
+      "image_processing_priority",
+      "image_quality_after",
+      "image_quality_before",
+      "image_url",
+      "inverter_info",
+      "inverters",
+      "name",
+      "original_name",
+      "panel_info",
+      "panels",
+      "potencia_kwp",
+      "price",
+      "price_brl",
+      "pricing",
+      "processed_images",
+      "search_title",
+      "seo_description",
+      "seo_title",
+      "status",
+      "structures",
+      "subtitle",
+      "system_power_kwp",
+      "tags",
+      "title",
+      "total_inverters",
+      "total_panels",
+      "total_power_w",
+      "type",
+      "variant_sku",
+      "variant_title"
+    ],
+    "sample_product": {
+      "id": "FOTUS-KP04-kits-hibridos",
+      "name": "KP04 - ASTRONERGY | TIER 1 | 600W N-TYPE BIFACIAL (22,2% EF.) - MICROINVERSOR TSUNESS2250W",
+      "type": "Solar Kit",
+      "potencia_kwp": 1.2,
+      "price_brl": 2706.07,
+      "estrutura": "Cerâmico",
+      "centro_distribuicao": "CD ESPÍRITO SANTO",
+      "panels": [
+        {
+          "brand": "ASTRONERGY",
+          "power_w": 600,
+          "quantity": 2,
+          "description": "ASTRONERGY | TIER 1 | 600W N-TYPE BIFACIAL (22,2% EF.)"
+        }
+      ],
+      "inverters": [
+        {
+          "brand": "TSUNESS",
+          "power_kw": 2.25,
+          "quantity": 1,
+          "description": "MICROINVERSOR TSUNESS 2.25KW (TSOL-MX2250) MONOFÁSICO 220V (4 MLPE)"
+        }
+      ],
+      "batteries": [],
+      "structures": [],
+      "total_panels": 2,
+      "total_inverters": 1,
+      "total_power_w": 1200,
+      "distributor": "FOTUS",
+      "image_url": "/images/FOTUS-KITS-HIBRIDOS/FOTUS-KP04-kits-hibridos.jpg",
+      "processed_images": {
+        "thumb": "catalog\\images_processed\\FOTUS-KITS-HIBRIDOS\\thumb\\FOTUS-KP04-kits-hibridos.webp",
+        "medium": "catalog\\images_processed\\FOTUS-KITS-HIBRIDOS\\medium\\FOTUS-KP04-kits-hibridos.webp",
+        "large": "catalog\\images_processed\\FOTUS-KITS-HIBRIDOS\\large\\FOTUS-KP04-kits-hibridos.webp"
+      },
+      "image_quality_before": 65.6,
+      "image_quality_after": 150,
+      "image_processing_priority": 1,
+      "pricing": {
+        "price": 2706.07,
+        "currency": "BRL"
+      },
+      "price": "R$ 2.706,07",
+      "title": "Kit Solar 1.2kWp - Astronergy + Microinversor Tsuness",
+      "subtitle": "1.2kWp Solar Energy Kit Astronergy Panel Tsuness Microinverter Grid-Tie Microinverter System",
+      "description": "# Kit Solar 1.2kWp - Sistema Completo FOTUS\n\n## Gere até 161kWh por mês\n\n**Kit completo pronto para instalação** com componentes de alta qualidade.\n\n### Componentes Incluídos\n\n**Painéis Solares Astronergy**\n- Potência: 600W por painel\n- Quantidade: 2 unidades\n- Potência total: 1.2kWp\n\n**Microinversor Tsuness**\n- Potência: 2.25kW\n- Quantidade: 1 unidade(s)\n- ASTRONERGY | TIER 1 | 600W N-TYPE BIFACIAL (22,2% EF.)\n\n### Características do Sistema\n\n- Sistema modular com microinversor\n- Estrutura: Cerâmico\n- Centro de Distribuição: CD ESPÍRITO SANTO\n- Distribuidor: FOTUS\n\n### Ideal Para\n\n- Residências pequenas e apartamentos\n- Consumo até 500kWh/mês\n- Redução significativa na conta de luz",
+      "handle": "solar-kit-12kwp-astronergy-tsuness",
+      "status": "published",
+      "collection": "FOTUS Solar Kits",
+      "variant_title": "600W x2 Painéis / Micro 2.25kW",
+      "variant_sku": "FTS-1.2KWP-ASTTSU-04",
+      "search_title": "1.2kWp Solar Energy Kit Astronergy Panel Tsuness Microinverter Grid-Tie Microinverter System",
+      "seo_title": "Kit Solar 1.2kWp Astronergy + Tsuness | FOTUS",
+      "seo_description": "Kit Solar 1.2kWp completo com painéis Astronergy e Tsuness. Gere até 161kWh/mês. Sistema modular. FOTUS.",
+      "tags": [
+        "Kit Solar",
+        "Energia Solar",
+        "Sistema Fotovoltaico",
+        "Residencial Pequeno",
+        "Até 3kWp",
+        "1.2kWp",
+        "Painel Astronergy",
+        "Microinversor Tsuness",
+        "Microinversor",
+        "Sistema Modular",
+        "Estrutura Cerâmico",
+        "Até 500kWh/mês",
+        "CD ESPÍRITO SANTO"
+      ],
+      "original_name": "KP04 - ASTRONERGY | TIER 1 | 600W N-TYPE BIFACIAL (22,2% EF.) - MICROINVERSOR TSUNESS2250W",
+      "panel_info": {
+        "manufacturer": "Astronergy",
+        "power_w": 600,
+        "quantity": 2,
+        "description": "ASTRONERGY | TIER 1 | 600W N-TYPE BIFACIAL (22,2% EF.)"
+      },
+      "inverter_info": {
+        "manufacturer": "Tsuness",
+        "power_kw": 2.25,
+        "quantity": 1,
+        "description": "MICROINVERSOR TSUNESS 2.25KW (TSOL-MX2250) MONOFÁSICO 220V (4 MLPE)",
+        "is_microinverter": true
+      },
+      "system_power_kwp": 1.2
+    }
+  },
+  "neosolar": {
+    "name": "neosolar",
+    "files": [
+      {
+        "name": "neosolar-kits-normalized.json",
+        "count": 2601,
+        "type": "list"
+      },
+      {
+        "name": "neosolar-kits-parsed.json",
+        "count": 2601,
+        "type": "list"
+      },
+      {
+        "name": "neosolar-kits-synced.json",
+        "count": 2601,
+        "type": "list"
+      },
+      {
+        "name": "neosolar-kits-with-images.json",
+        "count": 2601,
+        "type": "list"
+      },
+      {
+        "name": "neosolar-kits-with-skus.json",
+        "count": 2601,
+        "type": "list"
+      }
+    ],
+    "total_products": 13005,
+    "sample_fields": [
+      "batteries",
+      "collection",
+      "description",
+      "description_short",
+      "distributor",
+      "handle",
+      "id",
+      "image_url",
+      "inverters",
+      "name",
+      "original_name",
+      "panels",
+      "potencia_kwp",
+      "price_brl",
+      "pricing",
+      "product_url",
+      "search_title",
+      "seo_description",
+      "seo_title",
+      "status",
+      "subtitle",
+      "system_power_kwp",
+      "tags",
+      "title",
+      "total_batteries",
+      "total_inverters",
+      "total_panels",
+      "total_power_w",
+      "type",
+      "variant_sku",
+      "variant_title"
+    ],
+    "sample_product": {
+      "id": "NEO-25046",
+      "name": "Kit Energia Solar Off Grid - 160Wp 105Ah/12V (25046)",
+      "type": "Solar Kit Off-Grid",
+      "potencia_kwp": 0.16,
+      "price_brl": 1423.43,
+      "status": "draft",
+      "panels": [
+        {
+          "brand": "Ztroon",
+          "power_w": 160,
+          "quantity": 1,
+          "description": "1x 160Wp Ztroon"
+        }
+      ],
+      "inverters": [
+        {
+          "brand": "Epever",
+          "rating": "10A",
+          "type": "PWM",
+          "quantity": 1,
+          "description": "1x 10A PWM Epever"
+        },
+        {
+          "brand": "None",
+          "rating": "0kW",
+          "type": "Sem Inversor",
+          "quantity": 0,
+          "description": "Sem Inversor"
+        }
+      ],
+      "batteries": [
+        {
+          "brand": "Freedom",
+          "capacity_ah": 105,
+          "voltage_v": 12,
+          "technology": "Chumbo-Ácido",
+          "quantity": 1,
+          "description": "1x 105Ah/12V Freedom"
+        }
+      ],
+      "total_panels": 1,
+      "total_inverters": 1,
+      "total_batteries": 1,
+      "total_power_w": 160,
+      "distributor": "NeoSolar",
+      "image_url": "https://portal.zydon.com.br/api/files/7b6f0b2b-afd9-4fa1-8956-5e84a158ca26/content?ingress=portalb2b.neosolar.com.br",
+      "product_url": "https://portalb2b.neosolar.com.br/novo-pedido/produto/25046",
+      "description_short": "1x 160Wp Ztroon | 1x 10A PWM Epever | 1x 105Ah/12V Freedom | Sem Inversor",
+      "pricing": {
+        "price": 1423.43,
+        "currency": "BRL",
+        "per_wp": 8.9
+      },
+      "title": "Kit Solar Off-Grid 0.16kWp - Ztroon + 105Ah",
+      "subtitle": "0.16kWp Off-Grid Solar Kit Ztroon Panel Chumbo-Ácido Battery System",
+      "description": "# Kit Solar 0.16kWp - Sistema Autônomo (Off-Grid) Com Armazenamento Em Bateria\n\n## Sistema Autônomo\n\n**Kit completo NeoSolar** com componentes selecionados para máxima eficiência.\n\n### Componentes Incluídos\n\n**Painéis Solares Ztroon**\n- Potência: 160W por painel\n- Quantidade: 1 unidades\n- Total: 160Wp\n\n**Bateria Freedom Chumbo-Ácido**\n- Capacidade: 105Ah\n- Tensão: 12V\n- Quantidade: 1 unidade(s)\n- Tecnologia: Chumbo-Ácido\n\n**PWM Epever**\n- Capacidade: 10A\n- Quantidade: 1 unidade(s)\n\n### Ideal Para\n\n- Locais sem acesso à rede elétrica\n- Sítios, fazendas e casas de campo\n- Sistemas autônomos com autonomia energética\n- Alimentação de equipamentos essenciais\n\n### Fornecedor\n\n**NeoSolar** - Distribuidor nacional de equipamentos fotovoltaicos\n- Produtos certificados\n- Garantia de fábrica\n- Suporte técnico especializado\n",
+      "handle": "solar-kit-off-grid-016kwp-ztroon",
+      "collection": "NeoSolar Solar Kits",
+      "variant_title": "160W x1 Painéis / 105Ah/12V / 10A PWM",
+      "variant_sku": "NEO-OG-0.16KWP-ZTR-25046",
+      "search_title": "0.16kWp Off-Grid Solar Kit Ztroon Panel Chumbo-Ácido Battery System",
+      "seo_title": "Kit Solar Off-Grid 0.16kWp Ztroon | NeoSolar",
+      "seo_description": "Kit Solar Off-Grid 0.16kWp completo NeoSolar. 1x 160Wp Ztroon | 1x 10A PWM Epever | 1x 105Ah/12V Freedom | Sem Inversor...",
+      "tags": [
+        "Kit Solar",
+        "Energia Solar",
+        "Sistema Fotovoltaico",
+        "Off-Grid",
+        "Autônomo",
+        "Sistema Isolado",
+        "Residencial Pequeno",
+        "Até 3kWp",
+        "0.16kWp",
+        "Painel Ztroon",
+        "Bateria Freedom",
+        "Chumbo-Ácido"
+      ],
+      "original_name": "Kit Energia Solar Off Grid - 160Wp 105Ah/12V (25046)",
+      "system_power_kwp": 0.16
+    }
+  },
+  "odex": {
+    "name": "odex",
+    "files": [
+      {
+        "name": "odex-inverters.json",
+        "count": 45,
+        "type": "list"
+      },
+      {
+        "name": "odex-panels.json",
+        "count": 9,
+        "type": "list"
+      }
+    ],
+    "total_products": 54,
+    "sample_fields": [
+      "availability",
+      "category",
+      "description",
+      "id",
+      "image",
+      "image_quality_after",
+      "image_quality_before",
+      "image_upscale_factor",
+      "manufacturer",
+      "model",
+      "name",
+      "price",
+      "pricing",
+      "processed_images",
+      "processing_date",
+      "source"
+    ],
+    "sample_product": {
+      "id": "odex_inverters_ODEX-INV-SAJ-3000W",
+      "name": "Inversor Grid-Tie SAJ R5-3K-T2 BRL 3kW Monofásico 220V 2 MPPT",
+      "manufacturer": "SAJ",
+      "model": "",
+      "category": "inverters",
+      "price": "R$ 1.599,00",
+      "image": "/catalog/images/ODEX-INVERTERS/276954.jpg",
+      "source": "plataforma.odex.com.br",
+      "availability": "disponivel",
+      "description": "Inversor Grid-Tie SAJ R5-3K-T2 BRL 3kW Monofásico 220V 2 MPPT",
+      "processed_images": {
+        "thumb": "catalog\\images_processed\\ODEX\\INVERTERS\\thumb\\sku_276954_276954-17460390182534484.webp",
+        "medium": "catalog\\images_processed\\ODEX\\INVERTERS\\medium\\sku_276954_276954-17460390182534484.webp",
+        "large": "catalog\\images_processed\\ODEX\\INVERTERS\\large\\sku_276954_276954-17460390182534484.webp"
+      },
+      "image_quality_before": 100,
+      "image_quality_after": 100,
+      "image_upscale_factor": 1,
+      "processing_date": "2025-10-07T03:10:52.288225",
+      "pricing": {
+        "price": 1599.0,
+        "currency": "BRL"
+      }
+    }
+  },
+  "meugerador": {
+    "name": "meugerador",
+    "files": [],
+    "total_products": 0,
+    "sample_fields": [],
+    "sample_product": null
+  },
+  "solfacil": {
+    "name": "solfacil",
+    "files": [
+      {
+        "name": "solfacil-inverters.json",
+        "count": 82,
+        "type": "list"
+      },
+      {
+        "name": "solfacil-panels.json",
+        "count": 6,
+        "type": "list"
+      }
+    ],
+    "total_products": 88,
+    "sample_fields": [
+      "availability",
+      "category",
+      "description",
+      "id",
+      "image",
+      "manufacturer",
+      "name",
+      "price",
+      "pricing",
+      "source"
+    ],
+    "sample_product": {
+      "id": "solfacil_inverters_1",
+      "name": "ENPHASE IQ8P-72-2-BR",
+      "manufacturer": "ENPHASE",
+      "category": "inverters",
+      "price": "R$ 1.347,65",
+      "image": "/catalog/images/SOLFACIL-INVERTERS/IMAGE_PRODUCT_600340.jpeg",
+      "source": "loja.solfacil.com.br",
+      "availability": "Disponível",
+      "description": "MICRO INVERSOR FOTOVOLTAICO IQ8P-72-2-BR - SUL EX 0.475KW ENPHASE MONO 220V",
+      "pricing": {
+        "price": 1347.65,
+        "currency": "BRL"
+      }
+    }
+  },
+  "fortlev": {
+    "name": "fortlev",
+    "files": [
+      {
+        "name": "fortlev-kits-enhanced.json",
+        "count": 5,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-kits-normalized.json",
+        "count": 217,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-kits-synced-fixed.json",
+        "count": 217,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-kits-synced.json",
+        "count": 217,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-kits-vision-enriched.json",
+        "count": 10,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-kits-with-images.json",
+        "count": 217,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-kits-with-skus.json",
+        "count": 217,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-kits.json",
+        "count": 217,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-hybrid_inverters.json",
+        "count": 11,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-inverters.json",
+        "count": 153,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-microinverters.json",
+        "count": 5,
+        "type": "list"
+      },
+      {
+        "name": "fortlev-panels.json",
+        "count": 4,
+        "type": "list"
+      }
+    ],
+    "total_products": 1490,
+    "sample_fields": [
+      "category",
+      "components",
+      "distributor",
+      "id",
+      "metadata",
+      "name",
+      "price_per_wp",
+      "pricing",
+      "system_power_kwp",
+      "total_price"
+    ],
+    "sample_product": {
+      "id": "fortlev_kit_001",
+      "name": "Kit 2.44kWp - Panel + Growatt",
+      "distributor": "fortlev",
+      "category": "kits",
+      "system_power_kwp": 2.44,
+      "total_price": "R$ 2.923,56",
+      "price_per_wp": 1.2,
+      "components": {
+        "panel": {
+          "image": "https://prod-platform-api.s3.amazonaws.com/components/68dbedcc54fa3ed05329e145/IMO00135.png",
+          "image_filename": "IMO00135.png",
+          "manufacturer": "LONGi",
+          "power_w": null,
+          "quantity": null,
+          "component_id": "68dbedcc54fa3ed05329e145",
+          "vision_analysis": {
+            "manufacturer": "LONGi",
+            "model": "Unknown",
+            "power_w": 530
+          }
+        },
+        "inverter": {
+          "image": "https://prod-platform-api.s3.amazonaws.com/components/66b3b62951d7cf33a7085c16/GROWATT-NEO-2000M-X-2000W-220V.png",
+          "image_filename": "GROWATT-NEO-2000M-X-2000W-220V.png",
+          "manufacturer": "Growatt",
+          "power_kw": 2.0,
+          "quantity": 1,
+          "component_id": "66b3b62951d7cf33a7085c16",
+          "vision_analysis": {
+            "manufacturer": "Growatt",
+            "model": "Unknown",
+            "power_kw": 5.0
+          }
+        }
+      },
+      "pricing": {
+        "total": 2923.56,
+        "per_wp": 1.2,
+        "currency": "BRL"
+      },
+      "metadata": {
+        "source_csv": "https___fortlevsolar.app_old.csv",
+        "details": "2.44kWp - R$ 1,20/ Wp"
+      }
+    }
+  }
+}

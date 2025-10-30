@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-10-21T11:24:53.702Z",
+  "totalImages": 937,
+  "categories": 13,
+  "categoryBreakdown": [
+    {
+      "category": "inversores",
+      "images": 373
+    },
+    {
+      "category": "kits",
+      "images": 272
+    },
+    {
+      "category": "carregadores",
+      "images": 81
+    },
+    {
+      "category": "controladores",
+      "images": 53
+    },
+    {
+      "category": "cabos",
+      "images": 51
+    },
+    {
+      "category": "estruturas",
+      "images": 28
+    },
+    {
+      "category": "paineis",
+      "images": 27
+    },
+    {
+      "category": "estacoes",
+      "images": 19
+    },
+    {
+      "category": "stringboxes",
+      "images": 14
+    },
+    {
+      "category": "postes",
+      "images": 9
+    },
+    {
+      "category": "acessorios",
+      "images": 6
+    },
+    {
+      "category": "baterias",
+      "images": 3
+    },
+    {
+      "category": "outros",
+      "images": 1
+    }
+  ],
+  "status": "READY",
+  "nextAction": "Execute POST /admin/facebook-catalog/sync",
+  "platforms": [
+    "Facebook Shops",
+    "Instagram Shopping",
+    "WhatsApp Business Catalog"
+  ]
+}

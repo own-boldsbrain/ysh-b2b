@@ -1,0 +1,627 @@
+{
+  "source": "unique-products-consolidated.json",
+  "generated_at": "2025-10-30T09:36:52.360119+00:00",
+  "total_products": 42,
+  "unique_manufacturers": 36,
+  "manufacturers": [
+    {
+      "normalized_name": "160",
+      "original_names": [
+        "160"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "16025P6KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": true,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "200",
+      "original_names": [
+        "200"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "20040KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": true,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "320",
+      "original_names": [
+        "320"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "320102P4KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": true,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "400",
+      "original_names": [
+        "400"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "400160KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": true,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "ASTRONERGY",
+      "original_names": [
+        "ASTRONERGY"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "ASTUNKPAI"
+      ],
+      "equipment_type_breakdown": {
+        "painel": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "CHINT",
+      "original_names": [
+        "CHINT"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "CHIUNKINV"
+      ],
+      "equipment_type_breakdown": {
+        "inversor": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "COMPOSIÇÃO",
+      "original_names": [
+        "COMPOSIÇÃO:"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "COM0P7KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "DAH",
+      "original_names": [
+        "DAH"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "DAH24KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "DEYE",
+      "original_names": [
+        "DEYE"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "DEY38KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "ENERGIA",
+      "original_names": [
+        "ENERGIA:"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "ENE1P2KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "ENPHASE",
+      "original_names": [
+        "ENPHASE"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "ENP2P8KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "FOXESS",
+      "original_names": [
+        "FOXESS"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "FOXUNKOUT"
+      ],
+      "equipment_type_breakdown": {
+        "outro": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "FRONIUS",
+      "original_names": [
+        "FRONIUS"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "FROUNKOUT"
+      ],
+      "equipment_type_breakdown": {
+        "outro": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "GOODWE",
+      "original_names": [
+        "GOODWE"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "GOOUNKOUT"
+      ],
+      "equipment_type_breakdown": {
+        "outro": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "GROWATT",
+      "original_names": [
+        "GROWATT"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "GRO2P4KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "HANERSUN",
+      "original_names": [
+        "HANERSUN"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "HANUNKOUT"
+      ],
+      "equipment_type_breakdown": {
+        "outro": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "HUAWEI",
+      "original_names": [
+        "HUAWEI"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "HUAUNKOUT"
+      ],
+      "equipment_type_breakdown": {
+        "outro": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "JINKO",
+      "original_names": [
+        "JINKO"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "JINUNKPAI"
+      ],
+      "equipment_type_breakdown": {
+        "painel": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "KIT",
+      "original_names": [
+        "KIT"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "KITUNKKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "LONGI",
+      "original_names": [
+        "LONGI"
+      ],
+      "product_count": 3,
+      "unique_skus": [
+        "LON0P9KWKIT",
+        "LON17KWKIT",
+        "LON5KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 3
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "MINASOL",
+      "original_names": [
+        "MINASOL"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "MINUNKOUT"
+      ],
+      "equipment_type_breakdown": {
+        "outro": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "NEP",
+      "original_names": [
+        "NEP"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "NEPUNKOUT"
+      ],
+      "equipment_type_breakdown": {
+        "outro": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "ODEX",
+      "original_names": [
+        "ODEX"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "ODEUNKPAI"
+      ],
+      "equipment_type_breakdown": {
+        "painel": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "OSDA",
+      "original_names": [
+        "OSDA"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "OSD1P2KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "POTÊNCIA",
+      "original_names": [
+        "POTÊNCIA",
+        "POTÊNCIA:"
+      ],
+      "product_count": 4,
+      "unique_skus": [
+        "POT0P4KWKIT",
+        "POT3P4KWKIT",
+        "POT48KWKIT",
+        "POT74KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 4
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "RENESOLA",
+      "original_names": [
+        "RENESOLA"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "REN22KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "RISEN",
+      "original_names": [
+        "RISEN"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "RIS3P5KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "SAJ",
+      "original_names": [
+        "SAJ"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "SAJUNKINV"
+      ],
+      "equipment_type_breakdown": {
+        "inversor": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "SOFAR",
+      "original_names": [
+        "SOFAR"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "SOFUNKINV"
+      ],
+      "equipment_type_breakdown": {
+        "inversor": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "SOLAX",
+      "original_names": [
+        "SOLAX"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "SOLUNKINV"
+      ],
+      "equipment_type_breakdown": {
+        "inversor": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "SOLIS",
+      "original_names": [
+        "SOLIS"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "SOLUNKOUT"
+      ],
+      "equipment_type_breakdown": {
+        "outro": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "SUNGROW",
+      "original_names": [
+        "SUNGROW"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "SUN4P3KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "SUNOVA",
+      "original_names": [
+        "SUNOVA"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "SUN44KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "TSUN",
+      "original_names": [
+        "TSUN"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "TSUUNKPAI"
+      ],
+      "equipment_type_breakdown": {
+        "painel": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "ZNSHINE",
+      "original_names": [
+        "ZNSHINE"
+      ],
+      "product_count": 2,
+      "unique_skus": [
+        "ZNS4KWKIT",
+        "ZNS5P7KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 2
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    },
+    {
+      "normalized_name": "ZTROON",
+      "original_names": [
+        "ZTROON"
+      ],
+      "product_count": 1,
+      "unique_skus": [
+        "ZTR0P2KWKIT"
+      ],
+      "equipment_type_breakdown": {
+        "kit_completo": 1
+      },
+      "flags": {
+        "is_numeric": false,
+        "has_unknown_label": false
+      }
+    }
+  ]
+}

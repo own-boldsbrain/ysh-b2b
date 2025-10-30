@@ -2,6 +2,9 @@ import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
 } from "@medusajs/framework";
+
+type AuthenticatedStoreRequest<T = any> = AuthenticatedMedusaRequest<T>;
+type StoreResponse = MedusaResponse;
 import { RemoteQueryFunction } from "@medusajs/framework/types";
 import { ContainerRegistrationKeys } from "@medusajs/framework/utils";
 import { createRequestForQuoteWorkflow } from "../../../workflows/quote/workflows/create-request-for-quote";
@@ -9,8 +12,8 @@ import { CreateQuoteType, GetQuoteParamsType } from "./validators";
 import { APIResponse } from "../../../utils/api-response";
 
 export const GET = async (
-  req: AuthenticatedMedusaRequest<GetQuoteParamsType>,
-  res: MedusaResponse
+  req: AuthenticatedStoreRequest<GetQuoteParamsType>,
+  res: StoreResponse
 ) => {
   const query = req.scope.resolve<RemoteQueryFunction>(
     ContainerRegistrationKeys.QUERY
@@ -38,8 +41,8 @@ export const GET = async (
 };
 
 export const POST = async (
-  req: AuthenticatedMedusaRequest<CreateQuoteType>,
-  res: MedusaResponse
+  req: AuthenticatedStoreRequest<CreateQuoteType>,
+  res: StoreResponse
 ) => {
   const query = req.scope.resolve<RemoteQueryFunction>(
     ContainerRegistrationKeys.QUERY

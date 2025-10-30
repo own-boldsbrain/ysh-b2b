@@ -1,0 +1,74 @@
+{
+  "source": "unique-products-consolidated.json",
+  "generated_at": "2025-10-30T09:36:52.360119+00:00",
+  "total_products": 42,
+  "unique_categories": 4,
+  "categories": [
+    {
+      "equipment_type": "kit_completo",
+      "product_count": 26,
+      "skus": [
+        "16025P6KWKIT",
+        "20040KWKIT",
+        "320102P4KWKIT",
+        "400160KWKIT",
+        "COM0P7KWKIT",
+        "DAH24KWKIT",
+        "DEY38KWKIT",
+        "ENE1P2KWKIT",
+        "ENP2P8KWKIT",
+        "GRO2P4KWKIT",
+        "KITUNKKIT",
+        "LON0P9KWKIT",
+        "LON17KWKIT",
+        "LON5KWKIT",
+        "OSD1P2KWKIT",
+        "POT0P4KWKIT",
+        "POT3P4KWKIT",
+        "POT48KWKIT",
+        "POT74KWKIT",
+        "REN22KWKIT",
+        "RIS3P5KWKIT",
+        "SUN44KWKIT",
+        "SUN4P3KWKIT",
+        "ZNS4KWKIT",
+        "ZNS5P7KWKIT",
+        "ZTR0P2KWKIT"
+      ]
+    },
+    {
+      "equipment_type": "outro",
+      "product_count": 8,
+      "skus": [
+        "FOXUNKOUT",
+        "FROUNKOUT",
+        "GOOUNKOUT",
+        "HANUNKOUT",
+        "HUAUNKOUT",
+        "MINUNKOUT",
+        "NEPUNKOUT",
+        "SOLUNKOUT"
+      ]
+    },
+    {
+      "equipment_type": "inversor",
+      "product_count": 4,
+      "skus": [
+        "CHIUNKINV",
+        "SAJUNKINV",
+        "SOFUNKINV",
+        "SOLUNKINV"
+      ]
+    },
+    {
+      "equipment_type": "painel",
+      "product_count": 4,
+      "skus": [
+        "ASTUNKPAI",
+        "JINUNKPAI",
+        "ODEUNKPAI",
+        "TSUUNKPAI"
+      ]
+    }
+  ]
+}

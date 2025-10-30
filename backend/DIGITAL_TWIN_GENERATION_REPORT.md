@@ -32,7 +32,7 @@ Consolidar dados técnico-comerciais de **1.138 SKUs** em formato **Digital Twin
 
 ### Distribuição por Tipo de Produto
 
-```
+```tsx
 ┌────────────────────────┬────────┬──────────┐
 │ Tipo de Produto        │ Qtd    │ %        │
 ├────────────────────────┼────────┼──────────┤
@@ -44,6 +44,7 @@ Consolidar dados técnico-comerciais de **1.138 SKUs** em formato **Digital Twin
 ```
 
 **Análise**:
+
 - ✅ **Kits** (272): Produtos prontos para instalação (maior margem comercial)
 - ✅ **Inversores** (67): Equipamentos-chave identificados corretamente
 - ⚠️ **Painéis** (0): Nenhum painel identificado automaticamente (podem estar classificados como "componentes")
@@ -110,6 +111,7 @@ Cada SKU possui **7 camadas** de dados (conforme modelo estratégico):
 **Status**: ❌ **0% completo** (dados técnicos não existem no source)
 
 **Campos esperados** (não preenchidos):
+
 ```json
 {
   "physical": {
@@ -187,6 +189,7 @@ O script possui **specs técnicas hardcoded** para **5 fabricantes**:
 | **HUAWEI** | SUN2000-L-3KTL | 3kW | ✅ Specs completos |
 
 **Exemplo de specs disponíveis**:
+
 ```python
 {
   "power_kw": 250.0,
@@ -207,6 +210,7 @@ O script possui **specs técnicas hardcoded** para **5 fabricantes**:
 **Razão**: Os SKUs reais não foram encontrados no database hardcoded.
 
 **Exemplo**:
+
 - **SKU real**: `GOODWEGW250KHTIMAGEPRODUCT600142`
 - **Modelo extraído**: `GW250K-HT` ✅
 - **Match no DB**: ❌ Não encontrado (lógica de fuzzy match pode ter falhado)
@@ -219,7 +223,7 @@ O script possui **specs técnicas hardcoded** para **5 fabricantes**:
 
 ### Resultados da Validação
 
-```
+```tsx
 ┌──────────────────────────┬─────────┐
 │ Imagens no S3            │ 1.183   │
 │ SKUs processados         │ 1.138   │
@@ -229,6 +233,7 @@ O script possui **specs técnicas hardcoded** para **5 fabricantes**:
 ```
 
 **Análise**:
+
 - ✅ **100% dos SKUs** têm imagens válidas e acessíveis no S3
 - ⚠️ **45 imagens** no bucket não correspondem a SKUs (podem ser variantes, thumbnails, ou arquivos legados)
 

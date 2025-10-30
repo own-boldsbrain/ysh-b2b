@@ -54,3 +54,4 @@ yarn-error.log*
 ehthumbs.db
 Thumbs.db
 **/.DS_Storebackend/data/project-helios/aneel_datasets/
+\n# Large inventory archives\nbackend/data/products-inventory/distributors.zip
