@@ -10,12 +10,14 @@ import {
 } from "@medusajs/icons"
 import copy from "copy-to-clipboard"
 import { Slot } from "radix-ui"
-import React, { useState } from "react"
+import * as React from "react"
+import { useState } from "react"
 
 type CopyProps = React.HTMLAttributes<HTMLButtonElement> & {
   content: string
   variant?: "mini" | "default" | null
   asChild?: boolean
+  onCopy?: () => void
 }
 
 /**
@@ -39,6 +41,7 @@ const Copy = React.forwardRef<HTMLButtonElement, CopyProps>(
        * passed child element instead.
        */
       asChild = false,
+      onCopy,
       ...props
     }: CopyProps,
     ref
@@ -56,6 +59,7 @@ const Copy = React.forwardRef<HTMLButtonElement, CopyProps>(
 
       setDone(true)
       copy(content)
+      onCopy?.()
 
       setTimeout(() => {
         setDone(false)
