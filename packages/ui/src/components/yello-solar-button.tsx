@@ -1,5 +1,6 @@
 import { cva } from "class-variance-authority"
 import { cn } from "../utils/cn"
+import * as React from "react"
 
 const yelloSolarVariants = cva(
   "inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background",
@@ -31,23 +32,24 @@ export interface YelloSolarButtonProps
   size?: "default" | "sm" | "lg" | "icon"
 }
 
-export const YelloSolarButton = ({
-  className,
-  variant,
-  size,
-  ...props
-}: YelloSolarButtonProps) => {
-  return (
-    <button
-      className={cn(
-        yelloSolarVariants({ variant, size }),
-        // Use gradient border utility or arbitrary CSS property (Tailwind)
-        variant === "stroke" && "ysh-border-gradient [background:transparent]",
-        className
-      )}
-      {...props}
-    />
-  )
-}
+export const YelloSolarButton = React.forwardRef<HTMLButtonElement, YelloSolarButtonProps>(
+  ({ className, variant, size, ...props }, ref) => {
+    return (
+      <button
+        ref={ref}
+        className={cn(
+          yelloSolarVariants({ variant, size }),
+          // Use gradient border utility or arbitrary CSS property (Tailwind)
+          variant === "stroke" && "ysh-border-gradient [background:transparent]",
+          className
+        )}
+        {...props}
+      />
+    )
+  }
+)
+
+YelloSolarButton.displayName = "YelloSolarButton"
+
 
 export { yelloSolarVariants }
